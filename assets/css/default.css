@@ -2,7 +2,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(//fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
-.lato {
+.lato, #nav-foot .cs .contact strong {
   font-family: 'Lato', sans-serif; }
 
 .jjmj {
@@ -23,12 +23,18 @@
   font-size: 14px;
   line-height: 22px; }
 
+html {
+  min-width: 320px; }
+
 body {
+  min-width: 320px;
   color: #666;
   font-weight: 300; }
 
 a {
   color: #666; }
+  a:hover, a:focus {
+    color: #666; }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -120,10 +126,11 @@ dl, p, address {
     .container .row .col-lg-12 {
       padding-left: 10px;
       padding-right: 10px; }
-  @media (min-width: 1170px) {
+  @media (min-width: 1200px) {
     .container {
       padding-left: 15px;
-      padding-right: 15px; }
+      padding-right: 15px;
+      min-width: 1200px; }
       .container .row {
         margin-left: -15px;
         margin-right: -15px; }
@@ -200,56 +207,165 @@ dl, p, address {
           padding-left: 15px;
           padding-right: 15px; } }
 
+.btn {
+  padding: 0;
+  height: 35px;
+  border: 1px solid #ccc;
+  font-size: 12px;
+  line-height: 33px;
+  border-radius: 0;
+  text-align: center; }
+  .btn:hover, .btn:focus {
+    background-color: #080d68;
+    border-color: #080d68;
+    color: #fff; }
+
 #header .logo {
   text-align: center; }
 
-#footer .company dl {
+#nav-foot {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f6f6f6;
   text-align: center; }
-#footer .company dt, #footer .company dd {
-  display: inline-block;
-  color: #999; }
-#footer .company dt {
-  font-weight: normal; }
-  #footer .company dt:after {
-    padding-left: 2px;
-    content: ':'; }
-#footer .company dd:after {
-  position: relative;
-  top: -2px;
-  padding-left: 10px;
-  padding-right: 8px;
-  font-size: 10px;
-  content: '|'; }
-#footer .company dd:last-child:after {
-  padding-left: 0;
-  padding-right: 0;
-  content: ''; }
-#footer .company .policy {
-  text-align: center; }
-  #footer .company .policy li {
-    display: inline-block;
-    font-weight: 400; }
-    #footer .company .policy li:before {
+  @media (min-width: 1200px) {
+    #nav-foot {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+  #nav-foot .full {
+    text-align: left; }
+    #nav-foot .full h5 {
+      margin-bottom: 20px;
+      font-size: 14px; }
+      #nav-foot .full h5 + ul li {
+        line-height: 23px; }
+        #nav-foot .full h5 + ul li a:hover, #nav-foot .full h5 + ul li a:focus {
+          color: #080d68; }
+  #nav-foot .cs {
+    color: #999; }
+    #nav-foot .cs h5 {
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #333; }
+    #nav-foot .cs .contact {
+      margin-bottom: 15px; }
+      #nav-foot .cs .contact strong {
+        font-size: 35px;
+        color: #080d68; }
+    #nav-foot .cs dl dt, #nav-foot .cs dl dd {
+      display: inline-block;
+      font-weight: 300; }
+    #nav-foot .cs dl dt {
+      margin-right: 3px; }
+    #nav-foot .cs dl dd:after {
+      position: relative;
+      top: -2px;
       padding-left: 5px;
-      padding-right: 7px;
-      content: '·'; }
-    #footer .company .policy li:first-child:before {
+      padding-right: 2px;
+      content: '|';
+      font-size: .8em; }
+    #nav-foot .cs dl dd:last-child:after {
       padding-left: 0;
       padding-right: 0;
       content: ''; }
-#footer .company .license a {
-  color: #999; }
-#footer h2 {
-  text-align: right; }
-#footer .copyright {
-  color: #999;
-  text-align: center; }
-  #footer .copyright span {
-    color: #bbb; }
-    #footer .copyright span a {
+    #nav-foot .cs .note {
+      margin-bottom: 15px; }
+    #nav-foot .cs ul {
+      margin-left: -5px;
+      margin-right: -5px; }
+      #nav-foot .cs ul li {
+        padding-left: 5px;
+        padding-right: 5px; }
+    @media (min-width: 768px) {
+      #nav-foot .cs ul {
+        margin-left: -10px;
+        margin-right: -10px; }
+        #nav-foot .cs ul li {
+          padding-left: 10px;
+          padding-right: 10px; } }
+    @media (min-width: 768px) {
+      #nav-foot .cs ul {
+        margin-left: -15px;
+        margin-right: -15px; }
+        #nav-foot .cs ul li {
+          padding-left: 15px;
+          padding-right: 15px; } }
+
+#footer {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+  @media (min-width: 1200px) {
+    #footer {
+      padding-top: 45px;
+      padding-bottom: 40px; } }
+  #footer .company {
+    margin: 0 auto;
+    max-width: 300px; }
+    #footer .company dl {
+      text-align: center; }
+    #footer .company dt, #footer .company dd {
+      display: inline-block;
+      color: #999; }
+    #footer .company dt {
+      font-weight: normal; }
+      #footer .company dt:after {
+        padding-left: 2px;
+        content: ':'; }
+    #footer .company dd:after {
+      position: relative;
+      top: -2px;
+      padding-left: 10px;
+      padding-right: 8px;
+      font-size: 10px;
+      content: '|'; }
+    #footer .company dd:last-child:after {
+      padding-left: 0;
+      padding-right: 0;
+      content: ''; }
+    #footer .company .policy {
+      margin-bottom: 15px;
+      text-align: center; }
+      #footer .company .policy li {
+        display: inline-block;
+        font-weight: 400; }
+        #footer .company .policy li:before {
+          padding-left: 5px;
+          padding-right: 7px;
+          content: '·'; }
+        #footer .company .policy li:first-child:before {
+          padding-left: 0;
+          padding-right: 0;
+          content: ''; }
+    #footer .company .address dt, #footer .company .address dd {
+      display: inline; }
+    #footer .company .license a {
+      color: #080d68;
+      font-weight: normal; }
+    @media (min-width: 768px) {
+      #footer .company {
+        margin: 0;
+        max-width: none; } }
+    @media (min-width: 1200px) {
+      #footer .company dl {
+        text-align: left; }
+      #footer .company .policy {
+        text-align: left; } }
+  #footer h2 {
+    text-align: right; }
+    @media (min-width: 1200px) {
+      #footer h2 {
+        margin-top: 15px; } }
+  #footer .copyright {
+    margin-top: 25px;
+    color: #999;
+    text-align: center; }
+    #footer .copyright span {
       color: #bbb; }
-  @media (min-width: 1170px) {
-    #footer .copyright {
-      text-align: right; } }
+      #footer .copyright span a {
+        color: #bbb; }
+    @media (min-width: 1200px) {
+      #footer .copyright {
+        margin-top: 15px;
+        text-align: right; } }
 
 /*# sourceMappingURL=default.css.map */
