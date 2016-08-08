@@ -76,6 +76,7 @@ dt, dd {
     line-height: 33px;
     border-radius: 0;
     text-align: center;
+    transition: all .3;
     &:hover,
     &:focus {
         background-color: #080d68;
@@ -115,6 +116,12 @@ dt, dd {
                 }
             }
         }
+    }
+    .bar {
+        margin: 0 auto;
+        width: 1px;
+        height: 230px;
+        background-color: #dfdfdf;
     }
     .cs {
         color: #999;

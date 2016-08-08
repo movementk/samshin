@@ -35,7 +35,7 @@
     <nav id="nav-foot">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-lg-8 visible-lg">
+                <div class="col-lg-8 visible-lg">
                     <div class="full">
                         <ul class="row">
                             <li class="col-lg-3">
@@ -87,7 +87,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-12 col-lg-3 col-lg-offset-1">
+                <div class="col-lg-1 visible-lg">
+                    <div class="bar"></div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
                     <div class="cs">
                         <h5>고객상담센터</h5>
                         <p class="contact"><strong>02-512-8484</strong></p>
@@ -126,7 +129,7 @@
                         </dl>
                         <dl class="address">
                             <dt>주소</dt>
-                            <dd><adress>06025 서울특별시 강남구 논현로 836 삼신빌딩 삼신다이아몬드 인터넷 사업부</adress></dd>
+                            <dd><adress>06025 서울특별시 강남구 논현로 836 삼신빌딩<br class="visible-xs-inline"> 삼신다이아몬드 인터넷 사업부</adress></dd>
                         </dl>
                         <dl class="license">
                             <dt>통신판매신고번호</dt>

@@ -214,7 +214,8 @@ dl, p, address {
   font-size: 12px;
   line-height: 33px;
   border-radius: 0;
-  text-align: center; }
+  text-align: center;
+  transition: all .3; }
   .btn:hover, .btn:focus {
     background-color: #080d68;
     border-color: #080d68;
@@ -241,6 +242,11 @@ dl, p, address {
         line-height: 23px; }
         #nav-foot .full h5 + ul li a:hover, #nav-foot .full h5 + ul li a:focus {
           color: #080d68; }
+  #nav-foot .bar {
+    margin: 0 auto;
+    width: 1px;
+    height: 230px;
+    background-color: #dfdfdf; }
   #nav-foot .cs {
     color: #999; }
     #nav-foot .cs h5 {
