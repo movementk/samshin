@@ -478,44 +478,72 @@ dl, p, address {
       #nav-foot .cs .contact strong {
         font-size: 35px;
         color: #080d68; }
-    #nav-foot .cs dl dt, #nav-foot .cs dl dd {
+    #nav-foot .cs .hours dt, #nav-foot .cs .hours dd {
       display: inline-block;
       font-weight: 300; }
-    #nav-foot .cs dl dt {
+    #nav-foot .cs .hours dt {
       margin-right: 3px; }
-    #nav-foot .cs dl dd:after {
+    #nav-foot .cs .hours dd:after {
       position: relative;
       top: -2px;
       padding-left: 5px;
       padding-right: 2px;
       content: '|';
       font-size: .8em; }
-    #nav-foot .cs dl dd:last-child:after {
+    #nav-foot .cs .hours dd:last-child:after {
       padding-left: 0;
       padding-right: 0;
       content: ''; }
     #nav-foot .cs .note {
       margin-bottom: 15px; }
-    #nav-foot .cs ul {
+      @media (min-width: 1200px) {
+        #nav-foot .cs .note {
+          margin-bottom: 30px; } }
+    #nav-foot .cs .shortcuts {
       margin-left: -5px;
       margin-right: -5px; }
-      #nav-foot .cs ul li {
+      #nav-foot .cs .shortcuts li {
         padding-left: 5px;
         padding-right: 5px; }
     @media (min-width: 768px) {
-      #nav-foot .cs ul {
+      #nav-foot .cs .shortcuts {
         margin-left: -10px;
         margin-right: -10px; }
-        #nav-foot .cs ul li {
+        #nav-foot .cs .shortcuts li {
           padding-left: 10px;
           padding-right: 10px; } }
     @media (min-width: 1200px) {
-      #nav-foot .cs ul {
-        margin-left: -15px;
-        margin-right: -15px; }
-        #nav-foot .cs ul li {
-          padding-left: 15px;
-          padding-right: 15px; } }
+      #nav-foot .cs {
+        text-align: left; }
+        #nav-foot .cs .shortcuts {
+          margin-left: -15px;
+          margin-right: -15px; }
+          #nav-foot .cs .shortcuts li {
+            padding-left: 15px;
+            padding-right: 15px; }
+            #nav-foot .cs .shortcuts li .btn {
+              padding-top: 45px;
+              height: 65px;
+              border: 0;
+              line-height: 18px;
+              background-position: 50% 1px;
+              background-repeat: no-repeat; }
+              #nav-foot .cs .shortcuts li .btn:hover, #nav-foot .cs .shortcuts li .btn:focus {
+                background-color: transparent;
+                color: #080d68; }
+            #nav-foot .cs .shortcuts li.reserve .btn {
+              background-image: url(/assets/images/main/ico_cs_reserve.png);
+              background-position: 50% 0; }
+              #nav-foot .cs .shortcuts li.reserve .btn:hover, #nav-foot .cs .shortcuts li.reserve .btn:focus {
+                background-image: url(/assets/images/main/ico_cs_reserve_on.png); }
+            #nav-foot .cs .shortcuts li.qna .btn {
+              background-image: url(/assets/images/main/ico_cs_qna.png); }
+              #nav-foot .cs .shortcuts li.qna .btn:hover, #nav-foot .cs .shortcuts li.qna .btn:focus {
+                background-image: url(/assets/images/main/ico_cs_qna_on.png); }
+            #nav-foot .cs .shortcuts li.delivery .btn {
+              background-image: url(/assets/images/main/ico_cs_delivery.png); }
+              #nav-foot .cs .shortcuts li.delivery .btn:hover, #nav-foot .cs .shortcuts li.delivery .btn:focus {
+                background-image: url(/assets/images/main/ico_cs_delivery_on.png); } }
 
 #footer {
   padding-top: 35px;

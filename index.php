@@ -44,11 +44,11 @@
         <div id="find-for">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-12 col-lg-6 dia">
+                    <div class="col-xs-12 col-lg-6 dia" tabindex="0">
                         <section id="find-for-dia">
                             <header>
                                 <h3><small>FIND FOR</small><br>DIAMOND</h3>
-                                <p>다양한 형태와 등급의 다이아몬드를 <br>검색하실 수 있습니다.</p>
+                                <p>다양한 형태와 등급의 다이아몬드를 <br class="visible-xs-inline">검색하실 수 있습니다.</p>
                             </header>
                             <ul>
                                 <li>
@@ -151,23 +151,23 @@
                             <a class="btn" href="#">다이아몬드 더 보기</a>
                         </section>
                     </div>
-                    <div class="col-xs-12 col-lg-6 jewelry">
+                    <div class="col-xs-12 col-lg-6 jewelry" tabindex="0">
                         <section id="find-for-jewelry">
                             <header>
                                 <h3><small>FIND FOR</small><br>JEWELRY</h3>
                                 <p>제품 디자인부터 선택하실 수 있습니다.</p>
                             </header>
                             <ul class="row">
-                                <li class="col-xs-4">
-                                    <p><img src="/assets/images/main/img_jewelry_ring.png" alt=""></p>
+                                <li class="col-xs-4 ring">
+                                    <p><img class="img-responsive" src="/assets/images/main/img_jewelry_ring.png" alt=""></p>
                                     <a class="btn" href="#">반지 디자인</a>
                                 </li>
-                                <li class="col-xs-4">
-                                    <p><img src="/assets/images/main/img_jewelry_necklace.png" alt=""></p>
+                                <li class="col-xs-4 necklace">
+                                    <p><img class="img-responsive" src="/assets/images/main/img_jewelry_necklace.png" alt=""></p>
                                     <a class="btn" href="#">목걸이 디자인</a>
                                 </li>
-                                <li class="col-xs-4">
-                                    <p><img src="/assets/images/main/img_jewelry_earring.png" alt=""></p>
+                                <li class="col-xs-4 earring">
+                                    <p><img class="img-responsive" src="/assets/images/main/img_jewelry_earring.png" alt=""></p>
                                     <a class="btn" href="#">귀걸이 디자인</a>
                                 </li>
                             </ul>
@@ -177,10 +177,105 @@
             </div>
         </div>
         <section id="fancy-dia">
-            팬시 다이아
+            <header>
+                <h3><small>팬시컬러 다이아몬드</small><br>FANCY DIAMOND</h3>
+                <p>다양한 팬시 컬러 다이아몬드를 <br class="visible-xs">비교해보고 선택하실 수 있습니다.</p>
+            </header>
+            <p class="figure"><img src="/assets/images/main/img_fancy_ring.png" alt=""></p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="row">
+                            <li class="col-xs-4 col-sm-3 col-lg-2 yellow">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_yellow.png" alt=""></p>
+                                    <span>YELLOW</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 pink">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_pink.png" alt=""></p>
+                                    <span>PINK</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 violet">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_violet.png" alt=""></p>
+                                    <span>VIOLET</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 red">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_red.png" alt=""></p>
+                                    <span>RED</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 blue">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_blue.png" alt=""></p>
+                                    <span>BLUE</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 green">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_green.png" alt=""></p>
+                                    <span>GREEN</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 orange">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_orange.png" alt=""></p>
+                                    <span>ORANGE</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 brown">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_brown.png" alt=""></p>
+                                    <span>BROWN</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 black">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_black.png" alt=""></p>
+                                    <span>BLACK</span>
+                                </a>
+                            </li>
+                            <li class="col-xs-4 col-sm-3 col-lg-2 gray">
+                                <a href="#">
+                                    <p><img src="/assets/images/main/ico_fancy_gray.png" alt=""></p>
+                                    <span>GRAY</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="day-delivery">
-            당일배송 상품
+            <div class="container-fluid">
+                <header class="delivery-header">
+                    <h3><small>당일 배송 상품</small><br>1DAY DELIVERY</h3>
+                    <p>당일 발송 상품은 완제품으로 <br class="visible-xs">3시까지 주문 시 당일 발송됩니다.</p>
+                </header>
+                <div class="row">
+                    <div class="col-xs-12">
+
+                    </div>
+                    <div class="col-xs-12 col-lg-7">
+                        <section>
+                            <h4>Aritist Collection</h4>
+                            <p>국내,외 유명 디자이너들의 <br class="visible-xs">작품을 만나 보세요.</p>
+                        </section>
+                    </div>
+                    <div class="col-xs-12 col-lg-5">
+                        <section id="propose">
+                            <h4><small>SAMSHIN WITH</small><br>PROPOSE</h4>
+                            <p>소중한 순간을 더욱 빛내주는 <br>다이아아울렛 프로포즈 콜렉션</p>
+                            <a class="btn" href="#">바로가기</a>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </section>
         <div class="shortcuts">
             <div class="container-fluid">

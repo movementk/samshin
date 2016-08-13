@@ -67,10 +67,10 @@
                         <dd>12:00 ~ 13:00</dd>
                     </dl>
                     <p class="note">※ 주말 및 공휴일은 휴무입니다.</p>
-                    <ul class="row">
-                        <li class="col-xs-4 col-sm-2 col-sm-offset-3 col-lg-4 col-lg-offset-0"><a class="btn btn-block" href="#">방문예약신청</a></li>
-                        <li class="col-xs-4 col-sm-2 col-lg-4"><a class="btn btn-block" href="#">1:1문의</a></li>
-                        <li class="col-xs-4 col-sm-2 col-lg-4"><a class="btn btn-block" href="#">배송조회</a></li>
+                    <ul class="row shortcuts">
+                        <li class="reserve col-xs-4 col-sm-2 col-sm-offset-3 col-lg-4 col-lg-offset-0"><a class="btn btn-block" href="#">방문예약신청</a></li>
+                        <li class="qna col-xs-4 col-sm-2 col-lg-4"><a class="btn btn-block" href="#">1:1문의</a></li>
+                        <li class="delivery col-xs-4 col-sm-2 col-lg-4"><a class="btn btn-block" href="#">배송조회</a></li>
                     </p>
                 </div>
             </div>
