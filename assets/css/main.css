@@ -1,18 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
-.lato, #find-for section header h3 small, #fancy-dia header h3 small, #fancy-dia ul li a, #day-delivery #propose h4 small {
+.lato, #find-for section header h3 small, #fancy-dia header h3 small, #fancy-dia ul li a, #propose h4 small {
   font-family: 'Lato', sans-serif; }
 
 .jjmj, #make-yours header h2 {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, #day-delivery #delivery-header h3 small {
+.noto, #day-delivery header h3 small {
   font-family: 'Noto Sans KR', sans-serif; }
 
 .font-12 {
   font-size: 12px;
   line-height: 18px; }
 
-.font-13, #make-yours header P {
+.font-13, #make-yours header P, #day-delivery .delivery-list a, #day-delivery .delivery-list a figure > figcaption h5 {
   font-size: 13px;
   line-height: 20px; }
 
@@ -20,7 +20,7 @@
   font-size: 14px;
   line-height: 22px; }
 
-.crimson, #find-for section header h3, #fancy-dia header h3, #day-delivery #delivery-header h3, #day-delivery #propose h4 {
+.crimson, #find-for section header h3, #fancy-dia header h3, #day-delivery header h3, #propose h4 {
   font-family: 'Crimson Text', serif; }
 
 #make-yours {
@@ -53,7 +53,7 @@
   @media (min-width: 768px) {
     #content > .visual {
       height: 380px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1230px) {
     #content > .visual {
       height: 600px; } }
 
@@ -89,7 +89,7 @@
             font-size: 14px; }
         #find-for section header p {
           font-size: 14px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1230px) {
       #find-for section {
         padding-top: 45px;
         padding-bottom: 0;
@@ -148,7 +148,7 @@
         #find-for .jewelry ul li.earring img {
           margin-top: 40px;
           width: 168px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1230px) {
     #find-for .jewelry section {
       padding-bottom: 105px; }
       #find-for .jewelry section ul {
@@ -170,11 +170,12 @@
           #find-for .jewelry section ul li.earring img {
             margin-top: 40px;
             width: 168px; } }
-  #find-for .row > div {
-    -webkit-transition: box-shadow .3s;
-    transition: box-shadow .3s; }
-    #find-for .row > div:hover, #find-for .row > div:focus {
-      box-shadow: 0 0 30px #ccc; }
+  @media (min-width: 1230px) {
+    #find-for .row > div {
+      -webkit-transition: box-shadow .3s;
+      transition: box-shadow .3s; }
+      #find-for .row > div:hover, #find-for .row > div:focus {
+        box-shadow: 0 0 30px #ccc; } }
 
 #fancy-dia {
   position: relative;
@@ -209,7 +210,7 @@
       #fancy-dia header p {
         font-size: 14px;
         line-height: 20px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1230px) {
       #fancy-dia header h3 {
         margin-bottom: 25px;
         font-size: 45px;
@@ -238,7 +239,7 @@
         background-position: 50% 50px; }
         #fancy-dia .figure img {
           width: auto; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1230px) {
       #fancy-dia .figure {
         height: 230px; } }
   #fancy-dia ul li a {
@@ -272,7 +273,7 @@
           margin-right: 10px;
           width: 26px;
           height: 26px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1230px) {
       #fancy-dia ul li a {
         margin-bottom: 40px; } }
   #fancy-dia ul li.yellow a:hover p, #fancy-dia ul li.yellow a:focus p {
@@ -298,87 +299,182 @@
 
 #day-delivery {
   padding-top: 35px;
+  padding-bottom: 35px;
   background: -webkit-repeating-linear-gradient(#f8f8f8 0%, #fff 300px, #fff 100%);
   background: -o-repeating-linear-gradient(#f8f8f8 0%, #fff 300px, #fff 100%);
   background: -moz-repeating-linear-gradient(#f8f8f8 0%, #fff 300px), #fff 100%;
   background: repeating-linear-gradient(#f8f8f8 0%, #fff 300px, #fff 100%);
   background-repeat: no-repeat; }
-  @media (min-width: 1200px) {
-    #day-delivery .container-fluid {
-      max-width: 1200px; } }
-  #day-delivery #delivery-header {
+  @media (min-width: 768px) {
+    #day-delivery {
+      padding-top: 35px;
+      padding-bottom: 55px; } }
+  @media (min-width: 1230px) {
+    #day-delivery {
+      padding-top: 75px;
+      padding-bottom: 85px; } }
+  #day-delivery header {
+    margin-bottom: 10px;
     text-align: center; }
-    #day-delivery #delivery-header h3 {
+    #day-delivery header h3 {
       font-size: 26px;
       margin-bottom: 10px;
       letter-spacing: -1px; }
-      #day-delivery #delivery-header h3 small {
+      #day-delivery header h3 small {
         font-size: 13px;
         color: #080d68; }
-    #day-delivery #delivery-header p {
+    #day-delivery header p {
       font-size: 13px;
       line-height: 18px; }
-  #day-delivery #propose {
-    margin-bottom: 10px;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    background-image: url(/assets/images/main/bg_artist_collection.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    text-align: center; }
-    #day-delivery #propose h4 {
-      margin-bottom: 10px;
-      text-align: center;
-      font-size: 26px;
-      line-height: 30px; }
-      #day-delivery #propose h4 small {
-        font-size: 13px;
-        color: #222;
-        font-weight: 300; }
-    #day-delivery #propose p {
-      margin-bottom: 20px;
-      font-size: 13px;
-      line-height: 18px; }
-    #day-delivery #propose .btn {
-      width: 160px;
-      background-color: #222;
-      color: #fff;
-      font-size: 13px; }
-      #day-delivery #propose .btn:hover, #day-delivery #propose .btn:focus {
-        background-color: #080d68; }
     @media (min-width: 768px) {
-      #day-delivery #propose h4 {
+      #day-delivery header {
+        margin-bottom: 40px; }
+        #day-delivery header h3 {
+          font-size: 35px;
+          line-height: 40px; }
+          #day-delivery header h3 small {
+            font-size: 14px; }
+        #day-delivery header p {
+          font-size: 14px;
+          line-height: 20px; } }
+    @media (min-width: 1230px) {
+      #day-delivery header {
+        margin-bottom: 80px; }
+        #day-delivery header h3 {
+          margin-bottom: 25px;
+          font-size: 45px;
+          line-height: 50px; }
+          #day-delivery header h3 small {
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: -1px; }
+        #day-delivery header p {
+          font-size: 14px; } }
+  #day-delivery .delivery-list {
+    position: relative; }
+    #day-delivery .delivery-list a {
+      text-decoration: none; }
+      #day-delivery .delivery-list a figure > img {
+        margin: 0 auto 15px; }
+      #day-delivery .delivery-list a figure > figcaption {
+        text-align: center; }
+        #day-delivery .delivery-list a figure > figcaption .appraisal {
+          color: #aaa; }
+        #day-delivery .delivery-list a figure > figcaption .price {
+          margin-top: 5px;
+          color: #4d437e;
+          font-weight: 400; }
+      @media (min-width: 768px) {
+        #day-delivery .delivery-list a figure > img {
+          margin-bottom: 20px; } }
+    #day-delivery .delivery-list .bx-wrapper .bx-controls .bx-controls-direction a {
+      position: absolute;
+      top: 50%;
+      margin-top: -50px; }
+      #day-delivery .delivery-list .bx-wrapper .bx-controls .bx-controls-direction a img {
+        width: 24px;
+        height: 45px; }
+      #day-delivery .delivery-list .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
+        left: 0; }
+      #day-delivery .delivery-list .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
+        right: 0; }
+
+#events {
+  margin-bottom: 10px; }
+  @media (min-width: 768px) {
+    #events {
+      margin-bottom: 20px; } }
+  @media (min-width: 1230px) {
+    #events {
+      margin-bottom: 100px; } }
+  #events img {
+    width: 100%; }
+  #events .bx-wrapper {
+    position: relative; }
+    #events .bx-wrapper .bx-controls {
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+      #events .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+        overflow: hidden;
+        float: left;
+        margin-left: 8px;
+        width: 18px;
+        height: 4px; }
+        #events .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-indent: -999em;
+          background-color: #ccc; }
+          #events .bx-wrapper .bx-controls .bx-pager .bx-pager-item .bx-pager-link.active {
+            background-color: #080d68; }
+        #events .bx-wrapper .bx-controls .bx-pager .bx-pager-item:first-child {
+          margin-left: 0; }
+
+#propose {
+  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-image: url(/assets/images/main/bg_artist_collection.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  text-align: center; }
+  #propose h4 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 30px; }
+    #propose h4 small {
+      font-size: 13px;
+      color: #222;
+      font-weight: 300; }
+  #propose p {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 18px; }
+  #propose .btn {
+    width: 160px;
+    background-color: #222;
+    color: #fff;
+    font-size: 13px; }
+    #propose .btn:hover, #propose .btn:focus {
+      background-color: #080d68; }
+  @media (min-width: 768px) {
+    #propose {
+      margin-bottom: 20px; }
+      #propose h4 {
         margin-bottom: 20px;
         font-size: 35px;
         line-height: 35px; }
-        #day-delivery #propose h4 small {
+        #propose h4 small {
           font-size: 14px; }
-      #day-delivery #propose p {
+      #propose p {
         margin-bottom: 30px;
         font-size: 14px;
         line-height: 20px; }
-      #day-delivery #propose .btn {
+      #propose .btn {
         width: 190px;
         height: 40px;
         line-height: 38px; } }
-    @media (min-width: 1200px) {
-      #day-delivery #propose {
-        margin-bottom: 0;
-        padding-top: 70px;
-        height: 400px; }
-        #day-delivery #propose h4 {
-          margin-bottom: 20px;
-          font-size: 45px;
-          line-height: 45px; }
-          #day-delivery #propose h4 small {
-            font-size: 16px; }
-        #day-delivery #propose p {
-          margin-bottom: 80px; }
-        #day-delivery #propose .btn {
-          width: 190px;
-          height: 40px;
-          line-height: 38px; } }
+  @media (min-width: 1230px) {
+    #propose {
+      margin-bottom: 100px;
+      padding-top: 70px;
+      height: 400px; }
+      #propose h4 {
+        margin-bottom: 20px;
+        font-size: 45px;
+        line-height: 45px; }
+        #propose h4 small {
+          font-size: 16px; }
+      #propose p {
+        margin-bottom: 80px; }
+      #propose .btn {
+        width: 190px;
+        height: 40px;
+        line-height: 38px; } }
 
 #content > .shortcuts {
   border-top: 1px solid #dfdfdf; }
@@ -434,7 +530,7 @@
           background-size: auto; }
         #content > .shortcuts ul li:nth-of-type(4) a {
           background-size: auto; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1230px) {
       #content > .shortcuts ul {
         padding-top: 60px;
         padding-bottom: 60px; }

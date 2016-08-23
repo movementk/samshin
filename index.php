@@ -252,31 +252,103 @@
             </div>
         </section>
         <section id="day-delivery">
-            <div class="container-fluid">
+            <div class="container">
                 <header class="delivery-header">
                     <h3><small>당일 배송 상품</small><br>1DAY DELIVERY</h3>
                     <p>당일 발송 상품은 완제품으로 <br class="visible-xs">3시까지 주문 시 당일 발송됩니다.</p>
                 </header>
-                <div class="row">
-                    <div class="col-xs-12">
-
-                    </div>
-                    <div class="col-xs-12 col-lg-7">
-                        <section>
-                            <h4>Aritist Collection</h4>
-                            <p>국내,외 유명 디자이너들의 <br class="visible-xs">작품을 만나 보세요.</p>
-                        </section>
-                    </div>
-                    <div class="col-xs-12 col-lg-5">
-                        <section id="propose">
-                            <h4><small>SAMSHIN WITH</small><br>PROPOSE</h4>
-                            <p>소중한 순간을 더욱 빛내주는 <br>다이아아울렛 프로포즈 콜렉션</p>
-                            <a class="btn" href="#">바로가기</a>
-                        </section>
-                    </div>
+                <div class="delivery-list">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/main/dummy_dia_1.png" alt="">
+                                    <figcaption>
+                                        <h5>1부 다이아몬드 반지</h5>
+                                        <p class="appraisal">현대, GIK 다이아 감정서</p>
+                                        <p class="price">259,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/main/dummy_neckalce_1.png" alt="">
+                                    <figcaption>
+                                        <h5>1부 다이아몬드 반지</h5>
+                                        <p class="appraisal">현대, GIK 다이아 감정서</p>
+                                        <p class="price">259,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/main/dummy_dia_1.png" alt="">
+                                    <figcaption>
+                                        <h5>1부 다이아몬드 반지</h5>
+                                        <p class="appraisal">현대, GIK 다이아 감정서</p>
+                                        <p class="price">259,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/main/dummy_neckalce_1.png" alt="">
+                                    <figcaption>
+                                        <h5>1부 다이아몬드 반지</h5>
+                                        <p class="appraisal">현대, GIK 다이아 감정서</p>
+                                        <p class="price">259,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-7">
+                    <div id="events">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img class="visible-xs" src="/assets/images/main/img_artist_collection_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/main/img_artist_collection_1_lg.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="visible-xs" src="/assets/images/main/img_artist_collection_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/main/img_artist_collection_1_lg.jpg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="visible-xs" src="/assets/images/main/img_artist_collection_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/main/img_artist_collection_1_lg.jpg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-5">
+                    <section id="propose">
+                        <h4><small>SAMSHIN WITH</small><br>PROPOSE</h4>
+                        <p>소중한 순간을 더욱 빛내주는 <br>다이아아울렛 프로포즈 콜렉션</p>
+                        <a class="btn" href="#">바로가기</a>
+                    </section>
+                </div>
+            </div>
+        </div>
         <div class="shortcuts">
             <div class="container-fluid">
                 <ul class="row">
@@ -322,5 +394,50 @@
     </main>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
+    <script src="/assets/js/jquery.bxslider.min.js"></script>
+    <script>
+        (function($) {
+            // 원데이 딜리버리
+            var onedayDefaultOptions = {
+                pager: false,
+                prevText: '<img src="/assets/images/main/bt_1day_prev.png" alt="이전">',
+                nextText: '<img src="/assets/images/main/bt_1day_next.png" alt="다음">'
+            };
+            var onedaySlider = $('#day-delivery .delivery-list > ul').bxSlider(onedayDefaultOptions);
+
+            // 이벤트 배너
+            var eventsSlider = $('#events ul').bxSlider({
+                controls: false
+            });
+
+            $(window).on('load resize', function() {
+                onedaySlider.reloadSlider(onedayDefaultOptions);
+                if ( $(this).width() >= 768 ) {
+                    onedaySlider.reloadSlider($.extend({
+                        minSlides: 2,
+                        maxSlides: 2,
+                        moveSlides: 2,
+                        slideWidth: 290},
+                    onedayDefaultOptions));
+                }
+                if ( $(this).width() >= 992 ) {
+                    onedaySlider.reloadSlider($.extend({
+                        minSlides: 2,
+                        maxSlides: 2,
+                        moveSlides: 2,
+                        slideWidth: 400},
+                    onedayDefaultOptions));
+                }
+                if ( $(this).width() >= 1230 ) {
+                    onedaySlider.reloadSlider($.extend({
+                        minSlides: 4,
+                        maxSlides: 4,
+                        moveSlides: 4,
+                        slideWidth: 270},
+                    onedayDefaultOptions));
+                }
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>
