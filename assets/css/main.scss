@@ -115,8 +115,81 @@
     }
     .dia {
         background-color: #f7f7f7;
+        ul {
+            overflow: hidden;
+            margin-top: 25px;
+            li {
+                float: left;
+                margin-bottom: 25px;
+                width: 25%;
+                a {
+                    display: block;
+                    padding-top: 50px;
+                    height: 70px;
+                    text-align: center;
+                    @extend .lato;
+                    font-weight: 400;
+                    font-size: 11px;
+                    background-repeat: no-repeat;
+                    background-position: 50% 0;
+                    background-size: 50px auto;
+                    text-decoration: none;
+                    .ko {
+                        display: none;
+                        color: $red;
+                    }
+                }
+                @for $i from 1 through 10 {
+                    &:nth-of-type(#{$i}) {
+                        a {
+                            background-image: url(/assets/images/main/img_dia_real_#{$i}.jpg);
+                            &:hover,
+                            &:focus {
+                                background-image: url(/assets/images/main/img_dia_line_#{$i}.jpg);
+                                .en {
+                                    display: none;
+                                }
+                                .ko {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
         .btn {
-            min-width: 160px;
+            display: block;
+            margin: 0 auto;
+            width: 160px;
+        }
+        @media (min-width: $sm) {
+            ul {
+                margin-top: 50px;
+                li {
+                    margin-bottom: 40px;
+                    width: 20%;
+                    a {
+                        padding-top: 80px;
+                        height: 100px;
+                        font-size: 12px;
+                        background-size: 70px auto;
+                    }
+                }
+            }
+            .btn {
+                width: 230px;
+                height: 40px;
+                line-height: 38px;
+                font-size: 13px;
+            }
+        }
+        @media (min-width: $lg) {
+            ul {
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 600px;
+            }
         }
     }
     .jewelry {
@@ -299,24 +372,49 @@
             }
         }
     }
-    .figure {
+    .preview {
         position: relative;
         margin-top: 50px;
         height: 130px;
         background-image: url(/assets/images/main/bg_fancy_figure.png);
         background-repeat: no-repeat;
-        background-position: 50% 30px;
-        img {
-            display: block;
-            margin: 0 auto;
-            width: 260px;
+        background-position: 50% 35px;
+        background-size: 100% auto;
+        .shadow {
+            position: absolute;
+            top: 36px;
+            left: 50%;
+            margin-left: -144px;
+            width: 280px;
+            img {
+                width: 100%;
+            }
+        }
+        .ring {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 50%;
+            margin-left: -115px;
+            width: 230px;
+            img {
+                display: block;
+                width: 100%;
+            }
         }
         @media (min-width: $sm) {
             margin-top: 95px;
             height: 200px;
             background-position: 50% 50px;
-            img {
-                width: auto;
+            .shadow {
+                top: 58px;
+                margin-left: -235px;
+                width: 460px;
+            }
+            .ring {
+                left: 50%;
+                margin-left: -190px;
+                width: 380px;
             }
         }
         @media (min-width: $lg) {
@@ -324,6 +422,9 @@
         }
     }
     ul {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 320px;
         li {
             a {
                 display: block;
@@ -371,7 +472,27 @@
                     margin-bottom: 40px;
                 }
             }
+            &.active {
+                a {
+                    p {
+                        img {
+                            display: none;
+                        }
+                    }
+                    span {
+                        text-decoration: underline;
+                        font-weight: bold;
+                    }
+                }
+            }
             &.yellow {
+                &.active {
+                    a {
+                        p {
+                            background-color: yellow;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -382,6 +503,13 @@
                 }
             }
             &.pink {
+                &.active {
+                    a {
+                        p {
+                            background-color: pink;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -392,6 +520,13 @@
                 }
             }
             &.violet {
+                &.active {
+                    a {
+                        p {
+                            background-color: violet;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -402,6 +537,13 @@
                 }
             }
             &.red {
+                &.active {
+                    a {
+                        p {
+                            background-color: red;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -412,6 +554,13 @@
                 }
             }
             &.blue {
+                &.active {
+                    a {
+                        p {
+                            background-color: blue;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -422,6 +571,13 @@
                 }
             }
             &.green {
+                &.active {
+                    a {
+                        p {
+                            background-color: green;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -432,6 +588,13 @@
                 }
             }
             &.orange {
+                &.active {
+                    a {
+                        p {
+                            background-color: orange;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -442,6 +605,13 @@
                 }
             }
             &.brown {
+                &.active {
+                    a {
+                        p {
+                            background-color: brown;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -452,6 +622,13 @@
                 }
             }
             &.black {
+                &.active {
+                    a {
+                        p {
+                            background-color: black;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -462,6 +639,13 @@
                 }
             }
             &.gray {
+                &.active {
+                    a {
+                        p {
+                            background-color: gray;
+                        }
+                    }
+                }
                 a {
                     &:hover,
                     &:focus {
@@ -471,6 +655,9 @@
                     }
                 }
             }
+        }
+        @media (min-width: $sm) {
+            max-width: none;
         }
     }
 }
@@ -729,9 +916,12 @@
         max-width: 1920px;
     }
     ul {
+        overflow: hidden;
         padding-top: 20px;
         padding-bottom: 20px;
         li {
+            float: left;
+            width: 50%;
             a {
                 position: relative;
                 display: block;
@@ -780,6 +970,7 @@
             padding-top: 40px;
             padding-bottom: 35px;
             li {
+                width: 25%;
                 a {
                     padding-top: 80px;
                     height: 100px;

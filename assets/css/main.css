@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
-.lato, #find-for section header h3 small, #fancy-dia header h3 small, #fancy-dia ul li a, #propose h4 small {
+.lato, #find-for section header h3 small, #find-for .dia ul li a, #fancy-dia header h3 small, #fancy-dia ul li a, #propose h4 small {
   font-family: 'Lato', sans-serif; }
 
 .jjmj, #make-yours header h2 {
@@ -105,8 +105,132 @@
           font-size: 14px; } }
   #find-for .dia {
     background-color: #f7f7f7; }
+    #find-for .dia ul {
+      overflow: hidden;
+      margin-top: 25px; }
+      #find-for .dia ul li {
+        float: left;
+        margin-bottom: 25px;
+        width: 25%; }
+        #find-for .dia ul li a {
+          display: block;
+          padding-top: 50px;
+          height: 70px;
+          text-align: center;
+          font-weight: 400;
+          font-size: 11px;
+          background-repeat: no-repeat;
+          background-position: 50% 0;
+          background-size: 50px auto;
+          text-decoration: none; }
+          #find-for .dia ul li a .ko {
+            display: none;
+            color: #eb2127; }
+        #find-for .dia ul li:nth-of-type(1) a {
+          background-image: url(/assets/images/main/img_dia_real_1.jpg); }
+          #find-for .dia ul li:nth-of-type(1) a:hover, #find-for .dia ul li:nth-of-type(1) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_1.jpg); }
+            #find-for .dia ul li:nth-of-type(1) a:hover .en, #find-for .dia ul li:nth-of-type(1) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(1) a:hover .ko, #find-for .dia ul li:nth-of-type(1) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(2) a {
+          background-image: url(/assets/images/main/img_dia_real_2.jpg); }
+          #find-for .dia ul li:nth-of-type(2) a:hover, #find-for .dia ul li:nth-of-type(2) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_2.jpg); }
+            #find-for .dia ul li:nth-of-type(2) a:hover .en, #find-for .dia ul li:nth-of-type(2) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(2) a:hover .ko, #find-for .dia ul li:nth-of-type(2) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(3) a {
+          background-image: url(/assets/images/main/img_dia_real_3.jpg); }
+          #find-for .dia ul li:nth-of-type(3) a:hover, #find-for .dia ul li:nth-of-type(3) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_3.jpg); }
+            #find-for .dia ul li:nth-of-type(3) a:hover .en, #find-for .dia ul li:nth-of-type(3) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(3) a:hover .ko, #find-for .dia ul li:nth-of-type(3) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(4) a {
+          background-image: url(/assets/images/main/img_dia_real_4.jpg); }
+          #find-for .dia ul li:nth-of-type(4) a:hover, #find-for .dia ul li:nth-of-type(4) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_4.jpg); }
+            #find-for .dia ul li:nth-of-type(4) a:hover .en, #find-for .dia ul li:nth-of-type(4) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(4) a:hover .ko, #find-for .dia ul li:nth-of-type(4) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(5) a {
+          background-image: url(/assets/images/main/img_dia_real_5.jpg); }
+          #find-for .dia ul li:nth-of-type(5) a:hover, #find-for .dia ul li:nth-of-type(5) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_5.jpg); }
+            #find-for .dia ul li:nth-of-type(5) a:hover .en, #find-for .dia ul li:nth-of-type(5) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(5) a:hover .ko, #find-for .dia ul li:nth-of-type(5) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(6) a {
+          background-image: url(/assets/images/main/img_dia_real_6.jpg); }
+          #find-for .dia ul li:nth-of-type(6) a:hover, #find-for .dia ul li:nth-of-type(6) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_6.jpg); }
+            #find-for .dia ul li:nth-of-type(6) a:hover .en, #find-for .dia ul li:nth-of-type(6) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(6) a:hover .ko, #find-for .dia ul li:nth-of-type(6) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(7) a {
+          background-image: url(/assets/images/main/img_dia_real_7.jpg); }
+          #find-for .dia ul li:nth-of-type(7) a:hover, #find-for .dia ul li:nth-of-type(7) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_7.jpg); }
+            #find-for .dia ul li:nth-of-type(7) a:hover .en, #find-for .dia ul li:nth-of-type(7) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(7) a:hover .ko, #find-for .dia ul li:nth-of-type(7) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(8) a {
+          background-image: url(/assets/images/main/img_dia_real_8.jpg); }
+          #find-for .dia ul li:nth-of-type(8) a:hover, #find-for .dia ul li:nth-of-type(8) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_8.jpg); }
+            #find-for .dia ul li:nth-of-type(8) a:hover .en, #find-for .dia ul li:nth-of-type(8) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(8) a:hover .ko, #find-for .dia ul li:nth-of-type(8) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(9) a {
+          background-image: url(/assets/images/main/img_dia_real_9.jpg); }
+          #find-for .dia ul li:nth-of-type(9) a:hover, #find-for .dia ul li:nth-of-type(9) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_9.jpg); }
+            #find-for .dia ul li:nth-of-type(9) a:hover .en, #find-for .dia ul li:nth-of-type(9) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(9) a:hover .ko, #find-for .dia ul li:nth-of-type(9) a:focus .ko {
+              display: block; }
+        #find-for .dia ul li:nth-of-type(10) a {
+          background-image: url(/assets/images/main/img_dia_real_10.jpg); }
+          #find-for .dia ul li:nth-of-type(10) a:hover, #find-for .dia ul li:nth-of-type(10) a:focus {
+            background-image: url(/assets/images/main/img_dia_line_10.jpg); }
+            #find-for .dia ul li:nth-of-type(10) a:hover .en, #find-for .dia ul li:nth-of-type(10) a:focus .en {
+              display: none; }
+            #find-for .dia ul li:nth-of-type(10) a:hover .ko, #find-for .dia ul li:nth-of-type(10) a:focus .ko {
+              display: block; }
     #find-for .dia .btn {
-      min-width: 160px; }
+      display: block;
+      margin: 0 auto;
+      width: 160px; }
+    @media (min-width: 768px) {
+      #find-for .dia ul {
+        margin-top: 50px; }
+        #find-for .dia ul li {
+          margin-bottom: 40px;
+          width: 20%; }
+          #find-for .dia ul li a {
+            padding-top: 80px;
+            height: 100px;
+            font-size: 12px;
+            background-size: 70px auto; }
+      #find-for .dia .btn {
+        width: 230px;
+        height: 40px;
+        line-height: 38px;
+        font-size: 13px; } }
+    @media (min-width: 1230px) {
+      #find-for .dia ul {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px; } }
   #find-for .jewelry ul {
     margin-top: 30px; }
     #find-for .jewelry ul li {
@@ -221,81 +345,134 @@
           letter-spacing: -1px; }
       #fancy-dia header p {
         font-size: 14px; } }
-  #fancy-dia .figure {
+  #fancy-dia .preview {
     position: relative;
     margin-top: 50px;
     height: 130px;
     background-image: url(/assets/images/main/bg_fancy_figure.png);
     background-repeat: no-repeat;
-    background-position: 50% 30px; }
-    #fancy-dia .figure img {
-      display: block;
-      margin: 0 auto;
-      width: 260px; }
+    background-position: 50% 35px;
+    background-size: 100% auto; }
+    #fancy-dia .preview .shadow {
+      position: absolute;
+      top: 36px;
+      left: 50%;
+      margin-left: -144px;
+      width: 280px; }
+      #fancy-dia .preview .shadow img {
+        width: 100%; }
+    #fancy-dia .preview .ring {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 50%;
+      margin-left: -115px;
+      width: 230px; }
+      #fancy-dia .preview .ring img {
+        display: block;
+        width: 100%; }
     @media (min-width: 768px) {
-      #fancy-dia .figure {
+      #fancy-dia .preview {
         margin-top: 95px;
         height: 200px;
         background-position: 50% 50px; }
-        #fancy-dia .figure img {
-          width: auto; } }
+        #fancy-dia .preview .shadow {
+          top: 58px;
+          margin-left: -235px;
+          width: 460px; }
+        #fancy-dia .preview .ring {
+          left: 50%;
+          margin-left: -190px;
+          width: 380px; } }
     @media (min-width: 1230px) {
-      #fancy-dia .figure {
+      #fancy-dia .preview {
         height: 230px; } }
-  #fancy-dia ul li a {
-    display: block;
-    margin-bottom: 20px;
-    font-size: 12px;
-    line-height: 22px;
-    font-weight: normal;
-    text-decoration: none; }
-    #fancy-dia ul li a p {
-      display: inline-block;
-      margin-right: 5px;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      vertical-align: bottom; }
-      #fancy-dia ul li a p img {
-        display: block;
-        width: 100%; }
-    #fancy-dia ul li a:hover p img, #fancy-dia ul li a:focus p img {
+  #fancy-dia ul {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px; }
+    #fancy-dia ul li a {
+      display: block;
+      margin-bottom: 20px;
+      font-size: 12px;
+      line-height: 22px;
+      font-weight: normal;
+      text-decoration: none; }
+      #fancy-dia ul li a p {
+        display: inline-block;
+        margin-right: 5px;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        vertical-align: bottom; }
+        #fancy-dia ul li a p img {
+          display: block;
+          width: 100%; }
+      #fancy-dia ul li a:hover p img, #fancy-dia ul li a:focus p img {
+        display: none; }
+      #fancy-dia ul li a:hover span, #fancy-dia ul li a:focus span {
+        text-decoration: underline;
+        font-weight: bold; }
+      @media (min-width: 768px) {
+        #fancy-dia ul li a {
+          font-size: 16px;
+          letter-spacing: -1px;
+          font-weight: 300; }
+          #fancy-dia ul li a p {
+            margin-right: 10px;
+            width: 26px;
+            height: 26px; } }
+      @media (min-width: 1230px) {
+        #fancy-dia ul li a {
+          margin-bottom: 40px; } }
+    #fancy-dia ul li.active a p img {
       display: none; }
-    #fancy-dia ul li a:hover span, #fancy-dia ul li a:focus span {
+    #fancy-dia ul li.active a span {
       text-decoration: underline;
       font-weight: bold; }
+    #fancy-dia ul li.yellow.active a p {
+      background-color: yellow; }
+    #fancy-dia ul li.yellow a:hover p, #fancy-dia ul li.yellow a:focus p {
+      background-color: yellow; }
+    #fancy-dia ul li.pink.active a p {
+      background-color: pink; }
+    #fancy-dia ul li.pink a:hover p, #fancy-dia ul li.pink a:focus p {
+      background-color: pink; }
+    #fancy-dia ul li.violet.active a p {
+      background-color: violet; }
+    #fancy-dia ul li.violet a:hover p, #fancy-dia ul li.violet a:focus p {
+      background-color: violet; }
+    #fancy-dia ul li.red.active a p {
+      background-color: red; }
+    #fancy-dia ul li.red a:hover p, #fancy-dia ul li.red a:focus p {
+      background-color: red; }
+    #fancy-dia ul li.blue.active a p {
+      background-color: blue; }
+    #fancy-dia ul li.blue a:hover p, #fancy-dia ul li.blue a:focus p {
+      background-color: blue; }
+    #fancy-dia ul li.green.active a p {
+      background-color: green; }
+    #fancy-dia ul li.green a:hover p, #fancy-dia ul li.green a:focus p {
+      background-color: green; }
+    #fancy-dia ul li.orange.active a p {
+      background-color: orange; }
+    #fancy-dia ul li.orange a:hover p, #fancy-dia ul li.orange a:focus p {
+      background-color: orange; }
+    #fancy-dia ul li.brown.active a p {
+      background-color: brown; }
+    #fancy-dia ul li.brown a:hover p, #fancy-dia ul li.brown a:focus p {
+      background-color: brown; }
+    #fancy-dia ul li.black.active a p {
+      background-color: black; }
+    #fancy-dia ul li.black a:hover p, #fancy-dia ul li.black a:focus p {
+      background-color: black; }
+    #fancy-dia ul li.gray.active a p {
+      background-color: gray; }
+    #fancy-dia ul li.gray a:hover p, #fancy-dia ul li.gray a:focus p {
+      background-color: gray; }
     @media (min-width: 768px) {
-      #fancy-dia ul li a {
-        font-size: 16px;
-        letter-spacing: -1px;
-        font-weight: 300; }
-        #fancy-dia ul li a p {
-          margin-right: 10px;
-          width: 26px;
-          height: 26px; } }
-    @media (min-width: 1230px) {
-      #fancy-dia ul li a {
-        margin-bottom: 40px; } }
-  #fancy-dia ul li.yellow a:hover p, #fancy-dia ul li.yellow a:focus p {
-    background-color: yellow; }
-  #fancy-dia ul li.pink a:hover p, #fancy-dia ul li.pink a:focus p {
-    background-color: pink; }
-  #fancy-dia ul li.violet a:hover p, #fancy-dia ul li.violet a:focus p {
-    background-color: violet; }
-  #fancy-dia ul li.red a:hover p, #fancy-dia ul li.red a:focus p {
-    background-color: red; }
-  #fancy-dia ul li.blue a:hover p, #fancy-dia ul li.blue a:focus p {
-    background-color: blue; }
-  #fancy-dia ul li.green a:hover p, #fancy-dia ul li.green a:focus p {
-    background-color: green; }
-  #fancy-dia ul li.orange a:hover p, #fancy-dia ul li.orange a:focus p {
-    background-color: orange; }
-  #fancy-dia ul li.brown a:hover p, #fancy-dia ul li.brown a:focus p {
-    background-color: brown; }
-  #fancy-dia ul li.black a:hover p, #fancy-dia ul li.black a:focus p {
-    background-color: black; }
-  #fancy-dia ul li.gray a:hover p, #fancy-dia ul li.gray a:focus p {
-    background-color: gray; }
+      #fancy-dia ul {
+        max-width: none; } }
 
 #day-delivery {
   padding-top: 35px;
@@ -481,55 +658,61 @@
   #content > .shortcuts .container-fluid {
     max-width: 1920px; }
   #content > .shortcuts ul {
+    overflow: hidden;
     padding-top: 20px;
     padding-bottom: 20px; }
-    #content > .shortcuts ul li a {
-      position: relative;
-      display: block;
-      padding-top: 75px;
-      padding-bottom: 20px;
-      width: 100%;
-      height: 110px;
-      text-align: center;
-      background-repeat: no-repeat;
-      background-position: 50% 20px; }
-      #content > .shortcuts ul li a h5 {
-        font-weight: normal;
-        font-size: 13px; }
-      #content > .shortcuts ul li a p, #content > .shortcuts ul li a .btn {
-        display: none; }
-    #content > .shortcuts ul li:nth-of-type(1) a {
-      background-image: url(/assets/images/main/ico_shortcut_dia.png);
-      background-size: auto 46px; }
-    #content > .shortcuts ul li:nth-of-type(2) a {
-      background-image: url(/assets/images/main/ico_shortcut_notebook.png);
-      background-size: auto 40px;
-      background-position-y: 23px; }
-    #content > .shortcuts ul li:nth-of-type(3) a {
-      background-image: url(/assets/images/main/ico_shortcut_bd.png);
-      background-size: auto 45px; }
-    #content > .shortcuts ul li:nth-of-type(4) a {
-      background-image: url(/assets/images/main/ico_shortcut_mic.png);
-      background-size: auto 46px; }
+    #content > .shortcuts ul li {
+      float: left;
+      width: 50%; }
+      #content > .shortcuts ul li a {
+        position: relative;
+        display: block;
+        padding-top: 75px;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 110px;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: 50% 20px; }
+        #content > .shortcuts ul li a h5 {
+          font-weight: normal;
+          font-size: 13px; }
+        #content > .shortcuts ul li a p, #content > .shortcuts ul li a .btn {
+          display: none; }
+      #content > .shortcuts ul li:nth-of-type(1) a {
+        background-image: url(/assets/images/main/ico_shortcut_dia.png);
+        background-size: auto 46px; }
+      #content > .shortcuts ul li:nth-of-type(2) a {
+        background-image: url(/assets/images/main/ico_shortcut_notebook.png);
+        background-size: auto 40px;
+        background-position-y: 23px; }
+      #content > .shortcuts ul li:nth-of-type(3) a {
+        background-image: url(/assets/images/main/ico_shortcut_bd.png);
+        background-size: auto 45px; }
+      #content > .shortcuts ul li:nth-of-type(4) a {
+        background-image: url(/assets/images/main/ico_shortcut_mic.png);
+        background-size: auto 46px; }
     @media (min-width: 768px) {
       #content > .shortcuts ul {
         padding-top: 40px;
         padding-bottom: 35px; }
-        #content > .shortcuts ul li a {
-          padding-top: 80px;
-          height: 100px;
-          background-position: 50% 0; }
-          #content > .shortcuts ul li a h5 {
-            font-size: 14px; }
-        #content > .shortcuts ul li:nth-of-type(1) a {
-          background-size: auto; }
-        #content > .shortcuts ul li:nth-of-type(2) a {
-          background-size: auto;
-          background-position: 50% 4px; }
-        #content > .shortcuts ul li:nth-of-type(3) a {
-          background-size: auto; }
-        #content > .shortcuts ul li:nth-of-type(4) a {
-          background-size: auto; } }
+        #content > .shortcuts ul li {
+          width: 25%; }
+          #content > .shortcuts ul li a {
+            padding-top: 80px;
+            height: 100px;
+            background-position: 50% 0; }
+            #content > .shortcuts ul li a h5 {
+              font-size: 14px; }
+          #content > .shortcuts ul li:nth-of-type(1) a {
+            background-size: auto; }
+          #content > .shortcuts ul li:nth-of-type(2) a {
+            background-size: auto;
+            background-position: 50% 4px; }
+          #content > .shortcuts ul li:nth-of-type(3) a {
+            background-size: auto; }
+          #content > .shortcuts ul li:nth-of-type(4) a {
+            background-size: auto; } }
     @media (min-width: 1230px) {
       #content > .shortcuts ul {
         padding-top: 60px;

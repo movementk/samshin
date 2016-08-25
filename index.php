@@ -53,98 +53,62 @@
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>ROUND</figcaption>
-                                        </figure>
+                                        <span class="en">ROUND</span>
+                                        <span class="ko">라운드</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>PRINCESS</figcaption>
-                                        </figure>
+                                        <span class="en">PRINCESS</span>
+                                        <span class="ko">프린세스</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>EMERALD</figcaption>
-                                        </figure>
+                                        <span class="en">CUSHION</span>
+                                        <span class="ko">쿠션</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>OVAL</figcaption>
-                                        </figure>
+                                        <span class="en">RADIANT</span>
+                                        <span class="ko">래디언트</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>BAGUETTE</figcaption>
-                                        </figure>
+                                        <span class="en">EMERALD</span>
+                                        <span class="ko">에메랄드</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>PEAR</figcaption>
-                                        </figure>
+                                        <span class="en">ASSCHER</span>
+                                        <span class="ko">어셔</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="">
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>MARQUISE</figcaption>
-                                        </figure>
+                                        <span class="en">OVAL</span>
+                                        <span class="ko">오발</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="">
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>HEART</figcaption>
-                                        </figure>
+                                        <span class="en">MARQUISE</span>
+                                        <span class="ko">마퀴즈</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="hidden-xs">
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>ASSCHER</figcaption>
-                                        </figure>
+                                        <span class="en">PEAR</span>
+                                        <span class="ko">피어</span>
                                     </a>
                                 </li>
-                                <li>
+                                <li class="hidden-xs">
                                     <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>RADIANT</figcaption>
-                                        </figure>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>CUSHION</figcaption>
-                                        </figure>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <figure>
-                                            <img src="" alt="">
-                                            <figcaption>TRILLIANT</figcaption>
-                                        </figure>
+                                        <span class="en">HEART</span>
+                                        <span class="ko">하트</span>
                                     </a>
                                 </li>
                             </ul>
@@ -181,67 +145,70 @@
                 <h3><small>팬시컬러 다이아몬드</small><br>FANCY DIAMOND</h3>
                 <p>다양한 팬시 컬러 다이아몬드를 <br class="visible-xs">비교해보고 선택하실 수 있습니다.</p>
             </header>
-            <p class="figure"><img src="/assets/images/main/img_fancy_ring.png" alt=""></p>
+            <div class="preview">
+                <p class="shadow"><img src="/assets/images/main/img_fancy_ring_shadow.png" alt=""></p>
+                <p class="ring"><img src="/assets/images/main/img_fancy_ring_yellow.png" alt=""></p>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <ul class="row">
-                            <li class="col-xs-4 col-sm-3 col-lg-2 yellow">
-                                <a href="#">
+                        <ul class="row dia-list">
+                            <li class="col-xs-4 col-sm-3 col-lg-2 yellow active">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_yellow.png">
                                     <p><img src="/assets/images/main/ico_fancy_yellow.png" alt=""></p>
                                     <span>YELLOW</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 pink">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_pink.png">
                                     <p><img src="/assets/images/main/ico_fancy_pink.png" alt=""></p>
                                     <span>PINK</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 violet">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_violet.png">
                                     <p><img src="/assets/images/main/ico_fancy_violet.png" alt=""></p>
                                     <span>VIOLET</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 red">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_red.png">
                                     <p><img src="/assets/images/main/ico_fancy_red.png" alt=""></p>
                                     <span>RED</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 blue">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_blue.png">
                                     <p><img src="/assets/images/main/ico_fancy_blue.png" alt=""></p>
                                     <span>BLUE</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 green">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_green.png">
                                     <p><img src="/assets/images/main/ico_fancy_green.png" alt=""></p>
                                     <span>GREEN</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 orange">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_orange.png">
                                     <p><img src="/assets/images/main/ico_fancy_orange.png" alt=""></p>
                                     <span>ORANGE</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 brown">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_brown.png">
                                     <p><img src="/assets/images/main/ico_fancy_brown.png" alt=""></p>
                                     <span>BROWN</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 black">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_black.png">
                                     <p><img src="/assets/images/main/ico_fancy_black.png" alt=""></p>
                                     <span>BLACK</span>
                                 </a>
                             </li>
                             <li class="col-xs-4 col-sm-3 col-lg-2 gray">
-                                <a href="#">
+                                <a href="#" data-image="/assets/images/main/img_fancy_ring_gray.png">
                                     <p><img src="/assets/images/main/ico_fancy_gray.png" alt=""></p>
                                     <span>GRAY</span>
                                 </a>
@@ -351,8 +318,8 @@
         </div>
         <div class="shortcuts">
             <div class="container-fluid">
-                <ul class="row">
-                    <li class="col-xs-6 col-sm-3">
+                <ul>
+                    <li>
                         <a href="#">
                             <div>
                                 <h5>다이아몬드 정보</h5>
@@ -361,7 +328,7 @@
                             <span class="btn">바로가기</span>
                         </a>
                     </li>
-                    <li class="col-xs-6 col-sm-3">
+                    <li>
                         <a href="#">
                             <div>
                                 <h5>구매방법 및 배송안내</h5>
@@ -370,7 +337,7 @@
                             <span class="btn">바로가기</span>
                         </a>
                     </li>
-                    <li class="col-xs-6 col-sm-3">
+                    <li>
                         <a href="#">
                             <div>
                                 <h5>회사소개</h5>
@@ -379,7 +346,7 @@
                             <span class="btn">바로가기</span>
                         </a>
                     </li>
-                    <li class="col-xs-6 col-sm-3">
+                    <li>
                         <a href="#">
                             <div>
                                 <h5>공지사항</h5>
@@ -397,6 +364,16 @@
     <script src="/assets/js/jquery.bxslider.min.js"></script>
     <script>
         (function($) {
+            // 팬시 다이아
+            $(document).on('click', '#fancy-dia .dia-list > li > a', function(e) {
+                if ( ! $(this).parent().hasClass('active')) {
+                    $(this).parent().siblings('.active').removeClass('active');
+                    $(this).parent().addClass('active');
+                    $('#fancy-dia .preview .ring img').attr('src', $(this).attr('data-image'));
+                }
+                e.preventDefault();
+            });
+
             // 원데이 딜리버리
             var onedayDefaultOptions = {
                 pager: false,
@@ -407,9 +384,11 @@
 
             // 이벤트 배너
             var eventsSlider = $('#events ul').bxSlider({
-                controls: false
+                controls: false,
+                auto: true
             });
 
+            // 브라우저 리사이징 시
             $(window).on('load resize', function() {
                 onedaySlider.reloadSlider(onedayDefaultOptions);
                 if ( $(this).width() >= 768 ) {
