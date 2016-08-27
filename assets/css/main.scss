@@ -8,10 +8,14 @@
 #make-yours {
     position: relative;
     height: 130px;
-    height: 280px;
-    background-color: #eee;
+    //height: 280px;
+    background-color: #fff;
+    transition: height .3s;
     @media (min-width: $sm) {
-        height: 350px;
+        height: 160px;
+    }
+    @media (min-width: $lg) {
+        height: 280px;
     }
     header {
         height: 130px;
@@ -28,11 +32,209 @@
             @extend .font-13;
         }
         @media (min-width: $sm) {
-            height: 150px;
+            height: 160px;
+            h2 {
+                margin-top: 40px;
+                font-size: 35px;
+            }
+        }
+        @media (min-width: $lg) {
+            text-align: left;
+            h2 {
+                margin-top: 58px;
+                margin-bottom: 25px;
+                font-size: 45px;
+            }
+            p {
+                font-size: 14px;
+            }
         }
     }
     .combine {
-
+        overflow: hidden;
+        position: relative;
+        height: 0;
+        text-align: center;
+        transition: height .3s;
+        ol {
+            overflow: hidden;
+            li {
+                position: relative;
+                float: left;
+                width: 20%;
+                height: 150px;
+                a {
+                    display: block;
+                    padding-top: 90px;
+                    width: 100%;
+                    height: 100%;
+                }
+                &.plus, &.equal {
+                    background-repeat: no-repeat;
+                }
+                &.plus {
+                    background-image: url(/assets/images/main/ico_combine_plus_xs.png);
+                    background-position: 50% 38px;
+                }
+                &.equal {
+                    background-image: url(/assets/images/main/ico_combine_equal_xs.png);
+                    background-position: 50% 43px;
+                }
+                &.ring {
+                    padding-top: 90px;
+                    background-image: url(/assets/images/main/img_combine_ring.png);
+                    background-repeat: no-repeat;
+                    background-size: 57px auto;
+                    background-position: 50% 13px;
+                }
+                &.dia {
+                    a {
+                        background-image: url(/assets/images/main/img_combine_dia.png);
+                        background-repeat: no-repeat;
+                        background-size: 50px auto;
+                        background-position: 50% 25px;
+                        &:hover,
+                        &:focus {
+                            background-image: url(/assets/images/main/img_combine_dia_on.png);
+                            background-size: 55px auto;
+                            background-position: 50% 21px;
+                        }
+                    }
+                }
+                &.design {
+                    a {
+                        background-image: url(/assets/images/main/img_combine_design.png);
+                        background-repeat: no-repeat;
+                        background-size: 57px auto;
+                        background-position: 50% 13px;
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            ol {
+                li {
+                    height: 190px;
+                    font-size: 14px;
+                    a {
+                        padding-top: 135px;
+                    }
+                    &.plus {
+                        background-image: url(/assets/images/main/ico_combine_plus.png);
+                        background-position: 50% 48px;
+                    }
+                    &.equal {
+                        background-image: url(/assets/images/main/ico_combine_equal.png);
+                        background-position: 50% 55px;
+                    }
+                    &.ring {
+                        padding-top: 135px;
+                        background-size: 98px auto;
+                        background-position: 50% 4px;
+                    }
+                    &.dia {
+                        a {
+                            background-image: url(/assets/images/main/img_combine_dia.png);
+                            background-size: 82px auto;
+                            background-position: 50% 25px;
+                            &:hover,
+                            &:focus {
+                                background-image: url(/assets/images/main/img_combine_dia_on.png);
+                                background-size: 90px auto;
+                                background-position: 50% 21px;
+                            }
+                        }
+                    }
+                    &.design {
+                        a {
+                            background-image: url(/assets/images/main/img_combine_design.png);
+                            background-size: 98px auto;
+                            background-position: 50% 6px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            height: 280px;
+            ol {
+                li {
+                    height: 280px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    a {
+                        padding-top: 202px;
+                    }
+                    &.ring {
+                        padding-top: 202px;
+                        background-size: 104px auto;
+                        background-position: 50% 52px;
+                    }
+                    &.plus {
+                        background-position: 50% 98px;
+                    }
+                    &.equal {
+                        background-position: 50% 107px;
+                    }
+                    &.dia {
+                        a {
+                            background-size: 82px auto;
+                            background-position: 50% 75px;
+                            &:hover,
+                            &:focus {
+                                background-image: url(/assets/images/main/img_combine_dia_on.png);
+                                background-position: 50% 71px;
+                            }
+                        }
+                    }
+                    &.design {
+                        a {
+                            background-size: 102px auto;
+                            background-position: 50% 54px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn {
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        margin-left: -20px;
+        width: 41px;
+        height: 20px;
+        background-image: url(/assets/images/main/bg_combine_open.png);
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-color: transparent;
+        border: 0;
+        color: $kc;
+        line-height: 20px;
+        span {
+            top: -5px;
+        }
+        @media (min-width: $lg) {
+            display: none;
+        }
+    }
+    &.opened {
+        height: 280px;
+        .combine {
+            height: 150px;
+        }
+        @media (min-width: $sm) {
+            height: 350px;
+            .combine {
+                height: 190px;
+            }
+        }
+        @media (min-width: $lg) {
+            height: 280px;
+            .combine {
+                height: 280px;
+            }
+        }
     }
 }
 
@@ -137,6 +339,7 @@
                     .ko {
                         display: none;
                         color: $red;
+                        font-weight: 600;
                     }
                 }
                 @for $i from 1 through 10 {

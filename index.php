@@ -14,31 +14,28 @@
                             나만의 다이아몬드 제품을 만들 수 있습니다.
                         </p>
                     </header>
-                    <ol class="combine">
-                        <li class="col-xs-3 col-lg-2 dia">
-                            <a href="#">
-                                <p>다이아몬드 <br class="visible-xs">선택하기</p>
-                            </a>
-                        </li>
-                        <li class="col-xs-1 col-lg-1 plus" role="presentation">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                        </li>
-                        <li class="col-xs-4 col-lg-2 design">
-                            <a href="#">
-                                <p>디자인 <br class="visible-xs">선택하기</p>
-                            </a>
-                        </li>
-                        <li class="col-xs-1 col-lg-1 equal" role="presentation">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                        </li>
-                        <li class="col-xs-3 col-lg-2 ring">
-                            <p>나만의 반지 <br class="visible-xs">완성</p>
-                        </li>
-                    </ol>
+                    <div class="combine col-xs-12 col-lg-8">
+                        <ol>
+                            <li class="dia">
+                                <a href="#">
+                                    <p>다이아몬드<br class="visible-xs"> 선택하기</p>
+                                </a>
+                            </li>
+                            <li class="plus" role="presentation"></li>
+                            <li class="design">
+                                <a href="#">
+                                    <p>디자인<br class="visible-xs"> 선택하기</p>
+                                </a>
+                            </li>
+                            <li class="equal" role="presentation"></li>
+                            <li class="ring">
+                                <p>나만의 반지<br class="visible-xs"> 완성</p>
+                            </li>
+                        </ol>
+                    </div>
                 </div>
             </div>
+            <button class="btn btn-combine" type="button"><span class="glyphicon glyphicon-menu-down"></span></button>
         </section>
         <div class="visual"></div>
         <div id="find-for">
@@ -362,61 +359,6 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
     <script src="/assets/js/jquery.bxslider.min.js"></script>
-    <script>
-        (function($) {
-            // 팬시 다이아
-            $(document).on('click', '#fancy-dia .dia-list > li > a', function(e) {
-                if ( ! $(this).parent().hasClass('active')) {
-                    $(this).parent().siblings('.active').removeClass('active');
-                    $(this).parent().addClass('active');
-                    $('#fancy-dia .preview .ring img').attr('src', $(this).attr('data-image'));
-                }
-                e.preventDefault();
-            });
-
-            // 원데이 딜리버리
-            var onedayDefaultOptions = {
-                pager: false,
-                prevText: '<img src="/assets/images/main/bt_1day_prev.png" alt="이전">',
-                nextText: '<img src="/assets/images/main/bt_1day_next.png" alt="다음">'
-            };
-            var onedaySlider = $('#day-delivery .delivery-list > ul').bxSlider(onedayDefaultOptions);
-
-            // 이벤트 배너
-            var eventsSlider = $('#events ul').bxSlider({
-                controls: false,
-                auto: true
-            });
-
-            // 브라우저 리사이징 시
-            $(window).on('load resize', function() {
-                onedaySlider.reloadSlider(onedayDefaultOptions);
-                if ( $(this).width() >= 768 ) {
-                    onedaySlider.reloadSlider($.extend({
-                        minSlides: 2,
-                        maxSlides: 2,
-                        moveSlides: 2,
-                        slideWidth: 290},
-                    onedayDefaultOptions));
-                }
-                if ( $(this).width() >= 992 ) {
-                    onedaySlider.reloadSlider($.extend({
-                        minSlides: 2,
-                        maxSlides: 2,
-                        moveSlides: 2,
-                        slideWidth: 400},
-                    onedayDefaultOptions));
-                }
-                if ( $(this).width() >= 1230 ) {
-                    onedaySlider.reloadSlider($.extend({
-                        minSlides: 4,
-                        maxSlides: 4,
-                        moveSlides: 4,
-                        slideWidth: 270},
-                    onedayDefaultOptions));
-                }
-            });
-        })(jQuery);
-    </script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

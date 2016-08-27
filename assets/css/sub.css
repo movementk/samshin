@@ -1,0 +1,188 @@
+.lato {
+  font-family: 'Lato', sans-serif; }
+
+.jjmj, .make-steps header h2 {
+  font-family: 'Jeju Myeongjo', serif; }
+
+.noto {
+  font-family: 'Noto Sans KR', sans-serif; }
+
+.font-12 {
+  font-size: 12px;
+  line-height: 18px; }
+
+.font-13 {
+  font-size: 13px;
+  line-height: 20px; }
+
+.font-14 {
+  font-size: 14px;
+  line-height: 22px; }
+
+.make-steps {
+  position: relative;
+  height: 120px;
+  background-color: #f7f7f7; }
+  @media (min-width: 768px) {
+    .make-steps {
+      height: 230px; } }
+  @media (min-width: 1230px) {
+    .make-steps {
+      height: 280px; } }
+  .make-steps header {
+    display: none; }
+    @media (min-width: 768px) {
+      .make-steps header {
+        display: none; } }
+    @media (min-width: 1230px) {
+      .make-steps header {
+        display: block;
+        height: 280px; }
+        .make-steps header h2 {
+          margin-top: 58px;
+          margin-bottom: 25px;
+          font-size: 45px;
+          font-weight: 500;
+          letter-spacing: -2px; }
+        .make-steps header p {
+          font-size: 14px; } }
+  .make-steps .steps {
+    overflow: hidden;
+    position: relative;
+    height: 120px;
+    text-align: center; }
+    .make-steps .steps ol {
+      overflow: hidden; }
+      .make-steps .steps ol li {
+        position: relative;
+        float: left;
+        padding-top: 27px;
+        width: 25%;
+        height: 120px;
+        opacity: .35;
+        font-weight: 400; }
+        .make-steps .steps ol li span {
+          display: block;
+          margin: 0 auto 5px;
+          width: 19px;
+          height: 19px;
+          line-height: 19px;
+          font-size: 9px;
+          border-radius: 50%;
+          background-color: #666;
+          color: #fff; }
+        .make-steps .steps ol li a {
+          display: none; }
+        .make-steps .steps ol li.arrow {
+          width: 12.5%;
+          background-image: url(/assets/images/sub/ico_make_steps_arrow.png);
+          background-size: 16px auto;
+          background-position: 50% 43px;
+          background-repeat: no-repeat;
+          opacity: 1; }
+        .make-steps .steps ol li.active {
+          opacity: 1;
+          color: #080d68; }
+          .make-steps .steps ol li.active span {
+            background-color: #080d68; }
+          .make-steps .steps ol li.active p {
+            text-decoration: underline; }
+    @media (min-width: 768px) {
+      .make-steps .steps {
+        height: 230px; }
+        .make-steps .steps ol li {
+          padding-top: 160px;
+          height: 230px;
+          font-size: 14px; }
+          .make-steps .steps ol li span {
+            display: inline-block;
+            margin-right: 2px;
+            margin-bottom: 0;
+            width: 21px;
+            height: 21px;
+            line-height: 21px;
+            vertical-align: top; }
+          .make-steps .steps ol li p {
+            display: inline-block;
+            line-height: 21px; }
+          .make-steps .steps ol li a {
+            display: block;
+            margin-top: 5px;
+            font-size: 12px; }
+          .make-steps .steps ol li.arrow {
+            background-size: 30px auto;
+            background-position: 50% 60px; }
+          .make-steps .steps ol li.dia {
+            background-image: url(/assets/images/sub/img_make_step_dia.png);
+            background-repeat: no-repeat;
+            background-size: 108px auto;
+            background-position: 50% 36px; }
+          .make-steps .steps ol li.design {
+            background-image: url(/assets/images/sub/img_make_step_design.png);
+            background-repeat: no-repeat;
+            background-size: 96px auto;
+            background-position: 50% 33px; }
+          .make-steps .steps ol li.ring {
+            background-image: url(/assets/images/sub/img_make_step_ring.png);
+            background-repeat: no-repeat;
+            background-size: 97px auto;
+            background-position: 50% 31px; }
+          .make-steps .steps ol li.active a {
+            display: none; } }
+    @media (min-width: 1230px) {
+      .make-steps .steps {
+        height: 280px; }
+        .make-steps .steps ol li {
+          padding-top: 200px;
+          width: 22%;
+          height: 280px;
+          font-size: 16px;
+          font-weight: 400; }
+          .make-steps .steps ol li.arrow {
+            width: 17%;
+            background-size: 40px auto;
+            background-position: 50% 80px; }
+          .make-steps .steps ol li.dia {
+            background-size: 119px auto;
+            background-position: 50% 68px; }
+          .make-steps .steps ol li.design {
+            background-size: 102px auto;
+            background-position: 50% 60px; }
+          .make-steps .steps ol li.ring {
+            background-size: 103px auto;
+            background-position: 50% 57px; } }
+  .make-steps .btn {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -20px;
+    width: 41px;
+    height: 20px;
+    background-image: url(/assets/images/main/bg_combine_open.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: transparent;
+    border: 0;
+    color: #080d68;
+    line-height: 20px; }
+    .make-steps .btn span {
+      top: -5px; }
+    @media (min-width: 1230px) {
+      .make-steps .btn {
+        display: none; } }
+  .make-steps.opened {
+    height: 280px; }
+    .make-steps.opened .combine {
+      height: 150px; }
+    @media (min-width: 768px) {
+      .make-steps.opened {
+        height: 350px; }
+        .make-steps.opened .combine {
+          height: 190px; } }
+    @media (min-width: 1230px) {
+      .make-steps.opened {
+        height: 280px; }
+        .make-steps.opened .combine {
+          height: 280px; } }
+
+/*# sourceMappingURL=sub.css.map */

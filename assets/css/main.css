@@ -26,11 +26,14 @@
 #make-yours {
   position: relative;
   height: 130px;
-  height: 280px;
-  background-color: #eee; }
+  background-color: #fff;
+  transition: height .3s; }
   @media (min-width: 768px) {
     #make-yours {
-      height: 350px; } }
+      height: 160px; } }
+  @media (min-width: 1230px) {
+    #make-yours {
+      height: 280px; } }
   #make-yours header {
     height: 130px;
     text-align: center; }
@@ -42,7 +45,152 @@
       letter-spacing: -2px; }
     @media (min-width: 768px) {
       #make-yours header {
-        height: 150px; } }
+        height: 160px; }
+        #make-yours header h2 {
+          margin-top: 40px;
+          font-size: 35px; } }
+    @media (min-width: 1230px) {
+      #make-yours header {
+        text-align: left; }
+        #make-yours header h2 {
+          margin-top: 58px;
+          margin-bottom: 25px;
+          font-size: 45px; }
+        #make-yours header p {
+          font-size: 14px; } }
+  #make-yours .combine {
+    overflow: hidden;
+    position: relative;
+    height: 0;
+    text-align: center;
+    transition: height .3s; }
+    #make-yours .combine ol {
+      overflow: hidden; }
+      #make-yours .combine ol li {
+        position: relative;
+        float: left;
+        width: 20%;
+        height: 150px; }
+        #make-yours .combine ol li a {
+          display: block;
+          padding-top: 90px;
+          width: 100%;
+          height: 100%; }
+        #make-yours .combine ol li.plus, #make-yours .combine ol li.equal {
+          background-repeat: no-repeat; }
+        #make-yours .combine ol li.plus {
+          background-image: url(/assets/images/main/ico_combine_plus_xs.png);
+          background-position: 50% 38px; }
+        #make-yours .combine ol li.equal {
+          background-image: url(/assets/images/main/ico_combine_equal_xs.png);
+          background-position: 50% 43px; }
+        #make-yours .combine ol li.ring {
+          padding-top: 90px;
+          background-image: url(/assets/images/main/img_combine_ring.png);
+          background-repeat: no-repeat;
+          background-size: 57px auto;
+          background-position: 50% 13px; }
+        #make-yours .combine ol li.dia a {
+          background-image: url(/assets/images/main/img_combine_dia.png);
+          background-repeat: no-repeat;
+          background-size: 50px auto;
+          background-position: 50% 25px; }
+          #make-yours .combine ol li.dia a:hover, #make-yours .combine ol li.dia a:focus {
+            background-image: url(/assets/images/main/img_combine_dia_on.png);
+            background-size: 55px auto;
+            background-position: 50% 21px; }
+        #make-yours .combine ol li.design a {
+          background-image: url(/assets/images/main/img_combine_design.png);
+          background-repeat: no-repeat;
+          background-size: 57px auto;
+          background-position: 50% 13px; }
+    @media (min-width: 768px) {
+      #make-yours .combine ol li {
+        height: 190px;
+        font-size: 14px; }
+        #make-yours .combine ol li a {
+          padding-top: 135px; }
+        #make-yours .combine ol li.plus {
+          background-image: url(/assets/images/main/ico_combine_plus.png);
+          background-position: 50% 48px; }
+        #make-yours .combine ol li.equal {
+          background-image: url(/assets/images/main/ico_combine_equal.png);
+          background-position: 50% 55px; }
+        #make-yours .combine ol li.ring {
+          padding-top: 135px;
+          background-size: 98px auto;
+          background-position: 50% 4px; }
+        #make-yours .combine ol li.dia a {
+          background-image: url(/assets/images/main/img_combine_dia.png);
+          background-size: 82px auto;
+          background-position: 50% 25px; }
+          #make-yours .combine ol li.dia a:hover, #make-yours .combine ol li.dia a:focus {
+            background-image: url(/assets/images/main/img_combine_dia_on.png);
+            background-size: 90px auto;
+            background-position: 50% 21px; }
+        #make-yours .combine ol li.design a {
+          background-image: url(/assets/images/main/img_combine_design.png);
+          background-size: 98px auto;
+          background-position: 50% 6px; } }
+    @media (min-width: 1230px) {
+      #make-yours .combine {
+        height: 280px; }
+        #make-yours .combine ol li {
+          height: 280px;
+          font-size: 16px;
+          font-weight: 400; }
+          #make-yours .combine ol li a {
+            padding-top: 202px; }
+          #make-yours .combine ol li.ring {
+            padding-top: 202px;
+            background-size: 104px auto;
+            background-position: 50% 52px; }
+          #make-yours .combine ol li.plus {
+            background-position: 50% 98px; }
+          #make-yours .combine ol li.equal {
+            background-position: 50% 107px; }
+          #make-yours .combine ol li.dia a {
+            background-size: 82px auto;
+            background-position: 50% 75px; }
+            #make-yours .combine ol li.dia a:hover, #make-yours .combine ol li.dia a:focus {
+              background-image: url(/assets/images/main/img_combine_dia_on.png);
+              background-position: 50% 71px; }
+          #make-yours .combine ol li.design a {
+            background-size: 102px auto;
+            background-position: 50% 54px; } }
+  #make-yours .btn {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -20px;
+    width: 41px;
+    height: 20px;
+    background-image: url(/assets/images/main/bg_combine_open.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: transparent;
+    border: 0;
+    color: #080d68;
+    line-height: 20px; }
+    #make-yours .btn span {
+      top: -5px; }
+    @media (min-width: 1230px) {
+      #make-yours .btn {
+        display: none; } }
+  #make-yours.opened {
+    height: 280px; }
+    #make-yours.opened .combine {
+      height: 150px; }
+    @media (min-width: 768px) {
+      #make-yours.opened {
+        height: 350px; }
+        #make-yours.opened .combine {
+          height: 190px; } }
+    @media (min-width: 1230px) {
+      #make-yours.opened {
+        height: 280px; }
+        #make-yours.opened .combine {
+          height: 280px; } }
 
 #content > .visual {
   height: 255px;
@@ -125,7 +273,8 @@
           text-decoration: none; }
           #find-for .dia ul li a .ko {
             display: none;
-            color: #eb2127; }
+            color: #eb2127;
+            font-weight: 600; }
         #find-for .dia ul li:nth-of-type(1) a {
           background-image: url(/assets/images/main/img_dia_real_1.jpg); }
           #find-for .dia ul li:nth-of-type(1) a:hover, #find-for .dia ul li:nth-of-type(1) a:focus {
