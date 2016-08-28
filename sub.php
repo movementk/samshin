@@ -36,6 +36,17 @@
                 </div>
             </div>
         </section>
+        <div>
+            <div class="path-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <li><a href="#">다이아몬드 검색</a></li>
+                        <li class="active">다이아몬드</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
         <div style="height: 1000px;"></div>
     </main>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>

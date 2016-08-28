@@ -21,6 +21,7 @@
 
 .make-steps {
   position: relative;
+  margin-bottom: 20px;
   height: 120px;
   background-color: #f7f7f7; }
   @media (min-width: 768px) {
@@ -184,5 +185,27 @@
         height: 280px; }
         .make-steps.opened .combine {
           height: 280px; } }
+
+.path-nav {
+  margin-bottom: 35px; }
+  .path-nav .breadcrumb {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: #fff;
+    font-size: 11px;
+    color: #aaa; }
+    .path-nav .breadcrumb a, .path-nav .breadcrumb > .active {
+      color: #aaa; }
+    .path-nav .breadcrumb li + li:before {
+      content: '\276F'; }
+    @media (min-width: 1230px) {
+      .path-nav .breadcrumb {
+        font-size: 12px; } }
+  @media (min-width: 768px) {
+    .path-nav {
+      margin-bottom: 40px; } }
+  @media (min-width: 1230px) {
+    .path-nav {
+      margin-bottom: 45px; } }
 
 /*# sourceMappingURL=sub.css.map */

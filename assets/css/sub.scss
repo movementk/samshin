@@ -1,7 +1,9 @@
 @import 'common';
 
+// 나만의 반지 단계
 .make-steps {
     position: relative;
+    margin-bottom: 20px;
     height: 120px;
     background-color: #f7f7f7;
     @media (min-width: $sm) {
@@ -207,3 +209,32 @@
         }
     }
 }
+
+// 페이지 경로
+.path-nav {
+    margin-bottom: 35px;
+    .breadcrumb {
+        padding: 0;
+        margin-bottom: 0;
+        background-color: #fff;
+        font-size: 11px;
+        color: #aaa;
+        a, > .active {
+            color: #aaa;
+        }
+        li+li:before {
+            content: '\276F';
+        }
+        @media (min-width: $lg) {
+            font-size: 12px;
+        }
+    }
+    @media (min-width: $sm) {
+        margin-bottom: 40px;
+    }
+    @media (min-width: $lg) {
+        margin-bottom: 45px;
+    }
+}
+
+// 다이아몬드, 주얼리 검색 영역

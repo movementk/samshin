@@ -49,6 +49,13 @@ ol, ul {
 dl, p, address {
   margin-bottom: 0; }
 
+legend {
+  margin-bottom: 0;
+  border-bottom: 0; }
+
+label {
+  font-weight: normal; }
+
 .container,
 .container-fluid {
   padding-left: 10px;
@@ -308,7 +315,7 @@ dl, p, address {
           padding-right: 15px; } }
 
 .btn {
-  padding: 0;
+  padding: 0 10px;
   height: 35px;
   border: 1px solid #ccc;
   font-size: 12px;
@@ -317,11 +324,20 @@ dl, p, address {
   text-align: center;
   transition: all .3s;
   box-shadow: none; }
+  .btn.btn-round {
+    border-radius: 5px; }
   .btn:hover, .btn:focus {
     background-color: #080d68;
     border-color: #080d68;
     color: #fff;
     box-shadow: none; }
+  .btn:active, .btn.active {
+    box-shadow: none; }
+  @media (min-width: 768px) {
+    .btn {
+      height: 40px;
+      font-size: 13px;
+      line-height: 38px; } }
 
 .form-control:focus {
   box-shadow: none; }
