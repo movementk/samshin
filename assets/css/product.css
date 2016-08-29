@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
-.lato, .filter legend {
+.lato, .filter legend, .filter .shape-list ul li .btn .en {
   font-family: 'Lato', sans-serif; }
 
 .jjmj {
@@ -20,18 +20,41 @@
   font-size: 14px;
   line-height: 22px; }
 
-.crimson, .filter .shape-list ul li:nth-of-type(11) a {
+.crimson, .filter .shape-list ul li:last-child .btn {
   font-family: 'Crimson Text', serif; }
 
 .dia-type {
   margin-bottom: 35px; }
+  .dia-type ul li.active .btn {
+    background-color: #080d68;
+    border-color: #080d68;
+    color: #fff; }
 
 .filter {
   margin-bottom: 50px; }
+  .filter > form {
+    overflow: hidden;
+    height: 370px;
+    transition: height .5s ease-out; }
+  .filter.open > form {
+    height: 1200px; }
+  @media (min-width: 768px) {
+    .filter {
+      margin-bottom: 60px; }
+      .filter > form {
+        height: 500px; }
+      .filter.open > form {
+        height: 1215px; } }
+  @media (min-width: 1230px) {
+    .filter {
+      margin-bottom: 75px; }
+      .filter > form {
+        height: 280px;
+        transition: height .3s ease-out; }
+      .filter.open > form {
+        height: 740px; } }
   .filter .form-control[type="text"] {
-    height: 30px;
     border-radius: 0;
-    font-size: 11px;
     text-align: center;
     font-weight: 400;
     box-shadow: none;
@@ -102,13 +125,19 @@
     .filter .slider + .values {
       margin-top: 15px !important; }
       .filter .slider + .values .form-control {
+        font-size: 11px;
         width: 100px;
+        height: 30px;
         background-color: #fff; }
         .filter .slider + .values .form-control.maxium {
           float: right; }
+    @media (min-width: 768px) {
+      .filter .slider + .values .form-control {
+        font-size: 12px; } }
   .filter fieldset {
     margin-bottom: 20px; }
     .filter fieldset.polish legend, .filter fieldset.symmetry legend, .filter fieldset.fluorescence legend, .filter fieldset.imgdata legend {
+      font-weight: 400;
       color: #222; }
   .filter legend {
     margin-bottom: 5px;
@@ -121,6 +150,10 @@
       color: #666;
       font-style: normal;
       font-weight: 400; }
+    @media (min-width: 768px) {
+      .filter legend {
+        margin-bottom: 15px;
+        font-size: 16px; } }
   .filter .shape-list ul {
     margin-right: -6px;
     padding-top: 1px;
@@ -138,7 +171,7 @@
         background-position: 50% 50%;
         background-repeat: no-repeat; }
         .filter .shape-list ul li .btn.active {
-          background-color: transparent;
+          background-color: #fff;
           z-index: 1;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
         .filter .shape-list ul li .btn .en, .filter .shape-list ul li .btn .ko {
@@ -183,13 +216,38 @@
         background-image: url(/assets/images/product/img_shape_real_10.jpg); }
         .filter .shape-list ul li:nth-of-type(10) .btn.active {
           background-image: url(/assets/images/product/img_shape_line_10.gif); }
-      .filter .shape-list ul li:nth-of-type(11) a {
+      .filter .shape-list ul li:last-child .btn {
         padding-top: 12px;
         line-height: 12px;
         font-size: 9px;
         background-color: #f7f7f7;
         font-weight: bold;
         color: #080d68; }
+    @media (min-width: 768px) {
+      .filter .shape-list ul li .btn {
+        padding-top: 60px;
+        height: 100px;
+        background-size: auto 50px;
+        background-position: 50% 30%; }
+        .filter .shape-list ul li .btn .en {
+          display: block;
+          font-size: 12px; }
+        .filter .shape-list ul li .btn.active .en {
+          display: none; }
+        .filter .shape-list ul li .btn.active .ko {
+          display: block;
+          color: #eb2127;
+          font-size: 12px;
+          font-weight: 500; }
+      .filter .shape-list ul li:last-child .btn {
+        padding-top: 29px;
+        font-size: 13px;
+        line-height: 20px; } }
+    @media (min-width: 1230px) {
+      .filter .shape-list ul {
+        margin-right: -11px; }
+        .filter .shape-list ul li .btn {
+          width: 9.09090909091%; } }
   .filter .btn-list {
     overflow: hidden;
     margin-left: -3px;
@@ -207,16 +265,32 @@
         margin-bottom: 0; }
   .filter .color .btn-list li {
     width: 16.66666667%; }
+  @media (min-width: 768px) {
+    .filter .color .btn-list li {
+      width: 9.0909%; } }
   .filter .clarity .btn-list li {
     width: 20%; }
+  @media (min-width: 768px) {
+    .filter .clarity .btn-list li {
+      width: 10%; } }
   .filter .cut .btn-list li, .filter .lap .btn-list li {
     width: 33.33%; }
+  @media (min-width: 768px) {
+    .filter .cut .btn-list li, .filter .lap .btn-list li {
+      width: 108px; } }
   .filter .polish .check-list li,
   .filter .symmetry .check-list li,
   .filter .fluorescence .check-list li,
   .filter .imgdata .check-list li {
     width: 33.33%; }
+  @media (min-width: 768px) {
+    .filter .polish .check-list li,
+    .filter .symmetry .check-list li,
+    .filter .fluorescence .check-list li,
+    .filter .imgdata .check-list li {
+      width: 20%; } }
   .filter .btn-area {
+    height: 30px;
     border-top: 1px solid #c2c2c2;
     text-align: center; }
     .filter .btn-area .btn {
@@ -227,9 +301,91 @@
       color: #fff;
       line-height: 28px;
       border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px; }
+      border-bottom-right-radius: 5px;
+      font-size: 12px; }
       .filter .btn-area .btn .glyphicon {
         margin-left: 3px;
         font-size: 10px; }
+
+.result header {
+  margin-bottom: 15px; }
+  .result header h5 {
+    font-size: 12px;
+    color: #666;
+    line-height: 30px;
+    font-weight: 400; }
+    .result header h5 b {
+      color: #eb2127; }
+  .result header select.form-control {
+    padding-top: 0;
+    padding-bottom: 0; }
+  @media (min-width: 768px) {
+    .result header {
+      margin-bottom: 20px; }
+      .result header h5 {
+        font-size: 14px; } }
+
+.dia-list {
+  margin-bottom: 40px; }
+  .dia-list.table-responsive {
+    border: 0; }
+  .dia-list tbody tr td {
+    vertical-align: middle; }
+    .dia-list tbody tr td:last-child {
+      padding-top: 9px !important;
+      padding-bottom: 9px !important; }
+  .dia-list .dropdown {
+    margin: 0 auto;
+    width: 130px;
+    height: 30px; }
+    .dia-list .dropdown > .btn {
+      width: 130px;
+      height: 30px;
+      font-size: 12px;
+      line-height: 28px;
+      background-color: #fff; }
+      .dia-list .dropdown > .btn:hover, .dia-list .dropdown > .btn:focus {
+        background-color: #080d68; }
+    .dia-list .dropdown > .dropdown-menu {
+      left: auto;
+      right: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 10px;
+      width: 185px;
+      border-radius: 0; }
+      .dia-list .dropdown > .dropdown-menu li a {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 12px;
+        color: #666; }
+        .dia-list .dropdown > .dropdown-menu li a:hover, .dia-list .dropdown > .dropdown-menu li a:focus {
+          background-color: transparent;
+          text-decoration: underline; }
+      .dia-list .dropdown > .dropdown-menu li:nth-of-type(1) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        background-color: #f7f7f7;
+        background-image: url(/assets/images/product/ico_dia_circle.png);
+        background-repeat: no-repeat;
+        background-position: 15px 50%; }
+        .dia-list .dropdown > .dropdown-menu li:nth-of-type(1) a {
+          color: #080d68;
+          font-size: 14px;
+          font-weight: 400; }
+      .dia-list .dropdown > .dropdown-menu li:nth-of-type(2) {
+        padding-top: 10px; }
+    .dia-list .dropdown.open > .btn {
+      background-color: #080d68;
+      border-color: #080d68;
+      color: #fff; }
+  @media (min-width: 768px) {
+    .dia-list {
+      margin-bottom: 60px; } }
+  @media (min-width: 1230px) {
+    .dia-list {
+      margin-bottom: 100px; } }
 
 /*# sourceMappingURL=product.css.map */

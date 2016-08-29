@@ -208,4 +208,53 @@
     .path-nav {
       margin-bottom: 45px; } }
 
+input[type="email"].form-control,
+input[type="passowrd"].form-control,
+input[type="text"].form-control,
+select.form-control {
+  height: 30px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 11px;
+  color: #666; }
+  input[type="email"].form-control:focus,
+  input[type="passowrd"].form-control:focus,
+  input[type="text"].form-control:focus,
+  select.form-control:focus {
+    border-color: #080d68; }
+@media (min-width: 768px) {
+  input[type="email"].form-control,
+  input[type="passowrd"].form-control,
+  input[type="text"].form-control,
+  select.form-control {
+    font-size: 12px; } }
+
+.table th, .table td {
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+  font-size: 12px;
+  text-align: center; }
+.table th {
+  font-size: 13px;
+  font-weight: normal;
+  background-color: #666;
+  color: #fff;
+  border-bottom: 0 !important;
+  vertical-align: middle !important; }
+  .table th small {
+    font-size: 10px; }
+.table tbody tr:first-child td {
+  border-top: 0; }
+.table tbody tr:last-child td {
+  border-bottom: 1px solid #ddd; }
+.table.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fff; }
+.table.table-striped tbody tr:nth-of-type(even) {
+  background-color: #f7f7f7; }
+@media (min-width: 768px) {
+  .table td {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    text-align: center; } }
+
 /*# sourceMappingURL=sub.css.map */

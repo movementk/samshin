@@ -120,6 +120,68 @@
                             </ul>
                         </div>
                     </fieldset>
+                    <fieldset class="col-xs-12">
+                        <legend>SHAPE <i>형태</i> <button class="btn-link" type="button" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><span class="glyphicon glyphicon-question-sign"></span></button></legend>
+                        <div class="shape-list">
+                            <ul>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">ROUND</span>
+                                    <span class="ko">라운드</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">PRINCESS</span>
+                                    <span class="ko">프린세스</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">CUSHION</span>
+                                    <span class="ko">쿠션</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">RADIENT</span>
+                                    <span class="ko">라디언트</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">EMERALD</span>
+                                    <span class="ko">에메랄드</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">ASSCHER</span>
+                                    <span class="ko">어셔</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">OVAL</span>
+                                    <span class="ko">오발</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">MARQUISE</span>
+                                    <span class="ko">마퀴즈</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">PEAR</span>
+                                    <span class="ko">피어</span>
+                                </label></li>
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    <span class="en">HEART</span>
+                                    <span class="ko">하트</span>
+                                </label></li>
+                                <!-- li><a class="btn" href="#">OTHER<br>SHAPE</a></li -->
+                                <li><label class="btn btn-block">
+                                    <input type="checkbox" autocomplete="off">
+                                    OTHER<br>SHAPE
+                                    </label></li>
+                            </ul>
+                        </div>
+                    </fieldset>
                     <fieldset class="price col-xs-12 col-lg-6">
                         <legend>PRICE <i>가격</i></legend>
                         <div class="slider"><div></div></div>
