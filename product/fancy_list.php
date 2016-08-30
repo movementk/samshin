@@ -21,7 +21,7 @@
                                 <a href="#">다이아몬드 선택 바로가기</a>
                             </li>
                             <li class="arrow" role="presentation"></li>
-                            <li class="design">
+                            <li class="jewelry">
                                 <span>02</span>
                                 <p>디자인<br class="visible-xs"> 선택하기</p>
                                 <a href="#">디자인 선택 바로가기</a>
@@ -56,129 +56,117 @@
             </div>
 
             <!-- 검색 영역 -->
-            <div class="filter">
+            <div class="fancy filter">
                 <form class="row" action="#">
-                    <fieldset class="col-xs-12">
-                        <legend>SHAPE <i>형태</i> <button class="btn-link" type="button" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><span class="glyphicon glyphicon-question-sign"></span></button></legend>
-                        <div class="shape-list">
+                    <fieldset class="fancy-color col-xs-12">
+                        <legend>COLOR <i>컬러</i></legend>
+                        <div class="fancy-color-list">
                             <ul>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">ROUND</span>
-                                    <span class="ko">라운드</span>
+                                    <input type="checkbox">
+                                    <span>YELLOW</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">PRINCESS</span>
-                                    <span class="ko">프린세스</span>
+                                    <input type="checkbox">
+                                    <span>ORANGE</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">CUSHION</span>
-                                    <span class="ko">쿠션</span>
+                                    <input type="checkbox">
+                                    <span>BROWN</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">RADIENT</span>
-                                    <span class="ko">라디언트</span>
+                                    <input type="checkbox">
+                                    <span>GREEN</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">EMERALD</span>
-                                    <span class="ko">에메랄드</span>
+                                    <input type="checkbox">
+                                    <span>PINK</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">ASSCHER</span>
-                                    <span class="ko">어셔</span>
+                                    <input type="checkbox">
+                                    <span>BLUE</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">OVAL</span>
-                                    <span class="ko">오발</span>
+                                    <input type="checkbox">
+                                    <span>PURPLE</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">MARQUISE</span>
-                                    <span class="ko">마퀴즈</span>
+                                    <input type="checkbox">
+                                    <span>RED</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">PEAR</span>
-                                    <span class="ko">피어</span>
+                                    <input type="checkbox">
+                                    <span>GRAY</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    <span class="en">HEART</span>
-                                    <span class="ko">하트</span>
+                                    <input type="checkbox">
+                                    <span>BLACK</span>
                                 </label></li>
-                                <!-- li><a class="btn" href="#">OTHER<br>SHAPE</a></li -->
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
-                                    OTHER<br>SHAPE
-                                    </label></li>
+                                    <input type="checkbox">
+                                    <span>VIOLET</span>
+                                </label></li>
                             </ul>
                         </div>
                     </fieldset>
-                    <fieldset class="col-xs-12">
-                        <legend>SHAPE <i>형태</i> <button class="btn-link" type="button" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"><span class="glyphicon glyphicon-question-sign"></span></button></legend>
+                    <fieldset class="shape col-xs-12">
+                        <legend>SHAPE <i>형태</i></legend>
                         <div class="shape-list">
                             <ul>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">ROUND</span>
                                     <span class="ko">라운드</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">PRINCESS</span>
                                     <span class="ko">프린세스</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">CUSHION</span>
                                     <span class="ko">쿠션</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">RADIENT</span>
                                     <span class="ko">라디언트</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">EMERALD</span>
                                     <span class="ko">에메랄드</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">ASSCHER</span>
                                     <span class="ko">어셔</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">OVAL</span>
                                     <span class="ko">오발</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">MARQUISE</span>
                                     <span class="ko">마퀴즈</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">PEAR</span>
                                     <span class="ko">피어</span>
                                 </label></li>
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     <span class="en">HEART</span>
                                     <span class="ko">하트</span>
                                 </label></li>
-                                <!-- li><a class="btn" href="#">OTHER<br>SHAPE</a></li -->
                                 <li><label class="btn btn-block">
-                                    <input type="checkbox" autocomplete="off">
+                                    <input type="checkbox">
                                     OTHER<br>SHAPE
-                                    </label></li>
+                                </label></li>
                             </ul>
                         </div>
                     </fieldset>
@@ -198,190 +186,40 @@
                             <div class="col-xs-6"><input class="form-control maxium" type="text" placeholder="99" readonly></div>
                         </div>
                     </fieldset>
-                    <fieldset class="color col-xs-12">
-                        <legend>COLOR <i>색상</i></legend>
+                    <fieldset class="fancy-intensity col-xs-12 col-lg-8">
+                        <legend>FANCY INTENSITY <i>팬시 컬러 등급</i></legend>
                         <ul class="btn-list" data-toggle="buttons">
                             <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> D
+                                <input type="checkbox"> FAINT
                             </label></li>
                             <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> E
+                                <input type="checkbox"> FAINT LIGHT
                             </label></li>
                             <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> F
+                                <input type="checkbox"> FANCY
                             </label></li>
                             <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> G
+                                <input type="checkbox"> FANCY INTENSE
                             </label></li>
                             <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> H
+                                <input type="checkbox"> FANCY DEEP
                             </label></li>
                             <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> I
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> J
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> K
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> L
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> M
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> N~Z
+                                <input type="checkbox"> FANCY VIVID
                             </label></li>
                         </ul>
                     </fieldset>
-                    <fieldset class="clarity col-xs-12">
-                        <legend>CLARITY <i>선명도</i></legend>
-                        <ul class="btn-list" data-toggle="buttons">
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> IF
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> VVS1
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> VVS2
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> VS1
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> VS2
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> SI1
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> SI2
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> SI3
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> I1
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> I2~I3
-                            </label></li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="cut col-xs-12 col-lg-6">
-                        <legend>CUT <i>컷팅</i></legend>
-                        <ul class="btn-list" data-toggle="buttons">
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> Exellent
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> Very Good
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> Good
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> Fair
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> Pool
-                            </label></li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="lap col-xs-12 col-lg-6">
-                        <legend>LAP <i>감정서</i></legend>
-                        <ul class="btn-list" data-toggle="buttons">
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> GIA
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> HRD
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> GEL
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> IGI
-                            </label></li>
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox" autocomplete="off"> AGS
-                            </label></li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="polish col-xs-12 col-lg-6">
-                        <legend>POLISH <i>연마</i></legend>
-                        <ul class="check-list">
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Exellent
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Very Good
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Good
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Fair
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Poor
-                            </label></li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="symmetry col-xs-12 col-lg-6">
-                        <legend>SYMMETRY <i>대칭</i></legend>
-                        <ul class="check-list">
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Exellent
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Very Good
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Good
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Fair
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Poor
-                            </label></li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="fluorescence col-xs-12 col-lg-6">
-                        <legend>FLUORESCENCE <i>형광성</i></legend>
-                        <ul class="check-list">
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> None
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Faint
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Mideum
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Strong
-                            </label></li>
-                            <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> Very Strong
-                            </label></li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="imgdata col-xs-12 col-lg-6">
+                    <fieldset class="imgdata col-xs-12 col-lg-4">
                         <legend>IMAGE DATA <i>이미지 정보</i></legend>
                         <ul class="check-list">
                             <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> 감정서
+                                <input type="checkbox"> 감정서
                             </label></li>
                             <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> 360 Video
+                                <input type="checkbox"> 360 Video
                             </label></li>
                             <li><label class="check">
-                                <input type="checkbox" autocomplete="off"> 다이아몬드 사진
+                                <input type="checkbox"> 다이아몬드 사진
                             </label></li>
                         </ul>
                     </fieldset>
@@ -529,6 +367,13 @@
 
             // 모양 선택
             $(document).on('click', '.filter .shape-list > ul > li > .btn', function(e) {
+                if( $(e.target).is("label") ) {
+                    $(this).toggleClass('active');
+                }
+            });
+
+            // 팬시컬러 선택
+            $(document).on('click', '.filter .fancy-color-list > ul > li > .btn', function(e) {
                 if( $(e.target).is("label") ) {
                     $(this).toggleClass('active');
                 }

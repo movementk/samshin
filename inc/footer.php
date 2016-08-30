@@ -71,7 +71,7 @@
                         <li class="reserve col-xs-4 col-sm-2 col-sm-offset-3 col-lg-4 col-lg-offset-0"><a class="btn btn-block" href="#">방문예약신청</a></li>
                         <li class="qna col-xs-4 col-sm-2 col-lg-4"><a class="btn btn-block" href="#">1:1문의</a></li>
                         <li class="delivery col-xs-4 col-sm-2 col-lg-4"><a class="btn btn-block" href="#">배송조회</a></li>
-                    </p>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@
                     </dl>
                     <dl class="address">
                         <dt>주소</dt>
-                        <dd><adress>06025 서울특별시 강남구 논현로 836 삼신빌딩<br class="visible-xs-inline"> 삼신다이아몬드 인터넷 사업부</adress></dd>
+                        <dd><address>06025 서울특별시 강남구 논현로 836 삼신빌딩<br class="visible-xs-inline"> 삼신다이아몬드 인터넷 사업부</address></dd>
                     </dl>
                     <dl class="license">
                         <dt>통신판매신고번호</dt>
@@ -119,7 +119,7 @@
                 <h2 class="visible-lg"><img src="/assets/images/logo_grey.png" alt="DiaOUTLET BY SAMSHIN"></h2>
                 <p class="copyright">
                     © 1988-2016 DIAOUTLET.  ALL RIGHTS RESERVED.<br>
-                    <span>SITE BY <a href="http://www.movementk.com" target="_blank">MOVEMENT K GROUP<span></a>.
+                    <span>SITE BY <a href="http://www.movementk.com" target="_blank">MOVEMENT K GROUP</a></span>.
                 </p>
             </div>
         </div>

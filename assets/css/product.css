@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
-.lato, .filter legend, .filter .shape-list ul li .btn .en {
+.lato, .filter legend, .filter .shape-list ul li .btn .en, .filter .fancy-color-list ul li .btn span, .filter .design-list ul li .btn span, .filter .metal-list ul li .btn span {
   font-family: 'Lato', sans-serif; }
 
 .jjmj {
@@ -34,25 +34,46 @@
   margin-bottom: 50px; }
   .filter > form {
     overflow: hidden;
-    height: 370px;
     transition: height .5s ease-out; }
-  .filter.open > form {
+  @media (min-width: 1230px) {
+    .filter > form {
+      transition: height .3s ease-out; } }
+  .filter.dia > form {
+    height: 365px; }
+  .filter.dia.open > form {
     height: 1200px; }
   @media (min-width: 768px) {
-    .filter {
+    .filter.dia {
       margin-bottom: 60px; }
-      .filter > form {
+      .filter.dia > form {
         height: 500px; }
-      .filter.open > form {
+      .filter.dia.open > form {
         height: 1215px; } }
   @media (min-width: 1230px) {
-    .filter {
+    .filter.dia {
       margin-bottom: 75px; }
-      .filter > form {
-        height: 280px;
-        transition: height .3s ease-out; }
-      .filter.open > form {
+      .filter.dia > form {
+        height: 280px; }
+      .filter.dia.open > form {
         height: 740px; } }
+  .filter.fancy > form {
+    height: 510px; }
+  .filter.fancy.open > form {
+    height: 700px; }
+  @media (min-width: 768px) {
+    .filter.fancy {
+      margin-bottom: 60px; }
+      .filter.fancy > form {
+        height: 750px; }
+      .filter.fancy.open > form {
+        height: 930px; } }
+  @media (min-width: 1230px) {
+    .filter.fancy {
+      margin-bottom: 75px; }
+      .filter.fancy > form {
+        height: 430px; }
+      .filter.fancy.open > form {
+        height: 535px; } }
   .filter .form-control[type="text"] {
     border-radius: 0;
     text-align: center;
@@ -64,8 +85,13 @@
   .filter .btn input[type="radio"],
   .filter .btn input[type="checkbox"] {
     position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    pointer-events: none; }
+    border: 0; }
   .filter .btn:hover, .filter .btn:focus {
     background-color: #fff;
     border-color: #ccc;
@@ -170,12 +196,12 @@
         background-size: auto 35px;
         background-position: 50% 50%;
         background-repeat: no-repeat; }
+        .filter .shape-list ul li .btn .en, .filter .shape-list ul li .btn .ko {
+          display: none; }
         .filter .shape-list ul li .btn.active {
           background-color: #fff;
           z-index: 1;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
-        .filter .shape-list ul li .btn .en, .filter .shape-list ul li .btn .ko {
-          display: none; }
       .filter .shape-list ul li:nth-of-type(1) .btn {
         background-image: url(/assets/images/product/img_shape_real_1.jpg); }
         .filter .shape-list ul li:nth-of-type(1) .btn.active {
@@ -289,6 +315,202 @@
     .filter .fluorescence .check-list li,
     .filter .imgdata .check-list li {
       width: 20%; } }
+  .filter .fancy-intensity .btn-list li {
+    width: 33.33%; }
+  @media (min-width: 768px) {
+    .filter .fancy-intensity .btn-list li {
+      width: 16.66666667%; } }
+  .filter .fancy-color-list ul {
+    margin-right: -6px;
+    padding-top: 1px;
+    padding-left: 1px; }
+    .filter .fancy-color-list ul li {
+      display: inline; }
+      .filter .fancy-color-list ul li .btn {
+        position: relative;
+        float: left;
+        margin-left: -1px;
+        margin-top: -1px;
+        width: 16.66666667%;
+        height: 50px;
+        background-size: auto 27px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat; }
+        .filter .fancy-color-list ul li .btn span {
+          display: none; }
+        .filter .fancy-color-list ul li .btn.active {
+          background-color: #fff;
+          z-index: 1;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+      .filter .fancy-color-list ul li:nth-of-type(1) .btn {
+        background-image: url(/assets/images/product/img_fancy_1.png); }
+      .filter .fancy-color-list ul li:nth-of-type(2) .btn {
+        background-image: url(/assets/images/product/img_fancy_2.png); }
+      .filter .fancy-color-list ul li:nth-of-type(3) .btn {
+        background-image: url(/assets/images/product/img_fancy_3.png); }
+      .filter .fancy-color-list ul li:nth-of-type(4) .btn {
+        background-image: url(/assets/images/product/img_fancy_4.png); }
+      .filter .fancy-color-list ul li:nth-of-type(5) .btn {
+        background-image: url(/assets/images/product/img_fancy_5.png); }
+      .filter .fancy-color-list ul li:nth-of-type(6) .btn {
+        background-image: url(/assets/images/product/img_fancy_6.png); }
+      .filter .fancy-color-list ul li:nth-of-type(7) .btn {
+        background-image: url(/assets/images/product/img_fancy_7.png); }
+      .filter .fancy-color-list ul li:nth-of-type(8) .btn {
+        background-image: url(/assets/images/product/img_fancy_8.png); }
+      .filter .fancy-color-list ul li:nth-of-type(9) .btn {
+        background-image: url(/assets/images/product/img_fancy_9.png); }
+      .filter .fancy-color-list ul li:nth-of-type(10) .btn {
+        background-image: url(/assets/images/product/img_fancy_10.png); }
+      .filter .fancy-color-list ul li:nth-of-type(11) .btn {
+        background-image: url(/assets/images/product/img_fancy_11.png); }
+    @media (min-width: 768px) {
+      .filter .fancy-color-list ul li .btn {
+        padding-top: 60px;
+        height: 100px;
+        background-size: auto 45px;
+        background-position: 50% 30%; }
+        .filter .fancy-color-list ul li .btn span {
+          display: block;
+          color: #666;
+          font-size: 12px;
+          font-weight: 500; }
+        .filter .fancy-color-list ul li .btn.active span {
+          color: #eb2127; } }
+    @media (min-width: 1230px) {
+      .filter .fancy-color-list ul {
+        margin-right: -11px; }
+        .filter .fancy-color-list ul li .btn {
+          width: 9.09090909091%; } }
+  .filter .design-list ul {
+    margin-right: -3px;
+    padding-top: 1px;
+    padding-left: 1px; }
+    .filter .design-list ul li {
+      display: inline; }
+      .filter .design-list ul li .btn {
+        position: relative;
+        float: left;
+        margin-left: -1px;
+        margin-top: -1px;
+        padding-top: 60px;
+        width: 33.33333334%;
+        height: 100px;
+        background-size: auto 55px;
+        background-position: 50% 10px;
+        background-repeat: no-repeat; }
+        .filter .design-list ul li .btn span {
+          font-size: 12px;
+          font-weight: 500;
+          color: #666; }
+        .filter .design-list ul li .btn.active {
+          background-color: #fff;
+          z-index: 1;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+          .filter .design-list ul li .btn.active span {
+            color: #eb2127; }
+      .filter .design-list ul li:nth-of-type(1) .btn {
+        background-image: url(/assets/images/product/img_design_1.jpg); }
+      .filter .design-list ul li:nth-of-type(2) .btn {
+        background-image: url(/assets/images/product/img_design_2.jpg); }
+      .filter .design-list ul li:nth-of-type(3) .btn {
+        background-image: url(/assets/images/product/img_design_3.jpg); }
+  .filter .metal-list ul {
+    margin-right: -3px;
+    padding-top: 1px;
+    padding-left: 1px; }
+    .filter .metal-list ul li {
+      display: inline; }
+      .filter .metal-list ul li .btn {
+        position: relative;
+        float: left;
+        margin-left: -1px;
+        margin-top: -1px;
+        padding-top: 55px;
+        width: 33.33333334%;
+        height: 90px;
+        background-size: auto 45px;
+        background-position: 50% 12px;
+        background-repeat: no-repeat;
+        border-color: transparent; }
+        .filter .metal-list ul li .btn span {
+          font-size: 12px;
+          font-weight: 500;
+          color: #666; }
+        .filter .metal-list ul li .btn.active {
+          background-color: #fff;
+          border-color: #080d68;
+          z-index: 1; }
+      .filter .metal-list ul li:nth-of-type(1) .btn {
+        background-image: url(/assets/images/product/ico_metal_1.png); }
+      .filter .metal-list ul li:nth-of-type(2) .btn {
+        background-image: url(/assets/images/product/ico_metal_2.png); }
+      .filter .metal-list ul li:nth-of-type(3) .btn {
+        background-image: url(/assets/images/product/ico_metal_3.png); }
+      .filter .metal-list ul li:nth-of-type(4) .btn {
+        background-image: url(/assets/images/product/ico_metal_4.png); }
+      .filter .metal-list ul li:nth-of-type(5) .btn {
+        background-image: url(/assets/images/product/ico_metal_5.png); }
+      .filter .metal-list ul li:nth-of-type(6) .btn {
+        background-image: url(/assets/images/product/ico_metal_6.png); }
+      .filter .metal-list ul li:nth-of-type(7) .btn {
+        background-image: url(/assets/images/product/ico_metal_7.png); }
+      .filter .metal-list ul li:nth-of-type(8) .btn {
+        background-image: url(/assets/images/product/ico_metal_8.png); }
+      .filter .metal-list ul li:nth-of-type(9) .btn {
+        background-image: url(/assets/images/product/ico_metal_9.png); }
+    @media (min-width: 768px) {
+      .filter .metal-list ul {
+        margin-right: -5px; }
+        .filter .metal-list ul li .btn {
+          padding-top: 70px;
+          width: 20%;
+          height: 115px;
+          background-size: auto 60px;
+          background-position: 50% 15px; } }
+    @media (min-width: 1230px) {
+      .filter .metal-list ul {
+        margin-right: -9px; }
+        .filter .metal-list ul li .btn {
+          width: 11.11111111%; } }
+  .filter .artist-list ul {
+    overflow: hidden; }
+    .filter .artist-list ul li {
+      float: left; }
+      .filter .artist-list ul li .btn {
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100px;
+        height: 105px;
+        border: 0;
+        background-color: transparent; }
+        .filter .artist-list ul li .btn img {
+          width: 100%;
+          height: 100%; }
+        .filter .artist-list ul li .btn span {
+          overflow: hidden;
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding-top: 45px;
+          line-height: 20px;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+          color: #fff;
+          white-space: normal;
+          -webkit-transition: all .3s;
+          transition: all .3s;
+          opacity: 0; }
+        .filter .artist-list ul li .btn.active span {
+          opacity: 1; }
+    @media (min-width: 768px) {
+      .filter .artist-list ul li .btn {
+        width: 145px;
+        height: 150px; }
+        .filter .artist-list ul li .btn span {
+          padding-top: 65px; } }
   .filter .btn-area {
     height: 30px;
     border-top: 1px solid #c2c2c2;
@@ -306,6 +528,28 @@
       .filter .btn-area .btn .glyphicon {
         margin-left: 3px;
         font-size: 10px; }
+  .filter.fancy .fancy-intensity legend {
+    color: #222;
+    font-weight: 400; }
+  .filter.fancy .imgdata .check-list li {
+    width: 33.33%; }
+  @media (min-width: 768px) {
+    .filter.fancy .imgdata .check-list li {
+      width: 16.66666667%; } }
+  @media (min-width: 1230px) {
+    .filter.fancy .imgdata .check-list {
+      margin-top: 10px; }
+      .filter.fancy .imgdata .check-list li {
+        width: 33.33%; } }
+  .filter.jewelry {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c2c2c2; }
+    @media (min-width: 768px) {
+      .filter.jewelry {
+        padding-bottom: 40px; } }
+    @media (min-width: 1230px) {
+      .filter.jewelry {
+        padding-bottom: 70px; } }
 
 .result header {
   margin-bottom: 15px; }
