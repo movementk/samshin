@@ -89,22 +89,22 @@
                                 <li><label class="btn">
                                     <input type="checkbox">
                                     <img src="/assets/images/product/img_artist_2.jpg" alt="">
-                                    <span>마이클 본단자 마이클 본단자 마이클 본단자</span>
+                                    <span>제이슨 본</span>
                                 </label></li>
                                 <li><label class="btn">
                                     <input type="checkbox">
                                     <img src="/assets/images/product/img_artist_3.jpg" alt="">
-                                    <span>마이클 본단자</span>
+                                    <span>왕서방</span>
                                 </label></li>
                                 <li><label class="btn">
                                     <input type="checkbox">
                                     <img src="/assets/images/product/img_artist_4.jpg" alt="">
-                                    <span>마이클 본단자</span>
+                                    <span>하동구</span>
                                 </label></li>
                                 <li><label class="btn">
                                     <input type="checkbox">
                                     <img src="/assets/images/product/img_artist_5.jpg" alt="">
-                                    <span>마이클 본단자</span>
+                                    <span>유키 구라모토</span>
                                 </label></li>
                             </ul>
                         </div>
@@ -156,7 +156,7 @@
             </div>
 
             <!-- 결과 목록 -->
-            <section class="result">
+            <section class="result jewelry">
                 <header class="row">
                     <div class="col-xs-7 col-md-10"><h5><b>100개</b>의 다이아몬드가 검색되었습니다.</h5></div>
                     <div class="col-xs-5 col-md-2">
@@ -167,7 +167,110 @@
                     </div>
                 </header>
                 <div class="jewelry-list">
-                    #주얼리 결과
+                    <ul class="row">
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
+                                    <figcaption>
+                                        <h5>이데알레 1부 다이아몬드 반지</h5>
+                                        <p class="lap">현대, GIK 다이아 감정서</p>
+                                        <p class="price"><s>1,190,000원</s></p>
+                                        <p class="price">999,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
+                                    <figcaption>
+                                        <h5>이데알레 1부 다이아몬드 반지</h5>
+                                        <p class="lap">현대, GIK 다이아 감정서</p>
+                                        <p class="price">999,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
+                                    <figcaption>
+                                        <h5>이데알레 1부 다이아몬드 반지</h5>
+                                        <p class="lap">현대, GIK 다이아 감정서</p>
+                                        <p class="price"><s>1,190,000원</s></p>
+                                        <p class="price">999,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
+                                    <figcaption>
+                                        <h5>이데알레 1부 다이아몬드 반지</h5>
+                                        <p class="lap">현대, GIK 다이아 감정서</p>
+                                        <p class="price"><s>1,190,000원</s></p>
+                                        <p class="price">999,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
+                                    <figcaption>
+                                        <h5>이데알레 1부 다이아몬드 반지</h5>
+                                        <p class="lap">현대, GIK 다이아 감정서</p>
+                                        <p class="price"><s>1,190,000원</s></p>
+                                        <p class="price">999,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
+                                    <figcaption>
+                                        <h5>이데알레 1부 다이아몬드 반지</h5>
+                                        <p class="lap">현대, GIK 다이아 감정서</p>
+                                        <p class="price">999,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
+                                    <figcaption>
+                                        <h5>이데알레 1부 다이아몬드 반지</h5>
+                                        <p class="lap">현대, GIK 다이아 감정서</p>
+                                        <p class="price"><s>1,190,000원</s></p>
+                                        <p class="price">999,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="col-xs-6 col-sm-4 col-md-3">
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
+                                    <figcaption>
+                                        <h5>이데알레 1부 다이아몬드 반지</h5>
+                                        <p class="lap">현대, GIK 다이아 감정서</p>
+                                        <p class="price"><s>1,190,000원</s></p>
+                                        <p class="price">999,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </section>
 

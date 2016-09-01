@@ -697,18 +697,21 @@
         }
     }
     &.jewelry {
+        margin-bottom: 50px;
         padding-bottom: 30px;
         border-bottom: 1px solid #c2c2c2;
         @media (min-width: $sm) {
+            margin-bottom: 60px;
             padding-bottom: 40px;
         }
         @media (min-width: $lg) {
+            margin-bottom: 80px;
             padding-bottom: 70px;
         }
     }
 }
 
-// 결과
+// 검색 결과 영역
 .result {
     header {
         margin-bottom: 15px;
@@ -731,10 +734,13 @@
                 font-size: 14px;
             }
         }
+        @media (min-width: $lg) {
+            margin-bottom: 40px;
+        }
     }
 }
 
-// 검색 결과
+// 검색 결과: 다이아
 .dia-list {
     margin-bottom: 40px;
     &.table-responsive {
@@ -819,5 +825,541 @@
     }
     @media (min-width: $lg) {
         margin-bottom: 100px;
+    }
+}
+
+// 검색 결과: 주얼리
+.jewelry-list {
+    margin-bottom: 10px;
+    ul {
+        li {
+            margin-bottom: 30px;
+            &:nth-of-type(2n+1) {
+                clear: both;
+            }
+            figure {
+                text-align: center;
+                img {
+                    margin: 0 auto;
+                }
+                figcaption {
+                    font-size: 12px;
+                    margin-top: 15px;
+                    h5 {
+                        margin-bottom: 3px;
+                        font-size: 12px;
+                        color: #333;
+                    }
+                    .lap {
+                        margin-bottom: 10px;
+                        color: #aaa;
+                    }
+                    .price {
+                        color: $kc;
+                        font-weight: 400;
+                        s {
+                            color: #aaa;
+                        }
+                    }
+                }
+            }
+            @media (min-width: $sm) {
+                margin-bottom: 40px;
+                &:nth-of-type(2n+1) {
+                    clear: none;
+                }
+                &:nth-of-type(3n+1) {
+                    clear: both;
+                }
+                figure {
+                    figcaption {
+                        margin-top: 25px;
+                        font-size: 13px;
+                        h5 {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            @media (min-width: $md) {
+                margin-bottom: 60px;
+                &:nth-of-type(3n+1) {
+                    clear: none;
+                }
+                &:nth-of-type(4n+1) {
+                    clear: both;
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        margin-bottom: 20px;
+    }
+    @media (min-width: $lg) {
+        margin-bottom: 40px;
+    }
+}
+
+// 상세보기 영역
+.details {
+    // 상단 제품 요약
+    .summary {
+        padding-bottom: 40px;
+        .preview {
+            margin-bottom: 35px;
+            border-bottom: 1px solid #c2c2c2;
+        }
+        .order {
+            > header {
+                small {
+                    font-size: 13px;
+                }
+                h3 {
+                    margin-top: 3px;
+                    margin-bottom: 20px;
+                    @extend .jjmj;
+                    color: $kc;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 30px;
+                }
+            }
+            .option {
+                .option-head {
+                    position: relative;
+                    padding-bottom: 15px;
+                    margin-bottom: 20px;
+                    border-bottom: 2px solid $kc;
+                    h4 {
+                        font-size: 13px;
+                    }
+                    .sns {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        li {
+                            float: left;
+                            margin-left: 5px;
+                            &:first-child {
+                                margin-left: 0;
+                            }
+                        }
+                    }
+                }
+                form {
+                    dl {
+                        dt, dd {
+                            margin-bottom: 10px;
+                            line-height: 30px;
+                            color: #222;
+                        }
+                        dt {
+                            clear: both;
+                            float: left;
+                            padding-left: 10px;
+                            width: 60px;
+                        }
+                        dd {
+                            margin-left: 60px;
+                            .dropdown {
+                                img {
+                                    vertical-align: text-bottom;
+                                }
+                                .btn {
+                                    height: 30px;
+                                    transition: none;
+                                    background-color: #fff;
+                                    color: #666;
+                                    line-height: 28px;
+                                    font-size: 12px;
+                                    text-align: left;
+                                    .caret {
+                                        float: right;
+                                        margin-top: 12px;
+                                    }
+                                }
+                                .dropdown-menu {
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                    padding-top: 10px;
+                                    padding-bottom: 10px;
+                                    box-shadow: none;
+                                    border-radius: 0;
+                                    li {
+                                        a {
+                                            color: #666;
+                                            font-size: 12px;
+                                        }
+                                    }
+                                }
+                            }
+                            .info {
+                                margin-top: 3px;
+                                &:before {
+                                    padding-right: 5px;
+                                    content: url('/assets/images/product/ico_info_circle.png');
+                                    vertical-align: -2px;
+                                }
+                                a {
+                                    color: $kc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .total {
+                overflow: hidden;
+                margin-top: 20px;
+                margin-bottom: 25px;
+                padding: 10px;
+                border-top: 1px solid #dfdfdf;
+                border-bottom: 1px solid #dfdfdf;
+                background-color: #f7f7f7;
+                ul {
+                    float: left;
+                    li {
+                        font-size: 12px;
+                        &:before {
+                            content: '·';
+                            padding-right: 3px;
+                        }
+                    }
+                }
+                strong {
+                    float: right;
+                    margin-top: 10px;
+                    font-size: 20px;
+                    color: $kc;
+                }
+            }
+            .notify {
+                margin-bottom: 25px;
+                a {
+                    color: $kc;
+                    font-weight: 400;
+                }
+            }
+            .btn-area {
+                margin-left: -5px;
+                margin-right: -5px;
+                > div {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    .btn {
+                        height: 50px;
+                    }
+                    .btn-design {
+                        background-color: $kc;
+                        border-color: $kc;
+                        color: #fff;
+                        font-size: 15px;
+                    }
+                    .btn-favor {
+                        background-color: #fff;
+                        &:before {
+                            content: url(/assets/images/product/ico_heart_empty.png);
+                            vertical-align: -12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 제품 특징 설명
+    .feature {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f7f7f7;
+        section {
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px #dfdfdf;
+            &.overview {
+                margin-bottom: 10px;
+            }
+            > div {
+                padding: 25px 20px;
+                border: 1px solid #dfdfdf;
+                h4 {
+                    margin-bottom: 20px;
+                    @extend .jjmj;
+                    font-size: 23px;
+                    color: #942c48;
+                }
+                dl {
+                    dt, dd {
+                        margin-bottom: 5px;
+                        color: #222;
+                    }
+                    dt {
+                        float: left;
+                        width: 90px;
+                        font-weight: 500;
+                        &:before {
+                            padding-right: 5px;
+                            content: '\2022';
+                            color: $kc;
+                        }
+                    }
+                    dd {
+                        margin-left: 90px;
+                    }
+                    & + .help {
+                        margin-top: 15px;
+                    }
+                }
+                .help {
+                    margin-left: 10px;
+                    &:before {
+                        content: '※';
+                        padding-right: 5px;
+                    }
+                }
+            }
+            &.description {
+                p {
+                    line-height: 23px;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            section {
+                &.overview {
+                    margin-bottom: 30px;
+                }
+                > div {
+                    padding: 30px 25px;
+                    h4 {
+                        font-size: 25px;
+                    }
+                    dl {
+                        dt, dd {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                &.description {
+                    p {
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            section {
+                &.overview {
+                    margin-bottom: 0;
+                }
+                > div {
+                    padding: 30px 25px;
+                    min-height: 360px;
+                }
+            }
+        }
+    }
+    // 셋팅 가능한, 추천 제품(공통 헤더)
+    .setting,
+    .recommend {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        header {
+            margin-bottom: 40px;
+            padding-left: 20px;
+            border-left: 3px solid $kc;
+            h4 {
+                margin-bottom: 10px;
+                @extend .jjmj;
+                font-size: 23px;
+                font-weight: 500;
+                color: $kc;
+            }
+            p {
+                position: relative;
+                top: 2px;
+                line-height: 16px;
+            }
+        }
+        @media (min-width: $sm) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+            header {
+                h4 {
+                    font-size: 25px;
+                }
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            header {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    // 셋팅 가능한
+    .setting {
+        .setting-list {
+            ul {
+                margin-right: -3px;
+                padding-top: 1px;
+                padding-left: 1px;
+                li {
+                    display: inline;
+                    div {
+                        position: relative;
+                        float: left;
+                        margin-left: -1px;
+                        margin-top: -1px;
+                        padding-top: 75px;
+                        width: 33.33333334%;
+                        height: 135px;
+                        background-position: 50% 15px;
+                        background-repeat: no-repeat;
+                        border-color: transparent;
+                        text-align: center;
+                        h5 {
+                            margin-bottom: 5px;
+                            font-size: 12px;
+                            .en {
+                                @extend .lato;
+                                color: $kc;
+                            }
+                            .ko {
+                                display: none;
+                                color: $red;
+                                font-weight: 500;
+                            }
+                        }
+                        p {
+                            @extend .lato;
+                            font-size: 12px;
+                            line-height: 14px;
+                            font-weight: 400;
+                        }
+                        &.active {
+                            background-color: #fff;
+                            border-color: $kc;
+                            z-index: 1;
+                            border: 1px solid $kc;
+                            h5 {
+                                .en {
+                                    display: none;
+                                }
+                                .ko {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    @for $i from 1 through 10 {
+                        &:nth-of-type(#{$i}) {
+                            div {
+                                background-image: url(/assets/images/product/img_shape_line_#{$i}.gif);
+                            }
+                        }
+                    }
+                }
+                @media (min-width: $sm) {
+                    margin-right: -5px;
+                    li {
+                        div {
+                            width: 16.66666667%;
+                        }
+                    }
+                }
+                @media (min-width: $lg) {
+                    margin-right: -9px;
+                    li {
+                        div {
+                            padding-top: 80px;
+                            width: 10%;
+                            height: 150px;
+                            background-position: 50% 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // 추천디자인
+    .recommend {
+        padding-bottom: 20px;
+        background-color: #f7f7f7;
+        @media (min-width: $sm) {
+            padding-bottom: 60px;
+        }
+        @media (min-width: $lg) {
+            padding-bottom: 100px;
+        }
+        .recommend-list {
+            ul {
+                li {
+                    margin-bottom: 20px;
+                    a {
+                        figure {
+                            img {
+                                margin: 0 auto;
+                            }
+                            figcaption {
+                                text-align: center;
+                                h5 {
+                                    margin-top: 5px;
+                                    font-size: 12px;
+                                    line-height: 16px;
+                                    color: #333;
+                                }
+                                p {
+                                    font-size: 12px;
+                                    color: $kc;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                        &:hover, &:focus {
+                            text-decoration: none;
+                            figure {
+                                img {
+                                    box-shadow: 0 0 10px rgba(#000, .1);
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(2n+1) {
+                        clear: both;
+                    }
+                }
+            }
+            @media (min-width: $sm) {
+                ul {
+                    li {
+                        margin-bottom: 0;
+                        &:nth-of-type(2n+1) {
+                            clear: none;
+                        }
+                        a {
+                            figure {
+                                figcaption {
+                                    h5 {
+                                        margin-top: 15px;
+                                        margin-bottom: 5px;
+                                        font-size: 13px;
+                                    }
+                                    p {
+                                        font-size: 13px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

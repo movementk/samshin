@@ -49,6 +49,9 @@ ol, ul {
 dl, p, address {
   margin-bottom: 0; }
 
+dt, dd {
+  font-weight: normal; }
+
 legend {
   margin-bottom: 0;
   border-bottom: 0; }
@@ -341,6 +344,12 @@ label {
 
 .form-control:focus {
   box-shadow: none; }
+
+select.form-control {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding: 0 5px;
+  font-size: 12px !important; }
 
 .skip-nav:focus {
   position: fixed;

@@ -33,6 +33,7 @@ dl, p, address {
 }
 dt, dd {
     @extend .font-13;
+    font-weight: normal;
 }
 legend {
     margin-bottom: 0;
@@ -110,6 +111,10 @@ label {
     &:focus {
         box-shadow: none;
     }
+}
+select.form-control {
+    padding: 0 5px;
+    font-size: 12px !important;
 }
 
 .skip-nav:focus {
