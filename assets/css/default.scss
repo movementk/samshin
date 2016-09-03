@@ -376,6 +376,8 @@ select.form-control {
                     padding-right: 15px;
                     .btn {
                         padding-top: 45px;
+                        padding-left: 0;
+                        padding-right: 0;
                         height: 65px;
                         border: 0;
                         line-height: 18px;
@@ -480,6 +482,9 @@ select.form-control {
         }
         .address {
             dt, dd {
+                display: inline;
+            }
+            address {
                 display: inline;
             }
         }

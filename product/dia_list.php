@@ -1,4 +1,8 @@
-<?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/dochead_product.php'); ?>
+<?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/dochead_sub.php'); ?>
+<link href="/assets/css/product.css" rel="stylesheet">
+<link href="/assets/css/jquery-ui.min.css" rel="stylesheet">
+<link href="/assets/css/jquery-ui.structure.min.css" rel="stylesheet">
+<link href="/assets/css/jquery-ui.theme.min.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>

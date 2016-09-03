@@ -252,9 +252,35 @@ select.form-control {
 .table.table-striped tbody tr:nth-of-type(even) {
   background-color: #f7f7f7; }
 @media (min-width: 768px) {
+  .table th, .table td {
+    font-size: 13px; }
   .table td {
     padding-top: 16px !important;
     padding-bottom: 16px !important;
     text-align: center; } }
+
+.paging {
+  text-align: center; }
+  .paging .pagination {
+    margin-top: 0;
+    margin-bottom: 0; }
+    .paging .pagination li a {
+      border: 0;
+      color: #aaa;
+      font-weight: 400; }
+      .paging .pagination li a:hover, .paging .pagination li a:focus {
+        background-color: transparent;
+        color: #080d68; }
+      .paging .pagination li a.active {
+        color: #080d68; }
+      .paging .pagination li a.first, .paging .pagination li a.prev, .paging .pagination li a.next, .paging .pagination li a.last {
+        padding-left: 3px;
+        padding-right: 3px; }
+        .paging .pagination li a.first i:before, .paging .pagination li a.prev i:before, .paging .pagination li a.next i:before, .paging .pagination li a.last i:before {
+          vertical-align: 1px; }
+      .paging .pagination li a.prev {
+        padding-right: 5px; }
+      .paging .pagination li a.next {
+        padding-left: 5px; }
 
 /*# sourceMappingURL=sub.css.map */

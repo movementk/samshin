@@ -346,8 +346,6 @@ label {
   box-shadow: none; }
 
 select.form-control {
-  padding-top: 0;
-  padding-bottom: 0;
   padding: 0 5px;
   font-size: 12px !important; }
 
@@ -548,6 +546,8 @@ select.form-control {
             padding-right: 15px; }
             #nav-foot .cs .shortcuts li .btn {
               padding-top: 45px;
+              padding-left: 0;
+              padding-right: 0;
               height: 65px;
               border: 0;
               line-height: 18px;
@@ -616,6 +616,8 @@ select.form-control {
           padding-right: 0;
           content: ''; }
     #footer .company .address dt, #footer .company .address dd {
+      display: inline; }
+    #footer .company .address address {
       display: inline; }
     #footer .company .license a {
       color: #080d68;

@@ -301,10 +301,54 @@ select {
         }
     }
     @media (min-width: $sm) {
+        th, td {
+            font-size: 13px;
+        }
         td {
             padding-top: 16px !important;
             padding-bottom: 16px !important;
             text-align: center;
+        }
+    }
+}
+
+// 페이징
+.paging {
+    text-align: center;
+    .pagination {
+        margin-top: 0;
+        margin-bottom: 0;
+        li {
+            a {
+                border: 0;
+                color: #aaa;
+                font-weight: 400;
+                &:hover, &:focus {
+                    background-color: transparent;
+                    color: $kc;
+                }
+                &.active {
+                    color: $kc;
+                }
+                &.first,
+                &.prev,
+                &.next,
+                &.last {
+                    //padding-top: 0;
+                    //padding-bottom: 0;
+                    padding-left: 3px;
+                    padding-right: 3px;
+                    i:before {
+                        vertical-align: 1px;
+                    }
+                }
+                &.prev {
+                    padding-right: 5px;
+                }
+                &.next {
+                    padding-left: 5px;
+                }
+            }
         }
     }
 }
