@@ -209,7 +209,7 @@
       margin-bottom: 45px; } }
 
 input[type="email"].form-control,
-input[type="passowrd"].form-control,
+input[type="password"].form-control,
 input[type="text"].form-control,
 select.form-control {
   height: 30px;
@@ -218,13 +218,13 @@ select.form-control {
   font-size: 11px;
   color: #666; }
   input[type="email"].form-control:focus,
-  input[type="passowrd"].form-control:focus,
+  input[type="password"].form-control:focus,
   input[type="text"].form-control:focus,
   select.form-control:focus {
     border-color: #080d68; }
 @media (min-width: 768px) {
   input[type="email"].form-control,
-  input[type="passowrd"].form-control,
+  input[type="password"].form-control,
   input[type="text"].form-control,
   select.form-control {
     font-size: 12px; } }

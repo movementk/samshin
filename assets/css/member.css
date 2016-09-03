@@ -1,0 +1,214 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+.lato {
+  font-family: 'Lato', sans-serif; }
+
+.jjmj, .benefit .for-member header h4 {
+  font-family: 'Jeju Myeongjo', serif; }
+
+.noto {
+  font-family: 'Noto Sans KR', sans-serif; }
+
+.font-12 {
+  font-size: 12px;
+  line-height: 18px; }
+
+.font-13 {
+  font-size: 13px;
+  line-height: 20px; }
+
+.font-14 {
+  font-size: 14px;
+  line-height: 22px; }
+
+.crimson, #content .login header h3 {
+  font-family: 'Crimson Text', serif; }
+
+.check {
+  position: relative;
+  margin-bottom: 0;
+  padding-left: 20px;
+  cursor: pointer; }
+  .check input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none; }
+  .check:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc; }
+  .check.active:before {
+    content: "\2713";
+    font-size: 10px;
+    line-height: 8px;
+    background-color: #080d68;
+    border-color: #080d68;
+    color: #fff;
+    font-weight: bold; }
+
+#content > .container {
+  max-width: 375px; }
+  @media (min-width: 768px) {
+    #content > .container {
+      max-width: inherit; } }
+
+#content .login {
+  margin-top: 40px;
+  margin-bottom: 30px; }
+  #content .login header {
+    margin-bottom: 20px; }
+    #content .login header h3 {
+      margin-bottom: 10px;
+      font-size: 25px;
+      font-weight: 500; }
+    #content .login header p {
+      font-size: 12px; }
+  #content .login .login-form {
+    margin-bottom: 20px; }
+    #content .login .login-form .form-group {
+      margin-bottom: 10px; }
+      #content .login .login-form .form-group .form-control {
+        background-color: #f7f7f7; }
+    #content .login .login-form .option .check {
+      margin-left: 20px; }
+      #content .login .login-form .option .check:first-child {
+        margin-left: 0; }
+  #content .login .sns-login {
+    padding-top: 20px;
+    border-top: 1px solid #ccc; }
+    #content .login .sns-login ul {
+      overflow: hidden;
+      margin-left: -5px;
+      margin-right: -5px; }
+      #content .login .sns-login ul li {
+        float: left;
+        width: 50%;
+        margin-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px; }
+        #content .login .sns-login ul li .btn {
+          background-color: #fff;
+          color: #666; }
+          #content .login .sns-login ul li .btn.facebook i {
+            color: #080d68;
+            font-size: 1.2em;
+            vertical-align: -1px; }
+          #content .login .sns-login ul li .btn.kakao i:before {
+            margin-right: 3px;
+            content: url(/assets/images/member/ico_kakao.png);
+            vertical-align: -1px; }
+          #content .login .sns-login ul li .btn.twitter i {
+            color: #2aa9e0;
+            font-size: 1.3em;
+            vertical-align: -1px; }
+          #content .login .sns-login ul li .btn.gplus i {
+            color: #da4835; }
+  @media (min-width: 768px) {
+    #content .login {
+      margin-top: 60px;
+      margin-bottom: 50px; }
+      #content .login header {
+        margin-bottom: 30px; }
+        #content .login header h3 {
+          margin-bottom: 15px;
+          font-size: 35px; }
+        #content .login header p {
+          font-size: 13px; }
+      #content .login .login-form {
+        margin-bottom: 30px; }
+        #content .login .login-form .form-group .form-control {
+          height: 40px; }
+      #content .login .sns-login {
+        padding-top: 30px; } }
+  @media (min-width: 992px) {
+    #content .login {
+      margin-top: 80px;
+      margin-bottom: 80px; }
+      #content .login header h3 {
+        font-size: 45px; }
+      #content .login header p {
+        font-size: 14px; }
+      #content .login .sns-login ul {
+        margin-left: -10px;
+        margin-right: -10px; }
+        #content .login .sns-login ul li {
+          padding-left: 10px;
+          padding-right: 10px; } }
+
+.benefit {
+  margin-bottom: 40px;
+  border: 1px solid #dfdfdf; }
+  .benefit .for-member {
+    padding: 25px 20px; }
+    .benefit .for-member header h4 {
+      margin-bottom: 15px;
+      font-weight: 600;
+      color: #080d68;
+      text-align: center;
+      font-size: 18px; }
+    .benefit .for-member header p {
+      font-size: 12px; }
+    .benefit .for-member .benefit-info {
+      padding-top: 20px; }
+  .benefit .help-area {
+    padding: 20px;
+    border-top: 1px solid #dfdfdf; }
+    .benefit .help-area ul li {
+      margin-bottom: 10px;
+      font-size: 12px; }
+      .benefit .help-area ul li p:before {
+        margin-right: 5px;
+        font-family: 'fontello';
+        content: '\F219';
+        font-size: .8em;
+        vertical-align: 2px; }
+      .benefit .help-area ul li a {
+        display: inline-block;
+        margin-left: 16px; }
+        .benefit .help-area ul li a:hover, .benefit .help-area ul li a:focus {
+          color: #eb2127; }
+      .benefit .help-area ul li:last-child {
+        margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .benefit {
+      margin-bottom: 60px; }
+      .benefit .for-member {
+        padding: 35px 30px; }
+        .benefit .for-member header h4 {
+          font-size: 20px; }
+        .benefit .for-member header p {
+          font-size: 13px; }
+      .benefit .help-area {
+        padding: 20px 30px; }
+        .benefit .help-area ul li {
+          font-size: 13px; }
+          .benefit .help-area ul li p:before {
+            vertical-align: 3px; }
+          .benefit .help-area ul li a {
+            margin-left: 17px; } }
+  @media (min-width: 992px) {
+    .benefit {
+      margin-top: 80px; }
+      .benefit .for-member {
+        padding: 45px 50px;
+        height: 320px; }
+        .benefit .for-member header h4 {
+          font-size: 25px;
+          text-align: left; }
+        .benefit .for-member header p {
+          font-size: 14px; }
+      .benefit .help-area {
+        padding: 30px 45px; }
+        .benefit .help-area ul li p {
+          display: inline-block; }
+        .benefit .help-area ul li a {
+          float: right;
+          margin-left: 0; } }
+
+/*# sourceMappingURL=member.css.map */
