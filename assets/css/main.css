@@ -8,6 +8,9 @@
 .noto, #day-delivery header h3 small {
   font-family: 'Noto Sans KR', sans-serif; }
 
+.crimson, #find-for section header h3, #fancy-dia header h3, #day-delivery header h3, #propose h4 {
+  font-family: 'Crimson Text', serif; }
+
 .font-12 {
   font-size: 12px;
   line-height: 18px; }

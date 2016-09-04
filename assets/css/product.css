@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 .lato, .filter legend, .filter .shape-list ul li .btn .en, .filter .fancy-color-list ul li .btn span, .filter .design-list ul li .btn span, .filter .metal-list ul li .btn span, .details .setting .setting-list ul li div h5 .en, .details .setting .setting-list ul li div p {
   font-family: 'Lato', sans-serif; }
 
@@ -9,6 +8,9 @@
 
 .noto, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small {
   font-family: 'Noto Sans KR', sans-serif; }
+
+.crimson, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4 {
+  font-family: 'Crimson Text', serif; }
 
 .font-12 {
   font-size: 12px;
@@ -21,9 +23,6 @@
 .font-14 {
   font-size: 14px;
   line-height: 22px; }
-
-.crimson, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4 {
-  font-family: 'Crimson Text', serif; }
 
 .dia-type {
   margin-bottom: 35px; }

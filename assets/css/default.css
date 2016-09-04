@@ -2,6 +2,8 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(//fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
 .lato, #header .util .member li a, #nav-foot .cs .contact strong {
   font-family: 'Lato', sans-serif; }
 
@@ -10,6 +12,9 @@
 
 .noto, body {
   font-family: 'Noto Sans KR', sans-serif; }
+
+.crimson {
+  font-family: 'Crimson Text', serif; }
 
 .font-12, #footer .copyright {
   font-size: 12px;

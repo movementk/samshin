@@ -9,6 +9,9 @@
 .noto {
   font-family: 'Noto Sans KR', sans-serif; }
 
+.crimson, .section-header h3 {
+  font-family: 'Crimson Text', serif; }
+
 .font-12 {
   font-size: 12px;
   line-height: 18px; }
