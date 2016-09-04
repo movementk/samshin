@@ -3,12 +3,12 @@
 </head>
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1">
+    <main id="content" tabindex="-1" class="member login">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-0">
                     <section class="login">
-                        <header>
+                        <header class="section-header">
                             <h3>LOGIN</h3>
                             <p>로그인하시면 다이아아울렛의 다양한 혜택을 누리실 수 있습니다.</p>
                         </header>
@@ -66,7 +66,7 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
     <script>
-        $(document).on('click', '.login-form .form-group .check', function(e) {
+        $(document).on('click', '.member .check', function(e) {
             if( $(e.target).is("label") ) {
                 $(this).toggleClass('active');
             }
