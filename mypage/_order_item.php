@@ -25,8 +25,8 @@
         </dl>
     </td>
     <td>
-        <p><span class="status <!--입금완료: done-->">입금대기 중</span></p>
-        <p><a class="btn" href="#">주문 내역</a></p>
+        <p class="status shipped">입금대기 중</p>
+        <p class="history"><a class="btn" href="#">주문 내역</a></p>
     </td>
     <td>
         비고

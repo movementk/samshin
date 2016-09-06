@@ -6,7 +6,7 @@
     <main id="content" tabindex="-1" class="mypage order view">
         <div class="container">
             <header class="page-header">
-                <h3>ORDER</h3>
+                <h3>주문배송내역조회</h3>
             </header>
             <div class="order-summary">
                 <p>주문번호 <strong>1471930965-35</strong>의 상세내역입니다.<p>
@@ -133,11 +133,11 @@
                             <td class="title">
                                 <h5>세그레또 5부 다이아몬드 반지</h5>
                                 <p class="lap">현대,우신,GIA 감정서 선택 상품</p>
+                                <p class="status">[입금확인 중]</p>
                                 <dl class="order-info">
                                     <dt>상품옵션</dt>
                                     <dd>함량 18K 핑크 골드 1개</dd>
                                 </dl>
-                                <p class="status">[입금확인 중]</p>
                             </td>
                             <td>
                                 <dl class="price-info">
@@ -164,11 +164,11 @@
                             <td class="title">
                                 <h5>세그레또 5부 다이아몬드 반지</h5>
                                 <p class="lap">현대,우신,GIA 감정서 선택 상품</p>
+                                <p class="status">[입금확인 중]</p>
                                 <dl class="order-info">
                                     <dt>상품옵션</dt>
                                     <dd>함량 18K 핑크 골드 1개</dd>
                                 </dl>
-                                <p class="status">[입금확인 중]</p>
                             </td>
                             <td>
                                 <dl class="price-info">
