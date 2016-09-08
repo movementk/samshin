@@ -345,8 +345,6 @@ label {
     background-color: #080d68;
     border-color: #080d68;
     color: #fff; }
-    .btn.btn-primary:hover, .btn.btn-primary:focus {
-      background-color: rgba(8, 13, 104, 0.75); }
   @media (min-width: 768px) {
     .btn {
       height: 40px;

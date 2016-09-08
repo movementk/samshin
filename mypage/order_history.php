@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="mypage order list">
+    <main id="content" tabindex="-1" class="mypage order history">
         <div class="container">
             <header class="page-header">
                 <h3>주문배송내역조회</h3>

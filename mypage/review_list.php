@@ -3,16 +3,16 @@
 </head>
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="mypage qna list">
+    <main id="content" tabindex="-1" class="mypage review list">
         <div class="container">
             <header class="page-header">
-                <h3>Q&amp;A</h3>
+                <h3>REVIEWS</h3>
                 <p>
                     고객님의 궁금하신 질문이나 알고싶은 모든 것<br>
                     친절하게 답해 드립니다.
                 </p>
             </header>
-            <div class="qna-list">
+            <div class="review-list">
                 <table class="table">
                     <thead>
                         <tr>
@@ -62,12 +62,8 @@
                     </tbody>
                 </table>
                 <div class="btn-area row">
-                    <div class="col-lg-1 col-lg-offset-10">
-                        <a class="btn btn-list" href="#">목록보기</a>
-                    </div>
-                    <div class="col-lg-1">
-                        <a class="btn btn-write btn-primary" href="#">글쓰기</a>
-                    </div>
+                    <div class="col-lg-1 col-lg-offset-10"><a class="btn btn-list" href="#">목록보기</a></div>
+                    <div class="col-lg-1"><a class="btn btn-write btn-primary" href="#">글쓰기</a></div>
                 </div>
                 <?php require($_SERVER["DOCUMENT_ROOT"].'/inc/paging.php'); ?>
             </div>

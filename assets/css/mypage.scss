@@ -11,9 +11,7 @@
     padding-right: 0;
     width: 100px;
     height: 30px;
-    font-size: 12px;
     line-height: 28px;
-    vertical-align: 0;
 }
 
 // 페이지 헤더
@@ -144,6 +142,46 @@
                 vertical-align: -2px;
             }
         }
+        &.exchanged {
+            font-size: 14px;
+            font-weight: 400;
+            color: #2ca223;
+            &:before {
+                margin-right: 5px;
+                content: url(/assets/images/mypage/ico_check_green.png);
+                vertical-align: -2px;
+            }
+        }
+        &.exchanging {
+            font-size: 14px;
+            font-weight: 400;
+            color: #2ca223;
+            &:before {
+                margin-right: 5px;
+                content: url(/assets/images/mypage/ico_recycle_green.png);
+                vertical-align: -2px;
+            }
+        }
+        &.refunded {
+            font-size: 14px;
+            font-weight: 400;
+            color: #055eb9;
+            &:before {
+                margin-right: 5px;
+                content: url(/assets/images/mypage/ico_check_blue.png);
+                vertical-align: -2px;
+            }
+        }
+        &.refunding {
+            font-size: 14px;
+            font-weight: 400;
+            color: #055eb9;
+            &:before {
+                margin-right: 5px;
+                content: url(/assets/images/mypage/ico_recycle_blue.png);
+                vertical-align: -2px;
+            }
+        }
         & + p.history {
             margin-top: 10px;
         }
@@ -154,6 +192,11 @@
         s {
             color: rgba(#666, .5);
         }
+    }
+    p.point,
+    p.quantity {
+        color: #333;
+        font-weight: 400;
     }
     p.nothing {
         padding-top: 100px;
@@ -180,7 +223,7 @@
 }
 
 // 주문내역
-#content.order.list {
+#content.order.history {
     // 상품 리스트
     .product-list {
         .table {
@@ -207,7 +250,7 @@
 }
 
 // 주문상세보기
-#content.order.view {
+.order.view {
     // 주문요약
     .order-summary {
         margin-bottom: 60px;
@@ -225,7 +268,6 @@
     .shipping-info,
     .receipt,
     .order-list,
-    .shipping-fee,
     .payment {
         margin-bottom: 50px;
         h5 {
@@ -250,42 +292,58 @@
             }
         }
     }
-    .shipping-fee {
-        td {
-            padding-top: 15px !important;
-            padding-bottom: 15px !important;
-            text-align: center !important;
-            &:nth-of-type(2),
+    .order-list {
+        th, td {
             &:nth-of-type(3),
-            &:nth-of-type(4) {
-                width: 240px;
-                font-weight: 400;
-            }
-            &:nth-of-type(2) {
-                color: $kc;
+            &:nth-of-type(4),
+            &:nth-of-type(5) {
+                width: 200px;
             }
         }
     }
     .payment {
         .table {
             table-layout: fixed;
-            border-top: 1px solid #666;
-            th {
-                background-color: #fff;
-                color: #666;
-            }
             td {
+                position: relative;
                 padding-top: 35px !important;
                 padding-bottom: 35px !important;
-                background-color: #f7f7f7;
                 border-top: 1px solid #dfdfdf;
                 vertical-align: middle;
-                &:last-child {
+                & + td {
+                    border-left: 1px solid #ccc;
+                }
+                &:nth-of-type(4) {
                     color: $red;
                     font-size: 25px;
                     font-weight: 400;
                 }
+                span {
+                    position: absolute;
+                    top: 40px;
+                    left: -11px;
+                    width: 22px;
+                    height: 22px;
+                    background-color: #fff;
+                    &.plus {
+                        content: url(/assets/images/mypage/ico_plus.png);
+                    }
+                    &.minus {
+                        content: url(/assets/images/mypage/ico_minus.png);
+                    }
+                    &.equals {
+                        content: url(/assets/images/mypage/ico_equals.png);
+                    }
+                }
             }
+        }
+    }
+    .btn-area {
+        .btn {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            line-height: 48px;
         }
     }
 }
@@ -294,28 +352,27 @@
 #content.returns {
     // 상품 리스트
     .product-list {
+        .table {
+            margin-bottom: 40px;
+        }
         th, td {
             &:nth-of-type(1) {
                 width: 150px;
             }
-            &:nth-of-type(2) {
-
-            }
-            &:nth-of-type(3) {
-                width: 300px;
-            }
-            &:nth-of-type(4) {
-                width: 150px;
-            }
+            &:nth-of-type(3),
+            &:nth-of-type(4),
             &:nth-of-type(5) {
-                width: 150px;
+                width: 200px;
             }
         }
     }
 }
 
 // 적립금내역
-#content.cash-history {
+#content.point-history {
+    .table {
+        margin-bottom: 40px;
+    }
     th, td {
         &:nth-of-type(1) {
             width: 200px;
@@ -331,10 +388,9 @@
             width: 120px;
         }
     }
-    td {
-        &:nth-of-type(2) {
-            color: $red;
-        }
+    .non-pay {
+        color: $red;
+        font-weight: 400;
     }
 }
 
@@ -343,26 +399,45 @@
     .wish-list {
         .btn-area {
             margin-bottom: 15px;
-            text-align: right;
-            .btn {
-                margin-left: 10px;
-                padding-left: 0;
-                padding-right: 0;
-                background-color: #fff;
-                border-color: #ccc;
-                color: #666;
-                font-size: 12px;
-                &:first-child {
-                    margin-left: 0;
-                }
-                &.btn-select {
-                    padding-left: 15px;
-                    &:before {
-                        top: 10px;
-                        left: 15px;
+            margin-left: -5px;
+            margin-right: -5px;
+            > div {
+                padding-left: 5px;
+                padding-right: 5px;
+                .btn {
+                    margin-top: 0;
+                    padding-left: 0;
+                    padding-right: 0;
+                    width: 100%;
+                    background-color: #fff;
+                    border-color: #ccc;
+                    color: #666;
+                    &.btn-select {
+                        &:before {
+                            margin-right: 5px;
+                            content: url(/assets/images/mypage/ico_doc_check.png);
+                            vertical-align: -3px;
+                        }
+                    }
+                    &.btn-delete {
+                        &:before {
+                            margin-right: 5px;
+                            content: url(/assets/images/mypage/ico_trash.png);
+                            vertical-align: -3px;
+                        }
+                    }
+                    &.btn-cart {
+                        &:before {
+                            margin-right: 5px;
+                            content: url(/assets/images/mypage/ico_cart.png);
+                            vertical-align: -3px;
+                        }
                     }
                 }
             }
+        }
+        .table {
+            margin-bottom: 40px;
         }
         th, td {
             &:nth-of-type(1) {
@@ -373,7 +448,7 @@
             }
             &:nth-of-type(4),
             &:nth-of-type(5) {
-                width: 240px;
+                width: 200px;
             }
         }
         .btn-details {
@@ -382,16 +457,15 @@
             padding-right: 0;
         }
         .btn-delete {
-            background-color: #9d9d9d;
-            border-color: #9d9d9d;
+            background-color: #666;
+            border-color: #666;
             color: #fff;
-            font-size: 12px;
         }
     }
 }
 
-// 위시리스트
-#content.qna {
+// QNA
+.qna.list {
     .qna-list {
         th, td {
             &:nth-of-type(1) {
@@ -409,7 +483,641 @@
         }
         .btn-area {
             margin-bottom: 20px;
-            text-align: right;
+            margin-left: -5px;
+            margin-right: -5px;
+            > div {
+                padding-left: 5px;
+                padding-right: 5px;
+                .btn {
+                    width: 100%;
+                    height: 30px;
+                    &.btn-list {
+                        &:hover,
+                        &:focus {
+                            background-color: #666;
+                            border-color: #666;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// QNA
+.review.list {
+    .review-list {
+        th, td {
+            &:nth-of-type(1) {
+                width: 80px;
+            }
+            &:nth-of-type(3),
+            &:nth-of-type(4),
+            &:nth-of-type(5) {
+                width: 120px;
+            }
+        }
+        td.title {
+            padding-left: 50px;
+            text-align: left;
+        }
+        .btn-area {
+            margin-bottom: 20px;
+            margin-left: -5px;
+            margin-right: -5px;
+            > div {
+                padding-left: 5px;
+                padding-right: 5px;
+                .btn {
+                    width: 100%;
+                    height: 30px;
+                    &.btn-list {
+                        &:hover,
+                        &:focus {
+                            background-color: #666;
+                            border-color: #666;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 주문하기(공통)
+.order {
+    .order-step {
+        ol {
+            width: 99.99%;
+            height: 62px;
+            border: 1px solid #dfdfdf;
+            background-color: #f9f9f9;
+            li {
+                position: relative;
+                float: left;
+                width: 33.33%;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                color: #333;
+                font-size: 16px;
+                font-weight: 400;
+                span {
+                    &:before {
+                        margin-right: 10px;
+                        vertical-align: -2px;
+                    }
+                }
+                & + li {
+                    &:before {
+                        position: absolute;
+                        left: -4px;
+                        font-family: 'fontello';
+                        content: '\e801';
+                        font-size: 24px;
+                        color: #aaa;
+                    }
+                }
+                &.active {
+                    height: 60px;
+                    background-color: $kc;
+                    background-image: url(/assets/images/mypage/bg_order_step_tail.gif);
+                    background-repeat: no-repeat;
+                    color: #fff;
+                    &:before {
+                        content: '';
+                    }
+                    & + li {
+                        background-image: url(/assets/images/mypage/bg_order_step_head.gif);
+                        background-repeat: no-repeat;
+                        &:before {
+                            content: '';
+                        }
+                    }
+                }
+                &:nth-of-type(1) {
+                    span {
+                        &:before {
+                            content: url(/assets/images/mypage/ico_cart.png);
+                        }
+                    }
+                    &.active {
+                        background-image: none;
+                        span {
+                            &:before {
+                                content: url(/assets/images/mypage/ico_cart_white.png);
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(2) {
+                    span {
+                        &:before {
+                            content: url(/assets/images/mypage/ico_doc_check.png);
+                        }
+                    }
+                    &.active {
+                        span {
+                            &:before {
+                                content: url(/assets/images/mypage/ico_doc_check_white.png);
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3) {
+                    span {
+                        &:before {
+                            content: url(/assets/images/mypage/ico_check.png);
+                        }
+                    }
+                    &.active {
+                        span {
+                            &:before {
+                                content: url(/assets/images/mypage/ico_check_white.png);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section {
+        h5 {
+            margin-bottom: 15px;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
+// 주문하기 > 장바구니
+.order.cart {
+    .cart-list {
+        margin-top: 70px;
+        .table {
+            margin-bottom: 10px;
+        }
+        th, td {
+            &:nth-of-type(1) {
+                width: 150px;
+            }
+            &:nth-of-type(3),
+            &:nth-of-type(4) {
+                width: 240px;
+            }
+        }
+        .lap {
+            font-size: 14px !important;
+            color: #333;
+            font-weight: 400;
+        }
+        h5 {
+            color: #333;
+            font-weight: 400;
+        }
+        .btn-delete {
+            margin-top: 10px;
+            background-color: #666;
+            border-color: #666;
+            color: #fff;
+        }
+        .notify {
+            li {
+                &:before {
+                    margin-right: 5px;
+                    content: '*';
+                    vertical-align: -3px;
+                }
+            }
+        }
+    }
+    .payment {
+        margin-top: 60px;
+        .table {
+            margin-bottom: 40px;
+            table-layout: fixed;
+            td {
+                position: relative;
+                padding-top: 35px !important;
+                padding-bottom: 35px !important;
+                border-top: 1px solid #dfdfdf;
+                vertical-align: middle;
+                & + td {
+                    border-left: 1px solid #ccc;
+                }
+                &:nth-of-type(4) {
+                    color: $red;
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+                span {
+                    position: absolute;
+                    top: 40px;
+                    left: -11px;
+                    width: 22px;
+                    height: 22px;
+                    background-color: #fff;
+                    &.plus {
+                        content: url(/assets/images/mypage/ico_plus.png);
+                    }
+                    &.minus {
+                        content: url(/assets/images/mypage/ico_minus.png);
+                    }
+                    &.equals {
+                        content: url(/assets/images/mypage/ico_equals.png);
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-left: -5px;
+            margin-right: -5px;
+            > div {
+                padding-left: 5px;
+                padding-right: 5px;
+                .btn {
+                    width: 100%;
+                    height: 50px;
+                    line-height: 48px;
+                    font-size: 16px;
+                    &:hover,
+                    &:focus {
+                        background-color: #ccc;
+                        border-color: #ccc;
+                        color: #666;
+                    }
+                    &.btn-order {
+                        background-color: $kc;
+                        border-color: $kc;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 주문하기 > 주문서작성
+.order.sheet {
+    .notify {
+        li {
+            &:before {
+                margin-right: 5px;
+                content: '*';
+                vertical-align: -3px;
+            }
+        }
+    }
+    .cart-list {
+        margin-top: 70px;
+        th, td {
+            &:nth-of-type(1) {
+                width: 80px;
+            }
+            &:nth-of-type(2) {
+                padding-left: 0;
+                width: 100px;
+            }
+            &:nth-of-type(4),
+            &:nth-of-type(7),
+            &:nth-of-type(5) {
+                width: 120px;
+            }
+            &:nth-of-type(6),
+            &:nth-of-type(8) {
+                width: 150px;
+            }
+        }
+        td {
+            &.title {
+                .order-info {
+                    margin-top: 20px;
+                }
+            }
+            &:nth-of-type(6) {
+                p + p {
+                    margin-top: 5px;
+                }
+                .btn {
+                    background-color: #666;
+                    border-color: #666;
+                    color: #fff;
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 35px;
+            margin-left: -5px;
+            margin-right: -5px;
+            > div {
+                padding-left: 5px;
+                padding-right: 5px;
+                .btn {
+                    width: 100%;
+                    height: 50px;
+                    line-height: 48px;
+                    font-size: 16px;
+                    &.btn-wish {
+                        &:hover,
+                        &:focus {
+                            background-color: #666;
+                            border-color: #666;
+                            color: #fff;
+                        }
+                    }
+                    &.btn-recal {
+                        background-color: $kc;
+                        border-color: $kc;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .payment {
+        margin-top: 70px;
+        .table {
+            margin-bottom: 40px;
+            table-layout: fixed;
+            td {
+                position: relative;
+                padding-top: 35px !important;
+                padding-bottom: 35px !important;
+                border-top: 1px solid #dfdfdf;
+                vertical-align: middle;
+                & + td {
+                    border-left: 1px solid #ccc;
+                }
+                &:nth-of-type(4) {
+                    color: $red;
+                    font-size: 25px;
+                    font-weight: 400;
+                }
+                span {
+                    position: absolute;
+                    top: 40px;
+                    left: -11px;
+                    width: 22px;
+                    height: 22px;
+                    background-color: #fff;
+                    &.plus {
+                        content: url(/assets/images/mypage/ico_plus.png);
+                    }
+                    &.minus {
+                        content: url(/assets/images/mypage/ico_minus.png);
+                    }
+                    &.equals {
+                        content: url(/assets/images/mypage/ico_equals.png);
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-left: -5px;
+            margin-right: -5px;
+            > div {
+                padding-left: 5px;
+                padding-right: 5px;
+                .btn {
+                    width: 100%;
+                    height: 50px;
+                    line-height: 48px;
+                    font-size: 16px;
+                    &:hover,
+                    &:focus {
+                        background-color: #ccc;
+                        border-color: #ccc;
+                        color: #666;
+                    }
+                    &.btn-order {
+                        background-color: $kc;
+                        border-color: $kc;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .orderer {
+        margin-top: 80px;
+        .table {
+            border-top: 2px solid $kc;
+            th {
+                font-size: 14px;
+                padding-left: 35px;
+                width: 200px;
+            }
+            td {
+                padding-left: 20px;
+                text-align: left;
+            }
+        }
+        .form-control {
+            width: 300px;
+        }
+    }
+    .shipping {
+        position: relative;
+        margin-top: 60px;
+        .form-control {
+            width: 300px;
+        }
+        .sa {
+            position: absolute;
+            top: 0;
+            right: 0;
+            .check {
+                &:before {
+                    top: 5px !important;
+                }
+            }
+        }
+        .table {
+            margin-bottom: 10px;
+            border-top: 2px solid $kc;
+            th {
+                font-size: 14px;
+                padding-left: 35px;
+                width: 200px;
+            }
+            td {
+                padding-left: 20px;
+                text-align: left;
+            }
+            .address {
+                p + p {
+                    margin-top: 5px;
+                }
+                .zipcode {
+                    .form-control {
+                        display: inline-block;
+                        margin-right: 10px;
+                        width: 100px;
+                        vertical-align: middle;
+                    }
+                    .btn {
+                        background-color: #666;
+                        border-color: #666;
+                        color: #fff;
+                        vertical-align: middle;
+                        font-size: 12px;
+                    }
+                }
+                .default,
+                .details {
+                    .form-control {
+                        width: 600px;
+                    }
+                }
+            }
+            .ask {
+                .form-control {
+                    width: 600px;
+                }
+            }
+        }
+    }
+    .pay-method {
+        margin-top: 60px;
+        .table {
+            margin-bottom: 10px;
+            border-top: 2px solid $kc;
+            th {
+                font-size: 14px;
+                padding-left: 35px;
+                width: 200px;
+            }
+            td {
+                padding-left: 20px;
+                text-align: left;
+            }
+        }
+        .method {
+            label {
+                margin-right: 10px;
+                input {
+                    vertical-align: -2px;
+                }
+            }
+        }
+    }
+    .notice {
+        margin-top: 40px;
+        padding: 40px;
+        background-color: #f7f7f7;
+        h6 {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #333;
+            &:before {
+                margin-right: 10px;
+                content: url(/assets/images/mypage/ico_doc_search.png);
+                vertical-align: -2px;
+            }
+        }
+        ul {
+            li {
+                font-size: 13px;
+                line-height: 28px;
+                &:before {
+                    margin-right: 10px;
+                    font-family: 'fontello';
+                    content: '\E803';
+                    color: $kc;
+                }
+            }
+        }
+        & + .btn-area {
+            margin-top: 50px;
+            .btn {
+                width: 100%;
+                height: 50px;
+                font-size: 16px;
+                line-height: 48px;
+                &.btn-pay {
+                    background-color: $kc;
+                    border-color: $kc;
+                    color: #fff;
+                }
+                &.btn-cancel {
+                    &:hover,
+                    &:focus {
+                        background-color: #666;
+                        border-color: #666;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 주문하기 > 주문완료
+.order.done {
+    .message {
+        margin-top: 85px;
+        text-align: center;
+        h3 {
+            margin-bottom: 10px;
+            @extend .jjmj;
+            color: $kc;
+            font-weight: 400;
+        }
+        p {
+            font-size: 14px;
+        }
+        .order-num {
+            margin-top: 55px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            background-color: #f7f7f7;
+            dl {
+                dt, dd {
+                    display: inline-block;
+                    font-size: 16px;
+                }
+                dd {
+                    margin-left: 3px;
+                    color: $red;
+                }
+            }
+        }
+    }
+    .banking {
+        margin-top: 30px;
+        .table {
+            margin-bottom: 10px;
+            border-top: 2px solid $kc;
+            th {
+                font-size: 14px;
+                padding-left: 35px;
+                width: 200px;
+            }
+            td {
+                padding-left: 20px;
+                text-align: left;
+            }
+        }
+    }
+    .btn-area {
+        margin-top: 50px;
+        .btn {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            line-height: 48px;
+            &.btn-view {
+                background-color: $kc;
+                border-color: $kc;
+                color: #fff;
+            }
+            &.btn-goon {
+                &:hover,
+                &:focus {
+                    background-color: #666;
+                    border-color: #666;
+                }
+            }
         }
     }
 }

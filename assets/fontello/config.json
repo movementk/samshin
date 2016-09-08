@@ -75,6 +75,24 @@
       ]
     },
     {
+      "uid": "004882ab2d5c418c5b2060e80596279b",
+      "css": "right-open-big",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "884cfc3e6e2d456dd2a2ca0dbb9e6337",
+      "css": "left-open-big",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "d2c6b59d9a239140cb76be0627480855",
+      "css": "dot",
+      "code": 59395,
+      "src": "entypo"
+    },
+    {
       "uid": "3aa687526dd1fe467bdb596d2ee94283",
       "css": "lock",
       "code": 59392,

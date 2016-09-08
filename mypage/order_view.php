@@ -196,46 +196,12 @@
                     </tfoot>
                 </table>
             </section>
-            <section class="product-list shipping-fee">
-                <h5>배송비정보</h5>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>상품명</th>
-                            <th>항목</th>
-                            <th>내용</th>
-                            <th>금액</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="title">
-                                <h5>세그레또 5부 다이아몬드 반지</h5>
-                                <p class="lap">현대,우신,GIA 감정서 선택 상품</p>
-                            </td>
-                            <td>무료배송상품</td>
-                            <td>무료배송상품</td>
-                            <td>0원</td>
-                        </tr>
-                        <tr>
-                            <td class="title">
-                                <h5>세그레또 5부 다이아몬드 반지</h5>
-                                <p class="lap">현대,우신,GIA 감정서 선택 상품</p>
-                            </td>
-                            <td>무료배송상품</td>
-                            <td>무료배송상품</td>
-                            <td>0원</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
             <section class="payment">
                 <h5>주문합계금액</h5>
                 <table class="table">
                     <thead>
                         <tr>
                             <th>상품구매금액</th>
-                            <th>배송비 착불</th>
                             <th>총배송비</th>
                             <th>사용포인트</th>
                             <th>결제될 주문 총금액</th>
@@ -244,20 +210,19 @@
                     <tbody>
                         <tr>
                             <td>950,000 원</td>
-                            <td>0 개</td>
-                            <td>0 원</td>
-                            <td>0 P</td>
-                            <td>&#8361; 10,050,000</td>
+                            <td><span class="plus"></span>0 원</td>
+                            <td><span class="minus"></span>0 P</td>
+                            <td><span class="equals"></span>&#8361; 10,050,000</td>
                         </tr>
                     </tbody>
                 </table>
             </section>
-            <div class="btn-area">
-                <div class="col-xs-6 col-lg-2 col-lg-offset-4">
-                    <a class="btn btn-back btn-block" href="#">이전 페이지</a>
+            <div class="btn-area row">
+                <div class="col-xs-6 col-lg-3 col-lg-offset-3">
+                    <a class="btn btn-back" href="#">이전 페이지</a>
                 </div>
-                <div class="col-xs-6 col-lg-2">
-                    <a class="btn btn-mypage btn-block btn-primary" href="#">마이페이지 바로가기</a>
+                <div class="col-xs-6 col-lg-3">
+                    <a class="btn btn-mypage btn-primary" href="#">마이페이지 바로가기</a>
                 </div>
             </div>
         </div>

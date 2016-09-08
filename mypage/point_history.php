@@ -3,16 +3,16 @@
 </head>
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="mypage cash-history">
+    <main id="content" tabindex="-1" class="mypage point-history">
         <div class="container">
             <header class="page-header">
-                <h3>CASH HISTORY</h3>
+                <h3>포인트 내역</h3>
                 <p>
                     본 포인트는 유효기간 없이 언제든지 사용하실수 있습니다.<br>
                     본 포인트는 저희 사이트에서 현금과 동일하게 사용하실수 있습니다.
                 </p>
             </header>
-            <div class="history-list">
+            <div class="point-list">
                 <table class="table">
                     <thead>
                         <tr>
@@ -29,35 +29,35 @@
                             <td>[충전] 100,000 포인트</td>
                             <td>실시간계좌이체</td>
                             <td>100,000 원</td>
-                            <td>미입금</td>
+                            <td>입금</td>
                         </tr>
                         <tr>
                             <td>2016-08-23 18:56:56</td>
                             <td>[충전] 100,000 포인트</td>
                             <td>실시간계좌이체</td>
                             <td>100,000 원</td>
-                            <td>미입금</td>
+                            <td><p class="non-pay">미입금</p></td>
                         </tr>
                         <tr>
                             <td>2016-08-23 18:56:56</td>
                             <td>[충전] 100,000 포인트</td>
                             <td>실시간계좌이체</td>
                             <td>100,000 원</td>
-                            <td>미입금</td>
+                            <td>입금</td>
                         </tr>
                         <tr>
                             <td>2016-08-23 18:56:56</td>
                             <td>[충전] 100,000 포인트</td>
                             <td>실시간계좌이체</td>
                             <td>100,000 원</td>
-                            <td>미입금</td>
+                            <td><p class="non-pay">미입금</p></td>
                         </tr>
                         <tr>
                             <td>2016-08-23 18:56:56</td>
                             <td>[충전] 100,000 포인트</td>
                             <td>실시간계좌이체</td>
                             <td>100,000 원</td>
-                            <td>미입금</td>
+                            <td>입금</td>
                         </tr>
                     </tbody>
                 </table>
