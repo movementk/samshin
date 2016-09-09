@@ -240,7 +240,7 @@
     max-width: 370px; }
     #content.find .find-form form .form-control {
       background-color: #f7f7f7; }
-#content.find .find-id .section-header p a, #content.find .find-pw .section-header p a {
+#content.find .section-header p a {
   color: #080d68;
   font-weight: 400; }
 @media (min-width: 768px) {

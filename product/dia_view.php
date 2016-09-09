@@ -16,13 +16,13 @@
                     </header>
                     <div class="steps col-xs-12 col-lg-8">
                         <ol>
-                            <li class="dia">
+                            <li class="dia active">
                                 <span>01</span>
                                 <p>다이아몬드<br class="visible-xs"> 선택하기</p>
                                 <a href="#">다이아몬드 선택 바로가기</a>
                             </li>
                             <li class="arrow" role="presentation"></li>
-                            <li class="jewelry active">
+                            <li class="jewelry">
                                 <span>02</span>
                                 <p>디자인<br class="visible-xs"> 선택하기</p>
                                 <a href="#">디자인 선택 바로가기</a>
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <div class="details jewelry">
+        <div class="details dia">
             <div class="summary">
                 <div class="container">
                     <div class="row">
@@ -64,108 +64,101 @@
                                     <a data-slide-index="1" href="#"><img src="/assets/images/product/img_slide_thumb.jpg"></a>
                                 </div>
                                 <div class="notify">
-
+                                    <p>
+                                        다이아아울렛 주문 상품은 주문 후 제작 상품들로 7일~10일 소요됩니다.<br>
+                                        <i>"급" 주문은 전화 문의 주시기 바랍니다.</i>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xs-12 col-lg-6">
-                            <section class="order">
+                            <section class="diainfo">
                                 <header>
-                                    <small>CH00001</small>
-                                    <h3>돈나벨라 5부 다이아몬드 반지</h3>
+                                    <small>GIA 17312569</small>
+                                    <h3>GIA 다이아몬드 0.5CT D / SI2 / VG</h3>
                                 </header>
                                 <div class="option">
                                     <div class="option-head">
-                                        <h4>옵션선택하기</h4>
+                                        <h4>다이아몬드 상세정보</h4>
                                         <ul class="sns">
                                             <li><a href="#"><img src="/assets/images/sub/ico_facebook.png" alt="페이스북"></a></li>
                                             <li><a href="#"><img src="/assets/images/sub/ico_twitter.png" alt="트위터"></a></li>
                                             <li><a href="#"><img src="/assets/images/sub/ico_gplus.png" alt="구글플러스"></a></li>
                                         </ul>
                                     </div>
-                                    <form>
                                     <div class="option-body">
-                                        <dl>
-                                            <dt>가격</dt>
-                                            <dd>￦1,2343,000</dd>
-                                            <dt>함량</dt>
-                                            <dd>
-                                                <div class="dropdown">
-                                                    <button class="btn btn-block dropdown-toggle" type="button" id="option-metal" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
-                                                        <span class="caret"></span>
-                                                    </button>
-                                                    <ul class="dropdown-menu" aria-labelledby="option-metal">
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 플래티늄(PT)</a></li>
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 14K 옐로우 골드</a></li>
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 18K 옐로우 골드</a></li>
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 14K 화이트 골드</a></li>
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 18K 화이트 골드</a></li>
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 14K 핑크 골드</a></li>
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 18K 핑크 골드</a></li>
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 14K 콤비</a></li>
-                                                        <li><a href="#">                                                        <img src="/assets/images/product/ico_option_metal_1.png" alt=""> 18K 화이트골드
- 18K 콤비</a></li>
-                                                    </ul>
-                                                </div>
-                                            </dd>
-                                            <dt>사이즈</dt>
-                                            <dd>
-                                                <!--
-                                                <div class="dropdown">
-                                                    <button class="btn btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                                        선택해주세요
-                                                        <span class="caret"></span>
-                                                    </button>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">21호</a></li>
-                                                        <li><a href="#">22호</a></li>
-                                                        <li><a href="#">23호</a></li>
-                                                    </ul>
-                                                </div>
-                                                -->
-                                                <select class="form-control">
-                                                    <option value="">선택하세요</option>
-                                                    <option value="">21호</option>
-                                                    <option value="">22호</option>
-                                                    <option value="">23호</option>
-                                                </select>
-                                                <p class="info"><a href="#">반지 사이즈 안내</a></p>
-                                            </dd>
-                                        </dl>
-                                        <div class="total">
-                                            <ul>
-                                                <li>18K 화이트골드</li>
-                                                <li>사이즈: 23호(+127,000원)</li>
-                                            </ul>
-                                            <strong>￦1,853,000</strong>
-                                        </div>
-                                        <div class="notify">
-                                            <p>맞춤 다이아몬드 제품은 제작 기간이 15일 ~ 20일 정도 소요됩니다.</p>
-                                            <p>다이아몬드 및 배송 일정이 궁금하다면 전화 주세요. 자세히 안내해드리겠습니다.</p>
-                                            <a href="tel:02-512-8484">전화문의: 02-512-8484</a>
-                                        </div>
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <th>REPORT <i>색상</i> <a href="#"><i class="icon-question"></i></a></th>
+                                                    <td>GIA</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>SHAPE <i>형태</i></th>
+                                                    <td>ROUND</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>WEIGHT <i>중량</i></th>
+                                                    <td>0.31</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>COLOR <i>색상</i></th>
+                                                    <td>G</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>CLARITY <i>선명도</i></th>
+                                                    <td>SI1</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>CUT <i>컷팅</i></th>
+                                                    <td>Very Good</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>POLISH <i>연마</i></th>
+                                                    <td>Exellent</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>SYMMETRY <i>대칭</i></th>
+                                                    <td>Exellent</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>FLUORESCENCE <i>형광성</i></th>
+                                                    <td>Faint</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>RATIO <i>중량 비율</i></th>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>MEASUREMENTS <i>사이즈</i></th>
+                                                    <td>14.07 x 14.14 x 8.35 mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>CULET <i>큐렛</i></th>
+                                                    <td>None</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>GIRDLE <i>거들</i></th>
+                                                    <td>Thin</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>TABLE <i>테이블</i></th>
+                                                    <td>56.0%</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                     <div class="btn-area row">
-                                        <div class="col-xs-8"><button class="btn btn-block btn-select" type="submit">디자인 선택</button></div>
+                                        <div class="col-xs-8"><button class="btn btn-block btn-select" type="submit">다이아몬드 선택</button></div>
                                         <div class="col-xs-4"><a class="btn btn-block btn-favor" href="#"><span class="hidden-xs">WISH LIST</span></a></div>
                                     </div>
-                                    </form>
                                 </div>
                             </section>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="feature">
+            <div class="product-info">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-lg-5">
@@ -195,7 +188,7 @@
                             </section>
                         </div>
                         <div class="col-xs-12 col-lg-7">
-                            <section class="description">
+                            <section class="lap">
                                 <div>
                                     <h4>제품설명</h4>
                                     <p>메인 다이아몬드를 감싸고 있는 주변석 덕분에 반지가 크고 화려해 보이는 제품입니다.
@@ -208,136 +201,6 @@
                     </div>
                 </div>
             </div>
-            <section class="setting">
-                <div class="container">
-                    <header>
-                        <h4>셋팅가능한 다이아몬드</h4>
-                        <p>해당 디자인은 추천해 드리는 다이아몬드 형태와 캐럿 사이즈만 셋팅이 가능한 디자인입니다.</p>
-                    </header>
-                    <div class="setting-list">
-                        <ul>
-                            <li>
-                                <!-- a href="#" -->
-                                <div class="active">
-                                    <h5><span class="en">ROUND</span><span class="ko">라운드</span></h5>
-                                    <p>0.23 – 3.10 <br>CARAT</p>
-                                </div>
-                                <!-- /a -->
-                            </li>
-                            <li>
-                                <div class="active">
-                                    <h5><span class="en">PRINCESS</span><span class="ko">프린세스</span></h5>
-                                    <p>0.23 – 2.35 <br>CARAT</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="active">
-                                    <h5><span class="en">CHSHION</span><span class="ko">쿠션</span></h5>
-                                    <p>0.23 – 1.49 <br>CARAT</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h5><span class="en">RADIANT</span><span class="ko">라디언트</span></h5>
-                                    <p>0.23 – 2.50 <br>CARAT</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="active">
-                                    <h5><span class="en">EMERALD</span><span class="ko">에메랄드</span></h5>
-                                    <p>0.23 – 5.00 <br>CARAT</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h5><span class="en">ASSCHER<span><span class="ko">어셔</span></h5>
-                                    <p>0.23 – 1.80 <br>CARAT</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h5><span class="en">OVAL</span><span class="ko">오발</span></h5>
-                                    <p>0.23 – 5.00 <br>CARAT</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h5><span class="en">MARQUISE</span><span class="ko">마르퀴즈</span></h5>
-                                    <p>0.23 – 1.50 <br>CARAT</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h5><span class="en">PEAR</span><span class="ko">피어</span></h5>
-                                    <p>0.23 – 2.50 <br>CARAT</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <h5><span class="en">HEART</span><span class="ko">하트</span></h5>
-                                    <p>0.23 – 3.10 <br>CARAT</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="recommend">
-                <div class="container">
-                    <header>
-                        <h4>추천디자인</h4>
-                        <p>다이아아울렛에서 추천하는 셋팅 가능한 디자인과 가드링 상품입니다.</p>
-                    </header>
-                    <div class="recommend-list">
-                        <ul class="row">
-                            <li class="col-xs-6 col-sm-4 col-lg-3">
-                                <a href="#">
-                                    <figure>
-                                        <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
-                                        <figcaption>
-                                            <h5>이데알레 1부 다이아몬드 반지</h5>
-                                            <p>299,000원</p>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-lg-3">
-                                <a href="#">
-                                    <figure>
-                                        <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
-                                        <figcaption>
-                                            <h5>이데알레 1부 다이아몬드 반지</h5>
-                                            <p>299,000원</p>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-lg-3">
-                                <a href="#">
-                                    <figure>
-                                        <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
-                                        <figcaption>
-                                            <h5>이데알레 1부 다이아몬드 반지</h5>
-                                            <p>299,000원</p>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                            <li class="col-xs-6 col-sm-4 col-lg-3 hidden-sm hidden-md">
-                                <a href="#">
-                                    <figure>
-                                        <img class="img-responsive" src="/assets/images/product/img_jewelry_dummy.jpg">
-                                        <figcaption>
-                                            <h5>이데알레 1부 다이아몬드 반지</h5>
-                                            <p>299,000원</p>
-                                        </figcaption>
-                                    </figure>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
             <div class="container">
                 <section class="packing">
                     <header>

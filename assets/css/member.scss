@@ -326,13 +326,11 @@
             }
         }
     }
-    .find-id, .find-pw {
-        .section-header {
-            p {
-                a {
-                    color: $kc;
-                    font-weight: 400;
-                }
+    .section-header {
+        p {
+            a {
+                color: $kc;
+                font-weight: 400;
             }
         }
     }
