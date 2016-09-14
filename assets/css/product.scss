@@ -92,6 +92,38 @@
             }
         }
     }
+    &.gia {
+        > form {
+            height: 220px;
+        }
+        &.open {
+            > form {
+                height: 520px;
+            }
+        }
+        @media (min-width: $sm) {
+            margin-bottom: 60px;
+            > form {
+                height: 240px;
+            }
+            &.open {
+                > form {
+                    height: 545px;
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            margin-bottom: 75px;
+            > form {
+                height: 120px;
+            }
+            &.open {
+                > form {
+                    height: 425px;
+                }
+            }
+        }
+    }
     .form-control[type="text"] {
         border-radius: 0;
         text-align: center;
@@ -661,6 +693,55 @@
             }
         }
     }
+    .item {
+        .btn-list {
+            li {
+                width: 33.33%;
+            }
+        }
+        @media (min-width: $sm) {
+            .btn-list {
+                li {
+                    width: 20%;
+                }
+            }
+        }
+    }
+    .stone {
+        .btn-list {
+            li {
+                width: 25%;
+            }
+        }
+    }
+    .artist {
+        .btn-list {
+            li {
+                width: 33.33%;
+            }
+        }
+        @media (min-width: $sm) {
+            .btn-list {
+                li {
+                    width: 20%;
+                }
+            }
+        }
+    }
+    .delivery {
+        .btn-list {
+            li {
+                width: 50%;
+            }
+        }
+        @media (min-width: $sm) {
+            .btn-list {
+                li {
+                    width: 180px;
+                }
+            }
+        }
+    }
     &.fancy {
         .fancy-intensity {
             legend {
@@ -702,6 +783,92 @@
         @media (min-width: $lg) {
             margin-bottom: 80px;
             padding-bottom: 70px;
+        }
+    }
+    &.gia {
+        .color {
+            .btn-list {
+                li {
+                    width: 25%;
+                }
+            }
+            @media (min-width: $sm) {
+                .btn-list {
+                    li {
+                        width: 25%;
+                    }
+                }
+            }
+            @media (min-width: $md) {
+                .btn-list {
+                    li {
+                        width: 110px;
+                    }
+                }
+            }
+        }
+        .clarity {
+            .btn-list {
+                li {
+                    width: 25%;
+                }
+            }
+            @media (min-width: $sm) {
+                .btn-list {
+                    li {
+                        width: 14.28%;
+                    }
+                }
+            }
+            @media (min-width: $md) {
+                .btn-list {
+                    li {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+        .cut {
+            .btn-list {
+                li {
+                    width: 33.33%;
+                }
+            }
+            @media (min-width: $sm) {
+                .btn-list {
+                    li {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+    &.completed {
+        .notify {
+            margin-top: 15px;
+            p {
+                color: $kc;
+                font-weight: 400;
+                i {
+                    color: $red;
+                    font-style: normal;
+                }
+                &:before {
+                    margin-right: 5px;
+                    font-family: 'fontello';
+                    content: '\E805';
+                }
+            }
+            @media (min-width: $sm) {
+                p {
+                    &:before {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            @media (min-width: $lg) {
+                margin-top: 20px;
+            }
         }
     }
 }
@@ -1904,99 +2071,206 @@
             }
         }
     }
-    // 제품 특징 설명
+    // 제품정보
     .product-info {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: #f7f7f7;
-        section {
-            padding: 10px;
-            background-color: #fff;
-            box-shadow: 0 0 10px #dfdfdf;
-            &.overview {
-                margin-bottom: 10px;
-            }
-            > div {
-                padding: 25px 20px;
-                border: 1px solid #dfdfdf;
-                h4 {
-                    margin-bottom: 20px;
-                    @extend .jjmj;
-                    font-size: 23px;
-                    color: #942c48;
-                }
-                dl {
-                    dt, dd {
-                        margin-bottom: 5px;
-                        color: #222;
-                    }
-                    dt {
-                        float: left;
-                        width: 90px;
-                        font-weight: 500;
-                        &:before {
-                            padding-right: 5px;
-                            content: '\2022';
-                            color: $kc;
-                        }
-                    }
-                    dd {
-                        margin-left: 90px;
-                    }
-                    & + .help {
-                        margin-top: 15px;
-                    }
-                }
-                .help {
-                    margin-left: 10px;
-                    &:before {
-                        content: '※';
-                        padding-right: 5px;
-                    }
-                }
-            }
-            &.description {
-                p {
-                    line-height: 23px;
+        margin-top: 15px;
+        > header {
+            padding-bottom: 10px;
+            h4 {
+                font-size: 23px;
+                @extend .crimson;
+                color: $kc;
+                font-weight: 500;
+                letter-spacing: -1px;
+                small {
+                    font-size: 13px;
+                    @extend .noto;
+                    color: #666;
                 }
             }
         }
         @media (min-width: $sm) {
-            padding-top: 50px;
-            padding-bottom: 50px;
-            section {
-                &.overview {
-                    margin-bottom: 30px;
-                }
-                > div {
-                    padding: 30px 25px;
-                    h4 {
-                        font-size: 25px;
-                    }
-                    dl {
-                        dt, dd {
-                            font-size: 14px;
-                        }
-                    }
-                }
-                &.description {
-                    p {
-                        font-size: 14px;
-                        line-height: 25px;
+            > header {
+                padding-bottom: 15px;
+                h4 {
+                    font-size: 25px;
+                    small {
+                        font-size: 15px;
                     }
                 }
             }
         }
         @media (min-width: $lg) {
+            > header {
+                padding-bottom: 15px;
+            }
+        }
+        .feature {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #f7f7f7;
             section {
-                &.overview {
-                    margin-bottom: 0;
-                }
+                padding: 10px;
+                background-color: #fff;
+                box-shadow: 0 0 10px #dfdfdf;
                 > div {
-                    padding: 30px 25px;
-                    min-height: 360px;
+                    padding: 25px 20px;
+                    border: 1px solid #dfdfdf;
+                }
+                &.overview {
+                    margin-bottom: 10px;
+                    h4 {
+                        margin-bottom: 20px;
+                        @extend .jjmj;
+                        font-size: 23px;
+                        color: #942c48;
+                    }
+                    dl {
+                        dt, dd {
+                            margin-bottom: 5px;
+                            color: #222;
+                        }
+                        dt {
+                            float: left;
+                            width: 90px;
+                            font-weight: 500;
+                            &:before {
+                                padding-right: 5px;
+                                content: '\2022';
+                                color: $kc;
+                            }
+                        }
+                        dd {
+                            margin-left: 90px;
+                        }
+                        & + .help {
+                            margin-top: 15px;
+                        }
+                    }
+                    .help {
+                        margin-left: 10px;
+                        &:before {
+                            content: '※';
+                            padding-right: 5px;
+                        }
+                    }
+                }
+                &.lap {
+                    h4 {
+                        margin-bottom: 10px;
+                    }
+                    .explain {
+                        margin-bottom: 15px;
+                        color: #333;
+                        font-weight: 400;
+                    }
+                    .btn {
+                        width: 120px;
+                        height: 30px;
+                        line-height: 28px;
+                    }
+                    .thumb {
+                        margin-top: 30px;
+                    }
+                }
+            }
+            @media (min-width: $sm) {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                section {
+                    > div {
+                        padding: 30px;
+                    }
+                    &.overview {
+                        margin-bottom: 30px;
+                        h4 {
+                            font-size: 25px;
+                        }
+                        dl {
+                            dt, dd {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    &.lap {
+                        > div {
+                            overflow: hidden;
+                        }
+                        .text-area {
+                            float: left;
+                            h4 {
+                                margin-bottom: 20px;
+                            }
+                            .explain {
+                                margin-bottom: 25px;
+                            }
+                        }
+                        .thumb-area {
+                            float: right;
+                            .thumb {
+                                margin-top: -20px;
+                                margin-bottom: -20px;
+                            }
+                        }
+                    }
+                }
+            }
+            @media (min-width: $lg) {
+                section {
+                    > div {
+                        padding: 30px 35px;
+                        min-height: 250px;
+                    }
+                    &.overview {
+                        margin-bottom: 0;
+                    }
+                    &.lap {
+                        .thumb-area {
+                            .thumb {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
                 }
             }
         }
+        .size-info,
+        .color-info,
+        .clarity-info,
+        .cutting-info {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            text-align: center;
+            h5 {
+                margin-bottom: 15px;
+                font-size: 23px;
+                color: $kc;
+                @extend .jjmj;
+            }
+            .explain {
+                margin-bottom: 25px;
+            }
+            .figure {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+            @media (min-width: $sm) {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                h5 {
+                    margin-bottom: 20px;
+                    font-size: 28px;
+                }
+                .explain {
+                    font-size: 14px;
+                }
+            }
+        }
+        .color-info,
+        .cutting-info {
+            background-color: #f7f7f7;
+        }
+
     }
 }

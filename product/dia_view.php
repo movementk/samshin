@@ -158,49 +158,116 @@
                     </div>
                 </div>
             </div>
-            <div class="product-info">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-lg-5">
-                            <section class="overview">
-                                <div>
-                                    <h4>상세정보</h4>
-                                    <dl>
-                                        <dt>제품명</dt>
-                                        <dd>돈나벨라 5부 다이아몬드 반지</dd>
-                                        <dt>제품코드</dt>
-                                        <dd>CH00001</dd>
-                                        <dt>메인석</dt>
-                                        <dd>0.5캐럿 다이아몬드 * 1</dd>
-                                        <dt>주변석</dt>
-                                        <dd>큐빅 지르코니아</dd>
-                                        <dt>함량</dt>
-                                        <dd>-</dd>
-                                        <dt>중량</dt>
-                                        <dd>약 3.1g</dd>
-                                        <dt>사이즈</dt>
-                                        <dd>밴드폭 2.4mm</dd>
-                                        <dt>제조국</dt>
-                                        <dd>대한민국</dd>
-                                    </dl>
-                                    <p class="help">중량과 사이즈는 +,- 오차가 있을 수 있습니다.</p>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="col-xs-12 col-lg-7">
-                            <section class="lap">
-                                <div>
-                                    <h4>제품설명</h4>
-                                    <p>메인 다이아몬드를 감싸고 있는 주변석 덕분에 반지가 크고 화려해 보이는 제품입니다.
-                                    심플하면서 화려한 제품을 찾으신다면 "돈나벨라 0.5캐럿 다아이몬드 반지"를 추천해 드려요.
-                                    메인은 0.5캐런 다이아몬드가 셋팅되며, 주변은 큐빅지르코니아가 셋팅되어 있습니다.
-                                    주변석도 다이아몬드 셋팅을 원하실 시 전화 문의 주시기 바랍니다.</p>
-                                </div>
-                            </section>
+            <section class="product-info">
+                <header>
+                    <div class="container">
+                        <h4>PRODUCT INFO <small>제품 정보</small></h4>
+                    </div>
+                </header>
+                <div class="feature">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-5">
+                                <section class="overview">
+                                    <div>
+                                        <h4>상세정보</h4>
+                                        <dl>
+                                            <dt>감정서</dt>
+                                            <dd>GIA</dd>
+                                            <dt>중량</dt>
+                                            <dd>1.02ct</dd>
+                                            <dt>컬러</dt>
+                                            <dd>E</dd>
+                                            <dt>선명도</dt>
+                                            <dd>VS2</dd>
+                                            <dt>컷팅</dt>
+                                            <dd>T.EX</dd>
+                                        </dl>
+                                    </div>
+                                </section>
+                            </div>
+                            <div class="col-xs-12 col-lg-7">
+                                <section class="lap">
+                                    <div>
+                                        <div class="text-area">
+                                            <h4><img src="/assets/images/product/h_gia.png" alt="GIA"></h4>
+                                            <p class="explain">
+                                                GIA 다이아몬드 등급 감정서와<br>
+                                                GIA 다이아몬드 도씨에는 세계 최고의<br>
+                                                보석학 증명서로 인정 받고 있습니다.
+                                            </p>
+                                            <a class="btn btn-view" href="#">감정서 보기</a>
+                                        </div>
+                                        <div class="thumb-area">
+                                            <p class="thumb"><img class="img-responsive" src="/assets/images/product/img_lap.jpg" alt="인증서"></p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                <section class="size-info">
+                    <div class="container">
+                        <h5>다이아몬드 사이즈 : 0.30ct</h5>
+                        <p class="explain">캐럿(CARAT)은 다이아몬드의 중량을 말하며 다이아몬드를 비롯한 보석들의 무게를 잴때 사용합니다.</p>
+                        <p class="figure visible-xs">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_size_1_xs.gif" alt="">
+                        </p>
+                        <p class="figure visible-sm">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_size_1_sm.gif" alt="">
+                        </p>
+                        <p class="figure visible-md visible-lg">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_size_1_lg.gif" alt="">
+                        </p>
+                    </div>
+                </section>
+                <section class="color-info">
+                    <div class="container">
+                        <h5>색상 : F</h5>
+                        <p class="explain">컬러는 보석이 얼마나 무색에 가까운지 평가하는 부분이며 다이아몬드의 마스터 스톤과 비교, 명도와 채도를 통해 D~Z 등급까지 24개 등급으로 나뉘어 집니다.</p>
+                        <p class="figure visible-xs">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_color_1_xs.gif" alt="">
+                        </p>
+                        <p class="figure visible-sm">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_color_1_sm.gif" alt="">
+                        </p>
+                        <p class="figure visible-md visible-lg">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_color_1_lg.gif" alt="">
+                        </p>
+                    </div>
+                </section>
+                <section class="clarity-info">
+                    <div class="container">
+                        <h5>선명도 정보 : SI2</h5>
+                        <p class="explain">10배 확대하여 발견이 쉬운 내포물이나 육안으로 판별되는 것과 판별 되지 않는 결점으로 거의 보이지 않으며 합리적인 가격으로 인기 등급</p>
+                        <p class="figure visible-xs">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_clarity_1_xs.gif" alt="">
+                        </p>
+                        <p class="figure visible-sm">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_clarity_1_sm.gif" alt="">
+                        </p>
+                        <p class="figure visible-md visible-lg">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_clarity_1_lg.gif" alt="">
+                        </p>
+                    </div>
+                </section>
+                <section class="cutting-info">
+                    <div class="container">
+                        <h5>컷팅 정보 : Very Good</h5>
+                        <p class="explain">10배 확대하여 발견이 쉬운 내포물이나 육안으로 판별되는 것과 판별 되지 않는 결점으로 거의 보이지 않으며 합리적인 가격으로 인기 등급</p>
+                        <p class="figure visible-xs">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_cutting_1_xs.gif" alt="">
+                        </p>
+                        <p class="figure visible-sm">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_cutting_1_sm.gif" alt="">
+                        </p>
+                        <p class="figure visible-md visible-lg">
+                            <img class="img-responsive" src="/assets/images/product/fig_dia_cutting_1_lg.gif" alt="">
+                        </p>
+                    </div>
+                </section>
+            </section>
             <div class="container">
                 <section class="packing">
                     <header>

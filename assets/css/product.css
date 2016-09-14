@@ -3,13 +3,16 @@
   font-family: 'Lato', sans-serif; }
 
 .jjmj, .details.jewelry .summary .order > header h3, .details.jewelry .feature section > div h4, .details.jewelry .setting header h4,
-.details.jewelry .recommend header h4, .details.dia .summary .diainfo > header h3, .details.dia .product-info section > div h4 {
+.details.jewelry .recommend header h4, .details.dia .summary .diainfo > header h3, .details.dia .product-info .feature section.overview h4, .details.dia .product-info .size-info h5,
+.details.dia .product-info .color-info h5,
+.details.dia .product-info .clarity-info h5,
+.details.dia .product-info .cutting-info h5 {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small {
+.noto, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4 {
+.crimson, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4 {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -75,6 +78,24 @@
         height: 430px; }
       .filter.fancy.open > form {
         height: 535px; } }
+  .filter.gia > form {
+    height: 220px; }
+  .filter.gia.open > form {
+    height: 520px; }
+  @media (min-width: 768px) {
+    .filter.gia {
+      margin-bottom: 60px; }
+      .filter.gia > form {
+        height: 240px; }
+      .filter.gia.open > form {
+        height: 545px; } }
+  @media (min-width: 1230px) {
+    .filter.gia {
+      margin-bottom: 75px; }
+      .filter.gia > form {
+        height: 120px; }
+      .filter.gia.open > form {
+        height: 425px; } }
   .filter .form-control[type="text"] {
     border-radius: 0;
     text-align: center;
@@ -529,6 +550,23 @@
       .filter .btn-area .btn .glyphicon {
         margin-left: 3px;
         font-size: 10px; }
+  .filter .item .btn-list li {
+    width: 33.33%; }
+  @media (min-width: 768px) {
+    .filter .item .btn-list li {
+      width: 20%; } }
+  .filter .stone .btn-list li {
+    width: 25%; }
+  .filter .artist .btn-list li {
+    width: 33.33%; }
+  @media (min-width: 768px) {
+    .filter .artist .btn-list li {
+      width: 20%; } }
+  .filter .delivery .btn-list li {
+    width: 50%; }
+  @media (min-width: 768px) {
+    .filter .delivery .btn-list li {
+      width: 180px; } }
   .filter.fancy .fancy-intensity legend {
     color: #222;
     font-weight: 400; }
@@ -554,6 +592,45 @@
       .filter.jewelry {
         margin-bottom: 80px;
         padding-bottom: 70px; } }
+  .filter.gia .color .btn-list li {
+    width: 25%; }
+  @media (min-width: 768px) {
+    .filter.gia .color .btn-list li {
+      width: 25%; } }
+  @media (min-width: 992px) {
+    .filter.gia .color .btn-list li {
+      width: 110px; } }
+  .filter.gia .clarity .btn-list li {
+    width: 25%; }
+  @media (min-width: 768px) {
+    .filter.gia .clarity .btn-list li {
+      width: 14.28%; } }
+  @media (min-width: 992px) {
+    .filter.gia .clarity .btn-list li {
+      width: 120px; } }
+  .filter.gia .cut .btn-list li {
+    width: 33.33%; }
+  @media (min-width: 768px) {
+    .filter.gia .cut .btn-list li {
+      width: 120px; } }
+  .filter.completed .notify {
+    margin-top: 15px; }
+    .filter.completed .notify p {
+      color: #080d68;
+      font-weight: 400; }
+      .filter.completed .notify p i {
+        color: #eb2127;
+        font-style: normal; }
+      .filter.completed .notify p:before {
+        margin-right: 5px;
+        font-family: 'fontello';
+        content: '\E805'; }
+    @media (min-width: 768px) {
+      .filter.completed .notify p:before {
+        margin-right: 10px; } }
+    @media (min-width: 1230px) {
+      .filter.completed .notify {
+        margin-top: 20px; } }
 
 .result header {
   margin-bottom: 15px; }
@@ -1351,64 +1428,153 @@
       .details.dia .summary .diainfo .btn-area .btn-favor:before {
         margin-right: 10px; } }
 .details.dia .product-info {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f7f7f7; }
-  .details.dia .product-info section {
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px #dfdfdf; }
-    .details.dia .product-info section.overview {
-      margin-bottom: 10px; }
-    .details.dia .product-info section > div {
-      padding: 25px 20px;
-      border: 1px solid #dfdfdf; }
-      .details.dia .product-info section > div h4 {
-        margin-bottom: 20px;
-        font-size: 23px;
-        color: #942c48; }
-      .details.dia .product-info section > div dl dt, .details.dia .product-info section > div dl dd {
-        margin-bottom: 5px;
-        color: #222; }
-      .details.dia .product-info section > div dl dt {
-        float: left;
-        width: 90px;
-        font-weight: 500; }
-        .details.dia .product-info section > div dl dt:before {
-          padding-right: 5px;
-          content: '\2022';
-          color: #080d68; }
-      .details.dia .product-info section > div dl dd {
-        margin-left: 90px; }
-      .details.dia .product-info section > div dl + .help {
-        margin-top: 15px; }
-      .details.dia .product-info section > div .help {
-        margin-left: 10px; }
-        .details.dia .product-info section > div .help:before {
-          content: '※';
-          padding-right: 5px; }
-    .details.dia .product-info section.description p {
-      line-height: 23px; }
+  margin-top: 15px; }
+  .details.dia .product-info > header {
+    padding-bottom: 10px; }
+    .details.dia .product-info > header h4 {
+      font-size: 23px;
+      color: #080d68;
+      font-weight: 500;
+      letter-spacing: -1px; }
+      .details.dia .product-info > header h4 small {
+        font-size: 13px;
+        color: #666; }
   @media (min-width: 768px) {
-    .details.dia .product-info {
-      padding-top: 50px;
-      padding-bottom: 50px; }
-      .details.dia .product-info section.overview {
-        margin-bottom: 30px; }
-      .details.dia .product-info section > div {
-        padding: 30px 25px; }
-        .details.dia .product-info section > div h4 {
-          font-size: 25px; }
-        .details.dia .product-info section > div dl dt, .details.dia .product-info section > div dl dd {
-          font-size: 14px; }
-      .details.dia .product-info section.description p {
-        font-size: 14px;
-        line-height: 25px; } }
+    .details.dia .product-info > header {
+      padding-bottom: 15px; }
+      .details.dia .product-info > header h4 {
+        font-size: 25px; }
+        .details.dia .product-info > header h4 small {
+          font-size: 15px; } }
   @media (min-width: 1230px) {
-    .details.dia .product-info section.overview {
-      margin-bottom: 0; }
-    .details.dia .product-info section > div {
-      padding: 30px 25px;
-      min-height: 360px; } }
+    .details.dia .product-info > header {
+      padding-bottom: 15px; } }
+  .details.dia .product-info .feature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f7f7f7; }
+    .details.dia .product-info .feature section {
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px #dfdfdf; }
+      .details.dia .product-info .feature section > div {
+        padding: 25px 20px;
+        border: 1px solid #dfdfdf; }
+      .details.dia .product-info .feature section.overview {
+        margin-bottom: 10px; }
+        .details.dia .product-info .feature section.overview h4 {
+          margin-bottom: 20px;
+          font-size: 23px;
+          color: #942c48; }
+        .details.dia .product-info .feature section.overview dl dt, .details.dia .product-info .feature section.overview dl dd {
+          margin-bottom: 5px;
+          color: #222; }
+        .details.dia .product-info .feature section.overview dl dt {
+          float: left;
+          width: 90px;
+          font-weight: 500; }
+          .details.dia .product-info .feature section.overview dl dt:before {
+            padding-right: 5px;
+            content: '\2022';
+            color: #080d68; }
+        .details.dia .product-info .feature section.overview dl dd {
+          margin-left: 90px; }
+        .details.dia .product-info .feature section.overview dl + .help {
+          margin-top: 15px; }
+        .details.dia .product-info .feature section.overview .help {
+          margin-left: 10px; }
+          .details.dia .product-info .feature section.overview .help:before {
+            content: '※';
+            padding-right: 5px; }
+      .details.dia .product-info .feature section.lap h4 {
+        margin-bottom: 10px; }
+      .details.dia .product-info .feature section.lap .explain {
+        margin-bottom: 15px;
+        color: #333;
+        font-weight: 400; }
+      .details.dia .product-info .feature section.lap .btn {
+        width: 120px;
+        height: 30px;
+        line-height: 28px; }
+      .details.dia .product-info .feature section.lap .thumb {
+        margin-top: 30px; }
+    @media (min-width: 768px) {
+      .details.dia .product-info .feature {
+        padding-top: 50px;
+        padding-bottom: 50px; }
+        .details.dia .product-info .feature section > div {
+          padding: 30px; }
+        .details.dia .product-info .feature section.overview {
+          margin-bottom: 30px; }
+          .details.dia .product-info .feature section.overview h4 {
+            font-size: 25px; }
+          .details.dia .product-info .feature section.overview dl dt, .details.dia .product-info .feature section.overview dl dd {
+            font-size: 14px; }
+        .details.dia .product-info .feature section.lap > div {
+          overflow: hidden; }
+        .details.dia .product-info .feature section.lap .text-area {
+          float: left; }
+          .details.dia .product-info .feature section.lap .text-area h4 {
+            margin-bottom: 20px; }
+          .details.dia .product-info .feature section.lap .text-area .explain {
+            margin-bottom: 25px; }
+        .details.dia .product-info .feature section.lap .thumb-area {
+          float: right; }
+          .details.dia .product-info .feature section.lap .thumb-area .thumb {
+            margin-top: -20px;
+            margin-bottom: -20px; } }
+    @media (min-width: 1230px) {
+      .details.dia .product-info .feature section > div {
+        padding: 30px 35px;
+        min-height: 250px; }
+      .details.dia .product-info .feature section.overview {
+        margin-bottom: 0; }
+      .details.dia .product-info .feature section.lap .thumb-area .thumb {
+        margin-right: 10px; } }
+  .details.dia .product-info .size-info,
+  .details.dia .product-info .color-info,
+  .details.dia .product-info .clarity-info,
+  .details.dia .product-info .cutting-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center; }
+    .details.dia .product-info .size-info h5,
+    .details.dia .product-info .color-info h5,
+    .details.dia .product-info .clarity-info h5,
+    .details.dia .product-info .cutting-info h5 {
+      margin-bottom: 15px;
+      font-size: 23px;
+      color: #080d68; }
+    .details.dia .product-info .size-info .explain,
+    .details.dia .product-info .color-info .explain,
+    .details.dia .product-info .clarity-info .explain,
+    .details.dia .product-info .cutting-info .explain {
+      margin-bottom: 25px; }
+    .details.dia .product-info .size-info .figure .img-responsive,
+    .details.dia .product-info .color-info .figure .img-responsive,
+    .details.dia .product-info .clarity-info .figure .img-responsive,
+    .details.dia .product-info .cutting-info .figure .img-responsive {
+      margin: 0 auto; }
+    @media (min-width: 768px) {
+      .details.dia .product-info .size-info,
+      .details.dia .product-info .color-info,
+      .details.dia .product-info .clarity-info,
+      .details.dia .product-info .cutting-info {
+        padding-top: 50px;
+        padding-bottom: 50px; }
+        .details.dia .product-info .size-info h5,
+        .details.dia .product-info .color-info h5,
+        .details.dia .product-info .clarity-info h5,
+        .details.dia .product-info .cutting-info h5 {
+          margin-bottom: 20px;
+          font-size: 28px; }
+        .details.dia .product-info .size-info .explain,
+        .details.dia .product-info .color-info .explain,
+        .details.dia .product-info .clarity-info .explain,
+        .details.dia .product-info .cutting-info .explain {
+          font-size: 14px; } }
+  .details.dia .product-info .color-info,
+  .details.dia .product-info .cutting-info {
+    background-color: #f7f7f7; }
 
 /*# sourceMappingURL=product.css.map */

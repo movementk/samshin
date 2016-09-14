@@ -9,35 +9,7 @@
     <main id="content" tabindex="-1">
         <section class="make-steps">
             <div class="container">
-                <div class="row">
-                    <header class="col-xs-12 col-lg-4">
-                        <h2>당신의 반지를 <br class="visible-lg">만들어 보세요</h2>
-                        <p>
-                            다이아몬드와 디자인을 선택하시면<br>
-                            나만의 다이아몬드 제품을 만들 수 있습니다.
-                        </p>
-                    </header>
-                    <div class="steps col-xs-12 col-lg-8">
-                        <ol>
-                            <li class="dia">
-                                <span>01</span>
-                                <p>다이아몬드<br class="visible-xs"> 선택하기</p>
-                                <a href="#">다이아몬드 선택 바로가기</a>
-                            </li>
-                            <li class="arrow" role="presentation"></li>
-                            <li class="jewelry active">
-                                <span>02</span>
-                                <p>디자인<br class="visible-xs"> 선택하기</p>
-                                <a href="#">디자인 선택 바로가기</a>
-                            </li>
-                            <li class="arrow" role="presentation"></li>
-                            <li class="ring">
-                                <span>03</span>
-                                <p>나만의 반지<br class="visible-xs"> 완성</p>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
+                비주얼 영역 확인해야 함
             </div>
         </section>
         <div class="container">
@@ -52,9 +24,9 @@
             </div>
 
             <!-- 검색 영역 -->
-            <div class="jewelry filter">
+            <div class="completed filter">
                 <form class="row" action="#">
-                    <fieldset class="price col-xs-12 col-lg-5">
+                    <fieldset class="price col-xs-12">
                         <legend>PRICE <i>가격</i></legend>
                         <div class="slider"><div></div></div>
                         <div class="values row">
@@ -62,26 +34,44 @@
                             <div class="col-xs-6"><input class="form-control maxium" type="text" placeholder="₩500" readonly></div>
                         </div>
                     </fieldset>
-                    <fieldset class="design col-xs-12 col-lg-6 col-lg-offset-1">
-                        <legend>DESIGN <i>디자인</i></legend>
-                        <div class="design-list">
-                            <ul>
-                                <li><label class="btn btn-block active">
-                                    <input type="checkbox">
-                                    <span>SOLITAIRE</span>
-                                </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>SIDE-STONE</span>
-                                </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>LUXURY</span>
-                                </label></li>
-                            </ul>
-                        </div>
+                    <fieldset class="item col-xs-12 col-lg-6">
+                        <legend>ITEM <i>아이템</i></legend>
+                        <ul class="btn-list" data-toggle="buttons">
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 반지
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 목걸이
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 귀걸이
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 팔찌
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 커플링
+                            </label></li>
+                        </ul>
                     </fieldset>
-                    <fieldset class="artist col-xs-12">
+                    <fieldset class="stone col-xs-12 col-lg-6">
+                        <legend>STONE <i>스톤</i></legend>
+                        <ul class="btn-list" data-toggle="buttons">
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 다이아몬드
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 진주
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 유색석
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 스톤없음
+                            </label></li>
+                        </ul>
+                    </fieldset>
+                    <fieldset class="artist col-xs-12 col-lg-6">
                         <legend>ARTIST <i>아티스트</i></legend>
                         <ul class="btn-list" data-toggle="buttons">
                             <li><label class="btn btn-block btn-round">
@@ -101,50 +91,24 @@
                             </label></li>
                         </ul>
                     </fieldset>
-                    <fieldset class="metal col-xs-12">
-                        <legend>METAL <i>함량</i></legend>
-                        <div class="metal-list">
-                            <ul>
-                                <li><label class="btn btn-block active">
-                                    <input type="checkbox">
-                                    <span>플래티늄(PT)</span>
-                                </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>14K 옐로우 골드</span>
-                                </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>18K 옐로우 골드</span>
-                                </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>14K 화이트 골드</span>
-                                </label></li>
-                                <li><label class="btn btn-block active">
-                                    <input type="checkbox">
-                                    <span>18K 화이트 골드</span>
-                                </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>14K 핑크 골드</span>
-                                </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>18K 핑크 골드</span>
-                                </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>14K 콤비</span>
-                                </label></li>
-                                <li><label class="btn btn-block active">
-                                    <input type="checkbox">
-                                    <span>18K 콤비</span>
-                                </label></li>
-                            </ul>
-                        </div>
+                    <fieldset class="delivery col-xs-12 col-lg-6">
+                        <legend>DELIVERY <i>배송일정</i></legend>
+                        <ul class="btn-list" data-toggle="buttons">
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 빠른 배송 (3일)
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 일반 배송 (7~10일)
+                            </label></li>
+                        </ul>
                     </fieldset>
                 </form>
+                <div class="btn-area">
+                    <button class="btn" type="button">상세검색 <span class="glyphicon glyphicon-menu-down"></span></button>
+                </div>
+                <div class="notify">
+                    <p>완제품/당일 발송 카테고리 제품은 <i>다이아몬드가 포함된 제품</i>입니다.</p>
+                </div>
             </div>
 
             <!-- 결과 목록 -->
