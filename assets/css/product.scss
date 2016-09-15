@@ -251,13 +251,24 @@
         color: $kc;
         font-size: 13px;
         font-weight: 600;
-        i {
+        .help-link {
             display: inline-block;
             margin-left: 5px;
             @extend .noto;
             color: #666;
             font-style: normal;
             font-weight: 400;
+            &:after {
+                margin-left: 5px;
+                font-family: 'fontello';
+                content: '\E806';
+            }
+            &:hover, &:focus {
+                text-decoration: none;
+                &:after {
+                    color: $red;
+                }
+            }
         }
         @media (min-width: $sm) {
             margin-bottom: 15px;
@@ -2272,5 +2283,86 @@
             background-color: #f7f7f7;
         }
 
+    }
+}
+
+// 도움말 팝업 관련
+#help-modal {
+    .modal-dialog {
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        @media (min-width: $sm) {
+            width: 724px;
+        }
+        @media (min-width: $lg) {
+            width: 770px;
+        }
+    }
+    .modal-content {
+        padding: 10px;
+        box-shadow: none;
+        border-radius: 0;
+        border: 0;
+        @media (min-width: $sm) {
+            padding: 40px;
+        }
+    }
+    .modal-header {
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom-color: #ccc;
+        .close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-top: 0;
+            width: 40px;
+            height: 40px;
+            background-color: $kc;
+            opacity: 1;
+            filter: alpha(opacity=100);
+            text-shadow: none;
+            color: #fff;
+            &:before {
+                content: url(/assets/images/product/ico_close.png);
+                vertical-align: 2px;
+            }
+        }
+        .modal-title {
+            padding-left: 15px;
+            height: 20px;
+            @extend .jjmj;
+            font-weight: 500;
+            color: $kc;
+            font-size: 23px;
+            line-height: 19px;
+            border-left: 3px solid $kc;
+            i {
+                font-style: normal;
+                @extend .noto;
+                color: #666;
+                font-size: 19px;
+                font-weight: 300;
+            }
+        }
+        @media (min-width: $sm) {
+            padding-top: 0;
+            padding-bottom: 20px;
+            .close {
+                width: 50px;
+                height: 50px;
+            }
+            .modal-title {
+
+            }
+        }
+    }
+    .modal-body {
+        padding: 25px 0;
+        @media (min-width: $sm) {
+            padding-bottom: 0;
+        }
     }
 }

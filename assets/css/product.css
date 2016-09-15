@@ -6,10 +6,10 @@
 .details.jewelry .recommend header h4, .details.dia .summary .diainfo > header h3, .details.dia .product-info .feature section.overview h4, .details.dia .product-info .size-info h5,
 .details.dia .product-info .color-info h5,
 .details.dia .product-info .clarity-info h5,
-.details.dia .product-info .cutting-info h5 {
+.details.dia .product-info .cutting-info h5, #help-modal .modal-header .modal-title {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small {
+.noto, .filter legend .help-link, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small, #help-modal .modal-header .modal-title i {
   font-family: 'Noto Sans KR', sans-serif; }
 
 .crimson, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4 {
@@ -192,12 +192,20 @@
     color: #080d68;
     font-size: 13px;
     font-weight: 600; }
-    .filter legend i {
+    .filter legend .help-link {
       display: inline-block;
       margin-left: 5px;
       color: #666;
       font-style: normal;
       font-weight: 400; }
+      .filter legend .help-link:after {
+        margin-left: 5px;
+        font-family: 'fontello';
+        content: '\E806'; }
+      .filter legend .help-link:hover, .filter legend .help-link:focus {
+        text-decoration: none; }
+        .filter legend .help-link:hover:after, .filter legend .help-link:focus:after {
+          color: #eb2127; }
     @media (min-width: 768px) {
       .filter legend {
         margin-bottom: 15px;
@@ -1576,5 +1584,69 @@
   .details.dia .product-info .color-info,
   .details.dia .product-info .cutting-info {
     background-color: #f7f7f7; }
+
+#help-modal .modal-dialog {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px; }
+  @media (min-width: 768px) {
+    #help-modal .modal-dialog {
+      width: 724px; } }
+  @media (min-width: 1230px) {
+    #help-modal .modal-dialog {
+      width: 770px; } }
+#help-modal .modal-content {
+  padding: 10px;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0; }
+  @media (min-width: 768px) {
+    #help-modal .modal-content {
+      padding: 40px; } }
+#help-modal .modal-header {
+  padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom-color: #ccc; }
+  #help-modal .modal-header .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #080d68;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    text-shadow: none;
+    color: #fff; }
+    #help-modal .modal-header .close:before {
+      content: url(/assets/images/product/ico_close.png);
+      vertical-align: 2px; }
+  #help-modal .modal-header .modal-title {
+    padding-left: 15px;
+    height: 20px;
+    font-weight: 500;
+    color: #080d68;
+    font-size: 23px;
+    line-height: 19px;
+    border-left: 3px solid #080d68; }
+    #help-modal .modal-header .modal-title i {
+      font-style: normal;
+      color: #666;
+      font-size: 19px;
+      font-weight: 300; }
+  @media (min-width: 768px) {
+    #help-modal .modal-header {
+      padding-top: 0;
+      padding-bottom: 20px; }
+      #help-modal .modal-header .close {
+        width: 50px;
+        height: 50px; } }
+#help-modal .modal-body {
+  padding: 25px 0; }
+  @media (min-width: 768px) {
+    #help-modal .modal-body {
+      padding-bottom: 0; } }
 
 /*# sourceMappingURL=product.css.map */

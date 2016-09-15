@@ -63,7 +63,7 @@
             <div class="dia filter">
                 <form class="row" action="#">
                     <fieldset class="shape col-xs-12">
-                        <legend>SHAPE <i>형태</i></legend>
+                        <legend>SHAPE <a class="help-link" href="./modal/shape.php" data-toggle="modal" data-target="#help-modal">형태</a></legend>
                         <div class="shape-list">
                             <ul>
                                 <li><label class="btn btn-block">
@@ -124,7 +124,7 @@
                         </div>
                     </fieldset>
                     <fieldset class="price col-xs-12 col-lg-6">
-                        <legend>PRICE <i>가격</i></legend>
+                        <legend>PRICE <a class="help-link" href="./modal/price.php" data-toggle="modal" data-target="#help-modal">가격</a></legend>
                         <div class="slider"><div></div></div>
                         <div class="values row">
                             <div class="col-xs-6"><input class="form-control minium" type="text" placeholder="₩0" readonly></div>
@@ -461,9 +461,33 @@
 
         </div>
     </main>
+
+    <div id="help-modal" class="modal fade" tabindex="-1" role="dialog" data-show="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!--
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="sr-only">닫기</span></button>
+                    <h4 class="modal-title">SHAPE <i>형태</i></h4>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body&hellip;</p>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
     <script src="/assets/js/jquery-ui.min.js"></script>
     <script src="/assets/js/filter_dia.js"></script>
+    <script>
+        (function($) {
+            $('#help-modal').on('show.bs.modal', function (e) {
+                $(this).find('.modal-content').load($(e.relatedTarget).attr('href'));
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>
