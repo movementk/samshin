@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.lato, .filter legend, .filter .shape-list ul li .btn .en, .filter .fancy-color-list ul li .btn span, .filter .design-list ul li .btn span, .filter .metal-list ul li .btn span, .details.jewelry .summary .order .btn-area > div .btn-favor, .details.jewelry .setting .setting-list ul li div h5 .en, .details.jewelry .setting .setting-list ul li div p, .details.dia .summary .diainfo .btn-area > div .btn-favor {
+.lato, .filter legend, .filter .shape-list ul li .btn .en, .filter .fancy-color-list ul li .btn span, .filter .design-list ul li .btn span, .filter .metal-list ul li .btn span, .details.jewelry .summary .order .btn-area > div .btn-favor, .details.jewelry .setting .setting-list ul li div h5 .en, .details.jewelry .setting .setting-list ul li div p, .details.dia .summary .diainfo .btn-area > div .btn-favor, #help-modal .shape-list ul li {
   font-family: 'Lato', sans-serif; }
 
 .jjmj, .details.jewelry .summary .order > header h3, .details.jewelry .feature section > div h4, .details.jewelry .setting header h4,
@@ -9,10 +9,10 @@
 .details.dia .product-info .cutting-info h5, #help-modal .modal-header .modal-title {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .filter legend .help-link, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small, #help-modal .modal-header .modal-title i {
+.noto, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small, #help-modal .modal-header .modal-title i {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4 {
+.crimson, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4, #help-modal .shape-list ul li:last-child {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -192,20 +192,23 @@
     color: #080d68;
     font-size: 13px;
     font-weight: 600; }
-    .filter legend .help-link {
+    .filter legend i {
       display: inline-block;
-      margin-left: 5px;
+      margin-left: 10px;
       color: #666;
       font-style: normal;
       font-weight: 400; }
-      .filter legend .help-link:after {
-        margin-left: 5px;
+    .filter legend .help-link {
+      display: inline-block;
+      margin-left: 5px;
+      text-decoration: none;
+      line-height: normal;
+      color: #aaa; }
+      .filter legend .help-link:before {
         font-family: 'fontello';
         content: '\E806'; }
-      .filter legend .help-link:hover, .filter legend .help-link:focus {
-        text-decoration: none; }
-        .filter legend .help-link:hover:after, .filter legend .help-link:focus:after {
-          color: #eb2127; }
+      .filter legend .help-link:hover:before, .filter legend .help-link:focus:before {
+        color: #eb2127; }
     @media (min-width: 768px) {
       .filter legend {
         margin-bottom: 15px;
@@ -1648,5 +1651,218 @@
   @media (min-width: 768px) {
     #help-modal .modal-body {
       padding-bottom: 0; } }
+#help-modal .summary p {
+  font-size: 12px;
+  line-height: 22px; }
+  #help-modal .summary p + p {
+    margin-top: 20px; }
+@media (min-width: 768px) {
+  #help-modal .summary p {
+    font-size: 13px; } }
+#help-modal .shape-list {
+  margin-top: 30px; }
+  #help-modal .shape-list h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #222; }
+  #help-modal .shape-list ul {
+    overflow: hidden; }
+    #help-modal .shape-list ul li {
+      float: left;
+      padding-top: 65px;
+      width: 25%;
+      height: 90px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 400;
+      background-repeat: no-repeat;
+      background-position: 50% 10px; }
+      #help-modal .shape-list ul li:nth-of-type(1) {
+        background-image: url(/assets/images/product/img_shape_line_1.gif); }
+      #help-modal .shape-list ul li:nth-of-type(2) {
+        background-image: url(/assets/images/product/img_shape_line_2.gif); }
+      #help-modal .shape-list ul li:nth-of-type(3) {
+        background-image: url(/assets/images/product/img_shape_line_3.gif); }
+      #help-modal .shape-list ul li:nth-of-type(4) {
+        background-image: url(/assets/images/product/img_shape_line_4.gif); }
+      #help-modal .shape-list ul li:nth-of-type(5) {
+        background-image: url(/assets/images/product/img_shape_line_5.gif); }
+      #help-modal .shape-list ul li:nth-of-type(6) {
+        background-image: url(/assets/images/product/img_shape_line_6.gif); }
+      #help-modal .shape-list ul li:nth-of-type(7) {
+        background-image: url(/assets/images/product/img_shape_line_7.gif); }
+      #help-modal .shape-list ul li:nth-of-type(8) {
+        background-image: url(/assets/images/product/img_shape_line_8.gif); }
+      #help-modal .shape-list ul li:nth-of-type(9) {
+        background-image: url(/assets/images/product/img_shape_line_9.gif); }
+      #help-modal .shape-list ul li:nth-of-type(10) {
+        background-image: url(/assets/images/product/img_shape_line_10.gif); }
+      #help-modal .shape-list ul li:last-child {
+        width: 50%;
+        font-weight: 600; }
+        #help-modal .shape-list ul li:last-child:after {
+          margin-left: 10px;
+          font-family: 'fontello';
+          content: '\E801';
+          font-size: 10px;
+          color: #080d68; }
+        #help-modal .shape-list ul li:last-child a {
+          color: #080d68; }
+  @media (min-width: 768px) {
+    #help-modal .shape-list {
+      margin-top: 45px; }
+      #help-modal .shape-list h5 {
+        margin-bottom: 15px;
+        font-size: 16px; }
+      #help-modal .shape-list ul li {
+        padding-top: 75px;
+        width: 12.5%;
+        height: 100px;
+        background-position: 50% 20px; }
+        #help-modal .shape-list ul li:last-child {
+          width: 25%; } }
+#help-modal .figure p img {
+  margin: 0 auto; }
+#help-modal .slider {
+  padding-left: 5px;
+  padding-right: 10px; }
+  #help-modal .slider .ui-widget {
+    border: 0;
+    background-color: #dfdfdf;
+    border-radius: 6px;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07); }
+  #help-modal .slider .ui-slider-range {
+    height: 10px;
+    background-color: #080d68;
+    border: 0;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 5px; }
+  #help-modal .slider .ui-slider-handle {
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); }
+#help-modal .slider-values {
+  margin-top: 10px; }
+  #help-modal .slider-values ol {
+    margin-left: -10px;
+    margin-right: -10px; }
+    #help-modal .slider-values ol:after, #help-modal .slider-values ol:before {
+      display: block;
+      content: ' ';
+      clear: both; }
+    #help-modal .slider-values ol li {
+      position: relative;
+      float: left;
+      width: 10%;
+      text-align: center;
+      font-size: 11px;
+      color: #666;
+      font-weight: 400; }
+      #help-modal .slider-values ol li a {
+        visibility: hidden; }
+        #help-modal .slider-values ol li a:hover, #help-modal .slider-values ol li a:focus {
+          text-decoration: none; }
+      #help-modal .slider-values ol li.active {
+        top: 20px; }
+        #help-modal .slider-values ol li.active a {
+          visibility: visible;
+          color: #eb2127; }
+      #help-modal .slider-values ol li:first-child, #help-modal .slider-values ol li:last-child {
+        top: 0; }
+        #help-modal .slider-values ol li:first-child a, #help-modal .slider-values ol li:last-child a {
+          visibility: visible; }
+  @media (min-width: 768px) {
+    #help-modal .slider-values {
+      margin-top: 20px; }
+      #help-modal .slider-values ol {
+        margin-left: -30px;
+        margin-right: -30px; }
+        #help-modal .slider-values ol li a {
+          visibility: visible;
+          font-size: 13px; }
+        #help-modal .slider-values ol li.active {
+          top: 0; } }
+#help-modal .btn-list ul {
+  overflow: hidden;
+  margin: -5px; }
+  #help-modal .btn-list ul li {
+    float: left;
+    padding: 5px; }
+    #help-modal .btn-list ul li.active .btn {
+      background-color: #080d68;
+      border-color: #080d68;
+      color: #fff; }
+#help-modal .explain {
+  margin-top: 30px;
+  background-color: #f7f7f7; }
+  #help-modal .explain ul li {
+    display: none;
+    padding: 20px 10px 15px;
+    font-size: 12px; }
+    #help-modal .explain ul li > h5 {
+      margin-bottom: 5px;
+      color: #080d68;
+      font-size: 12px; }
+    #help-modal .explain ul li > div + h5 {
+      margin-top: 10px; }
+    #help-modal .explain ul li > div p + p {
+      margin-top: 20px; }
+    #help-modal .explain ul li.active {
+      display: block; }
+  @media (min-width: 768px) {
+    #help-modal .explain {
+      margin-top: 20px; }
+      #help-modal .explain ul li {
+        padding: 20px; }
+        #help-modal .explain ul li > h5 {
+          margin-bottom: 10px;
+          font-size: 13px; }
+        #help-modal .explain ul li > div + h5 {
+          margin-top: 20px; } }
+@media (min-width: 768px) {
+  #help-modal .modal-body.carat .slider {
+    margin-top: 50px; } }
+#help-modal .modal-body.color .figure {
+  margin-top: 10px; }
+#help-modal .modal-body.color .slider {
+  margin-top: 30px; }
+#help-modal .modal-body.color .slider-values ol li {
+  width: 9.09%; }
+@media (min-width: 768px) {
+  #help-modal .modal-body.color .figure {
+    margin-top: 35px; }
+  #help-modal .modal-body.color .slider {
+    margin-top: 55px; } }
+#help-modal .modal-body.clarity .figure {
+  margin-top: 35px; }
+#help-modal .modal-body.clarity .slider {
+  margin-top: 35px; }
+#help-modal .modal-body.clarity .slider-values ol {
+  margin-left: -25px;
+  margin-right: -25px; }
+  #help-modal .modal-body.clarity .slider-values ol li {
+    width: 16.66%; }
+@media (min-width: 768px) {
+  #help-modal .modal-body.clarity .slider {
+    margin-top: 40px; }
+  #help-modal .modal-body.clarity .slider-values ol {
+    margin-left: -55px;
+    margin-right: -55px; } }
+#help-modal .modal-body.metal .btn-list {
+  margin-top: 30px; }
+  #help-modal .modal-body.metal .btn-list li {
+    width: 50%; }
+#help-modal .modal-body.metal .explain {
+  margin-top: 10px; }
+@media (min-width: 768px) {
+  #help-modal .modal-body.metal .btn-list {
+    margin-top: 40px; }
+    #help-modal .modal-body.metal .btn-list li {
+      width: 25%; }
+  #help-modal .modal-body.metal .explain {
+    margin-top: 30px; } }
 
 /*# sourceMappingURL=product.css.map */
