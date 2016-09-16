@@ -102,7 +102,7 @@
                         </ul>
                     </fieldset>
                     <fieldset class="metal col-xs-12">
-                        <legend>METAL <i>함량</i></legend>
+                        <legend>METAL<i>함량</i><a class="help-link" href="./modal/metal.php" data-toggle="modal" data-target="#help-modal"></a></legend>
                         <div class="metal-list">
                             <ul>
                                 <li><label class="btn btn-block active">
@@ -268,9 +268,33 @@
 
         </div>
     </main>
+
+    <div id="help-modal" class="modal fade" tabindex="-1" role="dialog" data-show="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!--
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="sr-only">닫기</span></button>
+                    <h4 class="modal-title">SHAPE <i>형태</i></h4>
+                </div>
+                <div class="modal-body">
+                    <p>One fine body&hellip;</p>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
     <script src="/assets/js/jquery-ui.min.js"></script>
     <script src="/assets/js/filter_dia.js"></script>
+    <script>
+        (function($) {
+            $('#help-modal').on('show.bs.modal', function (e) {
+                $(this).find('.modal-content').load($(e.relatedTarget).attr('href'));
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>

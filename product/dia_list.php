@@ -63,7 +63,7 @@
             <div class="dia filter">
                 <form class="row" action="#">
                     <fieldset class="shape col-xs-12">
-                        <legend>SHAPE <a class="help-link" href="./modal/shape.php" data-toggle="modal" data-target="#help-modal">형태</a></legend>
+                        <legend>SHAPE<i>형태</i><a class="help-link" href="./modal/shape.php" data-toggle="modal" data-target="#help-modal"></a></legend>
                         <div class="shape-list">
                             <ul>
                                 <li><label class="btn btn-block">
@@ -124,7 +124,7 @@
                         </div>
                     </fieldset>
                     <fieldset class="price col-xs-12 col-lg-6">
-                        <legend>PRICE <a class="help-link" href="./modal/price.php" data-toggle="modal" data-target="#help-modal">가격</a></legend>
+                        <legend>PRICE<i>가격</i><a class="help-link" href="./modal/price.php" data-toggle="modal" data-target="#help-modal"></a></legend>
                         <div class="slider"><div></div></div>
                         <div class="values row">
                             <div class="col-xs-6"><input class="form-control minium" type="text" placeholder="₩0" readonly></div>
@@ -132,7 +132,7 @@
                         </div>
                     </fieldset>
                     <fieldset class="carat col-xs-12 col-lg-6">
-                        <legend>CARAT <i>중량</i></legend>
+                        <legend>CARAT<i>중량</i><a class="help-link" href="./modal/carat.php" data-toggle="modal" data-target="#help-modal"></a></legend>
                         <div class="slider"><div></div></div>
                         <div class="values row">
                             <div class="col-xs-6"><input class="form-control minium" type="text" placeholder="0.1" readonly></div>
@@ -140,7 +140,7 @@
                         </div>
                     </fieldset>
                     <fieldset class="color col-xs-12">
-                        <legend>COLOR <i>색상</i></legend>
+                        <legend>COLOR<i>색상</i><a class="help-link" href="./modal/color.php" data-toggle="modal" data-target="#help-modal"></a></legend>
                         <ul class="btn-list" data-toggle="buttons">
                             <li><label class="btn btn-block btn-round">
                                 <input type="checkbox"> D
@@ -178,7 +178,7 @@
                         </ul>
                     </fieldset>
                     <fieldset class="clarity col-xs-12">
-                        <legend>CLARITY <i>선명도</i></legend>
+                        <legend>CLARITY<i>선명도</i><a class="help-link" href="./modal/clarity.php" data-toggle="modal" data-target="#help-modal"></a></legend>
                         <ul class="btn-list" data-toggle="buttons">
                             <li><label class="btn btn-block btn-round">
                                 <input type="checkbox"> IF
