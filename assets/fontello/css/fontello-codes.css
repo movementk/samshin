@@ -10,6 +10,8 @@
 .icon-angle-double-right:before { content: '\f101'; } /* '' */
 .icon-angle-left:before { content: '\f104'; } /* '' */
 .icon-angle-right:before { content: '\f105'; } /* '' */
+.icon-angle-up:before { content: '\f106'; } /* '' */
+.icon-angle-down:before { content: '\f107'; } /* '' */
 .icon-file-image:before { content: '\f1c5'; } /* '' */
 .icon-diamond:before { content: '\f219'; } /* '' */
 .icon-facebook-official:before { content: '\f230'; } /* '' */

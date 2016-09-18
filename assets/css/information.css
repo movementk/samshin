@@ -1,4 +1,231 @@
+.lato {
+  font-family: 'Lato', sans-serif; }
+
+.jjmj, .page-header h2 {
+  font-family: 'Jeju Myeongjo', serif; }
+
+.noto, .page-header h2 small, .section-content .section-header .section-title small {
+  font-family: 'Noto Sans KR', sans-serif; }
+
+.crimson, .section-content .section-header .section-title {
+  font-family: 'Crimson Text', serif; }
+
+.font-12 {
+  font-size: 12px;
+  line-height: 18px; }
+
+.font-13 {
+  font-size: 13px;
+  line-height: 20px; }
+
+.font-14 {
+  font-size: 14px;
+  line-height: 22px; }
+
 .path-nav {
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  @media (min-width: 1230px) {
+    .path-nav {
+      margin-top: 35px;
+      margin-bottom: 30px; } }
+
+#lnb {
+  margin-bottom: 40px; }
+  #lnb .dropdown > .btn {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 0;
+    border-right: 0;
+    background-color: #f7f7f7;
+    color: #080d68;
+    font-size: 13px;
+    text-align: left; }
+    #lnb .dropdown > .btn:hover, #lnb .dropdown > .btn:focus {
+      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf;
+      color: #080d68;
+      background-color: #f7f7f7; }
+    #lnb .dropdown > .btn i {
+      float: right; }
+  #lnb .dropdown > .dropdown-menu {
+    margin-top: -1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    box-shadow: none; }
+    #lnb .dropdown > .dropdown-menu li a {
+      display: block;
+      margin-top: -1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      height: 51px;
+      color: #666;
+      background-color: #f7f7f7;
+      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf;
+      line-height: 44px;
+      font-size: 13px; }
+      #lnb .dropdown > .dropdown-menu li a:hover, #lnb .dropdown > .dropdown-menu li a:focus {
+        text-decoration: underline; }
+    #lnb .dropdown > .dropdown-menu li ul {
+      display: none; }
+      #lnb .dropdown > .dropdown-menu li ul li {
+        border-bottom: 0; }
+        #lnb .dropdown > .dropdown-menu li ul li a {
+          padding-left: 20px;
+          background-color: #fff;
+          line-height: 49px; }
+    #lnb .dropdown > .dropdown-menu li.active ul {
+      display: block; }
+  @media (min-width: 768px) {
+    #lnb .dropdown > .btn {
+      padding-left: 15px;
+      padding-right: 15px; }
+    #lnb .dropdown > .dropdown-menu li a {
+      padding-left: 15px; }
+    #lnb .dropdown > .dropdown-menu li ul li a {
+      paddin-left: 25px; } }
+  @media (min-width: 1230px) {
+    #lnb {
+      margin-bottom: 0;
+      width: 235px; }
+      #lnb .dropdown > .btn {
+        display: none; }
+      #lnb .dropdown > .dropdown-menu {
+        display: block;
+        position: relative; } }
+
+#content {
+  margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    #content {
+      margin-bottom: 100px; } }
+  @media (min-width: 1230px) {
+    #content {
+      margin-bottom: 120px; } }
+
+.page-header {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom-color: #ccc; }
+  .page-header h2 {
+    font-size: 23px;
+    color: #080d68;
+    font-weight: 400; }
+    .page-header h2 small {
+      font-size: 13px;
+      color: #666;
+      font-weight: 300; }
+  @media (min-width: 768px) {
+    .page-header {
+      margin-bottom: 40px; }
+      .page-header h2 {
+        font-size: 25px; }
+        .page-header h2 small {
+          font-size: 15px; } }
+  @media (min-width: 1230px) {
+    .page-header {
+      margin-bottom: 60px;
+      padding-bottom: 15px; } }
+
+.tabs {
+  margin-bottom: 40px; }
+  .tabs ul {
+    overflow: hidden;
+    margin-left: -5px;
+    margin-right: -5px; }
+    .tabs ul li {
+      float: left;
+      width: 25%;
+      padding-left: 5px;
+      padding-right: 5px; }
+      .tabs ul li a, .tabs ul li span {
+        display: block;
+        width: 100%;
+        height: 35px;
+        border: 1px solid #ccc;
+        line-height: 33px;
+        text-align: center;
+        font-size: 12px;
+        color: #666; }
+      .tabs ul li.active a, .tabs ul li.active span {
+        background-color: #080d68;
+        border-color: #080d68;
+        color: #fff; }
+  @media (min-width: 768px) {
+    .tabs {
+      margin-bottom: 60px; }
+      .tabs ul {
+        margin-left: -10px;
+        margin-right: -10px; }
+        .tabs ul li {
+          padding-left: 10px;
+          padding-right: 10px; }
+          .tabs ul li a, .tabs ul li span {
+            height: 40px;
+            line-height: 38px;
+            font-size: 13px; } }
+  @media (min-width: 1230px) {
+    .tabs {
+      margin-bottom: 95px;
+      padding-left: 50px;
+      padding-right: 50px; }
+      .tabs ul {
+        margin-left: -15px;
+        margin-right: -15px; }
+        .tabs ul li {
+          padding-left: 15px;
+          padding-right: 15px; } }
+
+.section-content .section-header {
+  margin-bottom: 25px;
+  padding-left: 10px;
+  border-left: 3px solid #080d68; }
+  .section-content .section-header .section-title {
+    font-size: 20px;
+    color: #080d68; }
+    .section-content .section-header .section-title small {
+      margin-left: 5px;
+      font-size: 15px;
+      color: #666;
+      font-weight: 300; }
+  .section-content .section-header p {
+    font-size: 12px; }
+  @media (min-width: 768px) {
+    .section-content .section-header {
+      margin-bottom: 30px; }
+      .section-content .section-header .section-title {
+        font-size: 22px; } }
+  @media (min-width: 1230px) {
+    .section-content .section-header .section-title {
+      margin-bottom: 15px;
+      font-size: 25px; }
+    .section-content .section-header p {
+      font-size: 13px; } }
+.section-content > p {
+  font-size: 12px;
+  line-height: 22px; }
+  .section-content > p + p {
+    margin-top: 20px; }
+  @media (min-width: 768px) {
+    .section-content > p {
+      font-size: 13px; }
+      .section-content > p + p {
+        margin-top: 25px; } }
+  @media (min-width: 1230px) {
+    .section-content > p + p {
+      margin-top: 30px; } }
+
+.information.dia.carat .chart {
+  margin-top: 30px;
+  border: 1px solid #ccc; }
+  .information.dia.carat .chart img {
+    margin: 0 auto; }
 
 /*# sourceMappingURL=information.css.map */

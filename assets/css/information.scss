@@ -1,3 +1,291 @@
+@import 'common';
+
 .path-nav {
     margin-top: 20px;
+    margin-bottom: 20px;
+    @media (min-width: $lg) {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+}
+
+// LNB 영역
+#lnb {
+    margin-bottom: 40px;
+    .dropdown {
+        >.btn {
+            width: 100%;
+            height: 50px;
+            border-top: 1px solid #dfdfdf;
+            border-bottom: 1px solid #dfdfdf;
+            border-left: 0;
+            border-right: 0;
+            background-color: #f7f7f7;
+            color: $kc;
+            font-size: 13px;
+            text-align: left;
+            &:hover, &:focus {
+                border-top: 1px solid #dfdfdf;
+                border-bottom: 1px solid #dfdfdf;
+                color: $kc;
+                background-color: #f7f7f7;
+            }
+            i {
+                float: right;
+            }
+        }
+        > .dropdown-menu {
+            margin-top: -1px;
+            padding-top: 0;
+            padding-bottom: 0;
+            width: 100%;
+            border-radius: 0;
+            border: 0;
+            box-shadow: none;
+            li {
+                a {
+                    display: block;
+                    margin-top: -1px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    height: 51px;
+                    color: #666;
+                    background-color: #f7f7f7;
+                    border-top: 1px solid #dfdfdf;
+                    border-bottom: 1px solid #dfdfdf;
+                    line-height: 44px;
+                    font-size: 13px;
+                    &:hover, &:focus {
+                        text-decoration: underline;
+                    }
+                }
+                ul {
+                    display: none;
+                    li {
+                        border-bottom: 0;
+                        a {
+                            padding-left: 20px;
+                            background-color: #fff;
+                            line-height: 49px;
+                        }
+                    }
+                }
+                &.active {
+                    ul {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        .dropdown {
+            > .btn {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            > .dropdown-menu {
+                li {
+                    a {
+                        padding-left: 15px;
+                    }
+                    ul {
+                        li {
+                            a {
+                                paddin-left: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        margin-bottom: 0;
+        width: 235px;
+        .dropdown {
+            > .btn {
+                display: none;
+            }
+            > .dropdown-menu {
+                display: block;
+                position: relative;
+            }
+        }
+    }
+}
+
+#content {
+    margin-bottom: 50px;
+    @media (min-width: $sm) {
+        margin-bottom: 100px;
+    }
+    @media (min-width: $lg) {
+        margin-bottom: 120px;
+    }
+}
+
+// 페이지헤더
+.page-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom-color: #ccc;
+    h2 {
+        font-size: 23px;
+        color: $kc;
+        @extend .jjmj;
+        font-weight: 400;
+        small {
+            font-size: 13px;
+            @extend .noto;
+            color: #666;
+            font-weight: 300;
+        }
+    }
+    @media (min-width: $sm) {
+        margin-bottom: 40px;
+        h2 {
+            font-size: 25px;
+            small {
+                font-size: 15px;
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        margin-bottom: 60px;
+        padding-bottom: 15px;
+    }
+}
+
+//
+.tabs {
+    margin-bottom: 40px;
+    ul {
+        overflow: hidden;
+        margin-left: -5px;
+        margin-right: -5px;
+        li {
+            float: left;
+            width: 25%;
+            padding-left: 5px;
+            padding-right: 5px;
+            a, span {
+                display: block;
+                width: 100%;
+                height: 35px;
+                border: 1px solid #ccc;
+                line-height: 33px;
+                text-align: center;
+                font-size: 12px;
+                color: #666;
+            }
+            &.active {
+                a, span {
+                    background-color: $kc;
+                    border-color: $kc;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        margin-bottom: 60px;
+        ul {
+            margin-left: -10px;
+            margin-right: -10px;
+            li {
+                padding-left: 10px;
+                padding-right: 10px;
+                a, span {
+                    height: 40px;
+                    line-height: 38px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        margin-bottom: 95px;
+        padding-left: 50px;
+        padding-right: 50px;
+        ul {
+            margin-left: -15px;
+            margin-right: -15px;
+            li {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+}
+
+.section-content {
+    // 섹션 헤더
+    .section-header {
+        margin-bottom: 25px;
+        padding-left: 10px;
+        border-left: 3px solid $kc;
+        .section-title {
+            font-size: 20px;
+            color: $kc;
+            @extend .crimson;
+            small {
+                margin-left: 5px;
+                font-size: 15px;
+                color: #666;
+                @extend .noto;
+                font-weight: 300;
+            }
+        }
+        p {
+            font-size: 12px;
+        }
+        @media (min-width: $sm) {
+            margin-bottom: 30px;
+            .section-title {
+                font-size: 22px;
+            }
+        }
+        @media (min-width: $lg) {
+            .section-title {
+                margin-bottom: 15px;
+                font-size: 25px;
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+
+    // 문단
+    > p {
+        font-size: 12px;
+        line-height: 22px;
+        & + p {
+            margin-top: 20px;
+        }
+        @media (min-width: $sm) {
+            font-size: 13px;
+            & + p {
+                margin-top: 25px;
+            }
+        }
+        @media (min-width: $lg) {
+            & + p {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+// 다이아몬드 캐럿
+.information.dia.carat {
+    .chart {
+        margin-top: 30px;
+        border: 1px solid #ccc;
+        img {
+            margin: 0 auto;
+        }
+    }
 }
