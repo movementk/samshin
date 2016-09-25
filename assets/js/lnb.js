@@ -7,7 +7,7 @@
                 $(this).parent().siblings('.active').removeClass('active');
                 $(this).parent().addClass('active');
             }
-            e.preventDefault();
+            return false;
         }
     });
 })(jQuery);
