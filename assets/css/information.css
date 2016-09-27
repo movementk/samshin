@@ -3,7 +3,7 @@
 
 .jjmj, .page-header h2, .information.dia.carat .relationship .section-title, .information.dia.cut .reflection .section-title,
 .information.dia.cut .hna .section-title,
-.information.dia.cut .addtional .section-title, .information.fancy.grade .explain .section-head .section-title, .information.fancy.feature .explain .section-head .section-title {
+.information.dia.cut .addtional .section-title, .information.fancy.grade .explain .section-head .section-title, .information.fancy.feature .explain .section-head .section-title, .information.lab.ags .grade h4 {
   font-family: 'Jeju Myeongjo', serif; }
 
 .noto, .page-header h2 small, .section-content .section-head .section-title small, .information.dia.cut .addtional .details h4 small {
@@ -141,7 +141,8 @@
   line-height: 22px; }
   .page-summary p i {
     font-style: normal;
-    color: #080d68; }
+    color: #080d68;
+    font-weight: 400; }
 @media (min-width: 768px) {
   .page-summary p {
     font-size: 13px; } }
@@ -210,8 +211,11 @@
       font-size: 15px;
       color: #666;
       font-weight: 300; }
+    .section-content .section-head .section-title + p {
+      margin-top: 10px; }
   .section-content .section-head p {
-    font-size: 12px; }
+    font-size: 12px;
+    color: #999; }
   @media (min-width: 768px) {
     .section-content .section-head {
       margin-bottom: 30px; }
@@ -525,5 +529,115 @@
       height: 155px; }
     .information.fancy.feature .type .details h5 {
       margin-bottom: 10px; } }
+
+.information.lab .page-header {
+  margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    .information.lab .page-header {
+      margin-bottom: 25px; } }
+.information.lab .page-summary p + p {
+  margin-top: 20px; }
+.information.lab .tabs {
+  margin-top: 50px;
+  margin-bottom: 60px; }
+  .information.lab .tabs ul {
+    margin-top: -5px;
+    margin-bottom: -5px; }
+    .information.lab .tabs ul li {
+      padding: 5px;
+      width: 33.33%; }
+      .information.lab .tabs ul li a, .information.lab .tabs ul li span {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 35px;
+        line-height: 33px; }
+  @media (min-width: 768px) {
+    .information.lab .tabs {
+      padding-left: 5px;
+      padding-right: 5px; }
+      .information.lab .tabs ul {
+        margin-top: 0;
+        margin-bottom: 0; }
+        .information.lab .tabs ul li {
+          padding-top: 0;
+          padding-bottom: 0;
+          width: 20%; }
+          .information.lab .tabs ul li a, .information.lab .tabs ul li span {
+            height: 40px;
+            line-height: 38px; } }
+  @media (min-width: 1230px) {
+    .information.lab .tabs {
+      margin-top: 100px;
+      margin-bottom: 110px;
+      padding-left: 10px;
+      padding-right: 10px; } }
+.information.lab .figure {
+  margin: 0 auto 30px;
+  width: 300px;
+  background-color: #fbfbfb; }
+  .information.lab .figure p {
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.13); }
+    .information.lab .figure p .img-responsive {
+      margin: 0 auto;
+      border: 1px solid #ccc; }
+  @media (min-width: 768px) {
+    .information.lab .figure {
+      width: auto; } }
+@media (min-width: 1230px) {
+  .information.lab .details p + p {
+    margin-top: 25px; } }
+
+.information.lab.igi .figure {
+  width: 184px; }
+  @media (min-width: 768px) {
+    .information.lab.igi .figure {
+      margin: inherit; } }
+
+.information.lab.ags .explain {
+  margin-bottom: 50px; }
+  @media (min-width: 768px) {
+    .information.lab.ags .explain {
+      margin-bottom: 60px; } }
+.information.lab.ags .grade h4 {
+  margin-bottom: 20px;
+  color: #080d68;
+  font-weight: 500;
+  font-size: 20px; }
+.information.lab.ags .grade h5 {
+  font-size: 13px;
+  font-weight: normal;
+  color: #080d68;
+  line-height: 18px;
+  vertical-align: middle; }
+  .information.lab.ags .grade h5 span {
+    display: inline-block;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    background-color: #080d68;
+    color: #fff;
+    line-height: 16px;
+    border-radius: 50%;
+    font-size: 11px;
+    text-align: center;
+    line-height: 16px;
+    font-weight: 300;
+    vertical-align: 1px; }
+  .information.lab.ags .grade h5 i {
+    font-style: normal;
+    color: #222; }
+  .information.lab.ags .grade h5 + p {
+    margin-top: 10px; }
+@media (min-width: 768px) {
+  .information.lab.ags .grade h4 {
+    font-size: 22px; }
+  .information.lab.ags .grade h5 {
+    font-size: 14px;
+    line-height: 20px; } }
+@media (min-width: 1230px) {
+  .information.lab.ags .grade h4 {
+    margin-bottom: 30px;
+    font-size: 24px; } }
 
 /*# sourceMappingURL=information.css.map */
