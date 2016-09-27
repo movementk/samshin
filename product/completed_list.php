@@ -71,27 +71,30 @@
                             </label></li>
                         </ul>
                     </fieldset>
-                    <fieldset class="artist col-xs-12 col-lg-6">
+                    <fieldset class="artist col-xs-12 col-lg-12">
                         <legend>ARTIST <i>아티스트</i></legend>
                         <ul class="btn-list" data-toggle="buttons">
-                            <li><label class="btn btn-block btn-round">
-                                <input type="checkbox"> 마이클본단자
-                            </label></li>
                             <li><label class="btn btn-block btn-round">
                                 <input type="checkbox"> 마시모주끼
                             </label></li>
                             <li><label class="btn btn-block btn-round">
-                                <input type="checkbox"> 서도식
+                                <input type="checkbox"> 마이클본단자
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 호세스
                             </label></li>
                             <li><label class="btn btn-block btn-round">
                                 <input type="checkbox"> 추원교
+                            </label></li>
+                            <li><label class="btn btn-block btn-round">
+                                <input type="checkbox"> 서도식
                             </label></li>
                             <li><label class="btn btn-block btn-round">
                                 <input type="checkbox"> 변건호
                             </label></li>
                         </ul>
                     </fieldset>
-                    <fieldset class="delivery col-xs-12 col-lg-6">
+                    <fieldset class="delivery col-xs-12 col-lg-12">
                         <legend>DELIVERY <i>배송일정</i></legend>
                         <ul class="btn-list" data-toggle="buttons">
                             <li><label class="btn btn-block btn-round">

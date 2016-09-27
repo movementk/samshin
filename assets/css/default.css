@@ -645,7 +645,6 @@ body {
       padding-top: 225px; } }
   body.gnb-open {
     overflow: hidden;
-    position: relative;
     left: 270px; }
     body.gnb-open #header {
       left: 270px; }

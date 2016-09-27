@@ -34,56 +34,61 @@
 
 #lnb {
   margin-bottom: 40px; }
-  #lnb .dropdown > .btn {
-    width: 100%;
-    height: 50px;
-    border-top: 1px solid #dfdfdf;
-    border-bottom: 1px solid #dfdfdf;
-    border-left: 0;
-    border-right: 0;
-    background-color: #f7f7f7;
-    color: #080d68;
-    font-size: 13px;
-    text-align: left; }
-    #lnb .dropdown > .btn:hover, #lnb .dropdown > .btn:focus {
+  #lnb .dropdown {
+    z-index: 999; }
+    #lnb .dropdown > .btn {
+      width: 100%;
+      height: 50px;
       border-top: 1px solid #dfdfdf;
       border-bottom: 1px solid #dfdfdf;
-      color: #080d68;
-      background-color: #f7f7f7; }
-    #lnb .dropdown > .btn i {
-      float: right; }
-  #lnb .dropdown > .dropdown-menu {
-    margin-top: -1px;
-    padding-top: 0;
-    padding-bottom: 0;
-    width: 100%;
-    border-radius: 0;
-    border: 0;
-    box-shadow: none; }
-    #lnb .dropdown > .dropdown-menu li a {
-      display: block;
-      margin-top: -1px;
-      padding-left: 10px;
-      padding-right: 10px;
-      height: 51px;
-      color: #666;
+      border-left: 0;
+      border-right: 0;
       background-color: #f7f7f7;
-      border-top: 1px solid #dfdfdf;
-      border-bottom: 1px solid #dfdfdf;
-      line-height: 44px;
-      font-size: 13px; }
-      #lnb .dropdown > .dropdown-menu li a:hover, #lnb .dropdown > .dropdown-menu li a:focus {
-        text-decoration: underline; }
-    #lnb .dropdown > .dropdown-menu li ul {
-      display: none; }
-      #lnb .dropdown > .dropdown-menu li ul li {
-        border-bottom: 0; }
-        #lnb .dropdown > .dropdown-menu li ul li a {
-          padding-left: 20px;
-          background-color: #fff;
-          line-height: 49px; }
-    #lnb .dropdown > .dropdown-menu li.active ul {
-      display: block; }
+      color: #080d68;
+      font-size: 13px;
+      text-align: left; }
+      #lnb .dropdown > .btn:hover, #lnb .dropdown > .btn:focus {
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf;
+        color: #080d68;
+        background-color: #f7f7f7; }
+      #lnb .dropdown > .btn i {
+        float: right; }
+    #lnb .dropdown > .dropdown-menu {
+      margin-top: -1px;
+      padding-top: 0;
+      padding-bottom: 0;
+      width: 100%;
+      border-radius: 0;
+      border: 0;
+      box-shadow: none; }
+      #lnb .dropdown > .dropdown-menu li > a {
+        display: block;
+        margin-top: -1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 51px;
+        color: #666;
+        background-color: #f7f7f7;
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf;
+        line-height: 44px;
+        font-size: 13px;
+        text-decoration: none; }
+        #lnb .dropdown > .dropdown-menu li > a:hover, #lnb .dropdown > .dropdown-menu li > a:focus {
+          background-color: #e4e4e4; }
+      #lnb .dropdown > .dropdown-menu li > ul {
+        display: none; }
+        #lnb .dropdown > .dropdown-menu li > ul li {
+          border-bottom: 0; }
+          #lnb .dropdown > .dropdown-menu li > ul li a {
+            padding-left: 20px;
+            background-color: #fff;
+            line-height: 49px; }
+      #lnb .dropdown > .dropdown-menu li.active > a {
+        background-color: #e4e4e4; }
+      #lnb .dropdown > .dropdown-menu li.active > ul {
+        display: block; }
   @media (min-width: 768px) {
     #lnb .dropdown > .btn {
       padding-left: 15px;
@@ -639,5 +644,80 @@
   .information.lab.ags .grade h4 {
     margin-bottom: 30px;
     font-size: 24px; } }
+
+.information.ring .tabs {
+  margin-top: 40px;
+  margin-bottom: 60px; }
+  .information.ring .tabs ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.33%; }
+    .information.ring .tabs ul li a, .information.ring .tabs ul li span {
+      padding-top: 0;
+      padding-bottom: 0;
+      height: 35px;
+      line-height: 33px; }
+  @media (min-width: 768px) {
+    .information.ring .tabs {
+      padding-left: 5px;
+      padding-right: 5px; }
+      .information.ring .tabs ul li a, .information.ring .tabs ul li span {
+        height: 40px;
+        line-height: 38px; } }
+  @media (min-width: 1230px) {
+    .information.ring .tabs {
+      margin-top: 60px;
+      margin-bottom: 90px;
+      padding-left: 150px;
+      padding-right: 150px; }
+      .information.ring .tabs ul {
+        margin-left: -15px;
+        margin-right: -15px; }
+        .information.ring .tabs ul li {
+          padding-left: 15px;
+          padding-right: 15px; } }
+
+.information.ring.metal .type {
+  margin-top: 55px;
+  border: 1px solid #dfdfdf; }
+  .information.ring.metal .type .row {
+    margin-left: 0;
+    margin-right: 0; }
+    .information.ring.metal .type .row > div {
+      padding-left: 0;
+      padding-right: 0; }
+  .information.ring.metal .type .figure {
+    margin-top: 30px;
+    margin-bottom: 20px; }
+    .information.ring.metal .type .figure p .img-responsive {
+      margin: 0 auto; }
+  .information.ring.metal .type .details {
+    padding: 10px 20px;
+    margin-bottom: 20px; }
+    .information.ring.metal .type .details h5 {
+      margin-bottom: 10px;
+      font-size: 13px;
+      color: #080d68;
+      text-align: center;
+      font-weight: normal; }
+      .information.ring.metal .type .details h5 i {
+        font-size: 12px;
+        color: #222; }
+  .information.ring.metal .type + .type {
+    margin-top: 20px; }
+  @media (min-width: 768px) {
+    .information.ring.metal .type .figure {
+      height: 140px; }
+    .information.ring.metal .type .details {
+      padding: 25px 25px 25px 0;
+      margin-bottom: 0; }
+      .information.ring.metal .type .details h5 {
+        font-size: 15px;
+        text-align: left; }
+        .information.ring.metal .type .details h5 i {
+          font-size: 14px; } }
+  @media (min-width: 768px) {
+    .information.ring.metal .type .figure {
+      height: 155px; } }
 
 /*# sourceMappingURL=information.css.map */

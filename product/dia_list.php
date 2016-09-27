@@ -54,8 +54,8 @@
             <!-- 다이아몬드 검색 타입 -->
             <div class="dia-type">
                 <ul class="row">
-                    <li class="col-xs-6 col-sm-3 col-sm-offset-3 col-lg-2 col-lg-offset-4 active"><a class="btn btn-block" href="#">다이아몬드</a></li>
-                    <li class="col-xs-6 col-sm-3 col-lg-2"><a class="btn btn-block" href="#">팬시컬러 다이아몬드</a></li>
+                    <li class="col-xs-6 col-sm-3 col-sm-offset-3 col-lg-2 col-lg-offset-4 active"><a class="btn btn-block" href="./dia_list.php">다이아몬드</a></li>
+                    <li class="col-xs-6 col-sm-3 col-lg-2"><a class="btn btn-block" href="./fancy_list.php">팬시컬러 다이아몬드</a></li>
                 </ul>
             </div>
 

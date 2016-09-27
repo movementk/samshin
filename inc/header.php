@@ -53,13 +53,13 @@
     <nav id="gnb" class="visible-lg" tabindex="-1" aria-hidden="true">
         <div class="container">
             <ul>
-                <li><a href="#">다이아몬드 검색</a></li>
-                <li><a href="#">반지 디자인 찾기</a></li>
-                <li><a href="#">목걸이 디자인 찾기</a></li>
-                <li><a href="#">귀걸이 디자인 찾기</a></li>
-                <li><a href="#">GIA다이아몬드</a></li>
-                <li><a href="#">완제품/당일발송</a></li>
-                <li><a href="#">보석정보</a></li>
+                <li><a href="/product/dia_list.php">다이아몬드 검색</a></li>
+                <li><a href="/product/jewelry_list.php">반지 디자인 찾기</a></li>
+                <li><a href="/product/jewelry_list.php">목걸이 디자인 찾기</a></li>
+                <li><a href="/product/jewelry_list.php">귀걸이 디자인 찾기</a></li>
+                <li><a href="/product/gia_list.php">GIA다이아몬드</a></li>
+                <li><a href="/product/completed_list.php">완제품/당일발송</a></li>
+                <li><a href="/information/dia_carat.php">보석정보</a></li>
             </ul>
         </div>
     </nav>
