@@ -20,10 +20,12 @@
             <div class="col-xs-12 col-lg-9">
                 <main id="content" tabindex="-1" class="information fancy feature">
                     <div class="page-header">
-                        <h2>다이아몬드 정보 (4C) <small>다이아몬드 4C</small></h2>
+                        <h2>FANCY COLOR DIAMOND <small>팬시 컬러 다이아몬드</small></h2>
                     </div>
                     <div class="page-summary">
-                        <p>다이아몬드의 가치를 평가하는 요소는 <i>캐럿 (Carat), 내포물 (Clarity), 색상 (Color), 컷 (Cut)</i>이며 이를 <i>4C</i>라고 합니다.</p>
+                        <p>
+                            팬시 컬러 다이아몬드를 평가하는 가장 중요한 요소는 색상의 품부함과 아름다움입니다. 팬시 컬러 다이아몬드 감정시 무채색의 다이아몬드와는 다른 등급 시스템을 사용하며 GIA 감정소에 의해 개발된 9개의 등급을 기준으로 평가 되고 있습니다.
+                        </p>
                     </div>
                     <div class="tabs">
                         <ul>

@@ -166,6 +166,7 @@
         i {
             font-style: normal;
             color: $kc;
+            font-weight: 400;
         }
     }
     @media (min-width: $sm) {
@@ -255,9 +256,13 @@
                 @extend .noto;
                 font-weight: 300;
             }
+            & + p {
+                margin-top: 10px;
+            }
         }
         p {
             font-size: 12px;
+            color: #999;
         }
         @media (min-width: $sm) {
             margin-bottom: 30px;
@@ -755,6 +760,156 @@
                 h5 {
                     margin-bottom: 10px;
                 }
+            }
+        }
+    }
+}
+
+// 감정서
+.information.lab {
+    .page-header {
+        margin-bottom: 15px;
+        @media (min-width: $sm) {
+            margin-bottom: 25px;
+        }
+    }
+    .page-summary {
+        p + p {
+            margin-top: 20px;
+        }
+    }
+    .tabs {
+        margin-top: 50px;
+        margin-bottom: 60px;
+        ul {
+            margin-top: -5px;
+            margin-bottom: -5px;
+            li {
+                padding: 5px;
+                width: 33.33%;
+                a, span {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    height: 35px;
+                    line-height: 33px;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            padding-left: 5px;
+            padding-right: 5px;
+            ul {
+                margin-top: 0;
+                margin-bottom: 0;
+                li {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    width: 20%;
+                    a, span {
+                        height: 40px;
+                        line-height: 38px;
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            margin-top: 100px;
+            margin-bottom: 110px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    .figure {
+        margin: 0 auto 30px;
+        width: 300px;
+        background-color: #fbfbfb;
+        p {
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .13);
+            .img-responsive {
+                margin: 0 auto;
+                border: 1px solid #ccc;
+            }
+        }
+        @media (min-width: $sm) {
+            width: auto;
+        }
+    }
+    .details {
+        @media (min-width: $lg) {
+            p + p {
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+.information.lab.igi {
+    .figure {
+        width: 184px;
+        @media (min-width: $sm) {
+            margin: inherit;
+        }
+    }
+}
+
+.information.lab.ags {
+    .explain {
+        margin-bottom: 50px;
+        @media (min-width: $sm) {
+            margin-bottom: 60px;
+        }
+    }
+    .grade {
+        h4 {
+            margin-bottom: 20px;
+            @extend .jjmj;
+            color: $kc;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 13px;
+            font-weight: normal;
+            color: $kc;
+            line-height: 18px;
+            vertical-align: middle;
+            span {
+                display: inline-block;
+                margin-right: 5px;
+                width: 16px;
+                height: 16px;
+                background-color: $kc;
+                color: #fff;
+                line-height: 16px;
+                border-radius: 50%;
+                font-size: 11px;
+                text-align: center;
+                line-height: 16px;
+                font-weight: 300;
+                vertical-align: 1px;
+            }
+            i {
+                font-style: normal;
+                color: #222;
+            }
+            & + p {
+                margin-top: 10px;
+            }
+        }
+        @media (min-width: $sm) {
+            h4 {
+                font-size: 22px;
+            }
+            h5 {
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+        @media (min-width: $lg) {
+            h4 {
+                margin-bottom: 30px;
+                font-size: 24px;
             }
         }
     }

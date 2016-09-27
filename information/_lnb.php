@@ -13,7 +13,7 @@
                     <li><a href="./fancy_grade.php">팬시 컬러 다이아몬드</a></li>
                 </ul>
             </li>
-            <li><a href="./lap.php">감정서</a></li>
+            <li><a href="./lab_gia.php">감정서</a></li>
             <li><a href="#">반지정보</a></li>
             <li><a href="#">탄생석</a></li>
             <li><a href="#">제품관리법</a></li>
