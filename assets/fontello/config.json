@@ -131,7 +131,7 @@
     {
       "uid": "70370693ada58ef0a60fa0984fe8d52a",
       "css": "plus",
-      "code": 59400,
+      "code": 950414,
       "src": "entypo"
     },
     {
@@ -145,6 +145,24 @@
       "css": "user",
       "code": 59402,
       "src": "iconic"
+    },
+    {
+      "uid": "1189604bf305b6b03a74685ce60e6632",
+      "css": "doc-text",
+      "code": 59400,
+      "src": "entypo"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59403,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "513ac180ff85bd275f2b736720cbbf5e",
+      "css": "home",
+      "code": 59404,
+      "src": "entypo"
     },
     {
       "uid": "3aa687526dd1fe467bdb596d2ee94283",

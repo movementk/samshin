@@ -1,11 +1,13 @@
-@font-face {
+@charset "UTF-8";
+
+ @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?73932820');
-  src: url('../font/fontello.eot?73932820#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?73932820') format('woff2'),
-       url('../font/fontello.woff?73932820') format('woff'),
-       url('../font/fontello.ttf?73932820') format('truetype'),
-       url('../font/fontello.svg?73932820#fontello') format('svg');
+  src: url('../font/fontello.eot?32494763');
+  src: url('../font/fontello.eot?32494763#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?32494763') format('woff2'),
+       url('../font/fontello.woff?32494763') format('woff'),
+       url('../font/fontello.ttf?32494763') format('truetype'),
+       url('../font/fontello.svg?32494763#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +17,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?73932820#fontello') format('svg');
+    src: url('../font/fontello.svg?32494763#fontello') format('svg');
   }
 }
 */
@@ -63,9 +65,11 @@
 .icon-info-circled:before { content: '\e805'; } /* '' */
 .icon-question:before { content: '\e806'; } /* '' */
 .icon-minus:before { content: '\e807'; } /* '' */
-.icon-plus:before { content: '\e808'; } /* '' */
+.icon-doc-text:before { content: '\e808'; } /* '' */
 .icon-basket:before { content: '\e809'; } /* '' */
 .icon-user:before { content: '\e80a'; } /* '' */
+.icon-phone:before { content: '\e80b'; } /* '' */
+.icon-home:before { content: '\e80c'; } /* '' */
 .icon-angle-double-left:before { content: '\f100'; } /* '' */
 .icon-angle-double-right:before { content: '\f101'; } /* '' */
 .icon-angle-left:before { content: '\f104'; } /* '' */
@@ -77,3 +81,4 @@
 .icon-facebook-official:before { content: '\f230'; } /* '' */
 .icon-googleplus-rect:before { content: '\f309'; } /* '' */
 .icon-twitter-rect:before { content: '\f314'; } /* '' */
+.icon-plus:before { content: '󨂎'; } /* '\e808e' */
