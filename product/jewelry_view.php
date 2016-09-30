@@ -165,6 +165,7 @@
                     </div>
                 </div>
             </div>
+            -->
             <div class="feature">
                 <div class="container">
                     <div class="row">
@@ -250,7 +251,7 @@
                             </li>
                             <li>
                                 <div>
-                                    <h5><span class="en">ASSCHER<span><span class="ko">어셔</span></h5>
+                                    <h5><span class="en">ASSCHER</span><span class="ko">어셔</span></h5>
                                     <p>0.23 – 1.80 <br>CARAT</p>
                                 </div>
                             </li>
@@ -552,6 +553,7 @@
                 pagerCustom: '.summary .preview .pager',
                 controls: false
             });
+
             // 리뷰 클릭
             $(document).on('click', '.review-list .title a', function(e) {
                 var $commentRow = $(this).parents('tr').eq(0).find('+ .comment');

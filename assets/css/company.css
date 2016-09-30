@@ -1,13 +1,13 @@
-.lato, .introduce .section-head .section-title small, .introduce .history .tab-content h5 i, .introduce .history .tab-content .table th {
+.lato, .introduce .section-head .section-title small, .introduce .history .tab-content h5 i, .introduce .history .tab-content .table th, .reserve .call .contact > div dl.phone dd, #content.cafe .page-header .page-title small {
   font-family: 'Lato', sans-serif; }
 
-.jjmj, .introduce .brand .details h4, .introduce .cafe .item .item-body h3, .introduce .feature .details h4, .introduce .pr .section-head .section-title, .introduce .pr .details h4, .introduce .history .tab-content h5, .offline-modal .modal-header .modal-title {
+.jjmj, .introduce .brand .details h4, .introduce .cafe .item .item-body h3, .introduce .feature .details h4, .introduce .pr .section-head .section-title, .introduce .pr .details h4, .introduce .history .tab-content h5, .offline-modal .modal-header .modal-title, .reserve .section-head .section-title, .reserve .jumbowall .details h2, .reserve .jumbowall .details p, .reserve .direct .section-head .section-title, .reserve .direct .section-body .price > div strong, .reserve .why-1 .section-body ul li div .details, .reserve .call .contact > div h5, .reserve .request h4, #content.cafe .section-head .section-title, #content.cafe .room-type h4 {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .introduce .history .tab-content h5 span, .offline-modal .modal-header .modal-title i {
+.noto, .introduce .history .tab-content h5 span, .offline-modal .modal-header .modal-title i, .reserve .section-head .section-title small, .reserve .jumbowall .details h2 small, .reserve .call .contact > div h5 small, #content.cafe .room-type h4 small {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .introduce .section-head .section-title, .introduce .cafe .item .item-body h3 > i {
+.crimson, .introduce .section-head .section-title, .introduce .cafe .item .item-body h3 > i, .reserve .why-1 .section-body ul li div .num, .reserve .why-2 .item h5, #content.cafe .page-header .page-title {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -27,6 +27,8 @@ body {
 
 /*
 @media (max-width: $lg - 1px) {
+}
+@media (max-width: $md - 1px) {
 }
 @media (max-width: $sm - 1px) {
 }
@@ -590,5 +592,716 @@ body {
         font-size: 13px; }
       .offline-modal .details dl dd {
         font-size: 12px; } }
+
+.reserve .section-head .section-title {
+  text-align: center;
+  font-size: 45px;
+  line-height: 52px; }
+  .reserve .section-head .section-title small {
+    font-weight: 300;
+    font-size: 18px; }
+  .reserve .section-head .section-title i {
+    font-style: normal;
+    color: #080d68; }
+@media (max-width: 991px) {
+  .reserve .section-head .section-title {
+    font-size: 35px;
+    line-height: 45px; }
+    .reserve .section-head .section-title small {
+      font-size: 16px; } }
+@media (max-width: 767px) {
+  .reserve .section-head .section-title {
+    font-size: 25px;
+    line-height: 30px; }
+    .reserve .section-head .section-title small {
+      font-size: 13px; } }
+.reserve .jumbowall {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .reserve .jumbowall .figure {
+    margin-top: 25px;
+    margin-right: -30px; }
+  .reserve .jumbowall .details {
+    margin-left: 30px; }
+    .reserve .jumbowall .details h2 {
+      margin-bottom: 25px;
+      color: #eb2127;
+      font-size: 45px;
+      line-height: 52px;
+      letter-spacing: -1px; }
+      .reserve .jumbowall .details h2 img {
+        vertical-align: -15px; }
+      .reserve .jumbowall .details h2 small {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 18px;
+        color: #222; }
+    .reserve .jumbowall .details p {
+      color: #080d68;
+      font-size: 28px; }
+  @media (max-width: 991px) {
+    .reserve .jumbowall {
+      padding-top: 80px;
+      padding-bottom: 80px; }
+      .reserve .jumbowall .figure {
+        margin-top: 0;
+        margin-right: 0; }
+        .reserve .jumbowall .figure .img-responsive {
+          margin: 0 auto;
+          width: 180px; }
+      .reserve .jumbowall .details {
+        margin-left: 0;
+        text-align: center; }
+        .reserve .jumbowall .details h2 {
+          margin-bottom: 25px;
+          font-size: 35px;
+          line-height: 42px; }
+          .reserve .jumbowall .details h2 img {
+            vertical-align: -15px; }
+          .reserve .jumbowall .details h2 small {
+            margin-left: 5px;
+            font-size: 16px; }
+        .reserve .jumbowall .details p {
+          font-size: 24px; } }
+  @media (max-width: 767px) {
+    .reserve .jumbowall {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+      .reserve .jumbowall .figure .img-responsive {
+        width: 120px; }
+      .reserve .jumbowall .details {
+        margin-left: 0;
+        text-align: center; }
+        .reserve .jumbowall .details h2 {
+          margin-bottom: 10px;
+          font-size: 25px;
+          line-height: 52px; }
+          .reserve .jumbowall .details h2 img {
+            display: block;
+            margin: 0 auto;
+            width: 120px;
+            vertical-align: -15px; }
+          .reserve .jumbowall .details h2 small {
+            margin-left: 5px;
+            font-size: 16px; }
+        .reserve .jumbowall .details p {
+          font-size: 18px; } }
+.reserve .gia {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  background-image: url(/assets/images/company/bg_reserve.jpg);
+  background-size: cover;
+  background-position: 50% 50%; }
+  .reserve .gia .details {
+    margin-top: 45px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #080d68;
+    text-align: center; }
+    .reserve .gia .details i {
+      font-style: normal;
+      color: #913334; }
+  @media (max-width: 1229px) {
+    .reserve .gia .details {
+      margin-top: 40px;
+      font-size: 18px;
+      line-height: 30px; } }
+  @media (max-width: 991px) {
+    .reserve .gia {
+      padding-top: 70px;
+      padding-bottom: 50px; }
+      .reserve .gia .figure .img-responsive {
+        width: 400px;
+        margin: 0 auto; }
+      .reserve .gia .details {
+        margin-top: 30px;
+        font-size: 16px;
+        line-height: 28px; } }
+  @media (max-width: 767px) {
+    .reserve .gia {
+      padding-top: 50px;
+      padding-bottom: 30px; }
+      .reserve .gia .figure {
+        margin-left: -20px; }
+        .reserve .gia .figure .img-responsive {
+          width: 250px; }
+      .reserve .gia .details {
+        margin-left: -5px;
+        margin-right: -5px;
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 26px; } }
+.reserve .direct {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .reserve .direct .section-head {
+    margin-bottom: 220px;
+    text-align: center; }
+    .reserve .direct .section-head .section-title {
+      margin-bottom: 20px;
+      font-size: 45px;
+      color: #222;
+      line-height: 57px; }
+      .reserve .direct .section-head .section-title small {
+        font-size: 28px;
+        color: #222; }
+      .reserve .direct .section-head .section-title i {
+        color: #080d68;
+        font-style: normal; }
+    .reserve .direct .section-head p {
+      color: #080d68;
+      font-size: 18px; }
+      .reserve .direct .section-head p b {
+        font-weight: bold; }
+  .reserve .direct .section-body .price {
+    position: relative;
+    margin-left: -30px;
+    margin-right: -30px;
+    padding: 40px 100px 40px 0;
+    border: 10px solid #dfdfdf;
+    box-shadow: 10px 10px 0 #ebebeb; }
+    .reserve .direct .section-body .price > p {
+      position: absolute;
+      bottom: -38px;
+      left: 145px; }
+    .reserve .direct .section-body .price > div {
+      margin-left: 590px;
+      width: 350px; }
+      .reserve .direct .section-body .price > div strong {
+        font-size: 45px;
+        font-weight: normal;
+        color: #222;
+        line-height: 60px; }
+        .reserve .direct .section-body .price > div strong i {
+          color: #080d68;
+          font-style: normal; }
+      .reserve .direct .section-body .price > div p {
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #080d68; }
+  @media (max-width: 1229px) {
+    .reserve .direct .section-head {
+      margin-bottom: 50px; }
+      .reserve .direct .section-head .section-title {
+        margin-bottom: 20px;
+        font-size: 42px;
+        line-height: 55px; }
+        .reserve .direct .section-head .section-title small {
+          font-size: 26px; }
+      .reserve .direct .section-head p {
+        font-size: 16px; }
+    .reserve .direct .section-body .price {
+      padding: 30px 0 30px 0;
+      margin-left: 0;
+      margin-right: 0; }
+      .reserve .direct .section-body .price .figure {
+        display: none; }
+      .reserve .direct .section-body .price .details {
+        margin-left: 0;
+        width: 100%;
+        text-align: center; }
+        .reserve .direct .section-body .price .details strong {
+          font-size: 40px;
+          line-height: 50px; }
+        .reserve .direct .section-body .price .details p {
+          margin-top: 15px;
+          font-size: 16px;
+          line-height: 28px; } }
+  @media (max-width: 991px) {
+    .reserve .direct {
+      padding-top: 80px;
+      padding-bottom: 80px; }
+      .reserve .direct .section-head {
+        margin-bottom: 40px; }
+        .reserve .direct .section-head .section-title {
+          margin-bottom: 15px;
+          font-size: 30px;
+          line-height: 35px; }
+          .reserve .direct .section-head .section-title small {
+            font-size: 18px; }
+        .reserve .direct .section-head p {
+          font-size: 16px; }
+      .reserve .direct .section-body .price {
+        padding: 30px 0 30px 0; }
+        .reserve .direct .section-body .price .details strong {
+          font-size: 40px;
+          line-height: 50px; }
+        .reserve .direct .section-body .price .details p {
+          margin-top: 15px;
+          font-size: 14px;
+          line-height: 26px; } }
+  @media (max-width: 767px) {
+    .reserve .direct {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+      .reserve .direct .section-head {
+        margin-bottom: 40px; }
+        .reserve .direct .section-head .section-title {
+          margin-bottom: 10px;
+          font-size: 24px;
+          line-height: 35px; }
+          .reserve .direct .section-head .section-title small {
+            font-size: 13px; }
+        .reserve .direct .section-head p {
+          font-size: 13px; }
+      .reserve .direct .section-body .price {
+        padding: 20px 10px; }
+        .reserve .direct .section-body .price .details strong {
+          font-size: 30px;
+          line-height: 35px; }
+        .reserve .direct .section-body .price .details p {
+          margin-top: 10px;
+          font-size: 13px;
+          line-height: 22px; } }
+.reserve .why-1 {
+  padding-top: 100px;
+  padding-bottom: 115px;
+  background-color: #f7f7f7; }
+  .reserve .why-1 .section-head {
+    margin-bottom: 45px; }
+  .reserve .why-1 .section-body ul {
+    margin: 0 auto;
+    width: 1170px; }
+    .reserve .why-1 .section-body ul li div {
+      height: 490px;
+      background-color: #fff;
+      border: 1px solid #eee;
+      text-align: center; }
+      .reserve .why-1 .section-body ul li div .figure {
+        margin-bottom: 35px; }
+        .reserve .why-1 .section-body ul li div .figure img {
+          width: 100%; }
+      .reserve .why-1 .section-body ul li div .num {
+        font-size: 36px;
+        line-height: 36px;
+        color: #080d68;
+        border-bottom: 2px solid #080d68; }
+      .reserve .why-1 .section-body ul li div .details {
+        margin-top: 15px;
+        font-size: 24px;
+        line-height: 36px;
+        color: #222; }
+        .reserve .why-1 .section-body ul li div .details b {
+          color: #080d68; }
+      .reserve .why-1 .section-body ul li div:hover {
+        border-color: #080d68; }
+  .reserve .why-1 .bx-wrapper {
+    position: relative; }
+  .reserve .why-1 .bx-controls-direction > a {
+    position: absolute;
+    margin-top: -23px;
+    top: 50%; }
+  .reserve .why-1 .bx-prev {
+    left: -40px; }
+  .reserve .why-1 .bx-next {
+    right: -40px; }
+  @media (max-width: 991px) {
+    .reserve .why-1 {
+      padding-top: 80px;
+      padding-bottom: 95px; }
+      .reserve .why-1 .section-head {
+        margin-bottom: 35px; }
+      .reserve .why-1 .section-body ul li div {
+        height: 380px; }
+        .reserve .why-1 .section-body ul li div .figure {
+          margin-bottom: 30px; }
+        .reserve .why-1 .section-body ul li div .num {
+          font-size: 26px;
+          line-height: 26px; }
+        .reserve .why-1 .section-body ul li div .details {
+          margin-top: 15px;
+          font-size: 18px;
+          line-height: 26px; } }
+  @media (max-width: 767px) {
+    .reserve .why-1 {
+      padding-top: 60px;
+      padding-bottom: 95px; }
+      .reserve .why-1 .section-head {
+        margin-bottom: 25px; }
+      .reserve .why-1 .section-body ul li div {
+        height: 300px; }
+        .reserve .why-1 .section-body ul li div .figure {
+          margin-bottom: 20px; }
+        .reserve .why-1 .section-body ul li div .num {
+          font-size: 24px;
+          line-height: 24px; }
+        .reserve .why-1 .section-body ul li div .details {
+          margin-top: 15px;
+          font-size: 16px;
+          line-height: 22px; } }
+.reserve .why-2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(/assets/images/company/bg_why_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  .reserve .why-2 .section-head {
+    margin-bottom: 70px; }
+    .reserve .why-2 .section-head .section-title {
+      color: #fff; }
+      .reserve .why-2 .section-head .section-title small {
+        color: #fff; }
+  .reserve .why-2 .item {
+    padding-top: 80px;
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 0; }
+    .reserve .why-2 .item h5 {
+      margin-bottom: 20px;
+      color: #fff;
+      text-decoration: underline;
+      font-size: 25px;
+      line-height: 28px; }
+    .reserve .why-2 .item p {
+      font-size: 15px;
+      line-height: 25px; }
+    .reserve .why-2 .item:nth-of-type(1) {
+      background-image: url(/assets/images/company/ico_people.png); }
+    .reserve .why-2 .item:nth-of-type(2) {
+      background-image: url(/assets/images/company/ico_dia.png); }
+    .reserve .why-2 .item:nth-of-type(3) {
+      background-image: url(/assets/images/company/ico_flag.png); }
+    .reserve .why-2 .item:nth-of-type(4) {
+      background-image: url(/assets/images/company/ico_money.png); }
+  @media (max-width: 991px) {
+    .reserve .why-2 {
+      padding-top: 80px;
+      padding-bottom: 20px; }
+      .reserve .why-2 .section-head {
+        margin-bottom: 50px; }
+      .reserve .why-2 .item {
+        margin-bottom: 60px;
+        padding-top: 60px;
+        background-size: auto 50px; }
+        .reserve .why-2 .item h5 {
+          margin-bottom: 15px;
+          font-size: 20px;
+          line-height: 24px; }
+        .reserve .why-2 .item p {
+          font-size: 14px;
+          line-height: 22px; }
+        .reserve .why-2 .item:nth-of-type(2n+1) {
+          clear: both; } }
+  @media (max-width: 767px) {
+    .reserve .why-2 {
+      padding-top: 60px;
+      padding-bottom: 0; }
+      .reserve .why-2 .section-head {
+        margin-bottom: 30px; }
+      .reserve .why-2 .section-body {
+        margin-left: -5px;
+        margin-right: -5px; }
+      .reserve .why-2 .item {
+        margin-bottom: 60px;
+        padding-top: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-size: auto 40px; }
+        .reserve .why-2 .item h5 {
+          margin-bottom: 15px;
+          font-size: 16px;
+          line-height: 22px; }
+        .reserve .why-2 .item p {
+          font-size: 12px;
+          line-height: 22px;
+          letter-spacing: -1px; }
+        .reserve .why-2 .item:nth-of-type(2n+1) {
+          clear: both; } }
+.reserve .call {
+  padding-top: 115px;
+  padding-bottom: 60px; }
+  .reserve .call .figure {
+    height: 273px;
+    background-size: cover;
+    background-position: 50% 50%; }
+  .reserve .call .contact {
+    display: table;
+    padding: 10px;
+    width: 100%;
+    height: 273px;
+    background-color: #fbfbfb;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.13); }
+    .reserve .call .contact > div {
+      display: table-cell;
+      height: 100%;
+      border: 1px solid #dfdfdf;
+      background-color: #fff;
+      vertical-align: middle;
+      text-align: center; }
+      .reserve .call .contact > div h5 {
+        margin-bottom: 20px;
+        color: #222;
+        font-size: 25px;
+        line-height: 30px; }
+        .reserve .call .contact > div h5 small {
+          color: #080d68;
+          font-size: 15px; }
+      .reserve .call .contact > div dl dt, .reserve .call .contact > div dl dd {
+        display: inline;
+        line-height: 23px;
+        font-size: 13px; }
+      .reserve .call .contact > div dl dd {
+        color: #999; }
+      .reserve .call .contact > div dl.time dd:last-child {
+        display: block; }
+      .reserve .call .contact > div dl.phone {
+        margin-top: 10px; }
+        .reserve .call .contact > div dl.phone dd {
+          color: #080d68;
+          font-weight: 900;
+          font-size: 18px;
+          letter-spacing: -1px; }
+  @media (max-width: 991px) {
+    .reserve .call {
+      padding-top: 75px;
+      padding-bottom: 40px; }
+      .reserve .call .figure {
+        margin-bottom: 20px;
+        height: 240px; }
+      .reserve .call .contact {
+        height: 240px; }
+        .reserve .call .contact > div h5 {
+          margin-bottom: 15px;
+          font-size: 22px;
+          line-height: 28px; }
+          .reserve .call .contact > div h5 small {
+            font-size: 13px; }
+        .reserve .call .contact > div dl dt, .reserve .call .contact > div dl dd {
+          line-height: 23px;
+          font-size: 13px; }
+        .reserve .call .contact > div dl.phone {
+          margin-top: 10px; }
+          .reserve .call .contact > div dl.phone dd {
+            font-size: 18px; } }
+  @media (max-width: 767px) {
+    .reserve .call {
+      padding-top: 55px; }
+      .reserve .call .contact {
+        height: 200px; }
+        .reserve .call .contact > div h5 {
+          margin-bottom: 10px;
+          font-size: 20px;
+          line-height: 26px; }
+          .reserve .call .contact > div h5 small {
+            font-size: 12px; }
+        .reserve .call .contact > div dl dt, .reserve .call .contact > div dl dd {
+          line-height: 22px;
+          font-size: 12px; }
+        .reserve .call .contact > div dl.phone {
+          margin-top: 10px; }
+          .reserve .call .contact > div dl.phone dd {
+            font-size: 16px; } }
+.reserve .request {
+  padding-bottom: 90px; }
+  .reserve .request h4 {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    color: #080d68;
+    font-size: 25px;
+    border-bottom: 1px solid #c2c2c2; }
+  .reserve .request .request-list td:nth-of-type(1), .reserve .request .request-list th:nth-of-type(1) {
+    width: 90px; }
+  .reserve .request .request-list td:nth-of-type(3), .reserve .request .request-list th:nth-of-type(3) {
+    width: 140px; }
+  .reserve .request .request-list td:nth-of-type(4), .reserve .request .request-list th:nth-of-type(4) {
+    width: 120px; }
+  .reserve .request .request-list td:nth-of-type(5), .reserve .request .request-list th:nth-of-type(5) {
+    width: 100px; }
+  .reserve .request .request-list .title {
+    padding-left: 30px;
+    text-align: left; }
+  .reserve .request .request-list .paging {
+    margin-top: 10px; }
+  @media (max-width: 991px) {
+    .reserve .request {
+      padding-bottom: 70px; }
+      .reserve .request h4 {
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        font-size: 22px; }
+      .reserve .request .request-list td:nth-of-type(4), .reserve .request .request-list td:nth-of-type(5), .reserve .request .request-list th:nth-of-type(4), .reserve .request .request-list th:nth-of-type(5) {
+        display: none; }
+      .reserve .request .request-list .title {
+        padding-left: 10px; } }
+  @media (max-width: 767px) {
+    .reserve .request {
+      padding-bottom: 50px; }
+      .reserve .request h4 {
+        padding-bottom: 10px;
+        font-size: 18px; }
+      .reserve .request .request-list td:nth-of-type(1), .reserve .request .request-list th:nth-of-type(1) {
+        display: none; } }
+
+#content.cafe .page-header {
+  margin-top: 0;
+  margin-bottom: 80px;
+  padding-bottom: 0;
+  border-bottom: 0; }
+  #content.cafe .page-header .page-title {
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px; }
+    #content.cafe .page-header .page-title small {
+      font-size: 18px;
+      color: #080d68;
+      letter-spacing: 4px; }
+  @media (max-width: 1229px) {
+    #content.cafe .page-header {
+      margin-bottom: 70px; }
+      #content.cafe .page-header .page-title {
+        font-size: 45px;
+        line-height: 45px; }
+        #content.cafe .page-header .page-title small {
+          font-size: 16px; } }
+  @media (max-width: 767px) {
+    #content.cafe .page-header {
+      margin-bottom: 50px; }
+      #content.cafe .page-header .page-title {
+        font-size: 35px;
+        line-height: 35px; }
+        #content.cafe .page-header .page-title small {
+          font-size: 14px; } }
+#content.cafe .page-tabs .btn {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%; }
+#content.cafe .page-tabs span.btn {
+  background-color: #080d68;
+  border-color: #080d68;
+  color: #fff; }
+@media (max-width: 1229px) {
+  #content.cafe .page-tabs li {
+    margin-bottom: 10px; } }
+#content.cafe .section-head {
+  margin-top: 85px;
+  margin-bottom: 55px;
+  text-align: center; }
+  #content.cafe .section-head .section-title {
+    font-size: 25px;
+    color: #080d68; }
+  #content.cafe .section-head hr {
+    margin: 20px auto 15px;
+    width: 30px;
+    border-top: 3px solid #080d68; }
+  @media (max-width: 991px) {
+    #content.cafe .section-head {
+      margin-top: 65px;
+      margin-bottom: 35px; }
+      #content.cafe .section-head .section-title {
+        font-size: 22px; }
+      #content.cafe .section-head hr {
+        margin: 15px auto 15px; } }
+  @media (max-width: 767px) {
+    #content.cafe .section-head {
+      margin-top: 45px;
+      margin-bottom: 15px; }
+      #content.cafe .section-head .section-title {
+        font-size: 20px; }
+      #content.cafe .section-head p {
+        font-size: 12px; } }
+#content.cafe .room-type {
+  padding-top: 90px;
+  padding-bottom: 90px; }
+  #content.cafe .room-type h4 {
+    margin-bottom: 40px;
+    color: #080d68;
+    font-size: 25px; }
+    #content.cafe .room-type h4 small {
+      font-size: 15px; }
+  #content.cafe .room-type .figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; }
+  #content.cafe .room-type.room-1 .figure-1 {
+    height: 503px;
+    background-image: url(/assets/images/company/img_room_1_figure_1.jpg); }
+  #content.cafe .room-type.room-1 .figure-2 {
+    margin-bottom: 30px;
+    height: 236px;
+    background-image: url(/assets/images/company/img_room_1_figure_2.jpg); }
+  #content.cafe .room-type.room-1 .figure-3 {
+    height: 236px;
+    background-image: url(/assets/images/company/img_room_1_figure_3.jpg); }
+  #content.cafe .room-type.room-2 {
+    background-color: #f7f7f7; }
+    #content.cafe .room-type.room-2 .figure-1 {
+      margin-bottom: 30px;
+      height: 236px;
+      background-image: url(/assets/images/company/img_room_2_figure_1.jpg); }
+    #content.cafe .room-type.room-2 .figure-2 {
+      height: 236px;
+      background-image: url(/assets/images/company/img_room_2_figure_2.jpg); }
+    #content.cafe .room-type.room-2 .figure-3 {
+      height: 503px;
+      background-image: url(/assets/images/company/img_room_2_figure_3.jpg); }
+  #content.cafe .room-type.room-3 .figure-1 {
+    height: 434px;
+    background-image: url(/assets/images/company/img_room_3_figure_1.jpg); }
+  #content.cafe .room-type.room-3 .figure-2 {
+    height: 434px;
+    background-image: url(/assets/images/company/img_room_3_figure_2.jpg); }
+  @media (max-width: 991px) {
+    #content.cafe .room-type {
+      padding-top: 70px;
+      padding-bottom: 70px; }
+      #content.cafe .room-type h4 {
+        margin-bottom: 30px;
+        font-size: 22px; }
+        #content.cafe .room-type h4 small {
+          font-size: 13px; }
+      #content.cafe .room-type.room-1 .figure-1 {
+        height: 350px; }
+      #content.cafe .room-type.room-1 .figure-2 {
+        margin-bottom: 20px;
+        height: 165px; }
+      #content.cafe .room-type.room-1 .figure-3 {
+        height: 165px; }
+      #content.cafe .room-type.room-2 .figure-1 {
+        margin-bottom: 20px;
+        height: 165px; }
+      #content.cafe .room-type.room-2 .figure-2 {
+        height: 165px; }
+      #content.cafe .room-type.room-2 .figure-3 {
+        height: 350px; }
+      #content.cafe .room-type.room-3 .figure-1 {
+        height: 350px; }
+      #content.cafe .room-type.room-3 .figure-2 {
+        height: 350px; } }
+  @media (max-width: 767px) {
+    #content.cafe .room-type {
+      padding-top: 70px;
+      padding-bottom: 70px; }
+      #content.cafe .room-type h4 {
+        margin-bottom: 20px;
+        font-size: 20px; }
+        #content.cafe .room-type h4 small {
+          font-size: 12px; }
+      #content.cafe .room-type.room-1 .figure-1 {
+        margin-bottom: 10px;
+        height: 250px; }
+      #content.cafe .room-type.room-1 .figure-2 {
+        margin-right: -5px;
+        height: 150px; }
+      #content.cafe .room-type.room-1 .figure-3 {
+        margin-left: -5px;
+        height: 150px; }
+      #content.cafe .room-type.room-2 .figure-1 {
+        margin-right: -5px;
+        margin-bottom: 10px;
+        height: 150px; }
+      #content.cafe .room-type.room-2 .figure-2 {
+        margin-left: -5px;
+        margin-bottom: 10px;
+        height: 150px; }
+      #content.cafe .room-type.room-2 .figure-3 {
+        height: 250px; }
+      #content.cafe .room-type.room-3 .figure-1 {
+        margin-bottom: 10px;
+        height: 250px; }
+      #content.cafe .room-type.room-3 .figure-2 {
+        height: 250px; } }
 
 /*# sourceMappingURL=company.css.map */

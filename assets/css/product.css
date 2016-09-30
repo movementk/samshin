@@ -915,407 +915,428 @@
     display: table-cell !important;
     width: 100px; } }
 
-.details.jewelry .summary {
-  padding-bottom: 40px; }
-  .details.jewelry .summary .preview {
-    margin-bottom: 35px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #c2c2c2; }
-    .details.jewelry .summary .preview .bx-wrapper .bx-viewport ul li {
-      text-align: center; }
-      .details.jewelry .summary .preview .bx-wrapper .bx-viewport ul li img {
-        margin: 0 auto;
-        max-width: 100%; }
-    .details.jewelry .summary .preview .pager {
-      margin-top: 0;
-      margin-bottom: 0; }
-      .details.jewelry .summary .preview .pager a img {
-        margin-left: 5px;
-        margin-right: 5px;
-        width: 60px;
-        height: 60px;
-        border: 1px solid #ccc; }
-      .details.jewelry .summary .preview .pager a.active img {
-        border-color: #080d68; }
-    @media (min-width: 768px) {
-      .details.jewelry .summary .preview {
-        margin-bottom: 50px;
-        padding-bottom: 60px; }
-        .details.jewelry .summary .preview .pager a img {
-          width: 70px;
-          height: 70px; } }
-    @media (min-width: 1230px) {
-      .details.jewelry .summary .preview {
-        border-bottom: 0; }
-        .details.jewelry .summary .preview .pager {
-          margin-top: 15px; } }
-  .details.jewelry .summary .order > header small {
-    font-size: 13px; }
-  .details.jewelry .summary .order > header h3 {
-    margin-top: 3px;
-    margin-bottom: 20px;
-    color: #080d68;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px; }
-  .details.jewelry .summary .order .option .option-head {
-    position: relative;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #080d68; }
-    .details.jewelry .summary .order .option .option-head h4 {
-      font-size: 13px; }
-    .details.jewelry .summary .order .option .option-head .sns {
-      position: absolute;
-      top: 0;
-      right: 0; }
-      .details.jewelry .summary .order .option .option-head .sns li {
-        float: left;
-        margin-left: 5px; }
-        .details.jewelry .summary .order .option .option-head .sns li:first-child {
-          margin-left: 0; }
-  .details.jewelry .summary .order .option .option-body dl dt, .details.jewelry .summary .order .option .option-body dl dd {
-    margin-bottom: 10px;
-    line-height: 30px;
-    color: #222; }
-  .details.jewelry .summary .order .option .option-body dl dt {
-    clear: both;
-    float: left;
-    padding-left: 10px;
-    width: 60px; }
-  .details.jewelry .summary .order .option .option-body dl dd {
-    margin-left: 60px; }
-    .details.jewelry .summary .order .option .option-body dl dd .dropdown img {
-      vertical-align: text-bottom; }
-    .details.jewelry .summary .order .option .option-body dl dd .dropdown .btn {
-      height: 30px;
-      transition: none;
-      background-color: #fff;
-      color: #666;
-      line-height: 28px;
-      font-size: 12px;
-      text-align: left; }
-      .details.jewelry .summary .order .option .option-body dl dd .dropdown .btn .caret {
-        float: right;
-        margin-top: 12px; }
-    .details.jewelry .summary .order .option .option-body dl dd .dropdown .dropdown-menu {
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      box-shadow: none;
-      border-radius: 0; }
-      .details.jewelry .summary .order .option .option-body dl dd .dropdown .dropdown-menu li a {
-        color: #666;
-        font-size: 12px; }
-    .details.jewelry .summary .order .option .option-body dl dd .info {
-      margin-top: 3px; }
-      .details.jewelry .summary .order .option .option-body dl dd .info:before {
-        padding-right: 5px;
-        content: url("/assets/images/product/ico_info_circle.png");
-        vertical-align: -2px; }
-      .details.jewelry .summary .order .option .option-body dl dd .info a {
-        color: #080d68; }
-  .details.jewelry .summary .order .total {
-    overflow: hidden;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    padding: 10px;
-    border-top: 1px solid #dfdfdf;
-    border-bottom: 1px solid #dfdfdf;
-    background-color: #f7f7f7; }
-    .details.jewelry .summary .order .total ul {
-      float: left; }
-      .details.jewelry .summary .order .total ul li {
-        font-size: 12px; }
-        .details.jewelry .summary .order .total ul li:before {
-          content: '·';
-          padding-right: 3px; }
-    .details.jewelry .summary .order .total strong {
-      float: right;
-      margin-top: 10px;
-      font-size: 20px;
-      color: #080d68; }
-  .details.jewelry .summary .order .notify {
-    margin-bottom: 25px; }
-    .details.jewelry .summary .order .notify a {
-      color: #080d68;
-      font-weight: 400; }
-  .details.jewelry .summary .order .btn-area {
-    margin-left: -5px;
-    margin-right: -5px; }
-    .details.jewelry .summary .order .btn-area > div {
-      padding-left: 5px;
-      padding-right: 5px; }
-      .details.jewelry .summary .order .btn-area > div .btn {
-        height: 50px; }
-      .details.jewelry .summary .order .btn-area > div .btn-select {
-        background-color: #080d68;
-        border-color: #080d68;
-        color: #fff;
-        font-size: 15px; }
-        .details.jewelry .summary .order .btn-area > div .btn-select:before {
-          margin-right: 10px;
-          content: url(/assets/images/product/ico_ring.png);
-          vertical-align: -3px; }
-      .details.jewelry .summary .order .btn-area > div .btn-favor {
-        background-color: #fff;
-        color: #aaa;
-        line-height: 48px; }
-        .details.jewelry .summary .order .btn-area > div .btn-favor:before {
-          font-family: 'fontello';
-          content: '\E804';
-          font-size: 16px; }
-  @media (min-width: 768px) {
-    .details.jewelry .summary .order > header small {
-      font-size: 16px; }
-    .details.jewelry .summary .order > header h3 {
-      margin-bottom: 50px;
-      font-size: 30px; }
-    .details.jewelry .summary .order .option .option-head {
-      margin-bottom: 30px; }
-      .details.jewelry .summary .order .option .option-head h4 {
-        font-size: 16px; }
-    .details.jewelry .summary .order .option .option-body dl dt {
-      padding-left: 20px;
-      width: 85px; }
-    .details.jewelry .summary .order .option .option-body dl dd {
-      margin-left: 85px; }
-      .details.jewelry .summary .order .option .option-body dl dd .dropdown {
-        width: 270px; }
-      .details.jewelry .summary .order .option .option-body dl dd select.form-control {
-        display: inline-block;
-        width: 270px; }
-      .details.jewelry .summary .order .option .option-body dl dd .info {
-        margin-top: 0;
-        margin-left: 40px;
-        display: inline-block; }
-    .details.jewelry .summary .order .total {
-      margin-top: 35px;
-      margin-bottom: 45px;
-      padding: 15px 30px; }
-    .details.jewelry .summary .order .notify {
-      margin-bottom: 45px; }
-    .details.jewelry .summary .order .btn-area {
-      margin-bottom: 80px; }
-      .details.jewelry .summary .order .btn-area .btn-favor:before {
-        margin-right: 10px; } }
-  @media (min-width: 1230px) {
-    .details.jewelry .summary .order .total {
-      margin-bottom: 110px; } }
-.details.jewelry .feature {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f7f7f7; }
-  .details.jewelry .feature section {
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 0 10px #dfdfdf; }
-    .details.jewelry .feature section.overview {
-      margin-bottom: 10px; }
-    .details.jewelry .feature section > div {
-      padding: 25px 20px;
-      border: 1px solid #dfdfdf; }
-      .details.jewelry .feature section > div h4 {
-        margin-bottom: 20px;
-        font-size: 23px;
-        color: #942c48; }
-      .details.jewelry .feature section > div dl dt, .details.jewelry .feature section > div dl dd {
-        margin-bottom: 5px;
-        color: #222; }
-      .details.jewelry .feature section > div dl dt {
-        float: left;
-        width: 90px;
-        font-weight: 500; }
-        .details.jewelry .feature section > div dl dt:before {
+.details.jewelry {
+  /*
+  .tabs {
+      margin-left: -5px;
+      margin-right: -5px;
+      li {
+          padding-left: 5px;
           padding-right: 5px;
-          content: '\2022';
-          color: #080d68; }
-      .details.jewelry .feature section > div dl dd {
-        margin-left: 90px; }
-      .details.jewelry .feature section > div dl + .help {
-        margin-top: 15px; }
-      .details.jewelry .feature section > div .help {
-        margin-left: 10px; }
-        .details.jewelry .feature section > div .help:before {
-          content: '※';
-          padding-right: 5px; }
-    .details.jewelry .feature section.description p {
-      line-height: 23px; }
-  @media (min-width: 768px) {
-    .details.jewelry .feature {
-      padding-top: 50px;
-      padding-bottom: 50px; }
-      .details.jewelry .feature section.overview {
-        margin-bottom: 30px; }
-      .details.jewelry .feature section > div {
-        padding: 30px 25px; }
-        .details.jewelry .feature section > div h4 {
-          font-size: 25px; }
-        .details.jewelry .feature section > div dl dt, .details.jewelry .feature section > div dl dd {
-          font-size: 14px; }
-      .details.jewelry .feature section.description p {
-        font-size: 14px;
-        line-height: 25px; } }
-  @media (min-width: 1230px) {
-    .details.jewelry .feature section.overview {
-      margin-bottom: 0; }
-    .details.jewelry .feature section > div {
-      padding: 30px 25px;
-      min-height: 360px; } }
-.details.jewelry .setting,
-.details.jewelry .recommend {
-  padding-top: 40px;
-  padding-bottom: 40px; }
-  .details.jewelry .setting header,
-  .details.jewelry .recommend header {
-    margin-bottom: 40px;
-    padding-left: 20px;
-    border-left: 3px solid #080d68; }
-    .details.jewelry .setting header h4,
-    .details.jewelry .recommend header h4 {
-      margin-bottom: 10px;
-      font-size: 23px;
+          .btn {
+              width: 100%;
+          }
+          &.active {
+              .btn {
+                  background-color: $kc;
+                  border-color: $kc;
+                  color: #fff;
+              }
+          }
+      }
+  }
+  */ }
+  .details.jewelry .summary {
+    padding-bottom: 40px; }
+    .details.jewelry .summary .preview {
+      margin-bottom: 35px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #c2c2c2; }
+      .details.jewelry .summary .preview .bx-wrapper .bx-viewport ul li {
+        text-align: center; }
+        .details.jewelry .summary .preview .bx-wrapper .bx-viewport ul li img {
+          margin: 0 auto;
+          max-width: 100%; }
+      .details.jewelry .summary .preview .pager {
+        margin-top: 0;
+        margin-bottom: 0; }
+        .details.jewelry .summary .preview .pager a img {
+          margin-left: 5px;
+          margin-right: 5px;
+          width: 60px;
+          height: 60px;
+          border: 1px solid #ccc; }
+        .details.jewelry .summary .preview .pager a.active img {
+          border-color: #080d68; }
+      @media (min-width: 768px) {
+        .details.jewelry .summary .preview {
+          margin-bottom: 50px;
+          padding-bottom: 60px; }
+          .details.jewelry .summary .preview .pager a img {
+            width: 70px;
+            height: 70px; } }
+      @media (min-width: 1230px) {
+        .details.jewelry .summary .preview {
+          border-bottom: 0; }
+          .details.jewelry .summary .preview .pager {
+            margin-top: 15px; } }
+    .details.jewelry .summary .order > header small {
+      font-size: 13px; }
+    .details.jewelry .summary .order > header h3 {
+      margin-top: 3px;
+      margin-bottom: 20px;
+      color: #080d68;
       font-weight: 500;
-      color: #080d68; }
-    .details.jewelry .setting header p,
-    .details.jewelry .recommend header p {
+      font-size: 25px;
+      line-height: 30px; }
+    .details.jewelry .summary .order .option .option-head {
       position: relative;
-      top: 2px;
-      line-height: 16px; }
-  @media (min-width: 768px) {
-    .details.jewelry .setting,
-    .details.jewelry .recommend {
-      padding-top: 60px;
-      padding-bottom: 60px; }
-      .details.jewelry .setting header h4,
-      .details.jewelry .recommend header h4 {
-        font-size: 25px; }
-      .details.jewelry .setting header p,
-      .details.jewelry .recommend header p {
-        font-size: 13px; } }
-  @media (min-width: 1230px) {
-    .details.jewelry .setting,
-    .details.jewelry .recommend {
-      padding-top: 100px;
-      padding-bottom: 100px; }
-      .details.jewelry .setting header,
-      .details.jewelry .recommend header {
-        margin-bottom: 50px; } }
-.details.jewelry .setting .setting-list ul {
-  margin-right: -3px;
-  padding-top: 1px;
-  padding-left: 1px; }
-  .details.jewelry .setting .setting-list ul li {
-    display: inline; }
-    .details.jewelry .setting .setting-list ul li div {
-      position: relative;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #080d68; }
+      .details.jewelry .summary .order .option .option-head h4 {
+        font-size: 13px; }
+      .details.jewelry .summary .order .option .option-head .sns {
+        position: absolute;
+        top: 0;
+        right: 0; }
+        .details.jewelry .summary .order .option .option-head .sns li {
+          float: left;
+          margin-left: 5px; }
+          .details.jewelry .summary .order .option .option-head .sns li:first-child {
+            margin-left: 0; }
+    .details.jewelry .summary .order .option .option-body dl dt, .details.jewelry .summary .order .option .option-body dl dd {
+      margin-bottom: 10px;
+      line-height: 30px;
+      color: #222; }
+    .details.jewelry .summary .order .option .option-body dl dt {
+      clear: both;
       float: left;
-      margin-left: -1px;
-      margin-top: -1px;
-      padding-top: 75px;
-      width: 33.33333334%;
-      height: 135px;
-      background-position: 50% 15px;
-      background-repeat: no-repeat;
-      border-color: transparent;
-      text-align: center; }
-      .details.jewelry .setting .setting-list ul li div h5 {
-        margin-bottom: 5px;
-        font-size: 12px; }
-        .details.jewelry .setting .setting-list ul li div h5 .en {
-          color: #080d68; }
-        .details.jewelry .setting .setting-list ul li div h5 .ko {
-          display: none;
-          color: #eb2127;
-          font-weight: 500; }
-      .details.jewelry .setting .setting-list ul li div p {
-        font-size: 12px;
-        line-height: 14px;
-        font-weight: 400; }
-      .details.jewelry .setting .setting-list ul li div.active {
+      padding-left: 10px;
+      width: 60px; }
+    .details.jewelry .summary .order .option .option-body dl dd {
+      margin-left: 60px; }
+      .details.jewelry .summary .order .option .option-body dl dd .dropdown img {
+        vertical-align: text-bottom; }
+      .details.jewelry .summary .order .option .option-body dl dd .dropdown .btn {
+        height: 30px;
+        transition: none;
         background-color: #fff;
-        border-color: #080d68;
-        z-index: 1;
-        border: 1px solid #080d68; }
-        .details.jewelry .setting .setting-list ul li div.active h5 .en {
-          display: none; }
-        .details.jewelry .setting .setting-list ul li div.active h5 .ko {
-          display: block; }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(1) div {
-      background-image: url(/assets/images/product/img_shape_line_1.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(2) div {
-      background-image: url(/assets/images/product/img_shape_line_2.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(3) div {
-      background-image: url(/assets/images/product/img_shape_line_3.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(4) div {
-      background-image: url(/assets/images/product/img_shape_line_4.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(5) div {
-      background-image: url(/assets/images/product/img_shape_line_5.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(6) div {
-      background-image: url(/assets/images/product/img_shape_line_6.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(7) div {
-      background-image: url(/assets/images/product/img_shape_line_7.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(8) div {
-      background-image: url(/assets/images/product/img_shape_line_8.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(9) div {
-      background-image: url(/assets/images/product/img_shape_line_9.gif); }
-    .details.jewelry .setting .setting-list ul li:nth-of-type(10) div {
-      background-image: url(/assets/images/product/img_shape_line_10.gif); }
-  @media (min-width: 768px) {
-    .details.jewelry .setting .setting-list ul {
-      margin-right: -5px; }
-      .details.jewelry .setting .setting-list ul li div {
-        width: 16.66666667%; } }
-  @media (min-width: 1230px) {
-    .details.jewelry .setting .setting-list ul {
-      margin-right: -9px; }
-      .details.jewelry .setting .setting-list ul li div {
-        padding-top: 80px;
-        width: 10%;
-        height: 150px;
-        background-position: 50% 20px; } }
-.details.jewelry .recommend {
-  padding-bottom: 20px;
-  background-color: #f7f7f7; }
-  @media (min-width: 768px) {
-    .details.jewelry .recommend {
-      padding-bottom: 60px; } }
-  @media (min-width: 1230px) {
-    .details.jewelry .recommend {
-      padding-bottom: 100px; } }
-  .details.jewelry .recommend .recommend-list ul li {
-    margin-bottom: 20px; }
-    .details.jewelry .recommend .recommend-list ul li a figure img {
-      margin: 0 auto; }
-    .details.jewelry .recommend .recommend-list ul li a figure figcaption {
-      text-align: center; }
-      .details.jewelry .recommend .recommend-list ul li a figure figcaption h5 {
-        margin-top: 5px;
+        color: #666;
+        line-height: 28px;
         font-size: 12px;
-        line-height: 16px;
-        color: #333; }
-      .details.jewelry .recommend .recommend-list ul li a figure figcaption p {
-        font-size: 12px;
+        text-align: left; }
+        .details.jewelry .summary .order .option .option-body dl dd .dropdown .btn .caret {
+          float: right;
+          margin-top: 12px; }
+      .details.jewelry .summary .order .option .option-body dl dd .dropdown .dropdown-menu {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-shadow: none;
+        border-radius: 0; }
+        .details.jewelry .summary .order .option .option-body dl dd .dropdown .dropdown-menu li a {
+          color: #666;
+          font-size: 12px; }
+      .details.jewelry .summary .order .option .option-body dl dd .info {
+        margin-top: 3px; }
+        .details.jewelry .summary .order .option .option-body dl dd .info:before {
+          padding-right: 5px;
+          content: url("/assets/images/product/ico_info_circle.png");
+          vertical-align: -2px; }
+        .details.jewelry .summary .order .option .option-body dl dd .info a {
+          color: #080d68; }
+    .details.jewelry .summary .order .total {
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      padding: 10px;
+      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf;
+      background-color: #f7f7f7; }
+      .details.jewelry .summary .order .total ul {
+        float: left; }
+        .details.jewelry .summary .order .total ul li {
+          font-size: 12px; }
+          .details.jewelry .summary .order .total ul li:before {
+            content: '·';
+            padding-right: 3px; }
+      .details.jewelry .summary .order .total strong {
+        float: right;
+        margin-top: 10px;
+        font-size: 20px;
+        color: #080d68; }
+    .details.jewelry .summary .order .notify {
+      margin-bottom: 25px; }
+      .details.jewelry .summary .order .notify a {
         color: #080d68;
         font-weight: 400; }
-    .details.jewelry .recommend .recommend-list ul li a:hover, .details.jewelry .recommend .recommend-list ul li a:focus {
-      text-decoration: none; }
-      .details.jewelry .recommend .recommend-list ul li a:hover figure img, .details.jewelry .recommend .recommend-list ul li a:focus figure img {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-    .details.jewelry .recommend .recommend-list ul li:nth-of-type(2n+1) {
-      clear: both; }
-  @media (min-width: 768px) {
+    .details.jewelry .summary .order .btn-area {
+      margin-left: -5px;
+      margin-right: -5px; }
+      .details.jewelry .summary .order .btn-area > div {
+        padding-left: 5px;
+        padding-right: 5px; }
+        .details.jewelry .summary .order .btn-area > div .btn {
+          height: 50px; }
+        .details.jewelry .summary .order .btn-area > div .btn-select {
+          background-color: #080d68;
+          border-color: #080d68;
+          color: #fff;
+          font-size: 15px; }
+          .details.jewelry .summary .order .btn-area > div .btn-select:before {
+            margin-right: 10px;
+            content: url(/assets/images/product/ico_ring.png);
+            vertical-align: -3px; }
+        .details.jewelry .summary .order .btn-area > div .btn-favor {
+          background-color: #fff;
+          color: #aaa;
+          line-height: 48px; }
+          .details.jewelry .summary .order .btn-area > div .btn-favor:before {
+            font-family: 'fontello';
+            content: '\E804';
+            font-size: 16px; }
+    @media (min-width: 768px) {
+      .details.jewelry .summary .order > header small {
+        font-size: 16px; }
+      .details.jewelry .summary .order > header h3 {
+        margin-bottom: 50px;
+        font-size: 30px; }
+      .details.jewelry .summary .order .option .option-head {
+        margin-bottom: 30px; }
+        .details.jewelry .summary .order .option .option-head h4 {
+          font-size: 16px; }
+      .details.jewelry .summary .order .option .option-body dl dt {
+        padding-left: 20px;
+        width: 85px; }
+      .details.jewelry .summary .order .option .option-body dl dd {
+        margin-left: 85px; }
+        .details.jewelry .summary .order .option .option-body dl dd .dropdown {
+          width: 270px; }
+        .details.jewelry .summary .order .option .option-body dl dd select.form-control {
+          display: inline-block;
+          width: 270px; }
+        .details.jewelry .summary .order .option .option-body dl dd .info {
+          margin-top: 0;
+          margin-left: 40px;
+          display: inline-block; }
+      .details.jewelry .summary .order .total {
+        margin-top: 35px;
+        margin-bottom: 45px;
+        padding: 15px 30px; }
+      .details.jewelry .summary .order .notify {
+        margin-bottom: 45px; }
+      .details.jewelry .summary .order .btn-area {
+        margin-bottom: 80px; }
+        .details.jewelry .summary .order .btn-area .btn-favor:before {
+          margin-right: 10px; } }
+    @media (min-width: 1230px) {
+      .details.jewelry .summary .order .total {
+        margin-bottom: 110px; } }
+  .details.jewelry .feature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f7f7f7; }
+    .details.jewelry .feature section {
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px #dfdfdf; }
+      .details.jewelry .feature section.overview {
+        margin-bottom: 10px; }
+      .details.jewelry .feature section > div {
+        padding: 25px 20px;
+        border: 1px solid #dfdfdf; }
+        .details.jewelry .feature section > div h4 {
+          margin-bottom: 20px;
+          font-size: 23px;
+          color: #942c48; }
+        .details.jewelry .feature section > div dl dt, .details.jewelry .feature section > div dl dd {
+          margin-bottom: 5px;
+          color: #222; }
+        .details.jewelry .feature section > div dl dt {
+          float: left;
+          width: 90px;
+          font-weight: 500; }
+          .details.jewelry .feature section > div dl dt:before {
+            padding-right: 5px;
+            content: '\2022';
+            color: #080d68; }
+        .details.jewelry .feature section > div dl dd {
+          margin-left: 90px; }
+        .details.jewelry .feature section > div dl + .help {
+          margin-top: 15px; }
+        .details.jewelry .feature section > div .help {
+          margin-left: 10px; }
+          .details.jewelry .feature section > div .help:before {
+            content: '※';
+            padding-right: 5px; }
+      .details.jewelry .feature section.description p {
+        line-height: 23px; }
+    @media (min-width: 768px) {
+      .details.jewelry .feature {
+        padding-top: 50px;
+        padding-bottom: 50px; }
+        .details.jewelry .feature section.overview {
+          margin-bottom: 30px; }
+        .details.jewelry .feature section > div {
+          padding: 30px 25px; }
+          .details.jewelry .feature section > div h4 {
+            font-size: 25px; }
+          .details.jewelry .feature section > div dl dt, .details.jewelry .feature section > div dl dd {
+            font-size: 14px; }
+        .details.jewelry .feature section.description p {
+          font-size: 14px;
+          line-height: 25px; } }
+    @media (min-width: 1230px) {
+      .details.jewelry .feature section.overview {
+        margin-bottom: 0; }
+      .details.jewelry .feature section > div {
+        padding: 30px 25px;
+        min-height: 360px; } }
+  .details.jewelry .setting,
+  .details.jewelry .recommend {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+    .details.jewelry .setting header,
+    .details.jewelry .recommend header {
+      margin-bottom: 40px;
+      padding-left: 20px;
+      border-left: 3px solid #080d68; }
+      .details.jewelry .setting header h4,
+      .details.jewelry .recommend header h4 {
+        margin-bottom: 10px;
+        font-size: 23px;
+        font-weight: 500;
+        color: #080d68; }
+      .details.jewelry .setting header p,
+      .details.jewelry .recommend header p {
+        position: relative;
+        top: 2px;
+        line-height: 16px; }
+    @media (min-width: 768px) {
+      .details.jewelry .setting,
+      .details.jewelry .recommend {
+        padding-top: 60px;
+        padding-bottom: 60px; }
+        .details.jewelry .setting header h4,
+        .details.jewelry .recommend header h4 {
+          font-size: 25px; }
+        .details.jewelry .setting header p,
+        .details.jewelry .recommend header p {
+          font-size: 13px; } }
+    @media (min-width: 1230px) {
+      .details.jewelry .setting,
+      .details.jewelry .recommend {
+        padding-top: 100px;
+        padding-bottom: 100px; }
+        .details.jewelry .setting header,
+        .details.jewelry .recommend header {
+          margin-bottom: 50px; } }
+  .details.jewelry .setting .setting-list ul {
+    margin-right: -3px;
+    padding-top: 1px;
+    padding-left: 1px; }
+    .details.jewelry .setting .setting-list ul li {
+      display: inline; }
+      .details.jewelry .setting .setting-list ul li div {
+        position: relative;
+        float: left;
+        margin-left: -1px;
+        margin-top: -1px;
+        padding-top: 75px;
+        width: 33.33333334%;
+        height: 135px;
+        background-position: 50% 15px;
+        background-repeat: no-repeat;
+        border-color: transparent;
+        text-align: center; }
+        .details.jewelry .setting .setting-list ul li div h5 {
+          margin-bottom: 5px;
+          font-size: 12px; }
+          .details.jewelry .setting .setting-list ul li div h5 .en {
+            color: #080d68; }
+          .details.jewelry .setting .setting-list ul li div h5 .ko {
+            display: none;
+            color: #eb2127;
+            font-weight: 500; }
+        .details.jewelry .setting .setting-list ul li div p {
+          font-size: 12px;
+          line-height: 14px;
+          font-weight: 400; }
+        .details.jewelry .setting .setting-list ul li div.active {
+          background-color: #fff;
+          border-color: #080d68;
+          z-index: 1;
+          border: 1px solid #080d68; }
+          .details.jewelry .setting .setting-list ul li div.active h5 .en {
+            display: none; }
+          .details.jewelry .setting .setting-list ul li div.active h5 .ko {
+            display: block; }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(1) div {
+        background-image: url(/assets/images/product/img_shape_line_1.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(2) div {
+        background-image: url(/assets/images/product/img_shape_line_2.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(3) div {
+        background-image: url(/assets/images/product/img_shape_line_3.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(4) div {
+        background-image: url(/assets/images/product/img_shape_line_4.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(5) div {
+        background-image: url(/assets/images/product/img_shape_line_5.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(6) div {
+        background-image: url(/assets/images/product/img_shape_line_6.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(7) div {
+        background-image: url(/assets/images/product/img_shape_line_7.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(8) div {
+        background-image: url(/assets/images/product/img_shape_line_8.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(9) div {
+        background-image: url(/assets/images/product/img_shape_line_9.gif); }
+      .details.jewelry .setting .setting-list ul li:nth-of-type(10) div {
+        background-image: url(/assets/images/product/img_shape_line_10.gif); }
+    @media (min-width: 768px) {
+      .details.jewelry .setting .setting-list ul {
+        margin-right: -5px; }
+        .details.jewelry .setting .setting-list ul li div {
+          width: 16.66666667%; } }
+    @media (min-width: 1230px) {
+      .details.jewelry .setting .setting-list ul {
+        margin-right: -9px; }
+        .details.jewelry .setting .setting-list ul li div {
+          padding-top: 80px;
+          width: 10%;
+          height: 150px;
+          background-position: 50% 20px; } }
+  .details.jewelry .recommend {
+    padding-bottom: 20px;
+    background-color: #f7f7f7; }
+    @media (min-width: 768px) {
+      .details.jewelry .recommend {
+        padding-bottom: 60px; } }
+    @media (min-width: 1230px) {
+      .details.jewelry .recommend {
+        padding-bottom: 100px; } }
     .details.jewelry .recommend .recommend-list ul li {
-      margin-bottom: 0; }
+      margin-bottom: 20px; }
+      .details.jewelry .recommend .recommend-list ul li a figure img {
+        margin: 0 auto; }
+      .details.jewelry .recommend .recommend-list ul li a figure figcaption {
+        text-align: center; }
+        .details.jewelry .recommend .recommend-list ul li a figure figcaption h5 {
+          margin-top: 5px;
+          font-size: 12px;
+          line-height: 16px;
+          color: #333; }
+        .details.jewelry .recommend .recommend-list ul li a figure figcaption p {
+          font-size: 12px;
+          color: #080d68;
+          font-weight: 400; }
+      .details.jewelry .recommend .recommend-list ul li a:hover, .details.jewelry .recommend .recommend-list ul li a:focus {
+        text-decoration: none; }
+        .details.jewelry .recommend .recommend-list ul li a:hover figure img, .details.jewelry .recommend .recommend-list ul li a:focus figure img {
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
       .details.jewelry .recommend .recommend-list ul li:nth-of-type(2n+1) {
-        clear: none; }
-      .details.jewelry .recommend .recommend-list ul li a figure figcaption h5 {
-        margin-top: 15px;
-        margin-bottom: 5px;
-        font-size: 13px; }
-      .details.jewelry .recommend .recommend-list ul li a figure figcaption p {
-        font-size: 13px; } }
+        clear: both; }
+    @media (min-width: 768px) {
+      .details.jewelry .recommend .recommend-list ul li {
+        margin-bottom: 0; }
+        .details.jewelry .recommend .recommend-list ul li:nth-of-type(2n+1) {
+          clear: none; }
+        .details.jewelry .recommend .recommend-list ul li a figure figcaption h5 {
+          margin-top: 15px;
+          margin-bottom: 5px;
+          font-size: 13px; }
+        .details.jewelry .recommend .recommend-list ul li a figure figcaption p {
+          font-size: 13px; } }
 
 .details.dia .summary {
   padding-bottom: 40px; }
