@@ -214,6 +214,8 @@
 input[type="email"].form-control,
 input[type="password"].form-control,
 input[type="text"].form-control,
+input[type="file"].form-control,
+textarea.form-control,
 select.form-control {
   height: 30px;
   border-radius: 0;
@@ -223,12 +225,16 @@ select.form-control {
   input[type="email"].form-control:focus,
   input[type="password"].form-control:focus,
   input[type="text"].form-control:focus,
+  input[type="file"].form-control:focus,
+  textarea.form-control:focus,
   select.form-control:focus {
     border-color: #080d68; }
 @media (min-width: 768px) {
   input[type="email"].form-control,
   input[type="password"].form-control,
   input[type="text"].form-control,
+  input[type="file"].form-control,
+  textarea.form-control,
   select.form-control {
     font-size: 12px; } }
 

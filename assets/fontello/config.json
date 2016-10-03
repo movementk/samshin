@@ -165,6 +165,24 @@
       "src": "entypo"
     },
     {
+      "uid": "9746a4ace95e1797c94cd2fe05c22485",
+      "css": "attach",
+      "code": 61546,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "d35a1d35efeb784d1dc9ac18b9b6c2b6",
+      "css": "pencil",
+      "code": 59405,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f48ae54adfb27d8ada53d0fd9e34ee10",
+      "css": "trash-empty",
+      "code": 59406,
+      "src": "fontawesome"
+    },
+    {
       "uid": "3aa687526dd1fe467bdb596d2ee94283",
       "css": "lock",
       "code": 59392,

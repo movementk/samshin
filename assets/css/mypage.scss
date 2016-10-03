@@ -465,7 +465,7 @@
 }
 
 // QNA
-.qna.list {
+.qna {
     .qna-list {
         th, td {
             &:nth-of-type(1) {
@@ -503,9 +503,225 @@
             }
         }
     }
+    .product-info {
+        padding: 20px;
+        margin-bottom: 30px;
+        background-color: #f7f7f7;
+        figure {
+            overflow: hidden;
+            img {
+                float: left;
+            }
+            figcaption {
+                margin-left: 135px;
+                h5 {
+                    font-weight: normal;
+                    color: #333;
+                    font-size: 13px;
+                    line-height: 20px;
+                }
+                p {
+                    font-size: 13px;
+                    line-height: 20px;
+                    &.lab {
+                        color: #aaa;
+                    }
+                    &.price {
+                        margin-top: 5px;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+    .qna-write {
+        .table {
+            margin-bottom: 60px;
+            border-top: 2px solid $kc;
+            th, td {
+                padding: 10px 20px !important;
+            }
+            td {
+                text-align: left;
+            }
+            .email,
+            .password {
+                .form-control {
+                    max-width: 250px;
+                }
+            }
+            .attach {
+                .form-control {
+                    padding: 0;
+                    height: auto;
+                    max-width: 200px;
+                }
+            }
+            .editor {
+                min-height: 400px;
+            }
+            .captcha {
+                .form-control {
+                    display: inline-block;
+                    width: 100px;
+                }
+                .figure {
+                    display: inline-block;
+                }
+                p {
+                    display: inline-block;
+                }
+            }
+        }
+        .btn-area {
+            .btn {
+                width: 100%;
+                height: 40px;
+                line-height: 38px;
+            }
+        }
+    }
+    .qna-view {
+        .table {
+            table-layout: fixed;
+            border-top: 2px solid $kc;
+            h5 {
+                color: #666;
+            }
+            td {
+                padding-left: 20px;
+                padding-right: 20px;
+                text-align: left;
+                &:nth-of-type(2) {
+                    text-align: right;
+                }
+            }
+            dl {
+                display: inline-block;
+                line-height: 22px;
+                dt, dd {
+                    display: inline;
+                    font-size: 13px;
+                    color: #666;
+                }
+                dt:after {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    content: '|';
+                    font-size: 10px;
+                    vertical-align: 2px;
+                }
+                & + dl {
+                    margin-left: 50px;
+                }
+                &.attach {
+                    dd {
+                        &:before {
+                            padding-right: 5px;
+                            font-family: 'fontello';
+                            content: '\F06A';
+                        }
+                        & + dd {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+            .details {
+                min-height: 300px;
+            }
+        }
+        .btn-area {
+            margin-left: -5px;
+            margin-right: -5px;
+            > div {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            .btn {
+                width: 100%;
+                height: 40px;
+                line-height: 38px;
+            }
+        }
+    }
 }
 
-// QNA
+.comment {
+    margin-top: 60px;
+    .comment-write {
+        padding: 20px;
+        border: 1px solid #e0e0e0;
+        background-color: #f7f7f7;
+        .form-group {
+            overflow: hidden;
+        }
+        .form-control {
+            float: left;
+            max-width: 980px;
+            height: 70px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        .btn {
+            float: right;
+            height: 70px;
+            width: 130px;
+            background-color: #888;
+            border-color: #888;
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+    .comment-list {
+        .comment-item {
+            position: relative;
+            padding: 30px 20px;
+            border-bottom: 1px solid #dcdcdc;
+            .comment-title {
+                h6 {
+                    display: inline-block;
+                    font-size: 13px;
+                    color: #333;
+                    line-height: 20px;
+                }
+                .date {
+                    display: inline-block;
+                    margin-left: 50px;
+                    color: #999;
+                }
+            }
+            .comment-details {
+                margin-top: 15px;
+            }
+            .comment-menu {
+                position: absolute;
+                top: 30px;
+                right: 20px;
+                ul {
+                    li {
+                        display: inline;
+                        &.edit:before {
+                            padding-right: 5px;
+                            font-family: 'fontello';
+                            content: '\E80D';
+                        }
+                        &.delete:before {
+                            padding-right: 5px;
+                            font-family: 'fontello';
+                            content: '\E80E';
+                        }
+                        & + li {
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// REVIEW
 .review.list {
     .review-list {
         th, td {
@@ -1117,6 +1333,45 @@
                     background-color: #666;
                     border-color: #666;
                 }
+            }
+        }
+    }
+}
+
+// 비밀번호 확인
+#content.confirm {
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+    .confirm-form {
+        text-align: center;
+        h3 {
+            margin-bottom: 10px;
+            font-size: 26px;
+            color: #333;
+            &:before {
+                display: block;
+                margin: 0 auto 25px;
+                content: url(/assets/images/mypage/ico_pc_check.png);
+            }
+        }
+        p {
+            margin-bottom: 50px;
+            font-size: 16px;
+            color: #666;
+        }
+        .form-group {
+            .form-control {
+                float: left;
+                width: 260px;
+                height: 35px;
+            }
+            .btn {
+                width: 100px;
+                height: 35px;
+                background-color: $kc;
+                border-color: $kc;
+                color: #fff;
+                line-height: 33px;
             }
         }
     }

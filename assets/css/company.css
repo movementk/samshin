@@ -1,13 +1,13 @@
 .lato, .introduce .section-head .section-title small, .introduce .history .tab-content h5 i, .introduce .history .tab-content .table th, .reserve .call .contact > div dl.phone dd, #content.cafe .page-header .page-title small {
   font-family: 'Lato', sans-serif; }
 
-.jjmj, .introduce .brand .details h4, .introduce .cafe .item .item-body h3, .introduce .feature .details h4, .introduce .pr .section-head .section-title, .introduce .pr .details h4, .introduce .history .tab-content h5, .offline-modal .modal-header .modal-title, .reserve .section-head .section-title, .reserve .jumbowall .details h2, .reserve .jumbowall .details p, .reserve .direct .section-head .section-title, .reserve .direct .section-body .price > div strong, .reserve .why-1 .section-body ul li div .details, .reserve .call .contact > div h5, .reserve .request h4, #content.cafe .section-head .section-title, #content.cafe .room-type h4 {
+.jjmj, .introduce .brand .details h4, .introduce .cafe .item .item-body h3, .introduce .feature .details h4, .introduce .pr .section-head .section-title, .introduce .pr .details h4, .introduce .history .tab-content h5, .offline-modal .modal-header .modal-title, .reserve .section-head .section-title, .reserve .jumbowall .details h2, .reserve .jumbowall .details p, .reserve .direct .section-head .section-title, .reserve .direct .section-body .price > div strong, .reserve .why-1 .section-body ul li div .details, .reserve .call .contact > div h5, .reserve .request h4, #content.cafe .section-head .section-title, #content.cafe.room .room-type h4, #content.cafe.water .details h4 {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .introduce .history .tab-content h5 span, .offline-modal .modal-header .modal-title i, .reserve .section-head .section-title small, .reserve .jumbowall .details h2 small, .reserve .call .contact > div h5 small, #content.cafe .room-type h4 small {
+.noto, .introduce .history .tab-content h5 span, .offline-modal .modal-header .modal-title i, .reserve .section-head .section-title small, .reserve .jumbowall .details h2 small, .reserve .call .contact > div h5 small, #content.cafe.room .room-type h4 small {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .introduce .section-head .section-title, .introduce .cafe .item .item-body h3 > i, .reserve .why-1 .section-body ul li div .num, .reserve .why-2 .item h5, #content.cafe .page-header .page-title {
+.crimson, .introduce .section-head .section-title, .introduce .cafe .item .item-body h3 > i, .reserve .why-1 .section-body ul li div .num, .reserve .why-2 .item h5, #content.cafe .page-header .page-title, #content.cafe.menu .section-content .section-body .details strong {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -25,14 +25,6 @@
 body {
   line-height: 22px; }
 
-/*
-@media (max-width: $lg - 1px) {
-}
-@media (max-width: $md - 1px) {
-}
-@media (max-width: $sm - 1px) {
-}
-*/
 .path-nav {
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -1202,106 +1194,334 @@ body {
         font-size: 20px; }
       #content.cafe .section-head p {
         font-size: 12px; } }
-#content.cafe .room-type {
+#content.cafe.room .room-type {
   padding-top: 90px;
   padding-bottom: 90px; }
-  #content.cafe .room-type h4 {
+  #content.cafe.room .room-type h4 {
     margin-bottom: 40px;
     color: #080d68;
     font-size: 25px; }
-    #content.cafe .room-type h4 small {
+    #content.cafe.room .room-type h4 small {
       font-size: 15px; }
-  #content.cafe .room-type .figure {
+  #content.cafe.room .room-type .figure {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; }
-  #content.cafe .room-type.room-1 .figure-1 {
+  #content.cafe.room .room-type.room-1 .figure-1 {
     height: 503px;
     background-image: url(/assets/images/company/img_room_1_figure_1.jpg); }
-  #content.cafe .room-type.room-1 .figure-2 {
+  #content.cafe.room .room-type.room-1 .figure-2 {
     margin-bottom: 30px;
     height: 236px;
     background-image: url(/assets/images/company/img_room_1_figure_2.jpg); }
-  #content.cafe .room-type.room-1 .figure-3 {
+  #content.cafe.room .room-type.room-1 .figure-3 {
     height: 236px;
     background-image: url(/assets/images/company/img_room_1_figure_3.jpg); }
-  #content.cafe .room-type.room-2 {
+  #content.cafe.room .room-type.room-2 {
     background-color: #f7f7f7; }
-    #content.cafe .room-type.room-2 .figure-1 {
+    #content.cafe.room .room-type.room-2 .figure-1 {
       margin-bottom: 30px;
       height: 236px;
       background-image: url(/assets/images/company/img_room_2_figure_1.jpg); }
-    #content.cafe .room-type.room-2 .figure-2 {
+    #content.cafe.room .room-type.room-2 .figure-2 {
       height: 236px;
       background-image: url(/assets/images/company/img_room_2_figure_2.jpg); }
-    #content.cafe .room-type.room-2 .figure-3 {
+    #content.cafe.room .room-type.room-2 .figure-3 {
       height: 503px;
       background-image: url(/assets/images/company/img_room_2_figure_3.jpg); }
-  #content.cafe .room-type.room-3 .figure-1 {
+  #content.cafe.room .room-type.room-3 .figure-1 {
     height: 434px;
     background-image: url(/assets/images/company/img_room_3_figure_1.jpg); }
-  #content.cafe .room-type.room-3 .figure-2 {
+  #content.cafe.room .room-type.room-3 .figure-2 {
     height: 434px;
     background-image: url(/assets/images/company/img_room_3_figure_2.jpg); }
   @media (max-width: 991px) {
-    #content.cafe .room-type {
+    #content.cafe.room .room-type {
       padding-top: 70px;
       padding-bottom: 70px; }
-      #content.cafe .room-type h4 {
+      #content.cafe.room .room-type h4 {
         margin-bottom: 30px;
         font-size: 22px; }
-        #content.cafe .room-type h4 small {
+        #content.cafe.room .room-type h4 small {
           font-size: 13px; }
-      #content.cafe .room-type.room-1 .figure-1 {
+      #content.cafe.room .room-type.room-1 .figure-1 {
         height: 350px; }
-      #content.cafe .room-type.room-1 .figure-2 {
+      #content.cafe.room .room-type.room-1 .figure-2 {
         margin-bottom: 20px;
         height: 165px; }
-      #content.cafe .room-type.room-1 .figure-3 {
+      #content.cafe.room .room-type.room-1 .figure-3 {
         height: 165px; }
-      #content.cafe .room-type.room-2 .figure-1 {
+      #content.cafe.room .room-type.room-2 .figure-1 {
         margin-bottom: 20px;
         height: 165px; }
-      #content.cafe .room-type.room-2 .figure-2 {
+      #content.cafe.room .room-type.room-2 .figure-2 {
         height: 165px; }
-      #content.cafe .room-type.room-2 .figure-3 {
+      #content.cafe.room .room-type.room-2 .figure-3 {
         height: 350px; }
-      #content.cafe .room-type.room-3 .figure-1 {
+      #content.cafe.room .room-type.room-3 .figure-1 {
         height: 350px; }
-      #content.cafe .room-type.room-3 .figure-2 {
+      #content.cafe.room .room-type.room-3 .figure-2 {
         height: 350px; } }
   @media (max-width: 767px) {
-    #content.cafe .room-type {
+    #content.cafe.room .room-type {
       padding-top: 70px;
       padding-bottom: 70px; }
-      #content.cafe .room-type h4 {
+      #content.cafe.room .room-type h4 {
         margin-bottom: 20px;
         font-size: 20px; }
-        #content.cafe .room-type h4 small {
+        #content.cafe.room .room-type h4 small {
           font-size: 12px; }
-      #content.cafe .room-type.room-1 .figure-1 {
+      #content.cafe.room .room-type.room-1 .figure-1 {
         margin-bottom: 10px;
         height: 250px; }
-      #content.cafe .room-type.room-1 .figure-2 {
+      #content.cafe.room .room-type.room-1 .figure-2 {
         margin-right: -5px;
         height: 150px; }
-      #content.cafe .room-type.room-1 .figure-3 {
+      #content.cafe.room .room-type.room-1 .figure-3 {
         margin-left: -5px;
         height: 150px; }
-      #content.cafe .room-type.room-2 .figure-1 {
+      #content.cafe.room .room-type.room-2 .figure-1 {
         margin-right: -5px;
         margin-bottom: 10px;
         height: 150px; }
-      #content.cafe .room-type.room-2 .figure-2 {
+      #content.cafe.room .room-type.room-2 .figure-2 {
         margin-left: -5px;
         margin-bottom: 10px;
         height: 150px; }
-      #content.cafe .room-type.room-2 .figure-3 {
+      #content.cafe.room .room-type.room-2 .figure-3 {
         height: 250px; }
-      #content.cafe .room-type.room-3 .figure-1 {
+      #content.cafe.room .room-type.room-3 .figure-1 {
         margin-bottom: 10px;
         height: 250px; }
-      #content.cafe .room-type.room-3 .figure-2 {
+      #content.cafe.room .room-type.room-3 .figure-2 {
         height: 250px; } }
+#content.cafe.location .contact {
+  margin-bottom: 120px; }
+  #content.cafe.location .contact dl {
+    margin-top: 30px; }
+    #content.cafe.location .contact dl dt, #content.cafe.location .contact dl dd {
+      margin-bottom: 15px;
+      min-height: 22px;
+      line-height: 22px; }
+    #content.cafe.location .contact dl dt {
+      clear: both;
+      float: left;
+      font-size: 16px;
+      color: #222; }
+      #content.cafe.location .contact dl dt i {
+        display: inline-block;
+        margin-right: 10px;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: #080d68;
+        color: #fff;
+        font-size: 12px;
+        text-align: center; }
+        #content.cafe.location .contact dl dt i:before {
+          vertical-align: 1px; }
+    #content.cafe.location .contact dl dd {
+      margin-left: 135px;
+      font-size: 14px;
+      line-height: 23px; }
+      #content.cafe.location .contact dl dd address {
+        line-height: 23px; }
+  @media (max-width: 991px) {
+    #content.cafe.location .contact {
+      margin-bottom: 100px; }
+      #content.cafe.location .contact dl dt, #content.cafe.location .contact dl dd {
+        margin-bottom: 15px; }
+      #content.cafe.location .contact dl dt {
+        font-size: 14px; }
+      #content.cafe.location .contact dl dd {
+        margin-left: 120px;
+        font-size: 13px; } }
+  @media (max-width: 767px) {
+    #content.cafe.location .contact {
+      margin-bottom: 80px; }
+      #content.cafe.location .contact dl dt, #content.cafe.location .contact dl dd {
+        margin-bottom: 10px; }
+      #content.cafe.location .contact dl dt {
+        font-size: 13px; }
+      #content.cafe.location .contact dl dd {
+        margin-left: 100px;
+        font-size: 12px; } }
+#content.cafe.water .section-head {
+  margin-bottom: 100px; }
+#content.cafe.water .section-body {
+  margin-bottom: 200px; }
+#content.cafe.water .details h4 {
+  margin-bottom: 40px;
+  color: #080d68;
+  font-size: 18px; }
+#content.cafe.water .details li + li {
+  margin-top: 50px; }
+#content.cafe.water .details li blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666; }
+  #content.cafe.water .details li blockquote p + p {
+    margin-top: 10px; }
+  #content.cafe.water .details li blockquote span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #080d68;
+    color: #fff;
+    font-size: 11px;
+    line-height: 16px;
+    vertical-align: middle;
+    text-align: center; }
+  #content.cafe.water .details li blockquote cite {
+    display: inline-block;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 13px; }
+    #content.cafe.water .details li blockquote cite:before {
+      margin-right: 5px;
+      content: '-'; }
+@media (max-width: 991px) {
+  #content.cafe.water .section-head {
+    margin-bottom: 80px; }
+  #content.cafe.water .section-body {
+    margin-bottom: 150px; }
+  #content.cafe.water .figure {
+    margin-bottom: 80px; }
+    #content.cafe.water .figure .img-responsive {
+      margin: 0 auto; }
+  #content.cafe.water .details h4 {
+    margin-bottom: 30px;
+    font-size: 16px; }
+  #content.cafe.water .details li + li {
+    margin-top: 40px; }
+  #content.cafe.water .details li blockquote {
+    font-size: 13px;
+    line-height: 22px; }
+    #content.cafe.water .details li blockquote cite {
+      margin-top: 20px;
+      font-size: 12px; } }
+@media (max-width: 767px) {
+  #content.cafe.water .section-head {
+    margin-bottom: 60px; }
+  #content.cafe.water .section-body {
+    margin-bottom: 100px; }
+  #content.cafe.water .details h4 {
+    margin-bottom: 20px; }
+  #content.cafe.water .details li + li {
+    margin-top: 30px; }
+  #content.cafe.water .details li blockquote cite {
+    margin-top: 15px; } }
+#content.cafe.menu .section-content {
+  margin-bottom: 120px;
+  padding: 10px;
+  background-color: #fafafa;
+  border: 1px solid #ccc; }
+  #content.cafe.menu .section-content > div {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: 1px solid #dfdfdf; }
+    #content.cafe.menu .section-content > div .row + .row {
+      margin-top: 30px; }
+  #content.cafe.menu .section-content .section-body .figure {
+    margin-left: -30px;
+    margin-right: -30px; }
+  #content.cafe.menu .section-content .section-body .figure-3 {
+    margin-left: -30px;
+    margin-right: 0; }
+  #content.cafe.menu .section-content .section-body .figure-4 {
+    margin-left: 0;
+    margin-right: -30px !important; }
+  #content.cafe.menu .section-content .section-body hr {
+    margin: 0 auto;
+    width: 1px;
+    height: 778px;
+    border-top: 0;
+    border-right: 1px solid #dfdfdf; }
+  #content.cafe.menu .section-content .section-body .details {
+    text-align: center; }
+    #content.cafe.menu .section-content .section-body .details h4 {
+      margin-top: 55px;
+      margin-bottom: 15px; }
+      #content.cafe.menu .section-content .section-body .details h4 .img-responsive {
+        margin: 0 auto; }
+    #content.cafe.menu .section-content .section-body .details strong {
+      color: #111;
+      font-size: 14px; }
+    #content.cafe.menu .section-content .section-body .details p {
+      margin: 25px auto 70px;
+      max-width: 380px;
+      text-align: left; }
+      #content.cafe.menu .section-content .section-body .details p:before {
+        float: left;
+        margin-right: 10px;
+        content: url(/assets/images/company/logo_tab.png); }
+    #content.cafe.menu .section-content .section-body .details .btn {
+      min-width: 170px; }
+@media (max-width: 1229px) {
+  #content.cafe.menu .section-content {
+    margin-bottom: 100px; }
+    #content.cafe.menu .section-content > div {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+      #content.cafe.menu .section-content > div .row + .row {
+        margin-top: 20px; }
+    #content.cafe.menu .section-content .section-body hr {
+      height: 658px; }
+    #content.cafe.menu .section-content .section-body .details h4 {
+      margin-top: 35px;
+      margin-bottom: 10px; }
+    #content.cafe.menu .section-content .section-body .details strong {
+      font-size: 14px; }
+    #content.cafe.menu .section-content .section-body .details p {
+      margin: 25px auto 50px; } }
+@media (max-width: 991px) {
+  #content.cafe.menu .section-content {
+    margin-bottom: 80px; }
+    #content.cafe.menu .section-content > div {
+      padding: 30px; }
+    #content.cafe.menu .section-content .section-body hr {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 100%;
+      height: 1px;
+      border-right: 0;
+      border-top: 1px solid #dfdfdf; }
+    #content.cafe.menu .section-content .section-body .figure {
+      margin-left: 0 !important;
+      margin-right: 0 !important; }
+      #content.cafe.menu .section-content .section-body .figure .img-responsive {
+        margin: 0 auto; }
+    #content.cafe.menu .section-content .section-body .figure-3 .img-responsive {
+      float: right; }
+    #content.cafe.menu .section-content .section-body .figure-4 .img-responsive {
+      float: left; }
+    #content.cafe.menu .section-content .section-body .details h4 {
+      margin-top: 35px;
+      margin-bottom: 10px; }
+    #content.cafe.menu .section-content .section-body .details strong {
+      font-size: 14px; }
+    #content.cafe.menu .section-content .section-body .details p {
+      margin: 20px auto 30px; } }
+@media (max-width: 767px) {
+  #content.cafe.menu .section-content {
+    margin-bottom: 60px; }
+    #content.cafe.menu .section-content > div {
+      padding: 20px; }
+    #content.cafe.menu .section-content .section-body .figure-3 .img-responsive {
+      float: none; }
+    #content.cafe.menu .section-content .section-body .figure-4 .img-responsive {
+      float: none; }
+    #content.cafe.menu .section-content .section-body .details h4 {
+      margin-top: 25px; }
+    #content.cafe.menu .section-content .section-body .details strong {
+      font-size: 13px; }
+    #content.cafe.menu .section-content .section-body .details p {
+      font-size: 12px; }
+      #content.cafe.menu .section-content .section-body .details p:before {
+        margin-top: 5px; } }
 
 /*# sourceMappingURL=company.css.map */

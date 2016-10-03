@@ -3,7 +3,7 @@
 </head>
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
-    <main id="content" tabindex="-1" class="mypage qna list">
+    <main id="content" tabindex="-1" class="mypage qna">
         <div class="container">
             <header class="page-header">
                 <h3>Q&amp;A</h3>

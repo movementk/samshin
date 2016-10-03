@@ -241,6 +241,8 @@
 input[type="email"],
 input[type="password"],
 input[type="text"],
+input[type="file"],
+textarea,
 select {
     &.form-control {
         height: 30px;
