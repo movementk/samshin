@@ -239,16 +239,16 @@
 }
 
 #content > .visual {
-    height: 255px;
-    background-image: url(/assets/images/main/img_visual.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    @media (min-width: $sm) {
-        height: 380px;
+    img {
+        width: 100%;
+        margin: 0 auto;
     }
     @media (min-width: $lg) {
         height: 600px;
+        background-image: url(/assets/images/main/img_visual.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
     }
 }
 
@@ -397,7 +397,6 @@
         ul {
             margin-top: 30px;
             li {
-                height: 160px;
                 text-align: center;
                 p {
                     img {
@@ -406,28 +405,7 @@
                     }
                 }
                 .btn {
-                    position: absolute;
-                    bottom: 0;
-                    left: 50%;
-                    margin-left: -45px;
                     width: 90px;
-                }
-                &.ring {
-                    img {
-                        margin-top: 10px;
-                        width: 76px;
-                    }
-                }
-                &.necklace {
-                    img {
-                        width: 63px;
-                    }
-                }
-                &.earring {
-                    img {
-                        margin-top: 25px;
-                        width: 90px;
-                    }
                 }
             }
         }
@@ -435,27 +413,8 @@
             ul {
                 margin-top: 45px;
                 li {
-                    height: 240px;
                     .btn {
-                        margin-left: -83px;
                         width: 166px;
-                    }
-                    &.ring {
-                        img {
-                            margin-top: 25px;
-                            width: 125px;
-                        }
-                    }
-                    &.necklace {
-                        img {
-                            width: 106px;
-                        }
-                    }
-                    &.earring {
-                        img {
-                            margin-top: 40px;
-                            width: 168px;
-                        }
                     }
                 }
             }
@@ -469,27 +428,8 @@
                     margin-right: auto;
                     max-width: 640px;
                     li {
-                        height: 255px;
                         .btn {
-                            margin-left: -86px;
                             width: 172px;
-                        }
-                        &.ring {
-                            img {
-                                margin-top: 25px;
-                                width: 125px;
-                            }
-                        }
-                        &.necklace {
-                            img {
-                                width: 106px;
-                            }
-                        }
-                        &.earring {
-                            img {
-                                margin-top: 40px;
-                                width: 168px;
-                            }
                         }
                     }
                 }
@@ -1055,13 +995,10 @@
     }
     .btn {
         width: 160px;
-        background-color: #222;
         color: #fff;
         font-size: 13px;
-        &:hover,
-        &:focus {
-            background-color: $kc;
-        }
+        background-color: $kc;
+        border-color: $kc;
     }
     @media (min-width: $sm) {
         margin-bottom: 20px;

@@ -622,7 +622,7 @@ select.form-control {
           color: #080d68; }
       #gnb-all .menu > ul > li.has-child > a:after {
         font-family: 'fontello';
-        content: '\E808'; }
+        content: '\e808e'; }
       #gnb-all .menu > ul > li.has-child.active > a:after {
         content: '\E807'; }
       #gnb-all .menu > ul > li.active > a {

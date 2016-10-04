@@ -89,7 +89,7 @@
                         <legend>CUT <i>컷팅</i></legend>
                         <ul class="btn-list" data-toggle="buttons">
                             <li><label class="btn btn-block btn-round">
-                                <input type="checkbox"> Exellent
+                                <input type="checkbox"> Excellent
                             </label></li>
                             <li><label class="btn btn-block btn-round">
                                 <input type="checkbox"> Very Good
@@ -139,12 +139,12 @@
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
-                                <td>Very Good</td>
+                                <td>Very <br class="visible-xs">Good</td>
                                 <td>Exellent</td>
                                 <td>Good</td>
                                 <td>None</td>
                                 <td>GIA</td>
-                                <td>￦123,000,000</td>
+                                <td><a href="#">￦123,000,000</a></td>
                                 <td>
                                     <div class="dropdown">
                                         <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -163,12 +163,12 @@
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
-                                <td>Very Good</td>
+                                <td>Very <br class="visible-xs">Good</td>
                                 <td>Exellent</td>
                                 <td>Good</td>
                                 <td>None</td>
                                 <td>GIA</td>
-                                <td>￦123,000,000</td>
+                                <td><a href="#">￦123,000,000</a></td>
                                 <td>
                                     <?php require($_SERVER["DOCUMENT_ROOT"].'/product/_dia_list_dropdown.php'); ?>
                                 </td>
@@ -178,12 +178,12 @@
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
-                                <td>Very Good</td>
+                                <td>Very <br class="visible-xs">Good</td>
                                 <td>Exellent</td>
                                 <td>Good</td>
                                 <td>None</td>
                                 <td>GIA</td>
-                                <td>￦123,000,000</td>
+                                <td><a href="#">￦123,000,000</a></td>
                                 <td>
                                     <?php require($_SERVER["DOCUMENT_ROOT"].'/product/_dia_list_dropdown.php'); ?>
                                 </td>
@@ -193,12 +193,12 @@
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
-                                <td>Very Good</td>
+                                <td>Very <br class="visible-xs">Good</td>
                                 <td>Exellent</td>
                                 <td>Good</td>
                                 <td>None</td>
                                 <td>GIA</td>
-                                <td>￦123,000,000</td>
+                                <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -206,12 +206,12 @@
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
-                                <td>Very Good</td>
+                                <td>Very <br class="visible-xs">Good</td>
                                 <td>Exellent</td>
                                 <td>Good</td>
                                 <td>None</td>
                                 <td>GIA</td>
-                                <td>￦123,000,000</td>
+                                <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -219,12 +219,12 @@
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
-                                <td>Very Good</td>
+                                <td>Very <br class="visible-xs">Good</td>
                                 <td>Exellent</td>
                                 <td>Good</td>
                                 <td>None</td>
                                 <td>GIA</td>
-                                <td>￦123,000,000</td>
+                                <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
                             </tr>
                         </tbody>

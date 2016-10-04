@@ -924,14 +924,28 @@
     &.table-responsive {
         border: 0;
     }
-    tbody {
-        tr {
-            td {
-                vertical-align: middle;
-                &:last-child {
-                    padding-top: 9px !important;
-                    padding-bottom: 9px !important;
+    .table {
+        th, td {
+            &:nth-of-type(6),
+            &:nth-of-type(7),
+            &:nth-of-type(8),
+            &:nth-of-type(11) {
+                display: none;
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    vertical-align: middle;
+                    a {
+                        text-decoration: underline;
+                    }
+                    &:last-child {
+                        padding-top: 9px !important;
+                        padding-bottom: 9px !important;
+                    }
                 }
+
             }
         }
     }
@@ -1000,6 +1014,16 @@
     }
     @media (min-width: $sm) {
         margin-bottom: 60px;
+        .table {
+            th, td {
+                &:nth-of-type(6),
+                &:nth-of-type(7),
+                &:nth-of-type(8),
+                &:nth-of-type(11) {
+                    display: table-cell;
+                }
+            }
+        }
     }
     @media (min-width: $lg) {
         margin-bottom: 100px;

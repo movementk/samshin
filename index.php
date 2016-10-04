@@ -8,10 +8,10 @@
             <div class="container">
                 <div class="row">
                     <header class="col-xs-12 col-lg-4">
-                        <h2>당신의 반지를 <br class="visible-lg">만들어 보세요</h2>
+                        <h2>직접 반지를 <br class="visible-lg">만들어 보세요</h2>
                         <p>
-                            다이아몬드와 디자인을 선택하시면<br>
-                            나만의 다이아몬드 제품을 만들 수 있습니다.
+                            다이아몬드와 반지를 선택하여 쉽고 편리하게<br>
+                            나만의 다이아몬드 반지를 만들어 보세요.
                         </p>
                     </header>
                     <div class="combine col-xs-12 col-lg-8">
@@ -37,7 +37,11 @@
             </div>
             <button class="btn btn-combine" type="button"><span class="glyphicon glyphicon-menu-down"></span></button>
         </section>
-        <div class="visual"></div>
+        <div class="visual">
+            <p class="visible-xs"><img src="/assets/images/main/img_visual_xs.jpg" alt=""></p>
+            <p class="visible-sm visible-md"><img src="/assets/images/main/img_visual_sm.jpg" alt=""></p>
+            <p class="visible-lg"></p>
+        </div>
         <div id="find-for">
             <div class="container-fluid">
                 <div class="row">
@@ -289,16 +293,16 @@
                             </li>
                             <li>
                                 <a href="#">
-                                    <img class="visible-xs" src="/assets/images/main/img_artist_collection_1_xs.jpg" alt="">
-                                    <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_1_sm.jpg" alt="">
-                                    <img class="visible-lg" src="/assets/images/main/img_artist_collection_1_lg.jpg" alt="">
+                                    <img class="visible-xs" src="/assets/images/main/img_artist_collection_2_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_2_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/main/img_artist_collection_2_lg.jpg" alt="">
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img class="visible-xs" src="/assets/images/main/img_artist_collection_1_xs.jpg" alt="">
-                                    <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_1_sm.jpg" alt="">
-                                    <img class="visible-lg" src="/assets/images/main/img_artist_collection_1_lg.jpg" alt="">
+                                    <img class="visible-xs" src="/assets/images/main/img_artist_collection_3_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_3_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/main/img_artist_collection_3_lg.jpg" alt="">
                                 </a>
                             </li>
                         </ul>
@@ -307,7 +311,7 @@
                 <div class="col-xs-12 col-lg-5">
                     <section id="propose">
                         <h4><small>SAMSHIN WITH</small><br>PROPOSE</h4>
-                        <p>소중한 순간을 더욱 빛내주는 <br>다이아아울렛 프로포즈 콜렉션</p>
+                        <p>소중한 순간을 더욱 빛내주는<br>GIA 다이아몬드</p>
                         <a class="btn" href="#">바로가기</a>
                     </section>
                 </div>

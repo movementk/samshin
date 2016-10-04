@@ -195,18 +195,16 @@
         #make-yours.opened .combine {
           height: 280px; } }
 
-#content > .visual {
-  height: 255px;
-  background-image: url(/assets/images/main/img_visual.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%; }
-  @media (min-width: 768px) {
-    #content > .visual {
-      height: 380px; } }
-  @media (min-width: 1230px) {
-    #content > .visual {
-      height: 600px; } }
+#content > .visual img {
+  width: 100%;
+  margin: 0 auto; }
+@media (min-width: 1230px) {
+  #content > .visual {
+    height: 600px;
+    background-image: url(/assets/images/main/img_visual.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; } }
 
 #find-for {
   border-bottom: 1px solid #ededed; }
@@ -384,41 +382,17 @@
   #find-for .jewelry ul {
     margin-top: 30px; }
     #find-for .jewelry ul li {
-      height: 160px;
       text-align: center; }
       #find-for .jewelry ul li p img {
         display: block;
         margin: 0 auto; }
       #find-for .jewelry ul li .btn {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        margin-left: -45px;
-        width: 90px; }
-      #find-for .jewelry ul li.ring img {
-        margin-top: 10px;
-        width: 76px; }
-      #find-for .jewelry ul li.necklace img {
-        width: 63px; }
-      #find-for .jewelry ul li.earring img {
-        margin-top: 25px;
         width: 90px; }
   @media (min-width: 768px) {
     #find-for .jewelry ul {
       margin-top: 45px; }
-      #find-for .jewelry ul li {
-        height: 240px; }
-        #find-for .jewelry ul li .btn {
-          margin-left: -83px;
-          width: 166px; }
-        #find-for .jewelry ul li.ring img {
-          margin-top: 25px;
-          width: 125px; }
-        #find-for .jewelry ul li.necklace img {
-          width: 106px; }
-        #find-for .jewelry ul li.earring img {
-          margin-top: 40px;
-          width: 168px; } }
+      #find-for .jewelry ul li .btn {
+        width: 166px; } }
   @media (min-width: 1230px) {
     #find-for .jewelry section {
       padding-bottom: 105px; }
@@ -427,19 +401,8 @@
         margin-left: auto;
         margin-right: auto;
         max-width: 640px; }
-        #find-for .jewelry section ul li {
-          height: 255px; }
-          #find-for .jewelry section ul li .btn {
-            margin-left: -86px;
-            width: 172px; }
-          #find-for .jewelry section ul li.ring img {
-            margin-top: 25px;
-            width: 125px; }
-          #find-for .jewelry section ul li.necklace img {
-            width: 106px; }
-          #find-for .jewelry section ul li.earring img {
-            margin-top: 40px;
-            width: 168px; } }
+        #find-for .jewelry section ul li .btn {
+          width: 172px; } }
   @media (min-width: 1230px) {
     #find-for .row > div {
       -webkit-transition: box-shadow .3s;
@@ -759,11 +722,10 @@
     line-height: 18px; }
   #propose .btn {
     width: 160px;
-    background-color: #222;
     color: #fff;
-    font-size: 13px; }
-    #propose .btn:hover, #propose .btn:focus {
-      background-color: #080d68; }
+    font-size: 13px;
+    background-color: #080d68;
+    border-color: #080d68; }
   @media (min-width: 768px) {
     #propose {
       margin-bottom: 20px; }

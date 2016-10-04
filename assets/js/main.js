@@ -15,7 +15,7 @@
     });
 
     // 팬시 다이아
-    $(document).on('click', '#fancy-dia .dia-list > li > a', function(e) {
+    $(document).on('mouseover focus', '#fancy-dia .dia-list > li > a', function(e) {
         if ( ! $(this).parent().hasClass('active')) {
             $(this).parent().siblings('.active').removeClass('active');
             $(this).parent().addClass('active');

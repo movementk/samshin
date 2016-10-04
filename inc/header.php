@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-xs-8 col-lg-12">
                     <h1>
-                        <a href="#"><img src="/assets/images/logo.png" alt="DiaOUTLET BY SAMSHIN"></a>
+                        <a href="/"><img src="/assets/images/logo.png" alt="DiaOUTLET BY SAMSHIN"></a>
                     </h1>
                 </div>
                 <div class="col-xs-2 hidden-lg">
