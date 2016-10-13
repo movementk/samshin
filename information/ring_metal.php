@@ -7,8 +7,9 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="#">다이아몬드 검색</a></li>
-                <li class="active">다이아몬드</li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">반지정보</a></li>
+                <li class="active">금속정보</li>
             </ol>
         </div>
     </div>
@@ -25,8 +26,8 @@
                     <div class="tabs">
                         <ul>
                             <li role="presentation"><span>금속 정보</span></li>
-                            <li role="presentation"><a href="./dia_color.php">반지 사이즈 측정법</a></li>
-                            <li role="presentation"><a href="./dia_clarity.php">반지 셋팅법</a></li>
+                            <li role="presentation"><a href="./ring_setting.php">반지 사이즈 측정법</a></li>
+                            <li role="presentation"><a href="./ring_size.php">반지 셋팅법</a></li>
                         </ul>
                     </div>
                     <div class="section-content explain">

@@ -1844,6 +1844,70 @@ body {
             }
         }
     }
+    &.intro {
+        .section-body {
+            margin-bottom: 100px;
+        }
+        #cafe-gallery-wrap {
+            margin-bottom: 30px;
+        }
+        #cafe-gallery-pager-wrap {
+            position: relative;
+            .bx-controls {
+                .bx-controls-direction {
+                    img {
+                        width: 25px;
+                    }
+                    .bx-prev {
+                        position: absolute;
+                        top: 10px;
+                        left: -50px;
+                    }
+                    .bx-next {
+                        position: absolute;
+                        top: 10px;
+                        right: -50px;
+                    }
+                }
+            }
+        }
+        #cafe-gallery-pager {
+            a {
+                span.active {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: 2px solid $red;
+                }
+            }
+        }
+        @media (max-width: $lg - 1px) {}
+        @media (max-width: $md - 1px) {}
+        @media (max-width: $sm - 1px) {
+            #cafe-gallery-wrap {
+                margin-bottom: 20px;
+            }
+            #cafe-gallery-pager-wrap {
+                .bx-controls {
+                    .bx-controls-direction {
+                        img {
+                            width: 18px;
+                        }
+                        .bx-prev {
+                            top: 5px;
+                            left: -30px;
+                        }
+                        .bx-next {
+                            top: 5px;
+                            right: -30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     &.location {
         .contact {
             margin-bottom: 120px;
@@ -2194,6 +2258,532 @@ body {
                             &:before {
                                 margin-top: 5px;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 다이아아울렛
+#content.diaoutlet {
+    .page-header {
+        margin-top: 0;
+        margin-bottom: 40px;
+        padding-bottom: 0;
+        border-bottom: 0;
+        .page-title {
+            font-size: 50px;
+            text-align: center;
+            @extend .crimson;
+            line-height: 50px;
+            small {
+                @extend .lato;
+                font-size: 18px;
+                color: $kc;
+                letter-spacing: 4px;
+            }
+        }
+        @media (max-width: $lg - 1px) {
+            margin-bottom: 70px;
+            .page-title {
+                font-size: 45px;
+                line-height: 45px;
+                small {
+                    font-size: 16px;
+                }
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            margin-bottom: 50px;
+            .page-title {
+                font-size: 35px;
+                line-height: 35px;
+                small {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .section-title {
+        @extend .crimson;
+        color: $kc;
+        font-size: 50px;
+        line-height: 60px;
+        i {
+            color: $red;
+        }
+        @media (max-width: $lg - 1px) {
+            font-size: 45px;
+            line-height: 55px;
+        }
+        @media (max-width: $sm - 1px) {
+            font-size: 35px;
+            line-height: 45px;
+        }
+    }
+    .figure {
+        .img-responsive {
+            margin: 0 auto;
+        }
+    }
+    .details {
+        p {
+            font-size: 15px;
+            line-height: 23px;
+            i {
+                color: $kc;
+                font-style: normal;
+                font-weight: normal;
+            }
+            & + p {
+                margin-top: 20px;
+            }
+        }
+        @media (max-width: $lg - 1px) {
+            p {
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            p {
+                font-size: 13px;
+                & + p {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .best {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .section-title {
+            margin-bottom: 20px;
+            i {
+                margin-left: -60px;
+            }
+        }
+        .figure {
+            margin-top: 80px;
+        }
+        .details {
+            margin-left: 70px;
+        }
+        @media (max-width: $lg - 1px) {
+            padding-top: 80px;
+            padding-bottom: 80px;
+            .section-title {
+                margin-bottom: 20px;
+                i {
+                    margin-left: -52px;
+                }
+            }
+            .figure {
+                margin-top: 60px;
+            }
+            .details {
+                margin-left: 50px;
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            padding-top: 0;
+            padding-bottom: 50px;
+            .section-title {
+                margin-bottom: 10px;
+                text-align: center;
+                i {
+                    margin-left: 0;
+                }
+            }
+            .figure {
+                margin-top: 30px;
+            }
+            .details {
+                margin-left: 0;
+            }
+        }
+    }
+    .lowest {
+        padding-top: 100px;
+        padding-bottom: 120px;
+        background-color: #f7f7f7;
+        .section-title {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .figure {
+            margin-right: 40px;
+        }
+        .details {
+            margin-top: 10px;
+        }
+        .stats {
+            margin-top: 90px;
+            padding-top: 110px;
+            padding-bottom: 100px;
+            background-color: #fff;
+            text-align: center;
+            background-image: url(/assets/images/company/bg_outlet_chart.gif);
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+            .chart {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+            .desc-1 {
+                margin-top: 50px;
+                @extend .jjmj;
+                font-size: 24px;
+                line-height: 36px;
+                color: $kc;
+                u {
+                    color: $red;
+                }
+            }
+            .desc-2 {
+                margin-top: 15px;
+                font-size: 15px;
+                line-height: 26px;
+            }
+            .desc-3 {
+                margin-top: 30px;
+                font-size: 24px;
+                line-height: 36px;
+                color: $kc;
+                b {
+                    font-weight: normal;
+                }
+            }
+        }
+        @media (max-width: $lg - 1px) {
+            padding-top: 80px;
+            padding-bottom: 100px;
+            .section-title {
+                margin-bottom: 30px;
+            }
+            .figure {
+                margin-right: 20px;
+            }
+            .details {
+                margin-top: 0;
+            }
+            .stats {
+                margin-top: 70px;
+                padding-top: 90px;
+                padding-bottom: 80px;
+                padding-left: 40px;
+                padding-right: 40px;
+                background-size: 100% auto;
+                .desc-1 {
+                    margin-top: 40px;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+                .desc-2 {
+                    margin-top: 10px;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+                .desc-3 {
+                    margin-top: 20px;
+                    font-size: 20px;
+                    line-height: 28px;
+                }
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            padding-top: 50px;
+            padding-bottom: 70px;
+            .section-title {
+                margin-bottom: 20px;
+            }
+            .figure {
+                margin-right: 0;
+                margin-bottom: 30px;
+            }
+            .stats {
+                margin-top: 40px;
+                padding-top: 60px;
+                padding-bottom: 50px;
+                padding-left: 20px;
+                padding-right: 20px;
+                .desc-1 {
+                    margin-top: 30px;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                .desc-2 {
+                    font-size: 12px;
+                }
+                .desc-3 {
+                    margin-top: 10px;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    .report {
+        padding-top: 100px;
+        padding-bottom: 90px;
+        .section-title {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .left {
+            .figure {
+                float: right;
+            }
+            .details {
+                float: right;
+                margin-top: 30px;
+                margin-left: 70px;
+                padding: 40px 20px;
+                border: 9px solid #f7f7f7;
+                p {
+                    font-size: 15px;
+                    line-height: 22px;
+                    i {
+                        color: $kc;
+                    }
+                }
+            }
+        }
+        .right {
+            margin-top: 145px;
+            .figure {
+                float: left;
+                h4 {
+                    margin-bottom: 30px;
+                    padding-left: 10px;
+                    @extend .crimson;
+                    color: $kc;
+                    border-left: 6px solid $kc;
+                    font-size: 25px;
+                    line-height: 36px;
+                }
+            }
+            .details {
+                float: left;
+                margin-right: 70px;
+                margin-top: 30px;
+                padding: 40px 30px;
+                background-color: #f6f6f6;
+                p {
+                    font-size: 15px;
+                    line-height: 22px;
+                    i {
+                        color: $kc;
+                    }
+                }
+            }
+        }
+        @media (max-width: $lg - 1px) {
+            padding-top: 80px;
+            padding-bottom: 70px;
+            .section-title {
+                margin-bottom: 40px;
+            }
+            .left {
+                .details {
+                    margin-top: 20px;
+                    margin-left: 0;
+                    padding: 30px 10px;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .right {
+                margin-top: 45px;
+                .figure {
+                    h4 {
+                        margin-bottom: 20px;
+                        font-size: 22px;
+                        line-height: 30px;
+                    }
+                }
+                .details {
+                    margin-right: 0;
+                    margin-top: 20px;
+                    padding: 30px 20px;
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            .section-title {
+                margin-bottom: 40px;
+            }
+            .left {
+                .figure {
+                    float: none;
+                }
+                .details {
+                    float: none;
+                    margin-top: 20px;
+                    margin-left: 0;
+                    padding: 20px;
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .right {
+                margin-top: 30px;
+                .figure {
+                    float: none;
+                    h4 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+                .details {
+                    float: none;
+                    margin-right: 0;
+                    margin-top: 10px;
+                    padding: 20px;
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .feature {
+        padding-top: 90px;
+        padding-bottom: 120px;
+        background-color: #f7f7f7;
+        background: -webkit-linear-gradient(#f7f7f7, #fff);
+        background: -o-linear-gradient(#f7f7f7, #fff);
+        background: -moz-linear-gradient(#f7f7f7, #fff);
+        background: linear-gradient(#f7f7f7, #fff);
+        .item {
+            height: 490px;
+            border: 1px solid #ededed;
+            .details {
+                padding-top: 45px;
+                text-align: center;
+                h4 {
+                    @extend .jjmj;
+                    color: $kc;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 36px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 36px;
+                    color: #222;
+                    @extend .jjmj;
+                }
+            }
+            &:nth-of-type(1) {
+                a {
+                    @extend .noto;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: $kc;
+                    text-decoration: underline;
+                    font-weight: normal;
+                }
+                ol {
+                    margin-top: 10px;
+                    text-align: center;
+                    li {
+                        display: inline-block;
+                        color: #333;
+                        span {
+                            display: inline-block;
+                            font-size: 10px;
+                            width: 16px;
+                            height: 16px;
+                            line-height: 16px;
+                            text-align: center;
+                            background-color: $kc;
+                            color: #fff;
+                            border-radius: 50%;
+                        }
+                        & + li {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: $lg - 1px) {
+            padding-top: 70px;
+            padding-bottom: 100px;
+            .item {
+                height: 400px;
+                .details {
+                    padding-top: 30px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    h4 {
+                        margin-bottom: 10px;
+                        font-size: 22px;
+                        line-height: 30px;
+                    }
+                    p {
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+                &:nth-of-type(1) {
+                    a {
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                    ol {
+                        margin-top: 10px;
+                        li {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            padding-top: 40px;
+            padding-bottom: 50px;
+            .item {
+                height: auto;
+                margin-bottom: 20px;
+                .figure {
+                    .img-responsive {
+                        width: 100%;
+                    }
+                }
+                .details {
+                    padding: 20px 10px;
+                    h4 {
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                }
+                &:nth-of-type(1) {
+                    a {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                    ol {
+                        margin-top: 10px;
+                        li {
+                            font-size: 12px;
                         }
                     }
                 }

@@ -153,15 +153,16 @@ select.form-control {
     left: 0;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid $kc;
     background-color: #fff;
     -webkit-transition: left .3s;
     transition: left .3s;
+    border-bottom: 2px solid $kc;
     @media (min-width: $sm) {
         height: 56px;
     }
     @media (min-width: $lg) {
         height: 225px;
+        border-bottom: 0;
     }
     .util {
         height: 46px;
@@ -289,6 +290,10 @@ select.form-control {
             color: $kc;
             background-color: transparent;
         }
+        .btn-diaoutlet {
+            display: block;
+            margin-top: 25px;
+        }
         @media (min-width: $sm) {
             h1 {
                 margin-top: 12px;
@@ -313,23 +318,110 @@ select.form-control {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 54px;
+    height: 56px;
     border-top: 1px solid #ececec;
-    ul {
-        overflow: hidden;
-    }
-    li {
-        float: left;
-        width: 14.2857142857%;
-        a {
-            display: block;
+    background-color: $kc;
+    @extend .lato;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    > .container {
+        position: relative;
+        > ul {
+            position: relative;
+            height: 55px;
+            border-left: 1px solid #444da1;
+            border-right: 1px solid #000;
+            > li {
+                position: relative;
+                float: left;
+                width: 25%;
+                > a {
+                    display: block;
+                    width: 100%;
+                    height: 55px;
+                    line-height: 55px;
+                    text-align: center;
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: 400;
+                    border-right: 1px solid #444da1;
+                    border-left: 1px solid #000;
+                    background-color: $kc;
+                    font-weight: normal;
+                }
+                > div {
+                    display: none;
+                    position: absolute;
+                    top: 55px;
+                    padding: 25px 30px;
+                    width: 100%;
+                    height: 425px;
+                    > ul {
+                        width: 100%;
+                        > li {
+                            > a {
+                                display: inline-block;
+                                width: 100%;
+                                color: $kc;
+                                font-size: 13px;
+                                line-height: 28px;
+                                font-weight: normal;
+                            }
+                        }
+                        & + ul {
+                            margin-top: 20px;
+                            padding-top: 25px;
+                            border-top: 1px solid #dfdfdf;
+                            > li {
+                                > a {
+                                    font-size: 12px;
+                                    line-height: 26px;
+                                    white-space: nowrap;
+                                }
+                                &.flag {
+                                    > a {
+                                        color: $red;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                & + li {
+                    > div {
+                        border-left: 1px solid #dfdfdf;
+                    }
+                }
+            }
+        }
+        > .back {
+            display: none;
+            position: absolute;
+            top: 55px;
+            left: 0;
+            padding-left: 15px;
+            padding-right: 15px;
             width: 100%;
-            height: 53px;
-            line-height: 53px;
-            text-align: center;
-            font-size: 16px;
-            color: #666;
-            font-weight: 400;
+            height: 425px;
+            > div {
+                width: 100%;
+                height: 100%;
+                background-color: #fff;
+                box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+            }
+        }
+    }
+    &.open {
+        .container {
+            > ul {
+                > li {
+                    > div {
+                        display: block;
+                    }
+                }
+            }
+            > .back {
+                display: block;
+            }
         }
     }
 }
@@ -452,6 +544,21 @@ select.form-control {
                         &.active {
                             > a {
                                 color: $kc;
+                            }
+                        }
+                    }
+                    + ul {
+                        > li {
+                            > a {
+                                font-size: 12px;
+                            }
+                            &.flag {
+                                > a {
+                                    color: $red;
+                                    &:after {
+                                        color: #aaa !important;
+                                    }
+                                }
                             }
                         }
                     }

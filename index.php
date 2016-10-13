@@ -4,7 +4,7 @@
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
-        <section id="make-yours">
+        <section id="make-yours" class="opened">
             <div class="container">
                 <div class="row">
                     <header class="col-xs-12 col-lg-4">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-combine" type="button"><span class="glyphicon glyphicon-menu-down"></span></button>
+            <button class="btn btn-combine" type="button"><span class="glyphicon glyphicon-menu-up"></span></button>
         </section>
         <div class="visual">
             <p class="visible-xs"><img src="/assets/images/main/img_visual_xs.jpg" alt=""></p>

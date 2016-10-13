@@ -7,8 +7,9 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="#">다이아몬드 검색</a></li>
-                <li class="active">다이아몬드</li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">다이아몬드</a></li>
+                <li class="active">다이아몬드 4C</li>
             </ol>
         </div>
     </div>
@@ -23,13 +24,13 @@
                         <h2>다이아몬드 정보 (4C) <small>다이아몬드 4C</small></h2>
                     </div>
                     <div class="page-summary">
-                        <p>다이아몬드의 가치를 평가하는 요소는 <i>캐럿 (Carat), 내포물 (Clarity), 색상 (Color), 컷 (Cut)</i>이며 이를 <i>4C</i>라고 합니다.</p>
+                        <p>다이아몬드의 가치를 평가하는 요소는 <i>캐럿 (Carat), 투명도 (Clarity), 색상 (Color), 컷 (Cut)</i>이며 이를 <i>4C</i>라고 합니다.</p>
                     </div>
                     <div class="tabs">
                         <ul>
                             <li role="presentation"><a href="./dia_carat.php">CARAT <br class="visible-xs">(캐럿)</a></li>
                             <li role="presentation"><span>COLOR <br class="visible-xs">(컬러)</span></li>
-                            <li role="presentation"><a href="./dia_clarity.php">CLARITY <br class="visible-xs">(선명도)</a></li>
+                            <li role="presentation"><a href="./dia_clarity.php">CLARITY <br class="visible-xs">(투명도)</a></li>
                             <li role="presentation"><a href="./dia_cut.php">CUT <br class="visible-xs">(컷)</a></li>
                         </ul>
                     </div>
@@ -87,7 +88,7 @@
                                     <div class="details">
                                         <h5>K.L.M <i>(Faint yellow)</i></h5>
                                         <p>
-                                            K.L.M등급은 페인트 옐로우 (Faint yellow)입니다.
+                                            K.L.M등급은 페인트 옐로우 (Faint yellow)입니다.<br>
                                             이 범위의 다이아몬드들은 칼라 감별 케이스에서 보거나 밖에서 봐도 매우 옅은 옐로우 컬러를 띄는 다이아몬드입니다.
                                         </p>
                                     </div>
@@ -122,7 +123,7 @@
                                     <div class="details">
                                         <h5>S~Z <i>(Light yellow)</i></h5>
                                         <p>
-                                            S~Z 다이아몬드는 라이트 옐로우(Light yellow)입니다.
+                                            S~Z 다이아몬드는 라이트 옐로우(Light yellow)입니다.<br>
                                             이 등급은 육안으로도 색상이 뚜렷하게 확인이 되며 Z컬러 이후는 팬시 컬러로 분류 됩니다.
                                         </p>
                                     </div>

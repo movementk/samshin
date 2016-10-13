@@ -7,8 +7,9 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="#">다이아몬드 검색</a></li>
-                <li class="active">다이아몬드</li>
+                <li><a href="#">GUIDE</a></li>
+                <li><a href="#">다이아몬드</a></li>
+                <li class="active">다이아몬드 4C</li>
             </ol>
         </div>
     </div>
@@ -23,23 +24,23 @@
                         <h2>다이아몬드 정보 (4C) <small>다이아몬드 4C</small></h2>
                     </div>
                     <div class="page-summary">
-                        <p>다이아몬드의 가치를 평가하는 요소는 <i>캐럿 (Carat), 내포물 (Clarity), 색상 (Color), 컷 (Cut)</i>이며 이를 <i>4C</i>라고 합니다.</p>
+                        <p>다이아몬드의 가치를 평가하는 요소는 <i>캐럿 (Carat), 투명도 (Clarity), 색상 (Color), 컷 (Cut)</i>이며 이를 <i>4C</i>라고 합니다.</p>
                     </div>
                     <div class="tabs">
                         <ul>
                             <li role="presentation"><a href="./dia_carat.php">CARAT <br class="visible-xs">(캐럿)</a></li>
                             <li role="presentation"><a href="./dia_color.php">COLOR <br class="visible-xs">(컬러)</a></li>
-                            <li role="presentation"><span>CLARITY <br class="visible-xs">(선명도)</span></li>
+                            <li role="presentation"><span>CLARITY <br class="visible-xs">(투명도)</span></li>
                             <li role="presentation"><a href="./dia_cut.php">CUT <br class="visible-xs">(컷)</a></li>
                         </ul>
                     </div>
                     <section class="section-content explain">
                         <div class="section-head">
-                            <h3 class="section-title">CLARITY <small>내포물</small></h3>
+                            <h3 class="section-title">CLARITY <small>투명도</small></h3>
                         </div>
                         <p>
                             다이아몬드는 천연 광물이기 때문에 각기 다른 내포물을 함유하고 있으며, 생성과 연마 단계에 따라서 클래리티 특징들이 생깁니다.<br>
-                            사람의 얼굴이 각기 다르듯 다이아몬드도 내포물로 인해 모두 다른 얼굴을 갖고 있으며 똑같은 내포물을 지닌 두개의 다이아몬드는 없기 때문에 <em>다이아몬드를 구별하는 특별한 역할</em>이기도 하며 <em>인조석과 구분할 수 있는 가장 중요한 요소</em>입니다.
+                            사람의 얼굴이 각기 다르듯 다이아몬드도 내포물로 인해 모두 다른 얼굴을 갖고 있으며 똑같은 내포물을 지닌 두개의 다이아몬드는 없기 때문에 <i>다이아몬드를 구별하는 특별한 역할</i>이기도 하며 <i>인조석과 구분할 수 있는 가장 중요한 요소</i>입니다.
                         </p>
                         <p>
                             내포물은 내부(인클루전)와 외부(블레미시)에 있는 특징을 말하는데 일반적으로 외부 특징들보다는 내부 특징이 더 큰 영향을 미치는데 외부 내포물은 쉽게 제거할 수 있지만 내부 내포물은 중량을 감소시킬 수 있기 때문입니다.
@@ -74,7 +75,7 @@
                                 </div>
                                 <div class="col-xs-12 col-sm-8">
                                     <div class="details">
-                                        <h5>VVS1 ~ VVS12 <i>(Very Very Slightly Included)</i></h5>
+                                        <h5>VVS1 ~ VVS2 <i>(Very Very Slightly Included)</i></h5>
                                         <p>
                                             K.L.M등급은 페인트 옐로우 (Faint yellow)입니다.<br>
                                             이 범위의 다이아몬드들은 칼라 감별 케이스에서 보거나 밖에서 봐도 매우 옅은 옐로우 컬러를 띄는 다이아몬드입니다.

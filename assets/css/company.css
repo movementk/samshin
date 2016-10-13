@@ -1,13 +1,13 @@
-.lato, .introduce .section-head .section-title small, .introduce .history .tab-content h5 i, .introduce .history .tab-content .table th, .reserve .call .contact > div dl.phone dd, #content.cafe .page-header .page-title small {
+.lato, .introduce .section-head .section-title small, .introduce .history .tab-content h5 i, .introduce .history .tab-content .table th, .reserve .call .contact > div dl.phone dd, #content.cafe .page-header .page-title small, #content.diaoutlet .page-header .page-title small {
   font-family: 'Lato', sans-serif; }
 
-.jjmj, .introduce .brand .details h4, .introduce .cafe .item .item-body h3, .introduce .feature .details h4, .introduce .pr .section-head .section-title, .introduce .pr .details h4, .introduce .history .tab-content h5, .offline-modal .modal-header .modal-title, .reserve .section-head .section-title, .reserve .jumbowall .details h2, .reserve .jumbowall .details p, .reserve .direct .section-head .section-title, .reserve .direct .section-body .price > div strong, .reserve .why-1 .section-body ul li div .details, .reserve .call .contact > div h5, .reserve .request h4, #content.cafe .section-head .section-title, #content.cafe.room .room-type h4, #content.cafe.water .details h4 {
+.jjmj, .introduce .brand .details h4, .introduce .cafe .item .item-body h3, .introduce .feature .details h4, .introduce .pr .section-head .section-title, .introduce .pr .details h4, .introduce .history .tab-content h5, .offline-modal .modal-header .modal-title, .reserve .section-head .section-title, .reserve .jumbowall .details h2, .reserve .jumbowall .details p, .reserve .direct .section-head .section-title, .reserve .direct .section-body .price > div strong, .reserve .why-1 .section-body ul li div .details, .reserve .call .contact > div h5, .reserve .request h4, #content.cafe .section-head .section-title, #content.cafe.room .room-type h4, #content.cafe.water .details h4, #content.diaoutlet .lowest .stats .desc-1, #content.diaoutlet .feature .item .details h4, #content.diaoutlet .feature .item .details p {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .introduce .history .tab-content h5 span, .offline-modal .modal-header .modal-title i, .reserve .section-head .section-title small, .reserve .jumbowall .details h2 small, .reserve .call .contact > div h5 small, #content.cafe.room .room-type h4 small {
+.noto, .introduce .history .tab-content h5 span, .offline-modal .modal-header .modal-title i, .reserve .section-head .section-title small, .reserve .jumbowall .details h2 small, .reserve .call .contact > div h5 small, #content.cafe.room .room-type h4 small, #content.diaoutlet .feature .item:nth-of-type(1) a {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .introduce .section-head .section-title, .introduce .cafe .item .item-body h3 > i, .reserve .why-1 .section-body ul li div .num, .reserve .why-2 .item h5, #content.cafe .page-header .page-title, #content.cafe.menu .section-content .section-body .details strong {
+.crimson, .introduce .section-head .section-title, .introduce .cafe .item .item-body h3 > i, .reserve .why-1 .section-body ul li div .num, .reserve .why-2 .item h5, #content.cafe .page-header .page-title, #content.cafe.menu .section-content .section-body .details strong, #content.diaoutlet .page-header .page-title, #content.diaoutlet .section-title, #content.diaoutlet .report .right .figure h4 {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -1295,6 +1295,40 @@ body {
         height: 250px; }
       #content.cafe.room .room-type.room-3 .figure-2 {
         height: 250px; } }
+#content.cafe.intro .section-body {
+  margin-bottom: 100px; }
+#content.cafe.intro #cafe-gallery-wrap {
+  margin-bottom: 30px; }
+#content.cafe.intro #cafe-gallery-pager-wrap {
+  position: relative; }
+  #content.cafe.intro #cafe-gallery-pager-wrap .bx-controls .bx-controls-direction img {
+    width: 25px; }
+  #content.cafe.intro #cafe-gallery-pager-wrap .bx-controls .bx-controls-direction .bx-prev {
+    position: absolute;
+    top: 10px;
+    left: -50px; }
+  #content.cafe.intro #cafe-gallery-pager-wrap .bx-controls .bx-controls-direction .bx-next {
+    position: absolute;
+    top: 10px;
+    right: -50px; }
+#content.cafe.intro #cafe-gallery-pager a span.active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #eb2127; }
+@media (max-width: 767px) {
+  #content.cafe.intro #cafe-gallery-wrap {
+    margin-bottom: 20px; }
+  #content.cafe.intro #cafe-gallery-pager-wrap .bx-controls .bx-controls-direction img {
+    width: 18px; }
+  #content.cafe.intro #cafe-gallery-pager-wrap .bx-controls .bx-controls-direction .bx-prev {
+    top: 5px;
+    left: -30px; }
+  #content.cafe.intro #cafe-gallery-pager-wrap .bx-controls .bx-controls-direction .bx-next {
+    top: 5px;
+    right: -30px; } }
 #content.cafe.location .contact {
   margin-bottom: 120px; }
   #content.cafe.location .contact dl {
@@ -1523,5 +1557,390 @@ body {
       font-size: 12px; }
       #content.cafe.menu .section-content .section-body .details p:before {
         margin-top: 5px; } }
+
+#content.diaoutlet .page-header {
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding-bottom: 0;
+  border-bottom: 0; }
+  #content.diaoutlet .page-header .page-title {
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px; }
+    #content.diaoutlet .page-header .page-title small {
+      font-size: 18px;
+      color: #080d68;
+      letter-spacing: 4px; }
+  @media (max-width: 1229px) {
+    #content.diaoutlet .page-header {
+      margin-bottom: 70px; }
+      #content.diaoutlet .page-header .page-title {
+        font-size: 45px;
+        line-height: 45px; }
+        #content.diaoutlet .page-header .page-title small {
+          font-size: 16px; } }
+  @media (max-width: 767px) {
+    #content.diaoutlet .page-header {
+      margin-bottom: 50px; }
+      #content.diaoutlet .page-header .page-title {
+        font-size: 35px;
+        line-height: 35px; }
+        #content.diaoutlet .page-header .page-title small {
+          font-size: 14px; } }
+#content.diaoutlet .section-title {
+  color: #080d68;
+  font-size: 50px;
+  line-height: 60px; }
+  #content.diaoutlet .section-title i {
+    color: #eb2127; }
+  @media (max-width: 1229px) {
+    #content.diaoutlet .section-title {
+      font-size: 45px;
+      line-height: 55px; } }
+  @media (max-width: 767px) {
+    #content.diaoutlet .section-title {
+      font-size: 35px;
+      line-height: 45px; } }
+#content.diaoutlet .figure .img-responsive {
+  margin: 0 auto; }
+#content.diaoutlet .details p {
+  font-size: 15px;
+  line-height: 23px; }
+  #content.diaoutlet .details p i {
+    color: #080d68;
+    font-style: normal;
+    font-weight: normal; }
+  #content.diaoutlet .details p + p {
+    margin-top: 20px; }
+@media (max-width: 1229px) {
+  #content.diaoutlet .details p {
+    font-size: 14px;
+    line-height: 22px; } }
+@media (max-width: 767px) {
+  #content.diaoutlet .details p {
+    font-size: 13px; }
+    #content.diaoutlet .details p + p {
+      margin-top: 10px; } }
+#content.diaoutlet .best {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #content.diaoutlet .best .section-title {
+    margin-bottom: 20px; }
+    #content.diaoutlet .best .section-title i {
+      margin-left: -60px; }
+  #content.diaoutlet .best .figure {
+    margin-top: 80px; }
+  #content.diaoutlet .best .details {
+    margin-left: 70px; }
+  @media (max-width: 1229px) {
+    #content.diaoutlet .best {
+      padding-top: 80px;
+      padding-bottom: 80px; }
+      #content.diaoutlet .best .section-title {
+        margin-bottom: 20px; }
+        #content.diaoutlet .best .section-title i {
+          margin-left: -52px; }
+      #content.diaoutlet .best .figure {
+        margin-top: 60px; }
+      #content.diaoutlet .best .details {
+        margin-left: 50px; } }
+  @media (max-width: 767px) {
+    #content.diaoutlet .best {
+      padding-top: 0;
+      padding-bottom: 50px; }
+      #content.diaoutlet .best .section-title {
+        margin-bottom: 10px;
+        text-align: center; }
+        #content.diaoutlet .best .section-title i {
+          margin-left: 0; }
+      #content.diaoutlet .best .figure {
+        margin-top: 30px; }
+      #content.diaoutlet .best .details {
+        margin-left: 0; } }
+#content.diaoutlet .lowest {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: #f7f7f7; }
+  #content.diaoutlet .lowest .section-title {
+    margin-bottom: 50px;
+    text-align: center; }
+  #content.diaoutlet .lowest .figure {
+    margin-right: 40px; }
+  #content.diaoutlet .lowest .details {
+    margin-top: 10px; }
+  #content.diaoutlet .lowest .stats {
+    margin-top: 90px;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    text-align: center;
+    background-image: url(/assets/images/company/bg_outlet_chart.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); }
+    #content.diaoutlet .lowest .stats .chart .img-responsive {
+      margin: 0 auto; }
+    #content.diaoutlet .lowest .stats .desc-1 {
+      margin-top: 50px;
+      font-size: 24px;
+      line-height: 36px;
+      color: #080d68; }
+      #content.diaoutlet .lowest .stats .desc-1 u {
+        color: #eb2127; }
+    #content.diaoutlet .lowest .stats .desc-2 {
+      margin-top: 15px;
+      font-size: 15px;
+      line-height: 26px; }
+    #content.diaoutlet .lowest .stats .desc-3 {
+      margin-top: 30px;
+      font-size: 24px;
+      line-height: 36px;
+      color: #080d68; }
+      #content.diaoutlet .lowest .stats .desc-3 b {
+        font-weight: normal; }
+  @media (max-width: 1229px) {
+    #content.diaoutlet .lowest {
+      padding-top: 80px;
+      padding-bottom: 100px; }
+      #content.diaoutlet .lowest .section-title {
+        margin-bottom: 30px; }
+      #content.diaoutlet .lowest .figure {
+        margin-right: 20px; }
+      #content.diaoutlet .lowest .details {
+        margin-top: 0; }
+      #content.diaoutlet .lowest .stats {
+        margin-top: 70px;
+        padding-top: 90px;
+        padding-bottom: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        background-size: 100% auto; }
+        #content.diaoutlet .lowest .stats .desc-1 {
+          margin-top: 40px;
+          font-size: 20px;
+          line-height: 28px; }
+        #content.diaoutlet .lowest .stats .desc-2 {
+          margin-top: 10px;
+          font-size: 14px;
+          line-height: 22px; }
+        #content.diaoutlet .lowest .stats .desc-3 {
+          margin-top: 20px;
+          font-size: 20px;
+          line-height: 28px; } }
+  @media (max-width: 767px) {
+    #content.diaoutlet .lowest {
+      padding-top: 50px;
+      padding-bottom: 70px; }
+      #content.diaoutlet .lowest .section-title {
+        margin-bottom: 20px; }
+      #content.diaoutlet .lowest .figure {
+        margin-right: 0;
+        margin-bottom: 30px; }
+      #content.diaoutlet .lowest .stats {
+        margin-top: 40px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px; }
+        #content.diaoutlet .lowest .stats .desc-1 {
+          margin-top: 30px;
+          font-size: 16px;
+          line-height: 24px; }
+        #content.diaoutlet .lowest .stats .desc-2 {
+          font-size: 12px; }
+        #content.diaoutlet .lowest .stats .desc-3 {
+          margin-top: 10px;
+          font-size: 16px;
+          line-height: 24px; } }
+#content.diaoutlet .report {
+  padding-top: 100px;
+  padding-bottom: 90px; }
+  #content.diaoutlet .report .section-title {
+    margin-bottom: 50px;
+    text-align: center; }
+  #content.diaoutlet .report .left .figure {
+    float: right; }
+  #content.diaoutlet .report .left .details {
+    float: right;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 40px 20px;
+    border: 9px solid #f7f7f7; }
+    #content.diaoutlet .report .left .details p {
+      font-size: 15px;
+      line-height: 22px; }
+      #content.diaoutlet .report .left .details p i {
+        color: #080d68; }
+  #content.diaoutlet .report .right {
+    margin-top: 145px; }
+    #content.diaoutlet .report .right .figure {
+      float: left; }
+      #content.diaoutlet .report .right .figure h4 {
+        margin-bottom: 30px;
+        padding-left: 10px;
+        color: #080d68;
+        border-left: 6px solid #080d68;
+        font-size: 25px;
+        line-height: 36px; }
+    #content.diaoutlet .report .right .details {
+      float: left;
+      margin-right: 70px;
+      margin-top: 30px;
+      padding: 40px 30px;
+      background-color: #f6f6f6; }
+      #content.diaoutlet .report .right .details p {
+        font-size: 15px;
+        line-height: 22px; }
+        #content.diaoutlet .report .right .details p i {
+          color: #080d68; }
+  @media (max-width: 1229px) {
+    #content.diaoutlet .report {
+      padding-top: 80px;
+      padding-bottom: 70px; }
+      #content.diaoutlet .report .section-title {
+        margin-bottom: 40px; }
+      #content.diaoutlet .report .left .details {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 30px 10px; }
+        #content.diaoutlet .report .left .details p {
+          font-size: 14px; }
+      #content.diaoutlet .report .right {
+        margin-top: 45px; }
+        #content.diaoutlet .report .right .figure h4 {
+          margin-bottom: 20px;
+          font-size: 22px;
+          line-height: 30px; }
+        #content.diaoutlet .report .right .details {
+          margin-right: 0;
+          margin-top: 20px;
+          padding: 30px 20px; }
+          #content.diaoutlet .report .right .details p {
+            font-size: 14px; } }
+  @media (max-width: 767px) {
+    #content.diaoutlet .report {
+      padding-top: 50px;
+      padding-bottom: 40px; }
+      #content.diaoutlet .report .section-title {
+        margin-bottom: 40px; }
+      #content.diaoutlet .report .left .figure {
+        float: none; }
+      #content.diaoutlet .report .left .details {
+        float: none;
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 20px; }
+        #content.diaoutlet .report .left .details p {
+          font-size: 12px; }
+      #content.diaoutlet .report .right {
+        margin-top: 30px; }
+        #content.diaoutlet .report .right .figure {
+          float: none; }
+          #content.diaoutlet .report .right .figure h4 {
+            font-size: 18px;
+            line-height: 24px; }
+        #content.diaoutlet .report .right .details {
+          float: none;
+          margin-right: 0;
+          margin-top: 10px;
+          padding: 20px; }
+          #content.diaoutlet .report .right .details p {
+            font-size: 12px; } }
+#content.diaoutlet .feature {
+  padding-top: 90px;
+  padding-bottom: 120px;
+  background-color: #f7f7f7;
+  background: -webkit-linear-gradient(#f7f7f7, #fff);
+  background: -o-linear-gradient(#f7f7f7, #fff);
+  background: -moz-linear-gradient(#f7f7f7, #fff);
+  background: linear-gradient(#f7f7f7, #fff); }
+  #content.diaoutlet .feature .item {
+    height: 490px;
+    border: 1px solid #ededed; }
+    #content.diaoutlet .feature .item .details {
+      padding-top: 45px;
+      text-align: center; }
+      #content.diaoutlet .feature .item .details h4 {
+        color: #080d68;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px; }
+      #content.diaoutlet .feature .item .details p {
+        font-size: 18px;
+        line-height: 36px;
+        color: #222; }
+    #content.diaoutlet .feature .item:nth-of-type(1) a {
+      font-size: 18px;
+      line-height: 30px;
+      color: #080d68;
+      text-decoration: underline;
+      font-weight: normal; }
+    #content.diaoutlet .feature .item:nth-of-type(1) ol {
+      margin-top: 10px;
+      text-align: center; }
+      #content.diaoutlet .feature .item:nth-of-type(1) ol li {
+        display: inline-block;
+        color: #333; }
+        #content.diaoutlet .feature .item:nth-of-type(1) ol li span {
+          display: inline-block;
+          font-size: 10px;
+          width: 16px;
+          height: 16px;
+          line-height: 16px;
+          text-align: center;
+          background-color: #080d68;
+          color: #fff;
+          border-radius: 50%; }
+        #content.diaoutlet .feature .item:nth-of-type(1) ol li + li {
+          margin-left: 10px; }
+  @media (max-width: 1229px) {
+    #content.diaoutlet .feature {
+      padding-top: 70px;
+      padding-bottom: 100px; }
+      #content.diaoutlet .feature .item {
+        height: 400px; }
+        #content.diaoutlet .feature .item .details {
+          padding-top: 30px;
+          padding-left: 10px;
+          padding-right: 10px; }
+          #content.diaoutlet .feature .item .details h4 {
+            margin-bottom: 10px;
+            font-size: 22px;
+            line-height: 30px; }
+          #content.diaoutlet .feature .item .details p {
+            font-size: 16px;
+            line-height: 24px; }
+        #content.diaoutlet .feature .item:nth-of-type(1) a {
+          font-size: 16px;
+          line-height: 24px; }
+        #content.diaoutlet .feature .item:nth-of-type(1) ol {
+          margin-top: 10px; }
+          #content.diaoutlet .feature .item:nth-of-type(1) ol li {
+            font-size: 13px; } }
+  @media (max-width: 767px) {
+    #content.diaoutlet .feature {
+      padding-top: 40px;
+      padding-bottom: 50px; }
+      #content.diaoutlet .feature .item {
+        height: auto;
+        margin-bottom: 20px; }
+        #content.diaoutlet .feature .item .figure .img-responsive {
+          width: 100%; }
+        #content.diaoutlet .feature .item .details {
+          padding: 20px 10px; }
+          #content.diaoutlet .feature .item .details h4 {
+            margin-bottom: 10px;
+            font-size: 18px;
+            line-height: 24px; }
+          #content.diaoutlet .feature .item .details p {
+            font-size: 14px;
+            line-height: 22px; }
+        #content.diaoutlet .feature .item:nth-of-type(1) a {
+          font-size: 14px;
+          line-height: 22px; }
+        #content.diaoutlet .feature .item:nth-of-type(1) ol {
+          margin-top: 10px; }
+          #content.diaoutlet .feature .item:nth-of-type(1) ol li {
+            font-size: 12px; } }
 
 /*# sourceMappingURL=company.css.map */

@@ -351,7 +351,8 @@
 
 // 다이아몬드 컬러, 내포물
 .information.dia.color,
-.information.dia.clarity {
+.information.dia.clarity,
+.information.dia.cut {
     .type {
         margin-top: 55px;
         border: 1px solid #dfdfdf;
@@ -409,7 +410,7 @@
                 }
             }
         }
-        @media (min-width: $sm) {
+        @media (min-width: $lg) {
             .figure {
                 height: 155px;
             }
@@ -421,12 +422,9 @@
 .information.dia.clarity {
     .explain {
         > p {
-            em {
-                font-style: normal;
-                color: $red;
-            }
             i {
                 font-style: normal;
+                font-weight: normal;
                 color: $kc;
             }
         }
@@ -457,6 +455,9 @@
             border: 1px solid #dfdfdf;
             p {
                 margin-top: 0;
+                .img-responsive {
+                    margin: 0 auto;
+                }
             }
         }
         .table {
@@ -506,6 +507,9 @@
     .reflection {
         .figure {
             border: 1px solid #dfdfdf;
+            .img-responsive {
+                margin: 0 auto;
+            }
         }
     }
     .hna {
@@ -576,6 +580,50 @@
                     font-size: 15px;
                     small {
                         font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .ratio {
+        .section-head {
+            .section-title {
+                @extend .jjmj;
+            }
+        }
+        .section-body {
+            > .figure {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+        }
+        .type {
+            .details {
+                margin-bottom: 0;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                h5 {
+                    font-weight: normal;
+                }
+                ul {
+                    li {
+                        line-height: 22px;
+                        &:before {
+                            display: inline-block;
+                            padding-right: 5px;
+                            content: '-';
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            .type {
+                &.no-figure {
+                    .details {
+                        padding-left: 20px;
                     }
                 }
             }

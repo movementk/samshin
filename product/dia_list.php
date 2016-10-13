@@ -352,9 +352,6 @@
                                 <th>색상<br><small>COLOR</small></th>
                                 <th>선명도<br><small>CLARITY</small></th>
                                 <th>컷팅<br><small>CUT</small></th>
-                                <th>연마<br><small>POLISH</small></th>
-                                <th>대칭<br><small>SYMMETRY</small></th>
-                                <th>형광성<br><small>FLUORESCENCE</small></th>
                                 <th>감정서<br><small>REPORT</small></th>
                                 <th>가격<br><small>PRICE</small></th>
                                 <th>선택</th>
@@ -367,9 +364,6 @@
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
                                 <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td>
@@ -391,9 +385,6 @@
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
                                 <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td>
@@ -406,9 +397,6 @@
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
                                 <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td>
@@ -421,9 +409,6 @@
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
                                 <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
@@ -434,9 +419,6 @@
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
                                 <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
@@ -447,9 +429,6 @@
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
                                 <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
@@ -481,6 +460,7 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
     <script src="/assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/jquery.ui.touch-punch.min.js"></script>
     <script src="/assets/js/filter_dia.js"></script>
     <script>
         (function($) {

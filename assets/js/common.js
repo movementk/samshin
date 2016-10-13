@@ -19,4 +19,12 @@
             e.preventDefault();
         }
     });
+
+    // 데스크탑 GNB 관련
+    $(document).on('mouseenter focusin', '#gnb > .container > ul > li > a', function(e) {
+        $('#gnb').addClass('open');
+    });
+    $(document).on('mouseleave', '#gnb > .container', function(e) {
+        $('#gnb').removeClass('open');
+    });
 })(jQuery);

@@ -7,11 +7,10 @@
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
-        <section class="make-steps">
-            <div class="container">
-                # 디자인 확인 필요
-            </div>
-        </section>
+        <div class="visual gia-visual">
+            <p class="visible-xs"><img class="img-responsive" src="/assets/images/product/img_visual_gia_xs.jpg" alt=""></p>
+            <p class="visible-sm visible-md"><img class="img-responsive" src="/assets/images/product/img_visual_gia_sm.jpg" alt=""></p>
+        </div>
         <div class="container">
 
             <!-- 페이지 네비게이션 -->
@@ -116,34 +115,24 @@
                         </select>
                     </div>
                 </header>
-                <div class="dia-list table-responsive">
+                <div class="dia-list gia-list table-responsive">
                     <table class="table table-striped">
                         <thead>
                             <tr>
-                                <th>형태<br><small>SHAPE</small></th>
                                 <th>중량<br><small>CARAT</small></th>
                                 <th>색상<br><small>COLOR</small></th>
                                 <th>선명도<br><small>CLARITY</small></th>
                                 <th>컷팅<br><small>CUT</small></th>
-                                <th>연마<br><small>POLISH</small></th>
-                                <th>대칭<br><small>SYMMETRY</small></th>
-                                <th>형광성<br><small>FLUORESCENCE</small></th>
-                                <th>감정서<br><small>REPORT</small></th>
                                 <th>가격<br><small>PRICE</small></th>
                                 <th>선택</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td></td>
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
-                                <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td>
                                     <div class="dropdown">
@@ -159,71 +148,46 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td></td>
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
-                                <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td>
                                     <?php require($_SERVER["DOCUMENT_ROOT"].'/product/_dia_list_dropdown.php'); ?>
                                 </td>
                             </tr>
                             <tr>
-                                <td></td>
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
-                                <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td>
                                     <?php require($_SERVER["DOCUMENT_ROOT"].'/product/_dia_list_dropdown.php'); ?>
                                 </td>
                             </tr>
                             <tr>
-                                <td></td>
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
-                                <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td></td>
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
-                                <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
                             </tr>
                             <tr>
-                                <td></td>
                                 <td>1.13</td>
                                 <td>D</td>
                                 <td>I1</td>
                                 <td>Very <br class="visible-xs">Good</td>
-                                <td>Exellent</td>
-                                <td>Good</td>
-                                <td>None</td>
-                                <td>GIA</td>
                                 <td><a href="#">￦123,000,000</a></td>
                                 <td></td>
                             </tr>

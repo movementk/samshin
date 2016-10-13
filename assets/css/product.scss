@@ -1,5 +1,21 @@
 @import 'common';
 
+.visual {
+    &.gia-visual {
+        margin-bottom: 20px;
+        .img-responsive {
+            width: 100%;
+            margin: 0 auto;
+        }
+        @media (min-width: $lg) {
+            height: 280px;
+            background-image: url(/assets/images/product/img_visual_gia_lg.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+    }
+}
+
 // 검색 타입
 .dia-type {
     margin-bottom: 35px;
@@ -94,7 +110,7 @@
     }
     &.gia {
         > form {
-            height: 220px;
+            height: 210px;
         }
         &.open {
             > form {
@@ -120,6 +136,70 @@
             &.open {
                 > form {
                     height: 425px;
+                }
+            }
+        }
+    }
+    &.jewelry {
+        > form {
+            height: 250px;
+        }
+        &.open {
+            > form {
+                height: 520px;
+            }
+        }
+        @media (min-width: $sm) {
+            margin-bottom: 60px;
+            > form {
+                height: 270px;
+            }
+            &.open {
+                > form {
+                    height: 550px;
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            margin-bottom: 75px;
+            > form {
+                height: 150px;
+            }
+            &.open {
+                > form {
+                    height: 430px;
+                }
+            }
+        }
+    }
+    &.completed {
+        > form {
+            height: 110px;
+        }
+        &.open {
+            > form {
+                height: 660px;
+            }
+        }
+        @media (min-width: $sm) {
+            margin-bottom: 60px;
+            > form {
+                height: 120px;
+            }
+            &.open {
+                > form {
+                    height: 630px;
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            margin-bottom: 75px;
+            > form {
+                height: 120px;
+            }
+            &.open {
+                > form {
+                    height: 530px;
                 }
             }
         }
@@ -191,8 +271,10 @@
     }
     .slider {
         margin-top: 10px;
-        padding-left: 5px;
-        padding-right: 10px;
+        //padding-left: 5px;
+        //padding-right: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
         .ui-widget {
             border: 0;
             background-color: #dfdfdf;
@@ -226,6 +308,8 @@
             }
         }
         @media (min-width: $sm) {
+            padding-left: 10px;
+            padding-right: 10px;
             & + .values {
                 .form-control {
                     font-size: 12px;
@@ -790,15 +874,11 @@
     }
     &.jewelry {
         margin-bottom: 50px;
-        padding-bottom: 30px;
-        border-bottom: 1px solid #c2c2c2;
         @media (min-width: $sm) {
             margin-bottom: 60px;
-            padding-bottom: 40px;
         }
         @media (min-width: $lg) {
             margin-bottom: 80px;
-            padding-bottom: 70px;
         }
     }
     &.gia {
@@ -925,11 +1005,18 @@
         border: 0;
     }
     .table {
+        /*
         th, td {
             &:nth-of-type(6),
             &:nth-of-type(7),
             &:nth-of-type(8),
             &:nth-of-type(11) {
+                display: none;
+            }
+        }
+        */
+        th, td {
+            &:last-child {
                 display: none;
             }
         }
@@ -1015,11 +1102,9 @@
     @media (min-width: $sm) {
         margin-bottom: 60px;
         .table {
+            table-layout: fixed;
             th, td {
-                &:nth-of-type(6),
-                &:nth-of-type(7),
-                &:nth-of-type(8),
-                &:nth-of-type(11) {
+                &:last-child {
                     display: table-cell;
                 }
             }
@@ -1028,6 +1113,35 @@
     @media (min-width: $lg) {
         margin-bottom: 100px;
     }
+    /*
+    &.gia-list {
+        .table {
+            th, td {
+                &:nth-of-type(5),
+                &:nth-of-type(6),
+                &:nth-of-type(7),
+                &:nth-of-type(9) {
+                    display: none;
+                }
+                &:nth-of-type(8) {
+                    display: table-cell;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            .table {
+                th, td {
+                    &:nth-of-type(5),
+                    &:nth-of-type(6),
+                    &:nth-of-type(7),
+                    &:nth-of-type(9) {
+                        display: table-cell;
+                    }
+                }
+            }
+        }
+    }
+    */
 }
 
 // 검색 결과: 주얼리

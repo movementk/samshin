@@ -7,8 +7,8 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="#">다이아몬드 검색</a></li>
-                <li class="active">다이아몬드</li>
+                <li><a href="#">GUIDE</a></li>
+                <li class="active"><a href="#">감정서</a></li>
             </ol>
         </div>
     </div>

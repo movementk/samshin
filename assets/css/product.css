@@ -27,6 +27,18 @@
   font-size: 14px;
   line-height: 22px; }
 
+.visual.gia-visual {
+  margin-bottom: 20px; }
+  .visual.gia-visual .img-responsive {
+    width: 100%;
+    margin: 0 auto; }
+  @media (min-width: 1230px) {
+    .visual.gia-visual {
+      height: 280px;
+      background-image: url(/assets/images/product/img_visual_gia_lg.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%; } }
+
 .dia-type {
   margin-bottom: 35px; }
   .dia-type ul li.active .btn {
@@ -79,7 +91,7 @@
       .filter.fancy.open > form {
         height: 535px; } }
   .filter.gia > form {
-    height: 220px; }
+    height: 210px; }
   .filter.gia.open > form {
     height: 520px; }
   @media (min-width: 768px) {
@@ -96,6 +108,42 @@
         height: 120px; }
       .filter.gia.open > form {
         height: 425px; } }
+  .filter.jewelry > form {
+    height: 250px; }
+  .filter.jewelry.open > form {
+    height: 520px; }
+  @media (min-width: 768px) {
+    .filter.jewelry {
+      margin-bottom: 60px; }
+      .filter.jewelry > form {
+        height: 270px; }
+      .filter.jewelry.open > form {
+        height: 550px; } }
+  @media (min-width: 1230px) {
+    .filter.jewelry {
+      margin-bottom: 75px; }
+      .filter.jewelry > form {
+        height: 150px; }
+      .filter.jewelry.open > form {
+        height: 430px; } }
+  .filter.completed > form {
+    height: 110px; }
+  .filter.completed.open > form {
+    height: 660px; }
+  @media (min-width: 768px) {
+    .filter.completed {
+      margin-bottom: 60px; }
+      .filter.completed > form {
+        height: 120px; }
+      .filter.completed.open > form {
+        height: 630px; } }
+  @media (min-width: 1230px) {
+    .filter.completed {
+      margin-bottom: 75px; }
+      .filter.completed > form {
+        height: 120px; }
+      .filter.completed.open > form {
+        height: 530px; } }
   .filter .form-control[type="text"] {
     border-radius: 0;
     text-align: center;
@@ -151,8 +199,8 @@
       font-weight: bold; }
   .filter .slider {
     margin-top: 10px;
-    padding-left: 5px;
-    padding-right: 10px; }
+    padding-left: 25px;
+    padding-right: 25px; }
     .filter .slider .ui-widget {
       border: 0;
       background-color: #dfdfdf;
@@ -180,8 +228,11 @@
         .filter .slider + .values .form-control.maxium {
           float: right; }
     @media (min-width: 768px) {
-      .filter .slider + .values .form-control {
-        font-size: 12px; } }
+      .filter .slider {
+        padding-left: 10px;
+        padding-right: 10px; }
+        .filter .slider + .values .form-control {
+          font-size: 12px; } }
   .filter fieldset {
     margin-bottom: 20px; }
     .filter fieldset.polish legend, .filter fieldset.symmetry legend, .filter fieldset.fluorescence legend, .filter fieldset.imgdata legend {
@@ -592,17 +643,13 @@
       .filter.fancy .imgdata .check-list li {
         width: 33.33%; } }
   .filter.jewelry {
-    margin-bottom: 50px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #c2c2c2; }
+    margin-bottom: 50px; }
     @media (min-width: 768px) {
       .filter.jewelry {
-        margin-bottom: 60px;
-        padding-bottom: 40px; } }
+        margin-bottom: 60px; } }
     @media (min-width: 1230px) {
       .filter.jewelry {
-        margin-bottom: 80px;
-        padding-bottom: 70px; } }
+        margin-bottom: 80px; } }
   .filter.gia .color .btn-list li {
     width: 25%; }
   @media (min-width: 768px) {
@@ -665,18 +712,58 @@
       margin-bottom: 40px; } }
 
 .dia-list {
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  /*
+  &.gia-list {
+      .table {
+          th, td {
+              &:nth-of-type(5),
+              &:nth-of-type(6),
+              &:nth-of-type(7),
+              &:nth-of-type(9) {
+                  display: none;
+              }
+              &:nth-of-type(8) {
+                  display: table-cell;
+              }
+          }
+      }
+      @media (min-width: $sm) {
+          .table {
+              th, td {
+                  &:nth-of-type(5),
+                  &:nth-of-type(6),
+                  &:nth-of-type(7),
+                  &:nth-of-type(9) {
+                      display: table-cell;
+                  }
+              }
+          }
+      }
+  }
+  */ }
   .dia-list.table-responsive {
     border: 0; }
-  .dia-list .table th:nth-of-type(6), .dia-list .table th:nth-of-type(7), .dia-list .table th:nth-of-type(8), .dia-list .table th:nth-of-type(11), .dia-list .table td:nth-of-type(6), .dia-list .table td:nth-of-type(7), .dia-list .table td:nth-of-type(8), .dia-list .table td:nth-of-type(11) {
-    display: none; }
-  .dia-list .table tbody tr td {
-    vertical-align: middle; }
-    .dia-list .table tbody tr td a {
-      text-decoration: underline; }
-    .dia-list .table tbody tr td:last-child {
-      padding-top: 9px !important;
-      padding-bottom: 9px !important; }
+  .dia-list .table {
+    /*
+    th, td {
+        &:nth-of-type(6),
+        &:nth-of-type(7),
+        &:nth-of-type(8),
+        &:nth-of-type(11) {
+            display: none;
+        }
+    }
+    */ }
+    .dia-list .table th:last-child, .dia-list .table td:last-child {
+      display: none; }
+    .dia-list .table tbody tr td {
+      vertical-align: middle; }
+      .dia-list .table tbody tr td a {
+        text-decoration: underline; }
+      .dia-list .table tbody tr td:last-child {
+        padding-top: 9px !important;
+        padding-bottom: 9px !important; }
   .dia-list .dropdown {
     margin: 0 auto;
     width: 130px;
@@ -727,8 +814,10 @@
   @media (min-width: 768px) {
     .dia-list {
       margin-bottom: 60px; }
-      .dia-list .table th:nth-of-type(6), .dia-list .table th:nth-of-type(7), .dia-list .table th:nth-of-type(8), .dia-list .table th:nth-of-type(11), .dia-list .table td:nth-of-type(6), .dia-list .table td:nth-of-type(7), .dia-list .table td:nth-of-type(8), .dia-list .table td:nth-of-type(11) {
-        display: table-cell; } }
+      .dia-list .table {
+        table-layout: fixed; }
+        .dia-list .table th:last-child, .dia-list .table td:last-child {
+          display: table-cell; } }
   @media (min-width: 1230px) {
     .dia-list {
       margin-bottom: 100px; } }

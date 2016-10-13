@@ -7,11 +7,6 @@
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
-        <section class="make-steps">
-            <div class="container">
-                비주얼 영역 확인해야 함
-            </div>
-        </section>
         <div class="container">
 
             <!-- 페이지 네비게이션 -->
