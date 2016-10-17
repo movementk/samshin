@@ -16,6 +16,51 @@
     }
 }
 
+// 페이지 타이틀
+.page-header {
+    margin-top: 0;
+    marign-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 0;
+    background-image: url(/assets/images/product/bg_page_title.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: center;
+    .page-title {
+        font-size: 26px;
+        color: $kc;
+        @extend .crimson;
+        i {
+            font-style: normal;
+            color: $red;
+        }
+    }
+    p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+    @media (min-width: $sm) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .page-title {
+            font-size: 32px;
+        }
+    }
+    @media (min-width: $lg) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .page-title {
+            font-size: 36px;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    }
+}
+
 // 검색 타입
 .dia-type {
     margin-bottom: 35px;

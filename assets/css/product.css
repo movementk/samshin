@@ -12,7 +12,7 @@
 .noto, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small, #help-modal .modal-header .modal-title i {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4, #help-modal .shape-list ul li:last-child {
+.crimson, .page-header .page-title, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4, #help-modal .shape-list ul li:last-child {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -38,6 +38,42 @@
       background-image: url(/assets/images/product/img_visual_gia_lg.jpg);
       background-repeat: no-repeat;
       background-position: 50% 50%; } }
+
+.page-header {
+  margin-top: 0;
+  marign-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 0;
+  background-image: url(/assets/images/product/bg_page_title.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  text-align: center; }
+  .page-header .page-title {
+    font-size: 26px;
+    color: #080d68; }
+    .page-header .page-title i {
+      font-style: normal;
+      color: #eb2127; }
+  .page-header p {
+    margin-top: 15px;
+    font-size: 13px; }
+  @media (min-width: 768px) {
+    .page-header {
+      padding-top: 40px;
+      padding-bottom: 40px; }
+      .page-header .page-title {
+        font-size: 32px; } }
+  @media (min-width: 1230px) {
+    .page-header {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+      .page-header .page-title {
+        font-size: 36px; }
+      .page-header p {
+        margin-top: 20px;
+        font-size: 14px; } }
 
 .dia-type {
   margin-bottom: 35px; }

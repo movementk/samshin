@@ -70,16 +70,16 @@
                         <div class="section-body">
                             <h5><span>01</span>AGS 감정원의 컷 등급</h5>
                             <p>AGS의 컷등급은 0-10 다이아몬드 등급 시스템을 사용합니다.</p>
-                            <div class="table">
-
+                            <div class="table-responsive">
+                                <p><img src="/assets/images/information/img_lab_ags_table_1.gif" alt=""></p>
                             </div>
                             <h5><span>02</span>AGS 감정원의 컬러 등급 <i>(Color Grade)</i></h5>
-                            <div class="table">
-
+                            <div class="table-responsive">
+                                <p><img src="/assets/images/information/img_lab_ags_table_2.gif" alt=""></p>
                             </div>
                             <h5><span>03</span>AGS 감정원의 내포물 등급 <i>(Clarity Grade)</i></h5>
-                            <div class="table">
-
+                            <div class="table-responsive">
+                                <p><img src="/assets/images/information/img_lab_ags_table_3.gif" alt=""></p>
                             </div>
                         </div>
                     </section>

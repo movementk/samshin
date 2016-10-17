@@ -529,7 +529,7 @@ select.form-control {
                             padding-right: 10px;
                             height: 35px;
                             font-size: 13px;
-                            color: #aaa;
+                            color: $kc;
                             line-height: 35px;
                             text-decoration: none;
                             &:after {
@@ -538,7 +538,7 @@ select.form-control {
                                 content: '\F105';
                             }
                             &:hover, &:focus {
-                                color: $kc;
+                                color: #aaa;
                             }
                         }
                         &.active {
@@ -566,7 +566,7 @@ select.form-control {
                 &.has-child {
                     > a:after {
                         font-family: 'fontello';
-                        content: '\e808e';
+                        content: '\E808E';
                     }
                     &.active {
                         > a:after {

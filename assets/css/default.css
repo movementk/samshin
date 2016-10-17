@@ -671,7 +671,7 @@ select.form-control {
           padding-right: 10px;
           height: 35px;
           font-size: 13px;
-          color: #aaa;
+          color: #080d68;
           line-height: 35px;
           text-decoration: none; }
           #gnb-all .menu > ul > li > ul > li > a:after {
@@ -679,7 +679,7 @@ select.form-control {
             font-family: 'fontello';
             content: '\F105'; }
           #gnb-all .menu > ul > li > ul > li > a:hover, #gnb-all .menu > ul > li > ul > li > a:focus {
-            color: #080d68; }
+            color: #aaa; }
         #gnb-all .menu > ul > li > ul > li.active > a {
           color: #080d68; }
         #gnb-all .menu > ul > li > ul + ul > li > a {
@@ -690,7 +690,7 @@ select.form-control {
             color: #aaa !important; }
       #gnb-all .menu > ul > li.has-child > a:after {
         font-family: 'fontello';
-        content: '\e808e'; }
+        content: '\E808E'; }
       #gnb-all .menu > ul > li.has-child.active > a:after {
         content: '\E807'; }
       #gnb-all .menu > ul > li.active > a {

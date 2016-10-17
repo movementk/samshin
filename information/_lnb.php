@@ -9,7 +9,7 @@
                 <a href="#">다이아몬드</a>
                 <ul>
                     <li><a href="./dia_carat.php">다이아몬드 4C</a></li>
-                    <li><a href="#">다이아몬드쉐입</a></li>
+                    <li><a href="./shape_classic.php">다이아몬드쉐입</a></li>
                     <li><a href="./fancy_grade.php">팬시 컬러 다이아몬드</a></li>
                 </ul>
             </li>

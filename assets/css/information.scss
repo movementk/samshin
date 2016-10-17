@@ -950,6 +950,11 @@
                 margin-top: 10px;
             }
         }
+        .table-responsive {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border: 0;
+        }
         @media (min-width: $sm) {
             h4 {
                 font-size: 22px;
@@ -958,11 +963,17 @@
                 font-size: 14px;
                 line-height: 20px;
             }
+            .table-responsive {
+                margin-bottom: 40px;
+            }
         }
         @media (min-width: $lg) {
             h4 {
                 margin-bottom: 30px;
                 font-size: 24px;
+            }
+            .table-responsive {
+                margin-bottom: 50px;
             }
         }
     }
@@ -1072,6 +1083,303 @@
         @media (min-width: $sm) {
             .figure {
                 height: 155px;
+            }
+        }
+    }
+}
+
+.information.ring.size {
+    .section-head {
+        .section-title {
+            @extend .jjmj;
+        }
+    }
+    .ruler {
+        margin-bottom: 100px;
+        .steps {
+            ol {
+                li {
+                    margin-bottom: 20px;
+                    figure {
+                        p {
+                            margin-bottom: 20px;
+                        }
+                        figcaption {
+                            padding-left: 30px;
+                            span {
+                                display: inline-block;
+                                margin-left: -20px;
+                                width: 16px;
+                                height: 16px;
+                                border-radius: 50%;
+                                font-size: 10px;
+                                background-color: $kc;
+                                color: #fff;
+                                line-height: 16px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .help {
+            padding: 15px 20px;
+            border: 1px solid #dfdfdf;
+            background-color: #f7f7f7;
+            p {
+                i, em {
+                    font-style: normal;
+                }
+                i {
+                    color: $kc;
+                }
+                em {
+                    color: $red;
+                }
+                &:before {
+                    margin-right: 5px;
+                    font-family: 'fontello';
+                    content: '\e805';
+                    color: $kc;
+                }
+            }
+        }
+    }
+    .chart {
+        .notify {
+            margin-bottom: 45px;
+            i {
+                font-style: normal;
+                color: $kc;
+            }
+        }
+    }
+}
+
+.information.ring.setting {
+    .method {
+        padding: 20px;
+        border: 1px solid #dfdfdf;
+        h4 {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            @extend .crimson;
+            font-size: 18px;
+            color: $kc;
+            border-bottom: 1px solid #dfdfdf;
+            small {
+                @extend .noto;
+                font-size: 13px;
+                color: #666;
+            }
+        }
+        & + .method {
+            margin-top: 20px;
+        }
+        .details {
+            p + p {
+                margin-top: 20px;
+            }
+        }
+        .figure {
+            margin-top: 30px;
+            ul {
+                overflow: hidden;
+                margin-top: -10px;
+                margin-bottom: -10px;
+                margin-left: -10px;
+                margin-right: -10px;
+            }
+            li {
+                float: left;
+                width: 50%;
+                padding: 10px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            .figure {
+                li {
+                    width: auto;
+                    img {
+                        width: auto;
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            padding: 30px;
+        }
+    }
+}
+
+// 다이아몬드 쉐입
+.information.shape {
+    .page-header {
+        margin-bottom: 15px;
+        @media (min-width: $sm) {
+            margin-bottom: 25px;
+        }
+    }
+    .tabs {
+        ul {
+            margin-top: -5px;
+            margin-bottom: -5px;
+            li {
+                padding: 5px;
+                width: 33.33%;
+                a, span {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    height: 35px;
+                    line-height: 33px;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+    }
+    .type {
+        margin-top: 30px;
+        border: 1px solid #dfdfdf;
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+            > div {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        .figure {
+            display: table;
+            width: 100%;
+            height: 200px;
+            p {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+        }
+        .details {
+            padding: 20px;
+            margin-bottom: 20px;
+            h5 {
+                margin-bottom: 10px;
+                font-size: 13px;
+                color: $kc;
+                text-align: center;
+                @extend .crimson;
+                line-height: 18px;
+                font-weight: normal;
+                i {
+                    font-size: 12px;
+                    color: #222;
+                    @extend .noto;
+                    font-style: normal;
+                }
+            }
+            .btn {
+                display: block;
+                margin: 0 auto;
+                max-width: 110px;
+            }
+            p {
+                margin-top: 15px;
+            }
+        }
+        .drawing {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            .img-responsive {
+                margin: 0 auto;
+            }
+        }
+        .chart {
+            padding: 10px 20px;
+            h6 {
+                margin-bottom: 10px;
+                color: $kc;
+                font-size: 13px;
+                span {
+                    @extend .lato;
+                }
+            }
+            .table {
+                border-top: 2px solid $kc;
+                th {
+                    width: 120px;
+                    color: #222;
+                    span {
+                        display: block;
+                        color: #666;
+                        @extend .lato;
+                    }
+                }
+                td {
+                    text-align: left;
+                    vertical-align: middle;
+                    color: #222;
+                }
+            }
+        }
+        & + .type {
+            margin-top: 20px;
+        }
+        @media (min-width: $sm) {
+            .figure {
+                height: 220px;
+            }
+            .details {
+                padding: 40px 25px 40px 0;
+                margin-bottom: 0;
+                h5 {
+                    float: left;
+                    font-size: 18px;
+                    text-align: left;
+                    i {
+                        font-size: 13px;
+                    }
+                }
+                .btn {
+                    margin-left: 180px;
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            .figure {
+                height: 200px;
+            }
+            .drawing {
+                padding-left: 45px;
+                padding-right: 45px;
+            }
+            .chart {
+                padding-left: 45px;
+                padding-right: 45px;
+                h6 {
+                    margin-bottom: 15px;
+                    font-size: 14px;
+                }
+                .table {
+                    th {
+                        width: 250px;
+                        span {
+                            display: inline-block;
+                        }
+                    }
+                    td {
+                        text-align: left;
+                        vertical-align: middle;
+                    }
+                }
             }
         }
     }

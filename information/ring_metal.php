@@ -26,8 +26,8 @@
                     <div class="tabs">
                         <ul>
                             <li role="presentation"><span>금속 정보</span></li>
-                            <li role="presentation"><a href="./ring_setting.php">반지 사이즈 측정법</a></li>
-                            <li role="presentation"><a href="./ring_size.php">반지 셋팅법</a></li>
+                            <li role="presentation"><a href="./ring_size.php">반지 사이즈 측정법</a></li>
+                            <li role="presentation"><a href="./ring_setting.php">반지 셋팅법</a></li>
                         </ul>
                     </div>
                     <div class="section-content explain">
