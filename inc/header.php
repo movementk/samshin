@@ -61,9 +61,9 @@
                     <a href="#">DIAMONDS</a>
                     <div>
                         <ul>
-                            <li><a href="#">GIA DIAMONDS</a></li>
-                            <li><a href="#">FANCY CUT DIAMONDS</a></li>
-                            <li><a href="#">FANCY COLOR DIAMONDS</a></li>
+                            <li><a href="#"><span class="en">GIA DIAMONDS</span><span class="ko">GIA 다이아몬드</span></a></li>
+                            <li><a href="#"><span class="en">FANCY CUT DIAMONDS</span><span class="ko">팬시 컷 다이아몬드</span></a></li>
+                            <li><a href="#"><span class="en">FANCY COLOR DIAMONDS</span><span class="ko">팬시 컬러 다이아몬드</span></a></li>
                         </ul>
                     </div>
                 </li>
@@ -71,14 +71,13 @@
                     <a href="#">WEDDING</a>
                     <div>
                         <ul>
-                            <li><a href="#">START WITH RING</a></li>
-                            <li><a href="#">START WITH PENDANT</a></li>
-                            <li><a href="#">START WITH EARRING</a></li>
+                            <li><a href="#"><span class="en">START WITH RING</span><span class="ko">맞춤 반지</span></a></li>
+                            <li><a href="#"><span class="en">START WITH PENDANT</span><span class="ko">맞춤 목걸이</span></a></li>
                         </ul>
                         <ul>
-                            <li class="flag"><a href="#">TOP 10 WOMAN'S WEDDING RINGS</a></li>
-                            <li class="flag"><a href="#">TOP 10 MEN'S WEDDING RINGS</a></li>
-                            <li><a href="#">RECENTLY PURCHASED WEDDING RINGS</a></li>
+                            <li class="flag"><a href="#"><span class="en">TOP 10 WOMAN'S WEDDING RINGS</span><span  class="ko">TOP 10 웨딩 반지</span></a></li>
+                            <li class="flag"><a href="#"><span class="en">TOP 10 MEN'S WEDDING RINGS</span><span class="ko">TOP 10 남자 반지</span></a></li>
+                            <li><a href="#"><span class="en">RECENTLY PURCHASED WEDDING RINGS</span><span class="ko">최근 인기 웨딩 반지</span></a></li>
                         </ul>
                     </div>
                 </li>
@@ -86,20 +85,20 @@
                     <a href="#">JEWELRY &amp; GIFT</a>
                     <div>
                         <ul>
-                            <li><a href="#">RING</a></li>
-                            <li><a href="#">NECKLACE</a></li>
-                            <li><a href="#">EARRING</a></li>
-                            <li><a href="#">BRACELET</a></li>
-                            <li><a href="#">COUPLE RING</a></li>
+                            <li><a href="#"><span class="en">RING</span><span class="ko">반지</span></a></li>
+                            <li><a href="#"><span class="en">NECKLACE</span><span class="ko">목걸이</span></a></li>
+                            <li><a href="#"><span class="en">EARRING</span><span class="ko">귀걸이</span></a></li>
+                            <li><a href="#"><span class="en">BRACELET</span><span class="ko">팔찌</span></a></li>
+                            <li><a href="#"><span class="en">COUPLE RING</span><span class="ko">커플링</span></a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">TOP 10 WOMAN'S GIFT</a></li>
-                            <li><a href="#">GIFT FOR WOMAN</a></li>
-                            <li><a href="#">GIFT FOR MAN</a></li>
-                            <li><a href="#">TOP 10 UNDER ₩1,000,000</a></li>
-                            <li><a href="#">BIRTHSTONE JEWELRY</a></li>
-                            <li class="flag"><a href="#">ANNIVERSARY GIFTS</a></li>
-                            <li class="flag"><a href="#">PROPOSE JEWELRY</a></li>
+                            <li><a href="#"><span class="en">TOP 10 WOMAN'S GIFT</span><span class="ko">TOP 10 여자 선물</span></a></li>
+                            <li><a href="#"><span class="en">GIFT FOR WOMAN</span><span class="ko">여자 선물</span></a></li>
+                            <li><a href="#"><span class="en">GIFT FOR MAN</span><span class="ko">남자 선물</span></a></li>
+                            <li><a href="#"><span class="en">TOP 10 UNDER ₩1,000,000</span><span class="ko">TOP 10 100만원미만</span></a></li>
+                            <li><a href="#"><span class="en">BIRTHSTONE JEWELRY</span><span class="ko">탄생석 쥬얼리</span></a></li>
+                            <li class="flag"><a href="#"><span class="en">ANNIVERSARY GIFTS</span><span class="ko">기념일 선물</span></a></li>
+                            <li class="flag"><a href="#"><span class="en">PROPOSE JEWELRY</span><span class="ko">프로포즈 제품</span></a></li>
                         </ul>
                     </div>
                 </li>
@@ -107,10 +106,10 @@
                     <a href="#">EDUCATION</a>
                     <div>
                         <ul>
-                            <li><a href="#">DIAMOND EDUCATION</a></li>
-                            <li><a href="#">FANCY COLOR EDUCATION</a></li>
-                            <li><a href="#">METAL EDUCATION</a></li>
-                            <li><a href="#">DIAMOND CERTIFICATION</a></li>
+                            <li><a href="#"><span class="en">DIAMOND EDUCATION</span><span class="ko">다이아몬드 정보</span></a></li>
+                            <li><a href="#"><span class="en">FANCY COLOR EDUCATION</span><span class="ko">팬시 컬러 다이아몬드 정보</span></a></li>
+                            <li><a href="#"><span class="en">METAL EDUCATION</span><span class="ko">금속 정보</span></a></li>
+                            <li><a href="#"><span class="en">DIAMOND CERTIFICATION</span><span class="ko">다이아몬드 감정서</span></a></li>
                         </ul>
                     </div>
                 </li>

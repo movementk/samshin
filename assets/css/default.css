@@ -9,7 +9,7 @@
 .jjmj {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, body {
+.noto, body, #gnb > .container > ul > li > div > ul > li > a .ko {
   font-family: 'Noto Sans KR', sans-serif; }
 
 .crimson {
@@ -546,15 +546,23 @@ select.form-control {
             #gnb > .container > ul > li > div > ul > li > a {
               display: inline-block;
               width: 100%;
-              color: #080d68;
-              font-size: 13px;
-              line-height: 28px;
-              font-weight: normal; }
+              color: #080d68; }
+              #gnb > .container > ul > li > div > ul > li > a span {
+                font-size: 13px;
+                line-height: 28px;
+                font-weight: normal; }
+              #gnb > .container > ul > li > div > ul > li > a .ko {
+                display: none; }
+              #gnb > .container > ul > li > div > ul > li > a:hover .en, #gnb > .container > ul > li > div > ul > li > a:focus .en {
+                display: none; }
+              #gnb > .container > ul > li > div > ul > li > a:hover .ko, #gnb > .container > ul > li > div > ul > li > a:focus .ko {
+                display: inline-block;
+                text-decoration: underline; }
             #gnb > .container > ul > li > div > ul + ul {
               margin-top: 20px;
               padding-top: 25px;
               border-top: 1px solid #dfdfdf; }
-              #gnb > .container > ul > li > div > ul + ul > li > a {
+              #gnb > .container > ul > li > div > ul + ul > li > a span {
                 font-size: 12px;
                 line-height: 26px;
                 white-space: nowrap; }

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.lato, .filter legend, .filter .shape-list ul li .btn .en, .filter .fancy-color-list ul li .btn span, .filter .design-list ul li .btn span, .filter .metal-list ul li .btn span, .details.jewelry .summary .order .btn-area > div .btn-favor, .details.jewelry .setting .setting-list ul li div h5 .en, .details.jewelry .setting .setting-list ul li div p, .details.dia .summary .diainfo .btn-area > div .btn-favor, #help-modal .shape-list ul li {
+.lato, .select-steps > .container > ol > li:before, .select-steps > .container > ol > li > div h3 small, .select-steps > .container > ol > li > div .info .price, .select-steps > .container > ol > li > div .info .menu > li a, .filter legend, .filter .shape-list ul li .btn .en, .filter .fancy-color-list ul li .btn span, .filter .design-list ul li .btn span, .filter .metal-list ul li .btn span, .details.jewelry .summary .order .btn-area > div .btn-favor, .details.jewelry .setting .setting-list ul li div h5 .en, .details.jewelry .setting .setting-list ul li div p, .details.dia .summary .diainfo .btn-area > div .btn-favor, #help-modal .shape-list ul li {
   font-family: 'Lato', sans-serif; }
 
 .jjmj, .details.jewelry .summary .order > header h3, .details.jewelry .feature section > div h4, .details.jewelry .setting header h4,
@@ -9,10 +9,10 @@
 .details.dia .product-info .cutting-info h5, #help-modal .modal-header .modal-title {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small, #help-modal .modal-header .modal-title i {
+.noto, .select-steps > .container > ol > li > div .info .price span, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small, #help-modal .modal-header .modal-title i {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .page-header .page-title, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4, #help-modal .shape-list ul li:last-child {
+.crimson, .select-steps > .container > ol > li > div h3, .page-header .page-title, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4, #help-modal .shape-list ul li:last-child {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -38,6 +38,341 @@
       background-image: url(/assets/images/product/img_visual_gia_lg.jpg);
       background-repeat: no-repeat;
       background-position: 50% 50%; } }
+
+.select-steps {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .select-steps {
+      margin-top: 30px;
+      margin-bottom: 30px; } }
+  @media (min-width: 1230px) {
+    .select-steps {
+      margin-top: 50px;
+      margin-bottom: 50px; } }
+  .select-steps > .container > ol {
+    height: 55px;
+    border: 1px solid #e1e1e1;
+    background-color: #f8f8f8; }
+    .select-steps > .container > ol > li {
+      float: left;
+      width: 33.33%;
+      height: 53px;
+      text-align: center; }
+      .select-steps > .container > ol > li > div {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        height: 100%; }
+        .select-steps > .container > ol > li > div h3 {
+          color: #bbb;
+          font-size: 12px;
+          line-height: 15px; }
+          .select-steps > .container > ol > li > div h3 small {
+            font-size: 10px;
+            color: #bbb; }
+        .select-steps > .container > ol > li > div .info .price {
+          display: none;
+          font-weight: 400;
+          color: #aaa; }
+        .select-steps > .container > ol > li > div .info .menu {
+          line-height: 15px; }
+          .select-steps > .container > ol > li > div .info .menu > li {
+            display: inline-block;
+            line-height: 15px; }
+            .select-steps > .container > ol > li > div .info .menu > li a {
+              display: inline-block;
+              font-size: 10px;
+              line-height: 15px;
+              color: #aaa; }
+            .select-steps > .container > ol > li > div .info .menu > li + li {
+              position: relative;
+              padding-left: 10px; }
+              .select-steps > .container > ol > li > div .info .menu > li + li:before {
+                position: absolute;
+                left: 2px;
+                line-height: 15px;
+                font-size: 8px;
+                color: #aaa;
+                content: '|'; }
+        .select-steps > .container > ol > li > div .icon {
+          display: none; }
+          .select-steps > .container > ol > li > div .icon:before {
+            display: block;
+            width: 100%;
+            height: 100%;
+            content: ''; }
+    @media (min-width: 768px) {
+      .select-steps > .container > ol {
+        height: 75px; }
+        .select-steps > .container > ol > li {
+          position: relative;
+          height: 73px;
+          counter-increment: step-index;
+          text-align: left; }
+          .select-steps > .container > ol > li:before {
+            position: absolute;
+            left: 10px;
+            top: 25px;
+            font-weight: 900;
+            font-size: 40px;
+            color: #d4d4d4;
+            content: counter(step-index);
+            z-index: 2; }
+          .select-steps > .container > ol > li > div {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 50px; }
+            .select-steps > .container > ol > li > div h3 {
+              font-size: 16px;
+              line-height: 20px; }
+            .select-steps > .container > ol > li > div .icon {
+              display: block;
+              position: absolute;
+              top: 15px;
+              right: 10px;
+              width: 42px;
+              height: 42px;
+              border-radius: 50%;
+              background-color: #fff;
+              box-shadow: inset 1px 3px 8px rgba(0, 0, 0, 0.23); }
+              .select-steps > .container > ol > li > div .icon:before {
+                background-repeat: no-repeat;
+                background-position: 50% 50%; }
+          .select-steps > .container > ol > li:nth-of-type(1) > div .icon:before {
+            background-image: url(/assets/images/product/ico_select_step_1.png);
+            background-size: 24px auto; }
+          .select-steps > .container > ol > li:nth-of-type(2) > div .icon:before {
+            opacity: .5; }
+          .select-steps > .container > ol > li:nth-of-type(3) > div .icon:before {
+            opacity: .5; } }
+    @media (min-width: 1230px) {
+      .select-steps > .container > ol > li > div .icon {
+        top: 10px;
+        right: 30px;
+        width: 54px;
+        height: 54px; }
+      .select-steps > .container > ol > li:nth-of-type(1) > div .icon:before {
+        background-size: 38px auto; } }
+  .select-steps.step-1 > .container > ol > li:nth-of-type(1) {
+    width: 30%;
+    z-index: 1; }
+    .select-steps.step-1 > .container > ol > li:nth-of-type(1):before {
+      color: #fff; }
+    .select-steps.step-1 > .container > ol > li:nth-of-type(1) > div {
+      position: relative;
+      background-color: #080d68;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(1) > div:after {
+        position: absolute;
+        right: -14px;
+        top: 0;
+        width: 15px;
+        height: 53px;
+        background-image: url(/assets/images/product/bg_select_step_head.png);
+        background-size: 100% 100%;
+        content: ''; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(1) > div h3 {
+        color: #fff; }
+        .select-steps.step-1 > .container > ol > li:nth-of-type(1) > div h3 small {
+          color: #fff; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(1) > div .menu {
+        display: none; }
+  .select-steps.step-1 > .container > ol > li:nth-of-type(2) {
+    width: 35%; }
+    .select-steps.step-1 > .container > ol > li:nth-of-type(2) > div {
+      position: relative;
+      padding-left: 10px; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(2) > div .menu {
+        display: none; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(2) > div:after {
+        position: absolute;
+        top: 0;
+        right: -15px;
+        width: 15px;
+        height: 53px;
+        background-image: url(/assets/images/product/bg_select_step.png);
+        background-size: 100% 100%;
+        content: ''; }
+  .select-steps.step-1 > .container > ol > li:nth-of-type(3) {
+    width: 35%; }
+    .select-steps.step-1 > .container > ol > li:nth-of-type(3) > div {
+      padding-left: 10px; }
+  @media (min-width: 768px) {
+    .select-steps.step-1 > .container > ol > li:nth-of-type(1) {
+      width: 32%; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(1) > div {
+        padding-left: 60px; }
+        .select-steps.step-1 > .container > ol > li:nth-of-type(1) > div:after {
+          right: -19px;
+          width: 20px;
+          height: 73px; }
+    .select-steps.step-1 > .container > ol > li:nth-of-type(2) {
+      width: 34%; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(2):before {
+        left: 50px; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(2) > div {
+        padding-left: 90px; }
+        .select-steps.step-1 > .container > ol > li:nth-of-type(2) > div:after {
+          right: -20px;
+          width: 20px;
+          height: 73px; }
+    .select-steps.step-1 > .container > ol > li:nth-of-type(3) {
+      width: 34%; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(3):before {
+        left: 40px; }
+      .select-steps.step-1 > .container > ol > li:nth-of-type(3) > div {
+        padding-left: 80px; }
+        .select-steps.step-1 > .container > ol > li:nth-of-type(3) > div:after {
+          width: 20px;
+          height: 73px; } }
+  @media (min-width: 1230px) {
+    .select-steps.step-1 > .container > ol > li:nth-of-type(2):before {
+      left: 60px; }
+    .select-steps.step-1 > .container > ol > li:nth-of-type(2) > div {
+      padding-left: 100px; } }
+  .select-steps.step-2 > .container > ol > li:nth-of-type(1) {
+    width: 38%; }
+    .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div {
+      padding-right: 10px; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div h3 small, .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div h3 br {
+        display: none; }
+  .select-steps.step-2 > .container > ol > li:nth-of-type(2) {
+    width: 24%;
+    z-index: 1; }
+    .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div {
+      position: relative;
+      background-color: #080d68;
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1); }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div:before {
+        position: absolute;
+        left: -14px;
+        top: 0;
+        width: 15px;
+        height: 53px;
+        background-image: url(/assets/images/product/bg_select_step_tail.png);
+        background-size: 100% 100%;
+        content: ''; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div:after {
+        position: absolute;
+        right: -14px;
+        top: 0;
+        width: 15px;
+        height: 53px;
+        background-image: url(/assets/images/product/bg_select_step_head.png);
+        background-size: 100% 100%;
+        content: ''; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div h3 {
+        color: #fff; }
+        .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div h3 small {
+          color: #fff; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div .menu {
+        display: none; }
+  .select-steps.step-2 > .container > ol > li:nth-of-type(3) {
+    width: 38%; }
+    .select-steps.step-2 > .container > ol > li:nth-of-type(3) > div {
+      padding-left: 10px; }
+  @media (min-width: 768px) {
+    .select-steps.step-2 > .container > ol > li:nth-of-type(1) {
+      width: 35%; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(1):before {
+        left: 20px; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div {
+        padding-left: 60px; }
+        .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div h3 small, .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div h3 br {
+          display: inline; }
+        .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .menu {
+          position: absolute;
+          top: 20px;
+          right: 40px; }
+          .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .menu > li {
+            display: block;
+            padding-left: 0;
+            text-align: right; }
+            .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .menu > li + li:before {
+              content: ''; }
+        .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .icon {
+          display: none; }
+    .select-steps.step-2 > .container > ol > li:nth-of-type(2) {
+      width: 30%; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(2):before {
+        color: #fff; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div {
+        padding-left: 60px; }
+        .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div:before {
+          height: 73px; }
+        .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div:after {
+          height: 73px; }
+        .select-steps.step-2 > .container > ol > li:nth-of-type(2) > div .icon:before {
+          opacity: 1; }
+    .select-steps.step-2 > .container > ol > li:nth-of-type(3) {
+      width: 35%; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(3):before {
+        left: 40px; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(3) > div {
+        padding-left: 80px; } }
+  @media (min-width: 1230px) {
+    .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .price {
+      display: block;
+      position: absolute;
+      top: 18px;
+      right: 40px; }
+    .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .menu {
+      top: 38px; }
+      .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .menu > li {
+        display: inline-block; }
+        .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .menu > li + li {
+          position: relative;
+          padding-left: 10px; }
+          .select-steps.step-2 > .container > ol > li:nth-of-type(1) > div .menu > li + li:before {
+            position: absolute;
+            left: 2px;
+            line-height: 15px;
+            font-size: 8px;
+            color: #aaa;
+            content: '|'; }
+    .select-steps.step-2 > .container > ol > li:nth-of-type(3):before {
+      left: 50px; }
+    .select-steps.step-2 > .container > ol > li:nth-of-type(3) > div {
+      padding-left: 90px; } }
+  @media (min-width: 768px) {
+    .select-steps.select-ring > .container > ol > li:nth-of-type(2) > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_ring_step_2.png);
+      background-size: 19px auto; }
+    .select-steps.select-ring > .container > ol > li:nth-of-type(3) > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_ring_step_3.png);
+      background-size: 18px auto; } }
+  @media (min-width: 1230px) {
+    .select-steps.select-ring > .container > ol > li:nth-of-type(2) > div .icon:before {
+      background-size: 29px auto; }
+    .select-steps.select-ring > .container > ol > li:nth-of-type(3) > div .icon:before {
+      background-size: 28px auto; } }
+  @media (min-width: 768px) {
+    .select-steps.select-earring > .container > ol > li:nth-of-type(2) > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_earring_step_2.png);
+      background-size: 26px auto; }
+    .select-steps.select-earring > .container > ol > li:nth-of-type(3) > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_earring_step_3.png);
+      background-size: 26px auto; } }
+  @media (min-width: 1230px) {
+    .select-steps.select-earring > .container > ol > li:nth-of-type(2) > div .icon:before {
+      background-size: 36px auto; }
+    .select-steps.select-earring > .container > ol > li:nth-of-type(3) > div .icon:before {
+      background-size: 36px auto; } }
+  @media (min-width: 768px) {
+    .select-steps.select-necklace > .container > ol > li:nth-of-type(2) > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_necklace_step_2.png);
+      background-size: 18px auto; }
+    .select-steps.select-necklace > .container > ol > li:nth-of-type(3) > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_necklace_step_3.png);
+      background-size: 18px auto; } }
+  @media (min-width: 1230px) {
+    .select-steps.select-necklace > .container > ol > li:nth-of-type(2) > div .icon:before {
+      background-size: 24px auto; }
+    .select-steps.select-necklace > .container > ol > li:nth-of-type(3) > div .icon:before {
+      background-size: 24px auto; } }
 
 .page-header {
   margin-top: 0;

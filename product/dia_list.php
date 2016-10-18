@@ -7,39 +7,51 @@
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
-        <section class="make-steps">
+
+        <!-- 스텝
+            클래스 명 구분
+            - 스텝#1: step-1, 스텝#2: step-2
+            - 링선택: select-ring, 목걸이선택: select-necklace, 귀걸이선택: select-earring
+        -->
+        <section class="select-steps step-2 select-ring">
             <div class="container">
-                <div class="row">
-                    <header class="col-xs-12 col-lg-4">
-                        <h2>당신의 반지를 <br class="visible-lg">만들어 보세요</h2>
-                        <p>
-                            다이아몬드와 반지를 선택하여 쉽고 편리하게<br>
-                            나만의 다이아몬드 반지를 만들어 보세요.
-                        </p>
-                    </header>
-                    <div class="steps col-xs-12 col-lg-8">
-                        <ol>
-                            <li class="dia active">
-                                <span>01</span>
-                                <p>다이아몬드<br class="visible-xs"> 선택하기</p>
-                                <a href="#">다이아몬드 선택 바로가기</a>
-                            </li>
-                            <li class="arrow" role="presentation"></li>
-                            <li class="jewelry">
-                                <span>02</span>
-                                <p>디자인<br class="visible-xs"> 선택하기</p>
-                                <a href="#">디자인 선택 바로가기</a>
-                            </li>
-                            <li class="arrow" role="presentation"></li>
-                            <li class="ring">
-                                <span>03</span>
-                                <p>나만의 반지<br class="visible-xs"> 완성</p>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
+                <ol>
+                    <li>
+                        <div>
+                            <h3><small>SELECT YOUR</small><br>DIAMOND</h3>
+                            <div class="info">
+                                <span class="price">529,000<span>원</span></span>
+                                <ul class="menu">
+                                    <li><a href="#">VIEW</a></li>
+                                    <li><a href="#">CHANGE</a></li>
+                                </ul>
+                            </div>
+                            <div class="icon"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3><small>SELECT YOUR</small><br>SETTING</h3>
+                            <div class="info">
+                                <span class="price">529,000<span>원</span></span>
+                                <ul class="menu">
+                                    <li><a href="#">VIEW</a></li>
+                                    <li><a href="#">CHANGE</a></li>
+                                </ul>
+                            </div>
+                            <div class="icon"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3><small>COMPLETE</small><br>YOUR RING</h3>
+                            <div class="icon"></div>
+                        </div>
+                    </li>
+                </ol>
             </div>
         </section>
+
         <div class="container">
 
             <!-- 페이지 네비게이션 -->

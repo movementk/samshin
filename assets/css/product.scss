@@ -16,6 +16,638 @@
     }
 }
 
+// 선택
+.select-steps {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @media (min-width: $sm) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    @media (min-width: $lg) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    > .container {
+        > ol {
+            height: 55px;
+            border: 1px solid #e1e1e1;
+            background-color: #f8f8f8;
+            > li {
+                float: left;
+                width: 33.33%;
+                height: 53px;
+                text-align: center;
+                &:before {
+                    @extend .lato;
+                }
+                > div {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    width: 100%;
+                    height: 100%;
+                    h3 {
+                        @extend .crimson;
+                        color: #bbb;
+                        font-size: 12px;
+                        line-height: 15px;
+                        small {
+                            font-size: 10px;
+                            @extend .lato;
+                            color: #bbb;
+                        }
+                    }
+                    .info {
+                        .price {
+                            display: none;
+                            @extend .lato;
+                            font-weight: 400;
+                            color: #aaa;
+                            span {
+                                @extend .noto;
+                            }
+                        }
+                        .menu {
+                            line-height: 15px;
+                            > li {
+                                display: inline-block;
+                                line-height: 15px;
+                                a {
+                                    display: inline-block;
+                                    font-size: 10px;
+                                    line-height: 15px;
+                                    @extend .lato;
+                                    color: #aaa;
+                                }
+                                & + li {
+                                    position: relative;
+                                    padding-left: 10px;
+                                    &:before {
+                                        position: absolute;
+                                        left: 2px;
+                                        line-height: 15px;
+                                        font-size: 8px;
+                                        color: #aaa;
+                                        content: '|';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .icon {
+                        display: none;
+                        &:before {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            content: '';
+                        }
+                    }
+                }
+            }
+            @media (min-width: $sm) {
+                height: 75px;
+                > li {
+                    position: relative;
+                    height: 73px;
+                    counter-increment: step-index;
+                    text-align: left;
+                    &:before {
+                        position: absolute;
+                        left: 10px;
+                        top: 25px;
+                        font-weight: 900;
+                        font-size: 40px;
+                        color: #d4d4d4;
+                        content: counter(step-index);
+                        z-index: 2;
+                    }
+                    > div {
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        padding-left: 50px;
+                        h3 {
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+                        .icon {
+                            display: block;
+                            position: absolute;
+                            top: 15px;
+                            right: 10px;
+                            width: 42px;
+                            height: 42px;
+                            border-radius: 50%;
+                            background-color: #fff;
+                            box-shadow: inset 1px 3px 8px rgba(0, 0, 0, .23);
+                            &:before {
+                                background-repeat: no-repeat;
+                                background-position: 50% 50%;
+                            }
+                        }
+                    }
+                    &:nth-of-type(1) {
+                        > div {
+                            .icon {
+                                &:before {
+                                    background-image: url(/assets/images/product/ico_select_step_1.png);
+                                    background-size: 24px auto;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        > div {
+                            .icon {
+                                &:before {
+                                    opacity: .5;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        > div {
+                            .icon {
+                                &:before {
+                                    opacity: .5;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media (min-width: $lg) {
+                > li {
+                    > div {
+                        .icon {
+                            top: 10px;
+                            right: 30px;
+                            width: 54px;
+                            height: 54px;
+                        }
+                    }
+                    &:nth-of-type(1) {
+                        > div {
+                            .icon {
+                                &:before {
+                                    background-size: 38px auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step-1 {
+        > .container {
+            > ol {
+                > li {
+                    &:nth-of-type(1) {
+                        width: 30%;
+                        z-index: 1;
+                        &:before {
+                            color: #fff;
+                        }
+                        > div {
+                            position: relative;
+                            background-color: $kc;
+                            -webkit-transform: scale(1.1);
+                            transform: scale(1.1);
+                            &:after {
+                                position: absolute;
+                                right: -14px;
+                                top: 0;
+                                width: 15px;
+                                height: 53px;
+                                background-image: url(/assets/images/product/bg_select_step_head.png);
+                                background-size: 100% 100%;
+                                content: '';
+                            }
+                            h3 {
+                                color: #fff;
+                                small {
+                                    color: #fff;
+                                }
+                            }
+                            .menu {
+                                display: none;
+                            }
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        width: 35%;
+                        > div {
+                            position: relative;
+                            padding-left: 10px;
+                            .menu {
+                                display: none;
+                            }
+                            &:after {
+                                position: absolute;
+                                top: 0;
+                                right: -15px;
+                                width: 15px;
+                                height: 53px;
+                                background-image: url(/assets/images/product/bg_select_step.png);
+                                background-size: 100% 100%;
+                                content: '';
+                            }
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        width: 35%;
+                        > div {
+                            padding-left: 10px;
+                        }
+                    }
+                }
+                @media (min-width: $sm) {
+                    > li {
+                        &:nth-of-type(1) {
+                            width: 32%;
+                            > div {
+                                padding-left: 60px;
+                                &:after {
+                                    right: -19px;
+                                    width: 20px;
+                                    height: 73px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            width: 34%;
+                            &:before {
+                                left: 50px;
+                            }
+                            > div {
+                                padding-left: 90px;
+                                &:after {
+                                    right: -20px;
+                                    width: 20px;
+                                    height: 73px;
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            width: 34%;
+                            &:before {
+                                left: 40px;
+                            }
+                            > div {
+                                padding-left: 80px;
+                                &:after {
+                                    width: 20px;
+                                    height: 73px;
+                                }
+                            }
+                        }
+                    }
+                }
+                @media (min-width: $lg) {
+                    > li {
+                        &:nth-of-type(2) {
+                            &:before {
+                                left: 60px;
+                            }
+                            > div {
+                                padding-left: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.step-2 {
+        > .container {
+            > ol {
+                > li {
+                    &:nth-of-type(1) {
+                        width: 38%;
+                        > div {
+                            padding-right: 10px;
+                            h3 {
+                                small, br {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        width: 24%;
+                        z-index: 1;
+                        > div {
+                            position: relative;
+                            background-color: $kc;
+                            -webkit-transform: scale(1.1);
+                            transform: scale(1.1);
+                            &:before {
+                                position: absolute;
+                                left: -14px;
+                                top: 0;
+                                width: 15px;
+                                height: 53px;
+                                background-image: url(/assets/images/product/bg_select_step_tail.png);
+                                background-size: 100% 100%;
+                                content: '';
+                            }
+                            &:after {
+                                position: absolute;
+                                right: -14px;
+                                top: 0;
+                                width: 15px;
+                                height: 53px;
+                                background-image: url(/assets/images/product/bg_select_step_head.png);
+                                background-size: 100% 100%;
+                                content: '';
+                            }
+                            h3 {
+                                color: #fff;
+                                small {
+                                    color: #fff;
+                                }
+                            }
+                            .menu {
+                                display: none;
+                            }
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        width: 38%;
+                        > div {
+                            padding-left: 10px;
+                        }
+                    }
+                }
+                @media (min-width: $sm) {
+                    > li {
+                        &:nth-of-type(1) {
+                            width: 35%;
+                            &:before {
+                                left: 20px;
+                            }
+                            > div {
+                                padding-left: 60px;
+                                h3 {
+                                    small, br {
+                                        display: inline;
+                                    }
+                                }
+                                .menu {
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 40px;
+                                    > li {
+                                        display: block;
+                                        padding-left: 0;
+                                        text-align: right;
+                                        & + li {
+                                            &:before {
+                                                content: '';
+                                            }
+                                        }
+                                    }
+                                }
+                                .icon {
+                                    display: none;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            width: 30%;
+                            &:before {
+                                color: #fff;
+                            }
+                            > div {
+                                padding-left: 60px;
+                                &:before {
+                                    height: 73px;
+                                }
+                                &:after {
+                                    height: 73px;
+                                }
+                                .icon {
+                                    &:before {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            width: 35%;
+                            &:before {
+                                left: 40px;
+                            }
+                            > div {
+                                padding-left: 80px;
+                            }
+                        }
+                    }
+                }
+                @media (min-width: $lg) {
+                    > li {
+                        &:nth-of-type(1) {
+                            > div {
+                                .price {
+                                    display: block;
+                                    position: absolute;
+                                    top: 18px;
+                                    right: 40px;
+                                }
+                                .menu {
+                                    top: 38px;
+                                    > li {
+                                        display: inline-block;
+                                        & + li {
+                                            position: relative;
+                                            padding-left: 10px;
+                                            &:before {
+                                                position: absolute;
+                                                left: 2px;
+                                                line-height: 15px;
+                                                font-size: 8px;
+                                                color: #aaa;
+                                                content: '|';
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(2) {
+                        }
+                        &:nth-of-type(3) {
+                            &:before {
+                                left: 50px;
+                            }
+                            > div {
+                                padding-left: 90px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.select-ring {
+        > .container {
+            > ol {
+                @media (min-width: $sm) {
+                    > li {
+                        &:nth-of-type(2) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-image: url(/assets/images/product/ico_select_ring_step_2.png);
+                                        background-size: 19px auto;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-image: url(/assets/images/product/ico_select_ring_step_3.png);
+                                        background-size: 18px auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media (min-width: $lg) {
+                    > li {
+                        &:nth-of-type(2) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-size: 29px auto;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-size: 28px auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.select-earring {
+        > .container {
+            > ol {
+                @media (min-width: $sm) {
+                    > li {
+                        &:nth-of-type(2) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-image: url(/assets/images/product/ico_select_earring_step_2.png);
+                                        background-size: 26px auto;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-image: url(/assets/images/product/ico_select_earring_step_3.png);
+                                        background-size: 26px auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media (min-width: $lg) {
+                    > li {
+                        &:nth-of-type(2) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-size: 36px auto;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-size: 36px auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.select-necklace {
+        > .container {
+            > ol {
+                @media (min-width: $sm) {
+                    > li {
+                        &:nth-of-type(2) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-image: url(/assets/images/product/ico_select_necklace_step_2.png);
+                                        background-size: 18px auto;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-image: url(/assets/images/product/ico_select_necklace_step_3.png);
+                                        background-size: 18px auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media (min-width: $lg) {
+                    > li {
+                        &:nth-of-type(2) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-size: 24px auto;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(3) {
+                            > div {
+                                .icon {
+                                    &:before {
+                                        background-size: 24px auto;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 // 페이지 타이틀
 .page-header {
     margin-top: 0;

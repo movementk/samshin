@@ -362,9 +362,24 @@ select.form-control {
                                 display: inline-block;
                                 width: 100%;
                                 color: $kc;
-                                font-size: 13px;
-                                line-height: 28px;
-                                font-weight: normal;
+                                span {
+                                    font-size: 13px;
+                                    line-height: 28px;
+                                    font-weight: normal;
+                                }
+                                .ko {
+                                    display: none;
+                                    @extend .noto;
+                                }
+                                &:hover, &:focus {
+                                    .en {
+                                        display: none;
+                                    }
+                                    .ko {
+                                        display: inline-block;
+                                        text-decoration: underline;
+                                    }
+                                }
                             }
                         }
                         & + ul {
@@ -373,9 +388,11 @@ select.form-control {
                             border-top: 1px solid #dfdfdf;
                             > li {
                                 > a {
-                                    font-size: 12px;
-                                    line-height: 26px;
-                                    white-space: nowrap;
+                                    span {
+                                        font-size: 12px;
+                                        line-height: 26px;
+                                        white-space: nowrap;
+                                    }
                                 }
                                 &.flag {
                                     > a {
