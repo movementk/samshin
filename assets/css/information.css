@@ -1,15 +1,15 @@
-.lato, .information.shape .type .chart h6 span, .information.shape .type .chart .table th span {
+.lato, .information.shape .type .chart h6 span, .information.shape .type .chart .table th span, .information.stone.bstone .bstone-content .bstone-head small, .information.stone.bstone .bstone-content .bstone-body .month i, .information.stone.bstone .bstone-view figure figcaption small, .information.stone.bstone .bstone-view .details h5 i {
   font-family: 'Lato', sans-serif; }
 
 .jjmj, .page-header h2, .information.dia.carat .relationship .section-title, .information.dia.cut .reflection .section-title,
 .information.dia.cut .hna .section-title,
-.information.dia.cut .addtional .section-title, .information.dia.cut .ratio .section-head .section-title, .information.fancy.grade .explain .section-head .section-title, .information.fancy.feature .explain .section-head .section-title, .information.lab.ags .grade h4, .information.ring.size .section-head .section-title {
+.information.dia.cut .addtional .section-title, .information.dia.cut .ratio .section-head .section-title, .information.fancy.grade .explain .section-head .section-title, .information.fancy.feature .explain .section-head .section-title, .information.lab.gia .feature .item .details h4, .information.lab.gia .feature .item .details p, .information.lab.ags .grade h4, .information.ring.size .section-head .section-title, .information.stone.pearl .section-content .section-head h3 {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .page-header h2 small, .section-content .section-head .section-title small, .information.dia.cut .addtional .details h4 small, .information.ring.setting .method h4 small, .information.shape .type .details h5 i {
+.noto, .page-header h2 small, .section-content .section-head .section-title small, .information.dia.cut .addtional .details h4 small, .information.lab.gia .feature .item:nth-of-type(1) a, .information.ring.setting .method h4 small, .information.shape .type .details h5 i {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .section-content .section-head .section-title, .information.dia.cut .addtional .details h4, .information.fancy.feature .type .details h5, .information.ring.setting .method h4, .information.shape .type .details h5 {
+.crimson, .section-content .section-head .section-title, .information.dia.cut .addtional .details h4, .information.fancy.feature .type .details h5, .information.lab.gia .report .right .figure h4, .information.ring.setting .method h4, .information.shape .type .details h5, .information.stone.bstone .bstone-content .bstone-head h4, .information.stone.bstone .bstone-view figure figcaption h4 {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -628,6 +628,171 @@
   .information.lab .details p + p {
     margin-top: 25px; } }
 
+.information.lab.gia .figure {
+  margin-bottom: 0; }
+  .information.lab.gia .figure p {
+    padding: 0;
+    box-shadow: none; }
+    .information.lab.gia .figure p img {
+      border: 0; }
+.information.lab.gia .report {
+  padding-top: 20px; }
+  .information.lab.gia .report .left .figure {
+    float: right;
+    width: 320px; }
+  .information.lab.gia .report .left .details {
+    float: right;
+    margin-top: 30px;
+    padding: 40px 20px;
+    border: 9px solid #f7f7f7; }
+    .information.lab.gia .report .left .details p {
+      font-size: 13px;
+      line-height: 22px; }
+      .information.lab.gia .report .left .details p i {
+        font-style: normal;
+        color: #080d68; }
+  .information.lab.gia .report .right {
+    margin-top: 170px; }
+    .information.lab.gia .report .right .figure {
+      float: left;
+      width: 350px; }
+      .information.lab.gia .report .right .figure h4 {
+        margin-bottom: 30px;
+        padding-left: 10px;
+        color: #080d68;
+        border-left: 6px solid #080d68;
+        font-size: 25px;
+        line-height: 36px; }
+    .information.lab.gia .report .right .details {
+      float: left;
+      margin-top: 30px;
+      padding: 40px 30px;
+      background-color: #f6f6f6; }
+      .information.lab.gia .report .right .details p {
+        font-size: 13px;
+        line-height: 22px; }
+        .information.lab.gia .report .right .details p i {
+          font-style: normal;
+          color: #080d68; }
+  @media (max-width: 1229px) {
+    .information.lab.gia .report {
+      padding-top: 0; }
+      .information.lab.gia .report .left .details {
+        margin-top: 20px;
+        margin-left: 0;
+        padding: 30px 10px; }
+        .information.lab.gia .report .left .details p {
+          font-size: 13px; }
+      .information.lab.gia .report .right {
+        margin-top: 45px; }
+        .information.lab.gia .report .right .figure h4 {
+          margin-bottom: 20px;
+          font-size: 22px;
+          line-height: 30px; }
+        .information.lab.gia .report .right .details {
+          margin-right: 0;
+          margin-top: 20px;
+          padding: 30px 20px; }
+          .information.lab.gia .report .right .details p {
+            font-size: 13px; } }
+  @media (max-width: 767px) {
+    .information.lab.gia .report .left .figure {
+      float: none; }
+    .information.lab.gia .report .left .details {
+      float: none;
+      margin-top: 20px;
+      margin-left: 0;
+      padding: 20px; }
+      .information.lab.gia .report .left .details p {
+        font-size: 12px; }
+    .information.lab.gia .report .right {
+      margin-top: 20px; }
+      .information.lab.gia .report .right .figure {
+        float: none; }
+        .information.lab.gia .report .right .figure h4 {
+          font-size: 18px;
+          line-height: 24px; }
+      .information.lab.gia .report .right .details {
+        float: none;
+        margin-right: 0;
+        margin-top: 20px;
+        padding: 20px; }
+        .information.lab.gia .report .right .details p {
+          font-size: 12px; } }
+.information.lab.gia .feature {
+  margin-top: 40px; }
+  .information.lab.gia .feature .item {
+    height: 365px;
+    border: 1px solid #ededed; }
+    .information.lab.gia .feature .item .details {
+      padding-top: 30px;
+      text-align: center; }
+      .information.lab.gia .feature .item .details h4 {
+        color: #080d68;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 26px; }
+      .information.lab.gia .feature .item .details p {
+        font-size: 15px;
+        line-height: 26px;
+        color: #222; }
+    .information.lab.gia .feature .item:nth-of-type(1) a {
+      font-size: 15px;
+      line-height: 22px;
+      color: #080d68;
+      text-decoration: underline;
+      font-weight: normal; }
+    .information.lab.gia .feature .item:nth-of-type(1) ol {
+      margin-top: 10px;
+      text-align: center; }
+      .information.lab.gia .feature .item:nth-of-type(1) ol li {
+        display: inline-block;
+        color: #333;
+        font-size: 13px;
+        line-height: 22px; }
+        .information.lab.gia .feature .item:nth-of-type(1) ol li span {
+          display: inline-block;
+          font-size: 10px;
+          width: 16px;
+          height: 16px;
+          line-height: 16px;
+          text-align: center;
+          background-color: #080d68;
+          color: #fff;
+          border-radius: 50%; }
+        .information.lab.gia .feature .item:nth-of-type(1) ol li + li {
+          margin-left: 10px; }
+  @media (max-width: 1229px) {
+    .information.lab.gia .feature .item {
+      height: 390px; }
+      .information.lab.gia .feature .item .details {
+        padding-left: 10px;
+        padding-right: 10px; }
+        .information.lab.gia .feature .item .details h4 {
+          margin-bottom: 10px; } }
+  @media (max-width: 767px) {
+    .information.lab.gia .feature .item {
+      height: auto;
+      margin-bottom: 20px; }
+      .information.lab.gia .feature .item .figure {
+        width: auto; }
+        .information.lab.gia .feature .item .figure .img-responsive {
+          width: 100%; }
+      .information.lab.gia .feature .item .details {
+        padding: 20px 10px; }
+        .information.lab.gia .feature .item .details h4 {
+          margin-bottom: 10px;
+          font-size: 16px;
+          line-height: 24px; }
+        .information.lab.gia .feature .item .details p {
+          font-size: 14px;
+          line-height: 22px; }
+      .information.lab.gia .feature .item:nth-of-type(1) a {
+        font-size: 14px;
+        line-height: 22px; }
+      .information.lab.gia .feature .item:nth-of-type(1) ol li {
+        font-size: 12px; } }
+
 .information.lab.igi .figure {
   width: 184px; }
   @media (min-width: 768px) {
@@ -959,5 +1124,441 @@
       .information.shape .type .chart .table td {
         text-align: left;
         vertical-align: middle; } }
+
+.information.stone.bstone .bstone-list ul {
+  margin-left: -5px;
+  margin-right: -5px; }
+  .information.stone.bstone .bstone-list ul li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px; }
+    .information.stone.bstone .bstone-list ul li:nth-of-type(odd) {
+      clear: both; }
+    .information.stone.bstone .bstone-list ul li a {
+      text-decoration: none; }
+      .information.stone.bstone .bstone-list ul li a:hover .bstone-content, .information.stone.bstone .bstone-list ul li a:focus .bstone-content {
+        border-color: #080d68; }
+.information.stone.bstone .bstone-content {
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 200px;
+  border: 1px solid #dfdfdf;
+  text-align: center; }
+  .information.stone.bstone .bstone-content .bstone-head {
+    position: relative;
+    padding-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfdfdf; }
+    .information.stone.bstone .bstone-content .bstone-head .figure .img-responsive {
+      margin: 0 auto; }
+    .information.stone.bstone .bstone-content .bstone-head h4 {
+      font-size: 14px;
+      color: #080d68;
+      text-decoration: underline; }
+    .information.stone.bstone .bstone-content .bstone-head small {
+      font-size: 12px;
+      color: #222; }
+  .information.stone.bstone .bstone-content .bstone-body {
+    padding-top: 10px;
+    padding-bottom: 20px; }
+    .information.stone.bstone .bstone-content .bstone-body .month {
+      font-size: 13px;
+      color: #666; }
+      .information.stone.bstone .bstone-content .bstone-body .month i {
+        font-size: 12px; }
+    .information.stone.bstone .bstone-content .bstone-body .means {
+      margin-top: 5px;
+      font-size: 13px;
+      color: #222; }
+@media (min-width: 768px) {
+  .information.stone.bstone .bstone-list ul li:nth-of-type(odd) {
+    clear: none; }
+  .information.stone.bstone .bstone-list ul li:nth-of-type(4n+1) {
+    clear: both; }
+  .information.stone.bstone .bstone-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 240px; }
+    .information.stone.bstone .bstone-content .bstone-head {
+      padding-top: 25px;
+      padding-bottom: 15px; }
+      .information.stone.bstone .bstone-content .bstone-head h4 {
+        font-size: 16px; }
+    .information.stone.bstone .bstone-content .bstone-body {
+      padding-top: 15px;
+      padding-bottom: 25px; }
+      .information.stone.bstone .bstone-content .bstone-body .month {
+        font-size: 14px; }
+      .information.stone.bstone .bstone-content .bstone-body .means {
+        font-size: 14px; } }
+@media (min-width: 1230px) {
+  .information.stone.bstone .bstone-list ul {
+    margin-left: -15px;
+    margin-right: -15px; }
+    .information.stone.bstone .bstone-list ul li {
+      margin-bottom: 30px;
+      padding-left: 15px;
+      padding-right: 15px; }
+  .information.stone.bstone .bstone-content {
+    padding-left: 25px;
+    padding-right: 25px;
+    min-height: 270px; }
+    .information.stone.bstone .bstone-content .bstone-head h4 {
+      font-size: 18px; } }
+.information.stone.bstone .tabs {
+  margin-top: 40px;
+  margin-bottom: 60px; }
+  .information.stone.bstone .tabs ul {
+    margin-top: -5px; }
+    .information.stone.bstone .tabs ul li {
+      padding: 5px;
+      width: 33.33%; }
+      .information.stone.bstone .tabs ul li a, .information.stone.bstone .tabs ul li span {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 35px;
+        line-height: 33px; }
+  @media (min-width: 768px) {
+    .information.stone.bstone .tabs ul {
+      margin-left: -5px;
+      margin-right: -5px; }
+      .information.stone.bstone .tabs ul li {
+        width: 16.6667%; }
+        .information.stone.bstone .tabs ul li a, .information.stone.bstone .tabs ul li span {
+          height: 40px;
+          line-height: 38px; } }
+  @media (min-width: 1230px) {
+    .information.stone.bstone .tabs {
+      margin-top: 60px;
+      margin-bottom: 90px;
+      padding-left: 0;
+      padding-right: 0; }
+      .information.stone.bstone .tabs ul {
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-left: -15px;
+        margin-right: -15px; }
+        .information.stone.bstone .tabs ul li {
+          padding: 10px 15px; } }
+.information.stone.bstone .bstone-view {
+  padding: 20px;
+  background-color: #f7f7f7; }
+  .information.stone.bstone .bstone-view + .bstone-view {
+    margin-top: 10px; }
+  .information.stone.bstone .bstone-view figure p img {
+    margin: 0 auto;
+    border: 1px solid #dfdfdf; }
+  .information.stone.bstone .bstone-view figure figcaption {
+    text-align: center; }
+    .information.stone.bstone .bstone-view figure figcaption h4 {
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-size: 20px;
+      color: #080d68;
+      text-decoration: underline; }
+    .information.stone.bstone .bstone-view figure figcaption small {
+      font-size: 12px;
+      color: #222;
+      font-weight: normal; }
+  .information.stone.bstone .bstone-view .details {
+    margin-top: 20px; }
+    .information.stone.bstone .bstone-view .details:after {
+      display: table;
+      content: '';
+      clear: both; }
+    .information.stone.bstone .bstone-view .details h5 {
+      margin-bottom: 20px;
+      padding-left: 5px;
+      border-left: 3px solid #080d68;
+      color: #080d68;
+      font-size: 18px;
+      font-weight: normal; }
+      .information.stone.bstone .bstone-view .details h5 i {
+        color: #666; }
+      .information.stone.bstone .bstone-view .details h5 small {
+        color: #222;
+        font-size: 14px; }
+    .information.stone.bstone .bstone-view .details p i {
+      color: #080d68;
+      font-style: normal;
+      font-weight: normal; }
+    .information.stone.bstone .bstone-view .details p br {
+      display: none; }
+  .information.stone.bstone .bstone-view .knowhow {
+    margin-top: 20px; }
+    .information.stone.bstone .bstone-view .knowhow h6 {
+      font-size: 13px;
+      color: #080d68;
+      line-height: 22px; }
+      .information.stone.bstone .bstone-view .knowhow h6:before {
+        margin-right: 5px;
+        font-family: 'fontello';
+        content: '\e805'; }
+@media (min-width: 768px) {
+  .information.stone.bstone .bstone-view {
+    padding: 30px; }
+    .information.stone.bstone .bstone-view figure {
+      float: left; }
+    .information.stone.bstone .bstone-view .details {
+      margin-top: 5px;
+      margin-left: 200px; }
+    .information.stone.bstone .bstone-view .knowhow {
+      margin-left: 200px; } }
+@media (min-width: 992px) {
+  .information.stone.bstone .bstone-view .details p br {
+    display: inline; } }
+@media (min-width: 1230px) {
+  .information.stone.bstone .bstone-view {
+    padding: 30px; } }
+
+.information.stone.pearl .page-header {
+  margin-bottom: 0;
+  border-bottom: 0; }
+.information.stone.pearl .overview {
+  padding: 20px;
+  border: 1px solid #dfdfdf;
+  background-color: #f9f9f9;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-size: auto 100%; }
+  .information.stone.pearl .overview p i {
+    font-style: normal;
+    color: #080d68;
+    font-weight: normal; }
+  .information.stone.pearl .overview p + p {
+    margin-top: 20px; }
+  @media (min-width: 768px) {
+    .information.stone.pearl .overview {
+      padding: 40px 30px;
+      background-image: url(/assets/images/information/bg_pearl_overview.jpg); } }
+.information.stone.pearl .section-content {
+  margin-top: 70px; }
+  .information.stone.pearl .section-content .section-head {
+    margin-bottom: 30px;
+    padding-left: 0;
+    border-left: 0; }
+    .information.stone.pearl .section-content .section-head h3 {
+      padding-left: 10px;
+      font-size: 20px;
+      color: #080d68;
+      border-left: 3px solid #080d68; }
+  .information.stone.pearl .section-content p {
+    font-size: 12px;
+    line-height: 22px; }
+    .information.stone.pearl .section-content p + p {
+      margin-top: 20px; }
+  @media (min-width: 768px) {
+    .information.stone.pearl .section-content .section-head h3 {
+      padding-left: 15px;
+      font-size: 25px; }
+    .information.stone.pearl .section-content p {
+      font-size: 13px; } }
+.information.stone.pearl .natural .explain .figure .img-responsive {
+  margin: 0 auto 20px; }
+.information.stone.pearl .natural .kind {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f7f7f7; }
+  .information.stone.pearl .natural .kind > div {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .information.stone.pearl .natural .kind > div + div {
+      border-top: 1px solid #dfdfdf; }
+  .information.stone.pearl .natural .kind h5 {
+    margin-bottom: 15px;
+    font-size: 14px; }
+    .information.stone.pearl .natural .kind h5:before {
+      margin-right: 5px;
+      content: '\2022';
+      color: #080d68; }
+  .information.stone.pearl .natural .kind .kind-item + .kind-item {
+    margin-top: 20px; }
+  .information.stone.pearl .natural .kind .kind-item h6 {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #080d68; }
+    .information.stone.pearl .natural .kind .kind-item h6 span {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #080d68;
+      color: #fff;
+      font-size: 10px;
+      line-height: 16px;
+      text-align: center;
+      vertical-align: middle; }
+    .information.stone.pearl .natural .kind .kind-item h6 ~ p {
+      margin-left: 20px; }
+  .information.stone.pearl .natural .kind .kind-item .figure {
+    margin-bottom: 10px; }
+    .information.stone.pearl .natural .kind .kind-item .figure .img-responsive {
+      margin: 0 auto;
+      border: 1px solid #dfdfdf; }
+@media (min-width: 768px) {
+  .information.stone.pearl .natural .kind {
+    padding: 10px 30px; }
+    .information.stone.pearl .natural .kind .kind-item h6 {
+      font-size: 13px; }
+    .information.stone.pearl .natural .kind .kind-item .figure {
+      margin-bottom: 0; }
+      .information.stone.pearl .natural .kind .kind-item .figure .img-responsive {
+        margin: inherit; } }
+@media (min-width: 1230px) {
+  .information.stone.pearl .natural .kind {
+    margin-top: 80px; } }
+.information.stone.pearl .imitation .explain .figure {
+  margin-bottom: 10px; }
+  .information.stone.pearl .imitation .explain .figure .img-responsive {
+    margin: 0 auto;
+    border: 1px solid #dfdfdf; }
+.information.stone.pearl .imitation .manager {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #dfdfdf; }
+  .information.stone.pearl .imitation .manager h5 {
+    margin-bottom: 5px;
+    color: #080d68;
+    font-size: 12px; }
+    .information.stone.pearl .imitation .manager h5:before {
+      margin-right: 5px;
+      font-family: 'fontello';
+      content: '\E805'; }
+    .information.stone.pearl .imitation .manager h5 ~ p {
+      margin-left: 15px; }
+@media (min-width: 768px) {
+  .information.stone.pearl .imitation .explain .figure .img-responsive {
+    margin: inherit; }
+  .information.stone.pearl .imitation .manager h5 {
+    font-size: 13px; } }
+.information.stone.pearl .values .table {
+  border-top: 2px solid #080d68; }
+  .information.stone.pearl .values .table th {
+    width: 100px; }
+  .information.stone.pearl .values .table td {
+    text-align: left; }
+    .information.stone.pearl .values .table td p {
+      color: #222; }
+    .information.stone.pearl .values .table td i {
+      font-style: normal;
+      color: #666;
+      font-size: .9em; }
+
+.information.artist .page-header {
+  margin-bottom: 20px; }
+.information.artist .tabs {
+  margin-top: 40px;
+  margin-bottom: 60px; }
+  .information.artist .tabs ul {
+    margin-top: -5px; }
+    .information.artist .tabs ul li {
+      padding: 5px;
+      width: 50%; }
+      .information.artist .tabs ul li a, .information.artist .tabs ul li span {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 35px;
+        line-height: 33px; }
+  @media (min-width: 768px) {
+    .information.artist .tabs ul {
+      margin-left: -5px;
+      margin-right: -5px; }
+      .information.artist .tabs ul li a, .information.artist .tabs ul li span {
+        height: 40px;
+        line-height: 38px; } }
+  @media (min-width: 1230px) {
+    .information.artist .tabs {
+      margin-top: 100px;
+      margin-bottom: 110px;
+      padding-left: 0;
+      padding-right: 0; }
+      .information.artist .tabs ul {
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-left: -15px;
+        margin-right: -15px; }
+        .information.artist .tabs ul li {
+          padding: 10px 15px; } }
+.information.artist .section-content {
+  position: relative; }
+  .information.artist .section-content + .section-content {
+    margin-top: 60px; }
+  .information.artist .section-content .btn-direct {
+    margin-bottom: 20px; }
+  .information.artist .section-content .section-body {
+    padding: 20px;
+    border: 1px solid #dfdfdf; }
+    .information.artist .section-content .section-body > div {
+      padding-top: 25px;
+      padding-bottom: 20px;
+      font-size: 12px;
+      lien-height: 20px; }
+      .information.artist .section-content .section-body > div:first-child {
+        padding-top: 0; }
+      .information.artist .section-content .section-body > div:last-child {
+        padding-bottom: 0; }
+      .information.artist .section-content .section-body > div + div {
+        border-top: 1px solid #dfdfdf; }
+      .information.artist .section-content .section-body > div h5 {
+        margin-bottom: 10px;
+        color: #080d68; }
+      .information.artist .section-content .section-body > div.career ul li {
+        color: #222; }
+      .information.artist .section-content .section-body > div.education dl dt, .information.artist .section-content .section-body > div.education dl dd {
+        margin-bottom: 5px;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 300; }
+      .information.artist .section-content .section-body > div.education dl dt {
+        float: left; }
+      .information.artist .section-content .section-body > div.education dl dd {
+        margin-left: 40px; }
+      .information.artist .section-content .section-body > div.history ul li {
+        margin-bottom: 5px; }
+        .information.artist .section-content .section-body > div.history ul li:before {
+          margin-right: 10px;
+          content: '\2022';
+          color: #080d68; }
+      .information.artist .section-content .section-body > div.works {
+        padding-top: 0;
+        border-top: 0; }
+        .information.artist .section-content .section-body > div.works img {
+          width: 100%;
+          border: 1px solid #dfdfdf; }
+        .information.artist .section-content .section-body > div.works ul li + li {
+          margin-top: 20px; }
+  @media (min-width: 768px) {
+    .information.artist .section-content + .section-content {
+      margin-top: 80px; }
+    .information.artist .section-content .btn-direct {
+      position: absolute;
+      top: -7px;
+      right: 0;
+      margin-bottom: 0; }
+    .information.artist .section-content .section-body {
+      padding: 30px; }
+      .information.artist .section-content .section-body > div {
+        font-size: 13px;
+        lien-height: 22px; }
+        .information.artist .section-content .section-body > div.education dl dt, .information.artist .section-content .section-body > div.education dl dd {
+          font-size: 13px;
+          line-height: 22px; }
+        .information.artist .section-content .section-body > div.history ul {
+          overflow: hidden; }
+          .information.artist .section-content .section-body > div.history ul li {
+            float: left;
+            width: 50%; }
+            .information.artist .section-content .section-body > div.history ul li:nth-of-type(even) {
+              padding-left: 15px; }
+        .information.artist .section-content .section-body > div.works ul li + li {
+          margin-top: 0; } }
+  @media (min-width: 1230px) {
+    .information.artist .section-content + .section-content {
+      margin-top: 100px; }
+    .information.artist .section-content .btn-direct {
+      width: 170px; }
+    .information.artist .section-content .section-body {
+      padding: 40px; } }
 
 /*# sourceMappingURL=information.css.map */

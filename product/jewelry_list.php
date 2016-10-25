@@ -64,19 +64,16 @@
                     </fieldset>
                     <fieldset class="design col-xs-12 col-lg-6 col-lg-offset-1">
                         <legend>DESIGN <i>디자인</i></legend>
-                        <div class="design-list">
+                        <div class="btn-list" data-toggle="buttons">
                             <ul>
-                                <li><label class="btn btn-block active">
-                                    <input type="checkbox">
-                                    <span>SOLITAIRE</span>
+                                <li><label class="btn btn-block btn-round">
+                                    <input type="checkbox"> SOLITAIRE
                                 </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>SIDE-STONE</span>
+                                <li><label class="btn btn-block btn-round">
+                                    <input type="checkbox"> SIDE-STONE
                                 </label></li>
-                                <li><label class="btn btn-block">
-                                    <input type="checkbox">
-                                    <span>LUXURY</span>
+                                <li><label class="btn btn-block btn-round">
+                                    <input type="checkbox"> LUXURY
                                 </label></li>
                             </ul>
                         </div>

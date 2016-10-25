@@ -31,7 +31,7 @@
             top10Slider.reloadSlider($.extend({
                 minSlides: 2,
                 maxSlides: 2,
-                moveSlides: 2,
+                moveSlides: 1,
                 slideWidth: 290},
             top10DefaultOptions));
             onedaySlider.reloadSlider($.extend({
@@ -45,13 +45,13 @@
             top10Slider.reloadSlider($.extend({
                 minSlides: 2,
                 maxSlides: 2,
-                moveSlides: 2,
+                moveSlides: 1,
                 slideWidth: 400},
             top10DefaultOptions));
             onedaySlider.reloadSlider($.extend({
                 minSlides: 2,
                 maxSlides: 2,
-                moveSlides: 2,
+                moveSlides: 1,
                 slideWidth: 400},
             onedayDefaultOptions));
         }
@@ -59,7 +59,7 @@
             top10Slider.reloadSlider($.extend({
                 minSlides: 5,
                 maxSlides: 5,
-                moveSlides: 5,
+                moveSlides: 1,
                 slideWidth: 170,
                 slideMargin: 30},
             top10DefaultOptions));

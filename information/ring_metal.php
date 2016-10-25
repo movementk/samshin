@@ -30,7 +30,7 @@
                             <li role="presentation"><a href="./ring_setting.php">반지 셋팅법</a></li>
                         </ul>
                     </div>
-                    <div class="section-content explain">
+                    <div class="section-content">
                         <div class="type">
                             <div class="row">
                                 <div class="col-xs-12 col-sm-4">

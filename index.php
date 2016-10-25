@@ -84,6 +84,17 @@
                                 </figure>
                             </a>
                         </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img class="img-responsive" src="/assets/images/main/dummy_neckalce_1.png" alt="">
+                                    <figcaption>
+                                        <h5>1부 다이아몬드 반지</h5>
+                                        <p class="price">259,000원</p>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -115,13 +126,14 @@
                                         <img class="visible-lg" src="/assets/images/main/img_artist_collection_3_lg.jpg" alt="">
                                     </a>
                                 </li>
+
                             </ul>
                         </div>
                     </div>
                     <div class="col-xs-12 col-lg-5">
                         <section id="propose">
-                            <h4><small>SAMSHIN WITH</small><br>PROPOSE</h4>
-                            <p>소중한 순간을 더욱 빛내주는<br>GIA 다이아몬드</p>
+                            <h4><small>DIAOUTLET WITH</small><br>PROPOSE</h4>
+                            <p>소중한 순간을 더욱 빛내주는<br>다아이아울렛</p>
                             <a class="btn" href="#">바로가기</a>
                         </section>
                     </div>

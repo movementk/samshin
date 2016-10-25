@@ -44,23 +44,85 @@
                             <h3 class="section-title">GIA <small>GIA 감정서</small></h3>
                             <p><i>Gemological Institute of America</i></p>
                         </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-5">
-                                <div class="figure">
-                                    <p><img class="img-responsive" src="/assets/images/information/img_lab_gia.jpg" alt=""></p>
+                        <div class="section-body report">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="left">
+                                        <div class="figure">
+                                            <p><img class="img-responsive" src="/assets/images/company/img_outlet_figure_3.jpg" alt=""></p>
+                                        </div>
+                                        <div class="details">
+                                            <p>
+                                                다이아몬드 감정은 다이아몬드의 구체적인 특징을 다이아몬드 감정서에 명시합니다. 이 감정서는 세계 다이아몬드 업계에서 가장 권위 있고 신뢰받는 감정 기관인 GIA(Gemological Institute of America)에서 발행됩니다.
+                                            </p>
+                                            <p>
+                                                <i>현재 전 세계에서 거래되고 있는 3부 이상 다이아아몬드 감정서의 80% 이상이 GIA의 감정서로 유통</i>되고 있으며, <i>전 세계 어느 곳에서나 인정받는 유일한 감정서</i>입니다. <i>또한 GIA의 감정 시스템은 전세계의 다이아몬드와 보석과 그리고 쥬얼리 업계에서 상품거래 시 기준 역할을 하고 있습니다.</i>
+                                            </p>
+                                            <p>
+                                                따라서 다이아몬드를 구입하기 전에, 당신은 편견 없이 전문가에게 감정되었다는 증명인 감정서, 즉 세계 어느 국가에서나 인정받는 GIA감정서를 반드시 확인해야 합니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="right">
+                                        <div class="figure">
+                                            <p><img class="img-responsive" src="/assets/images/company/img_outlet_figure_4.jpg" alt=""></p>
+                                        </div>
+                                        <div class="details">
+                                            <p>
+                                                다이아아울렛에서 판매되는 3부 이상 모든 다이아몬드 나석은 GIA에서 분석되고 감정 되어졌습니다. <i>GIA는 세계 다이아몬드 시장에서 가장 신뢰받고 있는 다이아몬드 감정기관이며, 일관적이고 편견없는 다이아몬드 감정 시스템으로 잘 알려져 있습니다.</i>
+                                            </p>
+                                            <p>
+                                                <i>이 감정서가 동반된 다이아몬드가 세계 다이아몬드 시장에서 가장 높은 가치와 신뢰로 거래에 사용되고 있습니다.</i>
+                                            </p>
+                                            <p>
+                                                다이아아울렛에서는 구입하기 전이라 하더라도 구매하는 다이아몬드의 GIA감정서를 미리보고 확인한 후 구매할 수 있습니다.<br>
+                                                다이아아울렛에서는 다음과 같은 GIA다이아몬드감정서를 구매시 제공하고 있습니다.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-7">
-                                <div class="details">
-                                    <p>
-                                        1931년에 설립된 GIA(Gemological Institute of America)는 다이아몬드와 컬러 스톤, 그리고 진주를 감정하는 세계에서 가장 잘 알려지고 공신력 높은 감정 기관입니다. GIA는 보석에 관한 정보와 연구, 보석의 품질을 정확하고 객관적으로 결정할 수 있는 감정 기준을 제공 함으로서 보석을 사는 구매자들을 보호 할 수 있는 기관으로 존재하고 있습니다.
-                                    </p>
-                                    <p>
-                                        GIA는 전세계에서 가장 오래되고 가장 큰 규모를 가지고 있으며 사설 연구소 중 가장 존경 받는 사설 기관입니다. 다른 연구소들과 달리 GIA는 다이아몬드 도매나 소매 업체들의 소유가 아닌 비영리 기관입니다. GIA가 다이아몬드를 평가하는 믿을 수 있고 객관적인 기준인 다이아몬드 감정 시스템 “4C”를 개발하였으면 지금까지도 가장 일반적으로 사용되고 있는 시스템 입니다.
-                                    </p>
-                                    <p>
-                                        GIA 감정서는 티파니,까르띠에,불가리,쇼메,샤넬등 세계 유명 브랜드도 GIA감정을 사용하고 있으며, GIA는 세계 최고 공신력으로 전세계에서 가장 많이 애용하고 있습니다.
-                                    </p>
+                        </div>
+                        <div class="section-body feature">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="item">
+                                        <div class="figure">
+                                            <p><img class="img-responsive" src="/assets/images/company/img_outlet_feature_figure_1.jpg" alt=""></p>
+                                        </div>
+                                        <div class="details">
+                                            <h4>GIA 다이아몬드 <br>리포트 넘버 체크 방법</h4>
+                                            <p><a href="http://www.gia.edu/report-check-landing" target="_blank">www.gia.edu/report-check-landing</a></p>
+                                            <ol>
+                                                <li><span>01</span> 위 사이트 접속</li>
+                                                <li><span>02</span> GIA 리포트 넘버 입력</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="item">
+                                        <div class="figure">
+                                            <p><img class="img-responsive" src="/assets/images/company/img_outlet_feature_figure_2.jpg" alt=""></p>
+                                        </div>
+                                        <div class="details">
+                                            <h4>GIA DIAMOND <br>GRADING REPORT</h4>
+                                            <p>1캐럿 이상 다이아몬드</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="item">
+                                        <div class="figure">
+                                            <p><img class="img-responsive" src="/assets/images/company/img_outlet_feature_figure_3.jpg" alt=""></p>
+                                        </div>
+                                        <div class="details">
+                                            <h4>GIA DIAMOND <br>DOISSIER</h4>
+                                            <p>3부이상 1캐럿 미만 다이아몬드</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -897,6 +897,244 @@
     }
 }
 
+.information.lab.gia {
+    .figure {
+        margin-bottom: 0;
+        p {
+            padding: 0;
+            box-shadow: none;
+            img {
+                border: 0;
+            }
+        }
+    }
+    .report {
+        padding-top: 20px;
+        .left {
+            .figure {
+                float: right;
+                width: 320px;
+            }
+            .details {
+                float: right;
+                margin-top: 30px;
+                padding: 40px 20px;
+                border: 9px solid #f7f7f7;
+                p {
+                    font-size: 13px;
+                    line-height: 22px;
+                    i {
+                        font-style: normal;
+                        color: $kc;
+                    }
+                }
+            }
+        }
+        .right {
+            margin-top: 170px;
+            .figure {
+                float: left;
+                width: 350px;
+                h4 {
+                    margin-bottom: 30px;
+                    padding-left: 10px;
+                    @extend .crimson;
+                    color: $kc;
+                    border-left: 6px solid $kc;
+                    font-size: 25px;
+                    line-height: 36px;
+                }
+            }
+            .details {
+                float: left;
+                margin-top: 30px;
+                padding: 40px 30px;
+                background-color: #f6f6f6;
+                p {
+                    font-size: 13px;
+                    line-height: 22px;
+                    i {
+                        font-style: normal;
+                        color: $kc;
+                    }
+                }
+            }
+        }
+        @media (max-width: $lg - 1px) {
+            padding-top: 0;
+            .left {
+                .details {
+                    margin-top: 20px;
+                    margin-left: 0;
+                    padding: 30px 10px;
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+            .right {
+                margin-top: 45px;
+                .figure {
+                    h4 {
+                        margin-bottom: 20px;
+                        font-size: 22px;
+                        line-height: 30px;
+                    }
+                }
+                .details {
+                    margin-right: 0;
+                    margin-top: 20px;
+                    padding: 30px 20px;
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            .left {
+                .figure {
+                    float: none;
+                }
+                .details {
+                    float: none;
+                    margin-top: 20px;
+                    margin-left: 0;
+                    padding: 20px;
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .right {
+                margin-top: 20px;
+                .figure {
+                    float: none;
+                    h4 {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+                .details {
+                    float: none;
+                    margin-right: 0;
+                    margin-top: 20px;
+                    padding: 20px;
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .feature {
+        margin-top: 40px;
+        .item {
+            height: 365px;
+            border: 1px solid #ededed;
+            .details {
+                padding-top: 30px;
+                text-align: center;
+                h4 {
+                    @extend .jjmj;
+                    color: $kc;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 26px;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 26px;
+                    color: #222;
+                    @extend .jjmj;
+                }
+            }
+            &:nth-of-type(1) {
+                a {
+                    @extend .noto;
+                    font-size: 15px;
+                    line-height: 22px;
+                    color: $kc;
+                    text-decoration: underline;
+                    font-weight: normal;
+                }
+                ol {
+                    margin-top: 10px;
+                    text-align: center;
+                    li {
+                        display: inline-block;
+                        color: #333;
+                        font-size: 13px;
+                        line-height: 22px;
+                        span {
+                            display: inline-block;
+                            font-size: 10px;
+                            width: 16px;
+                            height: 16px;
+                            line-height: 16px;
+                            text-align: center;
+                            background-color: $kc;
+                            color: #fff;
+                            border-radius: 50%;
+                        }
+                        & + li {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: $lg - 1px) {
+            .item {
+                height: 390px;
+                .details {
+                    //padding-top: 30px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    h4 {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            .item {
+                height: auto;
+                margin-bottom: 20px;
+                .figure {
+                    width: auto;
+                    .img-responsive {
+                        width: 100%;
+                    }
+                }
+                .details {
+                    padding: 20px 10px;
+                    h4 {
+                        margin-bottom: 10px;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                }
+                &:nth-of-type(1) {
+                    a {
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+                    ol {
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .information.lab.igi {
     .figure {
         width: 184px;
@@ -1380,6 +1618,695 @@
                         vertical-align: middle;
                     }
                 }
+            }
+        }
+    }
+}
+
+// 원석정보
+.information.stone.bstone {
+    .bstone-list {
+        ul {
+            margin-left: -5px;
+            margin-right: -5px;
+            li {
+                margin-bottom: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
+                &:nth-of-type(odd) {
+                    clear: both;
+                }
+                a {
+                    text-decoration: none;
+                    &:hover, &:focus {
+                        .bstone-content {
+                            border-color: $kc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bstone-content {
+        padding-left: 15px;
+        padding-right: 15px;
+        min-height: 200px;
+        border: 1px solid #dfdfdf;
+        text-align: center;
+        .bstone-head {
+            position: relative;
+            padding-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #dfdfdf;
+            .figure {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+            h4 {
+                @extend .crimson;
+                font-size: 14px;
+                color: $kc;
+                text-decoration: underline;
+            }
+            small {
+                @extend .lato;
+                font-size: 12px;
+                color: #222;
+            }
+        }
+        .bstone-body {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            .month {
+                font-size: 13px;
+                color: #666;
+                i {
+                    font-size: 12px;
+                    @extend .lato;
+                }
+            }
+            .means {
+                margin-top: 5px;
+                font-size: 13px;
+                color: #222;
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        .bstone-list {
+            ul {
+                li {
+                    &:nth-of-type(odd) {
+                        clear: none;
+                    }
+                    &:nth-of-type(4n+1) {
+                        clear: both;
+                    }
+                }
+            }
+        }
+        .bstone-content {
+            padding-left: 20px;
+            padding-right: 20px;
+            min-height: 240px;
+            .bstone-head {
+                padding-top: 25px;
+                padding-bottom: 15px;
+                h4 {
+                    font-size: 16px;
+                }
+            }
+            .bstone-body {
+                padding-top: 15px;
+                padding-bottom: 25px;
+                .month {
+                    font-size: 14px;
+                }
+                .means {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        .bstone-list {
+            ul {
+                margin-left: -15px;
+                margin-right: -15px;
+                li {
+                    margin-bottom: 30px;
+                    padding-left: 15px;
+                    padding-right: 15px
+                }
+            }
+        }
+        .bstone-content {
+            padding-left: 25px;
+            padding-right: 25px;
+            min-height: 270px;
+            .bstone-head {
+                h4 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .tabs {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        ul {
+            margin-top: -5px;
+            li {
+                padding: 5px;
+                width: 33.33%;
+                a, span {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    height: 35px;
+                    line-height: 33px;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            ul {
+                margin-left: -5px;
+                margin-right: -5px;
+                li {
+                    width: 16.6667%;
+                    a, span {
+                        height: 40px;
+                        line-height: 38px;
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            margin-top: 60px;
+            margin-bottom: 90px;
+            padding-left: 0;
+            padding-right: 0;
+            ul {
+                margin-top: -10px;
+                margin-bottom: -10px;
+                margin-left: -15px;
+                margin-right: -15px;
+                li {
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+    .bstone-view {
+        padding: 20px;
+        background-color: #f7f7f7;
+        & + .bstone-view {
+            margin-top: 10px;
+        }
+        figure {
+            p {
+                img {
+                    margin: 0 auto;
+                    border: 1px solid #dfdfdf;
+                }
+            }
+            figcaption {
+                text-align: center;
+                h4 {
+                    margin-top: 15px;
+                    margin-bottom: 5px;
+                    font-size: 20px;
+                    @extend .crimson;
+                    color: $kc;
+                    text-decoration: underline;
+                }
+                small {
+                    font-size: 12px;
+                    @extend .lato;
+                    color: #222;
+                    font-weight: normal;
+                }
+            }
+        }
+        .details {
+            margin-top: 20px;
+            &:after {
+                display: table;
+                content: '';
+                clear: both;
+            }
+            h5 {
+                margin-bottom: 20px;
+                padding-left: 5px;
+                border-left: 3px solid $kc;
+                color: $kc;
+                font-size: 18px;
+                font-weight: normal;
+                i {
+                    @extend .lato;
+                    color: #666;
+                }
+                small {
+                    color: #222;
+                    font-size: 14px;
+                }
+            }
+            p {
+                i {
+                    color: $kc;
+                    font-style: normal;
+                    font-weight: normal;
+                }
+                br {
+                    display: none;
+                }
+            }
+        }
+        .knowhow {
+            margin-top: 20px;
+            h6 {
+                font-size: 13px;
+                color: $kc;
+                line-height: 22px;
+                &:before {
+                    margin-right: 5px;
+                    font-family: 'fontello';
+                    content: '\e805';
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        .bstone-view {
+            padding: 30px;
+            figure {
+                float: left;
+            }
+            .details {
+                margin-top: 5px;
+                margin-left: 200px;
+            }
+            .knowhow {
+                margin-left: 200px;
+            }
+        }
+    }
+    @media (min-width: $md) {
+        .bstone-view {
+            .details {
+                p {
+                    br {
+                        display: inline;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        .bstone-view {
+            padding: 30px;
+        }
+    }
+}
+
+// 진주정보
+.information.stone.pearl {
+    .page-header {
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+    .overview {
+        padding: 20px;
+        border: 1px solid #dfdfdf;
+        background-color: #f9f9f9;
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        background-size: auto 100%;
+        p {
+            i {
+                font-style: normal;
+                color: $kc;
+                font-weight: normal;
+            }
+            & + p {
+                margin-top: 20px;
+            }
+        }
+        @media (min-width: $sm) {
+            padding: 40px 30px;
+            background-image: url(/assets/images/information/bg_pearl_overview.jpg);
+        }
+        @media (min-width: $lg) {
+        }
+    }
+    .section-content {
+        margin-top: 70px;
+        .section-head {
+            margin-bottom: 30px;
+            padding-left: 0;
+            border-left: 0;
+            h3 {
+                padding-left: 10px;
+                font-size: 20px;
+                @extend .jjmj;
+                color: $kc;
+                border-left: 3px solid $kc;
+            }
+        }
+        p {
+            font-size: 12px;
+            line-height: 22px;
+            & + p {
+                margin-top: 20px;
+            }
+        }
+        @media (min-width: $sm) {
+            .section-head {
+                h3 {
+                    padding-left: 15px;
+                    font-size: 25px;
+                }
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+        @media (min-width: $lg) {
+        }
+    }
+
+    .natural {
+        .explain {
+            .figure {
+                .img-responsive {
+                    margin: 0 auto 20px;
+                }
+            }
+        }
+        .kind {
+            margin-top: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #f7f7f7;
+            > div {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                & + div {
+                    border-top: 1px solid #dfdfdf;
+                }
+            }
+            h5 {
+                margin-bottom: 15px;
+                font-size: 14px;
+                &:before {
+                    margin-right: 5px;
+                    content: '\2022';
+                    color: $kc;
+                }
+            }
+            .kind-item {
+                & + .kind-item {
+                    margin-top: 20px;
+                }
+                h6 {
+                    margin-bottom: 5px;
+                    font-size: 12px;
+                    color: $kc;
+                    span {
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 50%;
+                        background-color: $kc;
+                        color: #fff;
+                        font-size: 10px;
+                        line-height: 16px;
+                        text-align: center;
+                        vertical-align: middle;
+                    }
+                    & ~ p {
+                        margin-left: 20px;
+                    }
+                }
+                .figure {
+                    margin-bottom: 10px;
+                    .img-responsive {
+                        margin: 0 auto;
+                        border: 1px solid #dfdfdf;
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            .kind {
+                padding: 10px 30px;
+                .kind-item {
+                    h6 {
+                        font-size: 13px;
+                    }
+                    .figure {
+                        margin-bottom: 0;
+                        .img-responsive {
+                            margin: inherit;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            .kind {
+                margin-top: 80px;
+            }
+        }
+    }
+
+    .imitation {
+        .explain {
+            .figure {
+                margin-bottom: 10px;
+                .img-responsive {
+                    margin: 0 auto;
+                    border: 1px solid #dfdfdf;
+                }
+            }
+        }
+        .manager {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #dfdfdf;
+            h5 {
+                margin-bottom: 5px;
+                color: $kc;
+                font-size: 12px;
+                &:before {
+                    margin-right: 5px;
+                    font-family: 'fontello';
+                    content: '\E805';
+                }
+                & ~ p {
+                    margin-left: 15px;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            .explain {
+                .figure {
+                    .img-responsive {
+                        margin: inherit;
+                    }
+                }
+            }
+            .manager {
+                h5 {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .values {
+        .table {
+            border-top: 2px solid $kc;
+            th {
+                width: 100px;
+            }
+            td {
+                text-align: left;
+                p {
+                    color: #222;
+                }
+                i {
+                    font-style: normal;
+                    color: #666;
+                    font-size: .9em;
+                }
+            }
+        }
+    }
+}
+
+// 진주정보
+.information.artist {
+    .page-header {
+        margin-bottom: 20px;
+    }
+    .tabs {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        ul {
+            margin-top: -5px;
+            li {
+                padding: 5px;
+                width: 50%;
+                a, span {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    height: 35px;
+                    line-height: 33px;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            ul {
+                margin-left: -5px;
+                margin-right: -5px;
+                li {
+                    a, span {
+                        height: 40px;
+                        line-height: 38px;
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            margin-top: 100px;
+            margin-bottom: 110px;
+            padding-left: 0;
+            padding-right: 0;
+            ul {
+                margin-top: -10px;
+                margin-bottom: -10px;
+                margin-left: -15px;
+                margin-right: -15px;
+                li {
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+    .section-content {
+        position: relative;
+        & + .section-content {
+            margin-top: 60px;
+        }
+        .btn-direct {
+            margin-bottom: 20px;
+        }
+        .section-body {
+            padding: 20px;
+            border: 1px solid #dfdfdf;
+            > div {
+                padding-top: 25px;
+                padding-bottom: 20px;
+                font-size: 12px;
+                lien-height: 20px;
+                &:first-child {
+                    padding-top: 0;
+                }
+                &:last-child {
+                    padding-bottom: 0;
+                }
+                & + div {
+                    border-top: 1px solid #dfdfdf;
+                }
+                h5 {
+                    margin-bottom: 10px;
+                    color: $kc;
+                }
+                &.career {
+                    ul {
+                        li {
+                            color: #222;
+                        }
+                    }
+                }
+                &.education {
+                    dl {
+                        dt, dd {
+                            margin-bottom: 5px;
+                            font-size: 12px;
+                            line-height: 20px;
+                            font-weight: 300;
+                        }
+                        dt {
+                            float: left;
+                        }
+                        dd {
+                            margin-left: 40px;
+                        }
+                    }
+                }
+                &.history {
+                    ul {
+                        li {
+                            margin-bottom: 5px;
+                            &:before {
+                                margin-right: 10px;
+                                content: '\2022';
+                                color: $kc;
+                            }
+                        }
+                    }
+                }
+                &.works {
+                    padding-top: 0;
+                    border-top: 0;
+                    img {
+                        width: 100%;
+                        border: 1px solid #dfdfdf;
+                    }
+                    ul {
+                        li + li {
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            & + .section-content {
+                margin-top: 80px;
+            }
+            .btn-direct {
+                position: absolute;
+                top: -7px;
+                right: 0;
+                margin-bottom: 0;
+            }
+            .section-body {
+                padding: 30px;
+                > div {
+                    font-size: 13px;
+                    lien-height: 22px;
+                    &.education {
+                        dl {
+                            dt, dd {
+                                font-size: 13px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                    &.history {
+                        ul {
+                            overflow: hidden;
+                            li {
+                                float: left;
+                                width: 50%;
+                                &:nth-of-type(even) {
+                                    padding-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                    &.works {
+                        ul {
+                            li + li {
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            & + .section-content {
+                margin-top: 100px;
+            }
+            .btn-direct {
+                width: 170px;
+            }
+            .section-body {
+                padding: 40px;
             }
         }
     }

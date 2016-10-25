@@ -373,48 +373,68 @@
                 </div>
                 <ul class="row">
                     <li class="col-sm-6">
-                        <a href="#" data-toggle="modal" data-target="#offline-modal-1">
-                            <figure>
-                                <img class="img-responsive" src="/assets/images/company/img_offline_1.jpg" alt="">
-                                <figcaption>
-                                    <h5>삼신다이아몬드 서울 압구정 본점</h5>
-                                    <p>오프라인에서 다이아몬드 전문 컨설턴의 정확한 상담을 통해 소중한 예물을 편리하게 구입하시기 바랍니다.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
+                        <figure>
+                            <img class="img-responsive" src="/assets/images/company/img_offline_1.jpg" alt="">
+                            <figcaption>
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h5>삼신다이아몬드 서울 압구정 본점</h5>
+                                        <p>오프라인에서 다이아몬드 전문 컨설턴의 정확한 상담을 통해 소중한 예물을 편리하게 구입하시기 바랍니다.</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="#" class="btn" data-toggle="modal" data-target="#offline-modal-1">전화 번호 및 위치 안내</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
                     </li>
                     <li class="col-sm-6">
-                        <a href="#" data-toggle="modal" data-target="#offline-modal-2">
-                            <figure>
-                                <img class="img-responsive" src="/assets/images/company/img_offline_2.jpg" alt="">
-                                <figcaption>
-                                    <h5>삼신다이아몬드 부산지점</h5>
-                                    <p>오프라인에서 다이아몬드 전문 컨설턴의 정확한 상담을 통해 소중한 예물을 편리하게 구입하시기 바랍니다.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
+                        <figure>
+                            <img class="img-responsive" src="/assets/images/company/img_offline_2.jpg" alt="">
+                            <figcaption>
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h5>삼신다이아몬드 부산지점</h5>
+                                        <p>오프라인에서 다이아몬드 전문 컨설턴의 정확한 상담을 통해 소중한 예물을 편리하게 구입하시기 바랍니다.</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="#" class="btn" data-toggle="modal" data-target="#offline-modal-2">전화 번호 및 위치 안내</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
                     </li>
                     <li class="col-sm-6">
-                        <a href="#" data-toggle="modal" data-target="#offline-modal-3">
-                            <figure>
-                                <img class="img-responsive" src="/assets/images/company/img_offline_3.jpg" alt="">
-                                <figcaption>
-                                    <h5>삼신다이아몬드 광주지점</h5>
-                                    <p>오프라인에서 다이아몬드 전문 컨설턴의 정확한 상담을 통해 소중한 예물을 편리하게 구입하시기 바랍니다.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
+                        <figure>
+                            <img class="img-responsive" src="/assets/images/company/img_offline_3.jpg" alt="">
+                            <figcaption>
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h5>삼신다이아몬드 광주지점</h5>
+                                        <p>오프라인에서 다이아몬드 전문 컨설턴의 정확한 상담을 통해 소중한 예물을 편리하게 구입하시기 바랍니다.</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="#" class="btn" data-toggle="modal" data-target="#offline-modal-3">전화 번호 및 위치 안내</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
                     </li>
                     <li class="col-sm-6">
-                        <a href="#" data-toggle="modal" data-target="#offline-modal-4">
-                            <figure>
-                                <img class="img-responsive" src="/assets/images/company/img_offline_4.jpg" alt="">
-                                <figcaption>
-                                    <h5>삼신다이아몬드 뉴욕지점</h5>
-                                    <p>뉴욕에 있는 현지 구매처를 이용하여 다이아몬드를 상담받으신 후 소중한 예물을 편리하게 구입하시기 바랍니다.</p>
-                                </figcaption>
-                            </figure>
-                        </a>
+                        <figure>
+                            <img class="img-responsive" src="/assets/images/company/img_offline_4.jpg" alt="">
+                            <figcaption>
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <h5>삼신다이아몬드 뉴욕지점</h5>
+                                        <p>뉴욕에 있는 현지 구매처를 이용하여 다이아몬드를 상담받으신 후 소중한 예물을 편리하게 구입하시기 바랍니다.</p>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="#" class="btn" data-toggle="modal" data-target="#offline-modal-4">전화 번호 및 위치 안내</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
                     </li>
                 </ul>
             </div>

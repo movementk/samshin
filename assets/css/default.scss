@@ -394,12 +394,10 @@ select.form-control {
                                         white-space: nowrap;
                                     }
                                 }
-                                &.flag {
-                                    > a {
-                                        color: $red;
-                                    }
-                                }
                             }
+                        }
+                        li.flag > a {
+                            color: $red;
                         }
                     }
                 }

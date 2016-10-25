@@ -14,13 +14,6 @@
         }
     });
 
-    // 디자인 선택
-    $(document).on('click', '.filter .design-list > ul > li > .btn', function(e) {
-        if( $(e.target).is("label") ) {
-            $(this).toggleClass('active');
-        }
-    });
-
     // 아티스트 선택
     $(document).on('click', '.filter .artist-list > ul > li > .btn', function(e) {
         //console.log( $(e.target) );

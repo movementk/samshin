@@ -61,7 +61,7 @@
                     <a href="#">DIAMONDS</a>
                     <div>
                         <ul>
-                            <li><a href="#"><span class="en">GIA DIAMONDS</span><span class="ko">GIA 다이아몬드</span></a></li>
+                            <li class="flag"><a href="#"><span class="en">GIA ROUND DIAMONDS</span><span class="ko">GIA 라운드 다이아몬드</span></a></li>
                             <li><a href="#"><span class="en">FANCY CUT DIAMONDS</span><span class="ko">팬시 컷 다이아몬드</span></a></li>
                             <li><a href="#"><span class="en">FANCY COLOR DIAMONDS</span><span class="ko">팬시 컬러 다이아몬드</span></a></li>
                         </ul>

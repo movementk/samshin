@@ -851,32 +851,32 @@
     }
     &.completed {
         > form {
-            height: 110px;
+            height: 70px;
         }
         &.open {
             > form {
-                height: 660px;
+                height: 385px;
             }
         }
         @media (min-width: $sm) {
             margin-bottom: 60px;
             > form {
-                height: 120px;
+                height: 90px;
             }
             &.open {
                 > form {
-                    height: 630px;
+                    height: 400px;
                 }
             }
         }
         @media (min-width: $lg) {
             margin-bottom: 75px;
             > form {
-                height: 120px;
+                height: 90px;
             }
             &.open {
                 > form {
-                    height: 530px;
+                    height: 400px;
                 }
             }
         }
@@ -1519,6 +1519,13 @@
             }
         }
     }
+    .prdweight {
+        .btn-list {
+            li {
+                width: 16.66%;
+            }
+        }
+    }
     &.fancy {
         .fancy-intensity {
             legend {
@@ -1556,6 +1563,13 @@
         }
         @media (min-width: $lg) {
             margin-bottom: 80px;
+        }
+        .design {
+            .btn-list {
+                li {
+                    width: 33.33%;
+                }
+            }
         }
     }
     &.gia {
@@ -1648,6 +1662,13 @@
 
 // 검색 결과 영역
 .result {
+    margin-bottom: 40px;
+    @media (min-width: $sm) {
+        margin-bottom: 60px;
+    }
+    @media (min-width: $lg) {
+        margin-bottom: 100px;
+    }
     header {
         margin-bottom: 15px;
         h5 {
@@ -1673,11 +1694,27 @@
             margin-bottom: 40px;
         }
     }
+    .btn-area {
+        .btn {
+            background-color: #fff;
+            border: 1px solid $kc;
+            color: $kc;
+            &:after {
+                margin-left: 5px;
+                font-family: 'fontello';
+                content: '\f107';
+            }
+            &:hover, &:focus {
+                background-color: $kc;
+                color: #fff;
+            }
+        }
+    }
 }
 
 // 검색 결과: 다이아
 .dia-list {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     &.table-responsive {
         border: 0;
     }
@@ -1777,7 +1814,6 @@
         }
     }
     @media (min-width: $sm) {
-        margin-bottom: 60px;
         .table {
             table-layout: fixed;
             th, td {
@@ -1786,9 +1822,6 @@
                 }
             }
         }
-    }
-    @media (min-width: $lg) {
-        margin-bottom: 100px;
     }
     /*
     &.gia-list {

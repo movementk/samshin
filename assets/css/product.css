@@ -498,23 +498,23 @@
       .filter.jewelry.open > form {
         height: 430px; } }
   .filter.completed > form {
-    height: 110px; }
+    height: 70px; }
   .filter.completed.open > form {
-    height: 660px; }
+    height: 385px; }
   @media (min-width: 768px) {
     .filter.completed {
       margin-bottom: 60px; }
       .filter.completed > form {
-        height: 120px; }
+        height: 90px; }
       .filter.completed.open > form {
-        height: 630px; } }
+        height: 400px; } }
   @media (min-width: 1230px) {
     .filter.completed {
       margin-bottom: 75px; }
       .filter.completed > form {
-        height: 120px; }
+        height: 90px; }
       .filter.completed.open > form {
-        height: 530px; } }
+        height: 400px; } }
   .filter .form-control[type="text"] {
     border-radius: 0;
     text-align: center;
@@ -1000,6 +1000,8 @@
   @media (min-width: 768px) {
     .filter .delivery .btn-list li {
       width: 180px; } }
+  .filter .prdweight .btn-list li {
+    width: 16.66%; }
   .filter.fancy .fancy-intensity legend {
     color: #222;
     font-weight: 400; }
@@ -1021,6 +1023,8 @@
     @media (min-width: 1230px) {
       .filter.jewelry {
         margin-bottom: 80px; } }
+    .filter.jewelry .design .btn-list li {
+      width: 33.33%; }
   .filter.gia .color .btn-list li {
     width: 25%; }
   @media (min-width: 768px) {
@@ -1061,29 +1065,48 @@
       .filter.completed .notify {
         margin-top: 20px; } }
 
-.result header {
-  margin-bottom: 15px; }
-  .result header h5 {
-    font-size: 12px;
-    color: #666;
-    line-height: 30px;
-    font-weight: 400; }
-    .result header h5 b {
-      color: #eb2127; }
-  .result header select.form-control {
-    padding-top: 0;
-    padding-bottom: 0; }
+.result {
+  margin-bottom: 40px; }
   @media (min-width: 768px) {
-    .result header {
-      margin-bottom: 20px; }
-      .result header h5 {
-        font-size: 14px; } }
+    .result {
+      margin-bottom: 60px; } }
   @media (min-width: 1230px) {
-    .result header {
-      margin-bottom: 40px; } }
+    .result {
+      margin-bottom: 100px; } }
+  .result header {
+    margin-bottom: 15px; }
+    .result header h5 {
+      font-size: 12px;
+      color: #666;
+      line-height: 30px;
+      font-weight: 400; }
+      .result header h5 b {
+        color: #eb2127; }
+    .result header select.form-control {
+      padding-top: 0;
+      padding-bottom: 0; }
+    @media (min-width: 768px) {
+      .result header {
+        margin-bottom: 20px; }
+        .result header h5 {
+          font-size: 14px; } }
+    @media (min-width: 1230px) {
+      .result header {
+        margin-bottom: 40px; } }
+  .result .btn-area .btn {
+    background-color: #fff;
+    border: 1px solid #080d68;
+    color: #080d68; }
+    .result .btn-area .btn:after {
+      margin-left: 5px;
+      font-family: 'fontello';
+      content: '\f107'; }
+    .result .btn-area .btn:hover, .result .btn-area .btn:focus {
+      background-color: #080d68;
+      color: #fff; }
 
 .dia-list {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   /*
   &.gia-list {
       .table {
@@ -1183,15 +1206,10 @@
       border-color: #080d68;
       color: #fff; }
   @media (min-width: 768px) {
-    .dia-list {
-      margin-bottom: 60px; }
-      .dia-list .table {
-        table-layout: fixed; }
-        .dia-list .table th:last-child, .dia-list .table td:last-child {
-          display: table-cell; } }
-  @media (min-width: 1230px) {
-    .dia-list {
-      margin-bottom: 100px; } }
+    .dia-list .table {
+      table-layout: fixed; }
+      .dia-list .table th:last-child, .dia-list .table td:last-child {
+        display: table-cell; } }
 
 .jewelry-list {
   margin-bottom: 10px; }

@@ -601,6 +601,10 @@ body {
                     color: $kc;
                     font-weight: 400;
                 }
+                .btn {
+                    margin-top: 50px;
+                    float: right
+                }
             }
         }
         @media (max-width: $lg - 1px) {
@@ -610,6 +614,10 @@ body {
                     h5 {
                         margin-top: 25px;
                         font-size: 14px;
+                    }
+                    .btn {
+                        margin-top: 10px;
+                        float: none;
                     }
                 }
             }

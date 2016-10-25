@@ -14,16 +14,15 @@
                 </ul>
             </li>
             <li><a href="./lab_gia.php">감정서</a></li>
+            <li><a href="./ring_metal.php">반지정보</a></li>
             <li>
-                <a href="#">반지정보</a>
+                <a href="#">원석정보</a>
                 <ul>
-                    <li><a href="./ring_metal.php">금속 정보</a></li>
-                    <li><a href="./ring_size.php">반지사이즈 측정법</a></li>
-                    <li><a href="./ring_setting.php">반지 셋팅법</a></li>
+                    <li><a href="./bstone_list.php">탄생석 정보</a></li>
+                    <li><a href="./pearl_info.php">진주 정보</a></li>
                 </ul>
             </li>
-            <li><a href="#">탄생석</a></li>
-            <li><a href="#">제품관리법</a></li>
+            <li><a href="./artist_overseas.php">디자이너소개</a></li>
         </ul>
     </div>
 </aside>

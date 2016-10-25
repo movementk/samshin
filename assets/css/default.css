@@ -566,8 +566,8 @@ select.form-control {
                 font-size: 12px;
                 line-height: 26px;
                 white-space: nowrap; }
-              #gnb > .container > ul > li > div > ul + ul > li.flag > a {
-                color: #eb2127; }
+            #gnb > .container > ul > li > div > ul li.flag > a {
+              color: #eb2127; }
         #gnb > .container > ul > li + li > div {
           border-left: 1px solid #dfdfdf; }
     #gnb > .container > .back {

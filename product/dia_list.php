@@ -448,6 +448,9 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="btn-area">
+                    <button type="button" class="btn btn-block">상품 더보기</button>
+                </div>
             </section>
 
         </div>
