@@ -707,6 +707,9 @@ select.form-control {
       #gnb-all .menu > ul > li.active > ul {
         display: block; }
 
+html.gnb-open {
+  overflow: hidden; }
+
 body {
   position: relative;
   left: 0;

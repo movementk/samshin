@@ -603,6 +603,12 @@ select.form-control {
     }
 }
 
+html {
+    &.gnb-open {
+        overflow: hidden;
+    }
+}
+
 body {
     position: relative;
     left: 0;

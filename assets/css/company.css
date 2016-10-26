@@ -1,13 +1,13 @@
-.lato, .introduce .section-head .section-title small, .introduce .history .tab-content h5 i, .introduce .history .tab-content .table th, .reserve .call .contact > div dl.phone dd, #content.cafe .page-header .page-title small, #content.diaoutlet .page-header .page-title small {
+.lato, .introduce .section-head .section-title small, .introduce .history .tab-content h5 i, .introduce .history .tab-content .table th, .reserve .call .contact > div dl.phone dd, #content.cafe .page-header .page-title small, #content.diaoutlet .page-header .page-title small, #content.pr-history .page-header .page-title small {
   font-family: 'Lato', sans-serif; }
 
-.jjmj, .introduce .brand .details h4, .introduce .cafe .item .item-body h3, .introduce .feature .details h4, .introduce .pr .section-head .section-title, .introduce .pr .details h4, .introduce .history .tab-content h5, .offline-modal .modal-header .modal-title, .reserve .section-head .section-title, .reserve .jumbowall .details h2, .reserve .jumbowall .details p, .reserve .direct .section-head .section-title, .reserve .direct .section-body .price > div strong, .reserve .why-1 .section-body ul li div .details, .reserve .call .contact > div h5, .reserve .request h4, #content.cafe .section-head .section-title, #content.cafe.room .room-type h4, #content.cafe.water .details h4, #content.diaoutlet .lowest .stats .desc-1, #content.diaoutlet .feature .item .details h4, #content.diaoutlet .feature .item .details p {
+.jjmj, .introduce .brand .details h4, .introduce .cafe .item .item-body h3, .introduce .feature .details h4, .introduce .pr .section-head .section-title, .introduce .pr .details h4, .introduce .history .tab-content h5, .offline-modal .modal-header .modal-title, .reserve .section-head .section-title, .reserve .jumbowall .details h2, .reserve .jumbowall .details p, .reserve .direct .section-head .section-title, .reserve .direct .section-body .price > div strong, .reserve .why-1 .section-body ul li div .details, .reserve .call .contact > div h5, .reserve .request h4, #content.cafe .section-head .section-title, #content.cafe.room .room-type h4, #content.cafe.water .details h4, #content.diaoutlet .lowest .stats .desc-1, #content.diaoutlet .feature .item .details h4, #content.diaoutlet .feature .item .details p, #content.pr-history .page-banner > div, #content.pr-history .sponsored .section-head h4, #content.pr-history .magazine .section-head h4 {
   font-family: 'Jeju Myeongjo', serif; }
 
 .noto, .introduce .history .tab-content h5 span, .offline-modal .modal-header .modal-title i, .reserve .section-head .section-title small, .reserve .jumbowall .details h2 small, .reserve .call .contact > div h5 small, #content.cafe.room .room-type h4 small, #content.diaoutlet .feature .item:nth-of-type(1) a {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .introduce .section-head .section-title, .introduce .cafe .item .item-body h3 > i, .reserve .why-1 .section-body ul li div .num, .reserve .why-2 .item h5, #content.cafe .page-header .page-title, #content.cafe.menu .section-content .section-body .details strong, #content.diaoutlet .page-header .page-title, #content.diaoutlet .section-title, #content.diaoutlet .report .right .figure h4 {
+.crimson, .introduce .section-head .section-title, .introduce .cafe .item .item-body h3 > i, .reserve .why-1 .section-body ul li div .num, .reserve .why-2 .item h5, #content.cafe .page-header .page-title, #content.cafe.menu .section-content .section-body .details strong, #content.diaoutlet .page-header .page-title, #content.diaoutlet .section-title, #content.diaoutlet .report .right .figure h4, #content.pr-history .page-header .page-title {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -1388,6 +1388,10 @@ body {
         font-size: 12px; } }
 #content.cafe.water .section-head {
   margin-bottom: 100px; }
+  #content.cafe.water .section-head p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333; }
 #content.cafe.water .section-body {
   margin-bottom: 200px; }
 #content.cafe.water .details h4 {
@@ -1447,6 +1451,8 @@ body {
 @media (max-width: 767px) {
   #content.cafe.water .section-head {
     margin-bottom: 60px; }
+    #content.cafe.water .section-head p {
+      font-size: 16px; }
   #content.cafe.water .section-body {
     margin-bottom: 100px; }
   #content.cafe.water .details h4 {
@@ -1948,5 +1954,279 @@ body {
           margin-top: 10px; }
           #content.diaoutlet .feature .item:nth-of-type(1) ol li {
             font-size: 12px; } }
+
+#content.pr-history .page-header {
+  margin-top: 0;
+  margin-bottom: 80px;
+  padding-bottom: 0;
+  border-bottom: 0; }
+  #content.pr-history .page-header .page-title {
+    font-size: 50px;
+    text-align: center;
+    line-height: 50px; }
+    #content.pr-history .page-header .page-title small {
+      font-size: 18px;
+      color: #080d68;
+      letter-spacing: 4px; }
+  @media (max-width: 1229px) {
+    #content.pr-history .page-header {
+      margin-bottom: 70px; }
+      #content.pr-history .page-header .page-title {
+        font-size: 45px;
+        line-height: 45px; }
+        #content.pr-history .page-header .page-title small {
+          font-size: 16px; } }
+  @media (max-width: 767px) {
+    #content.pr-history .page-header {
+      margin-bottom: 50px; }
+      #content.pr-history .page-header .page-title {
+        font-size: 35px;
+        line-height: 35px; }
+        #content.pr-history .page-header .page-title small {
+          font-size: 14px; } }
+#content.pr-history .page-banner {
+  overflow: hidden;
+  height: 300px;
+  background-image: url(/assets/images/company/bg_pr_banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  #content.pr-history .page-banner > div {
+    overflow: hidden;
+    margin: 67px auto;
+    width: 370px;
+    height: 166px;
+    background-color: rgba(36, 38, 50, 0.85);
+    text-align: center;
+    color: #fff; }
+    #content.pr-history .page-banner > div p {
+      margin-top: 60px;
+      margin-bottom: 15px;
+      font-size: 34px;
+      letter-spacing: 3px;
+      font-weight: 100; }
+    #content.pr-history .page-banner > div small {
+      font-size: 9px;
+      letter-spacing: 8px; }
+  @media (max-width: 1229px) {
+    #content.pr-history .page-banner {
+      height: 250px; }
+      #content.pr-history .page-banner > div {
+        margin-top: 42px; } }
+  @media (max-width: 767px) {
+    #content.pr-history .page-banner {
+      height: 200px; }
+      #content.pr-history .page-banner > div {
+        margin-top: 40px;
+        width: 260px;
+        height: 120px; }
+        #content.pr-history .page-banner > div p {
+          margin-top: 40px;
+          margin-bottom: 10px;
+          font-size: 24px; } }
+#content.pr-history .campaign {
+  padding-top: 90px;
+  padding-bottom: 90px; }
+  #content.pr-history .campaign p {
+    font-size: 25px;
+    line-height: 35px;
+    color: #080d68;
+    text-align: center; }
+  @media (max-width: 1229px) {
+    #content.pr-history .campaign {
+      padding-top: 90px;
+      padding-bottom: 90px; }
+      #content.pr-history .campaign p {
+        font-size: 22px;
+        line-height: 30px; } }
+  @media (max-width: 767px) {
+    #content.pr-history .campaign {
+      padding-top: 50px;
+      padding-bottom: 50px; }
+      #content.pr-history .campaign p {
+        font-size: 18px;
+        line-height: 24px; } }
+#content.pr-history .history > .row + .row {
+  margin-top: 40px; }
+#content.pr-history .history h4 {
+  margin-top: 150px;
+  text-align: center;
+  line-height: 40px; }
+  #content.pr-history .history h4 b {
+    font-size: 40px;
+    color: #dadada; }
+  #content.pr-history .history h4 i {
+    font-size: 15px;
+    font-style: normal;
+    color: #888; }
+#content.pr-history .history .explain {
+  padding-top: 50px;
+  height: 197px;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center; }
+  #content.pr-history .history .explain i {
+    font-style: normal; }
+    #content.pr-history .history .explain i:before {
+      content: '*'; }
+@media (max-width: 1229px) {
+  #content.pr-history .history h4 {
+    margin-top: 100px; }
+  #content.pr-history .history .explain {
+    padding-top: 20px;
+    height: 117px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center; }
+    #content.pr-history .history .explain i {
+      font-style: normal; } }
+@media (max-width: 991px) {
+  #content.pr-history .history h4 {
+    margin-top: 0;
+    margin-bottom: 20px; }
+  #content.pr-history .history .figure .img-responsive {
+    margin: 0 auto; } }
+@media (max-width: 767px) {
+  #content.pr-history .history > .row + .row {
+    margin-top: 20px; }
+  #content.pr-history .history h4 {
+    margin-bottom: 10px;
+    line-height: 24px; }
+    #content.pr-history .history h4 b {
+      font-size: 20px; }
+    #content.pr-history .history h4 i {
+      font-size: 13px; }
+  #content.pr-history .history .explain {
+    height: 100px;
+    font-size: 13px;
+    line-height: 20px; } }
+#content.pr-history .sponsored {
+  margin-top: 125px; }
+  @media (max-width: 1229px) {
+    #content.pr-history .sponsored {
+      margin-top: 100px; } }
+  @media (max-width: 767px) {
+    #content.pr-history .sponsored {
+      margin-top: 50px; } }
+  #content.pr-history .sponsored .section-head {
+    margin-bottom: 50px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ccc; }
+    #content.pr-history .sponsored .section-head h4 {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #dfdfdf;
+      text-align: center;
+      color: #080d68;
+      font-size: 25px;
+      line-height: 32px; }
+    @media (max-width: 1229px) {
+      #content.pr-history .sponsored .section-head {
+        margin-bottom: 40px; }
+        #content.pr-history .sponsored .section-head h4 {
+          font-size: 22px; } }
+    @media (max-width: 767px) {
+      #content.pr-history .sponsored .section-head {
+        margin-bottom: 30px; }
+        #content.pr-history .sponsored .section-head h4 {
+          padding-bottom: 10px;
+          font-size: 16px; } }
+  #content.pr-history .sponsored .section-body ul {
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px; }
+    #content.pr-history .sponsored .section-body ul li {
+      float: left;
+      margin-bottom: 30px;
+      width: 20%;
+      padding-left: 15px;
+      padding-right: 15px; }
+      #content.pr-history .sponsored .section-body ul li figure img {
+        margin: 0 auto;
+        border: 1px solid #dfdfdf; }
+      #content.pr-history .sponsored .section-body ul li figure figcaption {
+        padding-top: 10px;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #777;
+        letter-spacing: -1px; }
+        #content.pr-history .sponsored .section-body ul li figure figcaption h5 {
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 22px;
+          color: #080d68; }
+          #content.pr-history .sponsored .section-body ul li figure figcaption h5 i {
+            font-style: normal;
+            color: #777; }
+      #content.pr-history .sponsored .section-body ul li:nth-of-type(5n+1) {
+        clear: both; }
+  @media (max-width: 1229px) {
+    #content.pr-history .sponsored .section-body ul {
+      margin-left: -10px;
+      margin-right: -10px; }
+      #content.pr-history .sponsored .section-body ul li {
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 25%; }
+        #content.pr-history .sponsored .section-body ul li figure figcaption {
+          font-size: 14px;
+          line-height: 20px; }
+          #content.pr-history .sponsored .section-body ul li figure figcaption h5 {
+            font-size: 14px; }
+        #content.pr-history .sponsored .section-body ul li:nth-of-type(5n+1) {
+          clear: none; }
+        #content.pr-history .sponsored .section-body ul li:nth-of-type(4n+1) {
+          clear: both; } }
+  @media (max-width: 767px) {
+    #content.pr-history .sponsored .section-body ul {
+      margin-left: -5px;
+      margin-right: -5px; }
+      #content.pr-history .sponsored .section-body ul li {
+        margin-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 50%; }
+        #content.pr-history .sponsored .section-body ul li figure figcaption {
+          font-size: 13px; }
+          #content.pr-history .sponsored .section-body ul li figure figcaption h5 {
+            font-size: 13px; }
+        #content.pr-history .sponsored .section-body ul li:nth-of-type(4n+1) {
+          clear: none; }
+        #content.pr-history .sponsored .section-body ul li:nth-of-type(2n+1) {
+          clear: both; } }
+#content.pr-history .magazine {
+  margin-top: 125px;
+  margin-bottom: 120px; }
+  @media (max-width: 1229px) {
+    #content.pr-history .magazine {
+      margin-top: 100px;
+      margin-bottom: 100px; } }
+  @media (max-width: 767px) {
+    #content.pr-history .magazine {
+      margin-top: 50px;
+      margin-bottom: 50px; } }
+  #content.pr-history .magazine .section-head {
+    margin-bottom: 50px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ccc; }
+    #content.pr-history .magazine .section-head h4 {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #dfdfdf;
+      text-align: center;
+      color: #080d68;
+      font-size: 25px;
+      line-height: 32px; }
+    @media (max-width: 1229px) {
+      #content.pr-history .magazine .section-head {
+        margin-bottom: 40px; }
+        #content.pr-history .magazine .section-head h4 {
+          font-size: 22px; } }
+    @media (max-width: 767px) {
+      #content.pr-history .magazine .section-head {
+        margin-bottom: 30px; }
+        #content.pr-history .magazine .section-head h4 {
+          padding-bottom: 10px;
+          font-size: 16px; } }
 
 /*# sourceMappingURL=company.css.map */

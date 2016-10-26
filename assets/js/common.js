@@ -1,11 +1,11 @@
 (function($) {
     // 모바일, 태블릿 GNB 관련
     $(document).on('click', '#header .btn-menu', function() {
-        $('body').addClass('gnb-open');
+        $('html, body').addClass('gnb-open');
         $('#gnb-all .full:eq(0)').focus();
     });
     $(document).on('click', '#gnb-all .back', function() {
-        $('body').removeClass('gnb-open');
+        $('html, body').removeClass('gnb-open');
         $('#header .btn-menu').focus();
     });
     $(document).on('click', '#gnb-all .menu > ul > li > a', function(e) {

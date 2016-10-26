@@ -43,10 +43,10 @@
         <div class="container">
             <div class="section-content">
                 <div class="section-head">
-                    <h3 class="section-title">다이아몬드 미네랄 워터</h3>
+                    <h3 class="section-title"><img src="/assets/images/company/h_cafe_water.gif" alt="다이아몬드 미네랄 워터"></h3>
                     <hr>
                     <p>
-                        500캐럿 천연 다이아몬드 보석수 / 500 CARATS DIAMOND MINERAL WATER
+                        500캐럿 천연 다이아몬드 보석수 / <br class="visible-xs">500 Carats Diamond Mineral Water
                     </p>
                 </div>
                 <div class="section-body row">
