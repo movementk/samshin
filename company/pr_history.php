@@ -430,8 +430,7 @@
                 </div>
                 <div class="section-body">
                     <p class="visible-lg visible-md"><img class="img-responsive" src="/assets/images/company/img_pr_magazine_lg.jpg" alt=""></p>
-                    <p class="visible-sm"><img class="img-responsive" src="/assets/images/company/img_pr_magazine_sm.jpg" alt=""></p>
-                    <p class="visible-xs"><img class="img-responsive" src="/assets/images/company/img_pr_magazine_xs.jpg" alt=""></p>
+                    <p class="visible-xs visible-sm"><img class="img-responsive" src="/assets/images/company/img_pr_magazine_sm.jpg" alt=""></p>
                 </div>
             </section>
         </div>

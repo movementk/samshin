@@ -61,12 +61,10 @@
                         </tr>
                     </tbody>
                 </table>
-                <div class="btn-area row">
-                    <div class="col-lg-1 col-lg-offset-10">
-                        <a class="btn btn-list" href="#">목록보기</a>
-                    </div>
-                    <div class="col-lg-1">
-                        <a class="btn btn-write btn-primary" href="#">글쓰기</a>
+                <div class="btn-area">
+                    <div>
+                        <p><a class="btn btn-list" href="#">목록보기</a></p>
+                        <p><a class="btn btn-write btn-primary" href="#">글쓰기</a></p>
                     </div>
                 </div>
                 <?php require($_SERVER["DOCUMENT_ROOT"].'/inc/paging.php'); ?>

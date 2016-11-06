@@ -3170,5 +3170,15 @@ body {
                 }
             }
         }
+        .section-body {
+            .img-responsive {
+                margin: 0 auto;
+            }
+            @media (max-width: $sm - 1px) {
+                .img-responsive {
+                    width: 100%;
+                }
+            }
+        }
     }
 }

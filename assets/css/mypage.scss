@@ -485,21 +485,44 @@
             margin-bottom: 20px;
             margin-left: -5px;
             margin-right: -5px;
+            text-align: right;
             > div {
+                display: inline-block;
                 padding-left: 5px;
                 padding-right: 5px;
-                .btn {
-                    width: 100%;
-                    height: 30px;
-                    &.btn-list {
-                        &:hover,
-                        &:focus {
-                            background-color: #666;
-                            border-color: #666;
-                            color: #fff;
+                p {
+                    display: inline-block;
+                    & + p {
+                        margin-left: 10px;
+                    }
+                    .btn {
+                        position: relative;
+                        width: 100px;
+                        height: 30px;
+                        &.btn-list {
+                            &:hover,
+                            &:focus {
+                                background-color: #666;
+                                border-color: #666;
+                                color: #fff;
+                            }
                         }
                     }
                 }
+            }
+        }
+        @media (max-width: $sm - 1px) {
+            th, td {
+                &:nth-of-type(1) {
+                    display: none;
+                }
+                &:nth-of-type(4),
+                &:nth-of-type(5) {
+                    display: none;
+                }
+            }
+            td.title {
+                padding-left: 10px;
             }
         }
     }

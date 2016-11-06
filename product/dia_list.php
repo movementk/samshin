@@ -13,12 +13,12 @@
             - 스텝#1: step-1, 스텝#2: step-2
             - 링선택: select-ring, 목걸이선택: select-necklace, 귀걸이선택: select-earring
         -->
-        <section class="select-steps step-2 select-ring">
+        <section class="select-steps step-1 select-necklace">
             <div class="container">
                 <ol>
-                    <li>
+                    <li class="jewelry">
                         <div>
-                            <h3><small>SELECT YOUR</small><br>DIAMOND</h3>
+                            <h3><small>SELECT YOUR</small><br>SETTING</h3>
                             <div class="info">
                                 <span class="price">529,000<span>원</span></span>
                                 <ul class="menu">
@@ -29,9 +29,9 @@
                             <div class="icon"></div>
                         </div>
                     </li>
-                    <li>
+                    <li class="diamond">
                         <div>
-                            <h3><small>SELECT YOUR</small><br>SETTING</h3>
+                            <h3><small>SELECT YOUR</small><br>DIAMOND</h3>
                             <div class="info">
                                 <span class="price">529,000<span>원</span></span>
                                 <ul class="menu">
@@ -75,7 +75,7 @@
             <div class="dia filter">
                 <form class="row" action="#">
                     <fieldset class="shape col-xs-12">
-                        <legend>SHAPE<i>형태</i><a class="help-link" href="./modal/shape.php" data-toggle="modal" data-target="#help-modal"></a></legend>
+                        <legend>SHAPE<i>형태</i> <a class="help-link" href="./modal/shape.php" data-toggle="modal" data-target="#help-modal"></a></legend>
                         <div class="shape-list">
                             <ul>
                                 <li><label class="btn btn-block">
@@ -136,7 +136,7 @@
                         </div>
                     </fieldset>
                     <fieldset class="price col-xs-12 col-lg-6">
-                        <legend>PRICE<i>가격</i><a class="help-link" href="./modal/price.php" data-toggle="modal" data-target="#help-modal"></a></legend>
+                        <legend>PRICE<i>가격</i></legend>
                         <div class="slider"><div></div></div>
                         <div class="values row">
                             <div class="col-xs-6"><input class="form-control minium" type="text" placeholder="₩0" readonly></div>
@@ -456,20 +456,7 @@
         </div>
     </main>
 
-    <div id="help-modal" class="modal fade" tabindex="-1" role="dialog" data-show="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <!--
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="sr-only">닫기</span></button>
-                    <h4 class="modal-title">SHAPE <i>형태</i></h4>
-                </div>
-                <div class="modal-body">
-                    <p>One fine body&hellip;</p>
-                </div>
-                -->
-            </div>
-        </div>
+    <div id="help-modal" class="modal fade" tabindex="-1" role="dialog">
     </div>
 
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
@@ -480,7 +467,7 @@
     <script>
         (function($) {
             $('#help-modal').on('show.bs.modal', function (e) {
-                $(this).find('.modal-content').load($(e.relatedTarget).attr('href'));
+                $(this).load($(e.relatedTarget).attr('href'));
             });
         })(jQuery);
     </script>

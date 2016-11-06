@@ -174,7 +174,12 @@
         line-height: 15px;
         text-align: center;
         font-size: 12px;
-        color: #666; }
+        color: #666;
+        text-decoration: none; }
+        .tabs ul li a:hover, .tabs ul li a:focus, .tabs ul li span:hover, .tabs ul li span:focus {
+          background-color: #080d68;
+          border-color: #080d68;
+          color: #fff; }
       .tabs ul li span {
         background-color: #080d68;
         border-color: #080d68;
@@ -1023,10 +1028,13 @@
       padding-bottom: 0;
       height: 35px;
       line-height: 33px; }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .information.shape .tabs {
     padding-left: 150px;
-    padding-right: 150px; } }
+    padding-right: 150px; }
+    .information.shape .tabs ul li a, .information.shape .tabs ul li span {
+      height: 40px;
+      line-height: 38px; } }
 .information.shape .type {
   margin-top: 30px;
   border: 1px solid #dfdfdf; }
@@ -1218,6 +1226,11 @@
         padding-bottom: 0;
         height: 35px;
         line-height: 33px; }
+        .information.stone.bstone .tabs ul li a:hover, .information.stone.bstone .tabs ul li a:focus, .information.stone.bstone .tabs ul li span:hover, .information.stone.bstone .tabs ul li span:focus {
+          background-color: #080d68;
+          border-color: #080d68;
+          color: #fff;
+          text-decoration: none; }
   @media (min-width: 768px) {
     .information.stone.bstone .tabs ul {
       margin-left: -5px;

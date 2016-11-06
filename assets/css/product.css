@@ -1,18 +1,18 @@
 @charset "UTF-8";
-.lato, .select-steps > .container > ol > li:before, .select-steps > .container > ol > li > div h3 small, .select-steps > .container > ol > li > div .info .price, .select-steps > .container > ol > li > div .info .menu > li a, .filter legend, .filter .shape-list ul li .btn .en, .filter .fancy-color-list ul li .btn span, .filter .design-list ul li .btn span, .filter .metal-list ul li .btn span, .details.jewelry .summary .order .btn-area > div .btn-favor, .details.jewelry .setting .setting-list ul li div h5 .en, .details.jewelry .setting .setting-list ul li div p, .details.dia .summary .diainfo .btn-area > div .btn-favor, #help-modal .shape-list ul li {
+.lato, .select-steps > .container > ol > li:before, .select-steps > .container > ol > li > div h3 small, .select-steps > .container > ol > li > div .info .price, .select-steps > .container > ol > li > div .info .menu > li a, .filter legend, .filter .shape-list ul li .btn .en, .filter .fancy-color-list ul li .btn span, .filter .design-list ul li .btn span, .filter .metal-list ul li .btn span, .details.jewelry .summary .order .btn-area > div .btn-favor, .details.jewelry .setting .setting-list ul li div h5 .en, .details.jewelry .setting .setting-list ul li div p, .details.dia .summary .diainfo .btn-area > div .btn-favor, #help-modal .modal-dialog.shape .shape-list ul li, #help-modal .modal-dialog.shape .side-stone ul li {
   font-family: 'Lato', sans-serif; }
 
 .jjmj, .details.jewelry .summary .order > header h3, .details.jewelry .feature section > div h4, .details.jewelry .setting header h4,
 .details.jewelry .recommend header h4, .details.dia .summary .diainfo > header h3, .details.dia .product-info .feature section.overview h4, .details.dia .product-info .size-info h5,
 .details.dia .product-info .color-info h5,
 .details.dia .product-info .clarity-info h5,
-.details.dia .product-info .cutting-info h5, #help-modal .modal-header .modal-title {
+.details.dia .product-info .cutting-info h5, #help-modal .modal-dialog .modal-header .modal-title {
   font-family: 'Jeju Myeongjo', serif; }
 
-.noto, .select-steps > .container > ol > li > div .info .price span, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small, #help-modal .modal-header .modal-title i {
+.noto, .select-steps > .container > ol > li > div .info .price span, .filter legend i, .details .packing header h4 small, .details .shopping-info header h4 small, .details .qna header h4 small, .details .review header h4 small, .details.dia .product-info > header h4 small, #help-modal .modal-dialog .modal-header .modal-title i {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.crimson, .select-steps > .container > ol > li > div h3, .page-header .page-title, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4, #help-modal .shape-list ul li:last-child {
+.crimson, .select-steps > .container > ol > li > div h3, .page-header .page-title, .filter .shape-list ul li:last-child .btn, .details .packing header h4, .details .shopping-info header h4, .details .qna header h4, .details .review header h4, .details.dia .product-info > header h4 {
   font-family: 'Crimson Text', serif; }
 
 .font-12 {
@@ -38,6 +38,18 @@
       background-image: url(/assets/images/product/img_visual_gia_lg.jpg);
       background-repeat: no-repeat;
       background-position: 50% 50%; } }
+
+.help-link {
+  display: inline-block;
+  margin-left: 5px;
+  text-decoration: none !important;
+  line-height: normal;
+  color: #aaa; }
+  .help-link:before {
+    font-family: 'fontello';
+    content: '\E806'; }
+  .help-link:hover:before, .help-link:focus:before {
+    color: #eb2127; }
 
 .select-steps {
   margin-top: 20px;
@@ -338,45 +350,60 @@
     .select-steps.step-2 > .container > ol > li:nth-of-type(3) > div {
       padding-left: 90px; } }
   @media (min-width: 768px) {
-    .select-steps.select-ring > .container > ol > li:nth-of-type(2) > div .icon:before {
+    .select-steps.select-ring > .container > ol > li.jewelry > div .icon:before {
       background-image: url(/assets/images/product/ico_select_ring_step_2.png);
       background-size: 19px auto; }
+    .select-steps.select-ring > .container > ol > li.diamond > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_step_1.png);
+      background-size: 24px auto; }
     .select-steps.select-ring > .container > ol > li:nth-of-type(3) > div .icon:before {
       background-image: url(/assets/images/product/ico_select_ring_step_3.png);
       background-size: 18px auto; } }
   @media (min-width: 1230px) {
-    .select-steps.select-ring > .container > ol > li:nth-of-type(2) > div .icon:before {
+    .select-steps.select-ring > .container > ol > li.jewelry > div .icon:before {
       background-size: 29px auto; }
+    .select-steps.select-ring > .container > ol > li.diamond > div .icon:before {
+      background-size: 38px auto; }
     .select-steps.select-ring > .container > ol > li:nth-of-type(3) > div .icon:before {
       background-size: 28px auto; } }
   @media (min-width: 768px) {
-    .select-steps.select-earring > .container > ol > li:nth-of-type(2) > div .icon:before {
+    .select-steps.select-earring > .container > ol > li.jewelry > div .icon:before {
       background-image: url(/assets/images/product/ico_select_earring_step_2.png);
       background-size: 26px auto; }
+    .select-steps.select-earring > .container > ol > li.diamond > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_step_1.png);
+      background-size: 24px auto; }
     .select-steps.select-earring > .container > ol > li:nth-of-type(3) > div .icon:before {
       background-image: url(/assets/images/product/ico_select_earring_step_3.png);
       background-size: 26px auto; } }
   @media (min-width: 1230px) {
-    .select-steps.select-earring > .container > ol > li:nth-of-type(2) > div .icon:before {
+    .select-steps.select-earring > .container > ol > li.jewelry > div .icon:before {
       background-size: 36px auto; }
+    .select-steps.select-earring > .container > ol > li.diamond > div .icon:before {
+      background-size: 38px auto; }
     .select-steps.select-earring > .container > ol > li:nth-of-type(3) > div .icon:before {
       background-size: 36px auto; } }
   @media (min-width: 768px) {
-    .select-steps.select-necklace > .container > ol > li:nth-of-type(2) > div .icon:before {
+    .select-steps.select-necklace > .container > ol > li.jewelry > div .icon:before {
       background-image: url(/assets/images/product/ico_select_necklace_step_2.png);
       background-size: 18px auto; }
+    .select-steps.select-necklace > .container > ol > li.diamond > div .icon:before {
+      background-image: url(/assets/images/product/ico_select_step_1.png);
+      background-size: 24px auto; }
     .select-steps.select-necklace > .container > ol > li:nth-of-type(3) > div .icon:before {
       background-image: url(/assets/images/product/ico_select_necklace_step_3.png);
       background-size: 18px auto; } }
   @media (min-width: 1230px) {
-    .select-steps.select-necklace > .container > ol > li:nth-of-type(2) > div .icon:before {
+    .select-steps.select-necklace > .container > ol > li.jewelry > div .icon:before {
       background-size: 24px auto; }
+    .select-steps.select-necklace > .container > ol > li.diamond > div .icon:before {
+      background-size: 38px auto; }
     .select-steps.select-necklace > .container > ol > li:nth-of-type(3) > div .icon:before {
       background-size: 24px auto; } }
 
 .page-header {
   margin-top: 0;
-  marign-bottom: 0;
+  margin-bottom: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
   border-bottom: 0;
@@ -409,6 +436,43 @@
       .page-header p {
         margin-top: 20px;
         font-size: 14px; } }
+
+.slider {
+  margin-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px; }
+  .slider .ui-widget {
+    border: 0;
+    background-color: #dfdfdf;
+    border-radius: 6px;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07); }
+  .slider .ui-slider-range {
+    height: 10px;
+    background-color: #080d68;
+    border: 0;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07); }
+  .slider .ui-slider-handle {
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); }
+  .slider + .values {
+    margin-top: 15px !important; }
+    .slider + .values .form-control {
+      font-size: 11px;
+      width: 100px;
+      height: 30px;
+      background-color: #fff; }
+      .slider + .values .form-control.maxium {
+        float: right; }
+  @media (min-width: 768px) {
+    .slider {
+      padding-left: 10px;
+      padding-right: 10px; }
+      .slider + .values .form-control {
+        font-size: 12px; } }
 
 .dia-type {
   margin-bottom: 35px; }
@@ -568,42 +632,6 @@
       border-color: #080d68;
       color: #fff;
       font-weight: bold; }
-  .filter .slider {
-    margin-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px; }
-    .filter .slider .ui-widget {
-      border: 0;
-      background-color: #dfdfdf;
-      border-radius: 6px;
-      box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07); }
-    .filter .slider .ui-slider-range {
-      height: 10px;
-      background-color: #080d68;
-      border: 0;
-      box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07); }
-    .filter .slider .ui-slider-handle {
-      top: -5px;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      background-color: #fff;
-      box-shadow: 0 0 4px rgba(0, 0, 0, 0.3); }
-    .filter .slider + .values {
-      margin-top: 15px !important; }
-      .filter .slider + .values .form-control {
-        font-size: 11px;
-        width: 100px;
-        height: 30px;
-        background-color: #fff; }
-        .filter .slider + .values .form-control.maxium {
-          float: right; }
-    @media (min-width: 768px) {
-      .filter .slider {
-        padding-left: 10px;
-        padding-right: 10px; }
-        .filter .slider + .values .form-control {
-          font-size: 12px; } }
   .filter fieldset {
     margin-bottom: 20px; }
     .filter fieldset.polish legend, .filter fieldset.symmetry legend, .filter fieldset.fluorescence legend, .filter fieldset.imgdata legend {
@@ -613,24 +641,31 @@
     margin-bottom: 5px;
     color: #080d68;
     font-size: 13px;
-    font-weight: 600; }
+    font-weight: 600;
+    /*
+    .help-link {
+        display: inline-block;
+        margin-left: 5px;
+        text-decoration: none;
+        line-height: normal;
+        color: #aaa;
+        &:before {
+            font-family: 'fontello';
+            content: '\E806';
+        }
+        &:hover, &:focus {
+            &:before {
+                color: $red;
+            }
+        }
+    }
+    */ }
     .filter legend i {
       display: inline-block;
       margin-left: 10px;
       color: #666;
       font-style: normal;
       font-weight: 400; }
-    .filter legend .help-link {
-      display: inline-block;
-      margin-left: 5px;
-      text-decoration: none;
-      line-height: normal;
-      color: #aaa; }
-      .filter legend .help-link:before {
-        font-family: 'fontello';
-        content: '\E806'; }
-      .filter legend .help-link:hover:before, .filter legend .help-link:focus:before {
-        color: #eb2127; }
     @media (min-width: 768px) {
       .filter legend {
         margin-bottom: 15px;
@@ -653,10 +688,13 @@
         background-repeat: no-repeat; }
         .filter .shape-list ul li .btn .en, .filter .shape-list ul li .btn .ko {
           display: none; }
+        .filter .shape-list ul li .btn:hover, .filter .shape-list ul li .btn:focus {
+          border: 1px solid #080d68;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+          z-index: 1; }
         .filter .shape-list ul li .btn.active {
           background-color: #fff;
-          z-index: 1;
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+          z-index: 1; }
       .filter .shape-list ul li:nth-of-type(1) .btn {
         background-image: url(/assets/images/product/img_shape_real_1.jpg); }
         .filter .shape-list ul li:nth-of-type(1) .btn.active {
@@ -793,10 +831,13 @@
         background-repeat: no-repeat; }
         .filter .fancy-color-list ul li .btn span {
           display: none; }
+        .filter .fancy-color-list ul li .btn:hover, .filter .fancy-color-list ul li .btn:focus {
+          border: 1px solid #080d68;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+          z-index: 1; }
         .filter .fancy-color-list ul li .btn.active {
           background-color: #fff;
-          z-index: 1;
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+          z-index: 1; }
       .filter .fancy-color-list ul li:nth-of-type(1) .btn {
         background-image: url(/assets/images/product/img_fancy_1.png); }
       .filter .fancy-color-list ul li:nth-of-type(2) .btn {
@@ -1183,7 +1224,8 @@
         padding-left: 15px;
         padding-right: 15px;
         font-size: 12px;
-        color: #666; }
+        color: #666;
+        text-decoration: none; }
         .dia-list .dropdown > .dropdown-menu li a:hover, .dia-list .dropdown > .dropdown-menu li a:focus {
           background-color: transparent;
           text-decoration: underline; }
@@ -1261,6 +1303,57 @@
   @media (min-width: 1230px) {
     .jewelry-list {
       margin-bottom: 40px; } }
+
+.top10-list ul > li {
+  border-bottom: 1px solid #dfdfdf; }
+  .top10-list ul > li:first-child {
+    border-top: 1px solid #dfdfdf; }
+  .top10-list ul > li > a {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none; }
+    .top10-list ul > li > a > figure > p {
+      margin-bottom: 20px; }
+      .top10-list ul > li > a > figure > p .img-responsive {
+        margin: 0 auto; }
+    .top10-list ul > li > a > figure > figcaption {
+      text-align: center;
+      line-height: 20px; }
+      .top10-list ul > li > a > figure > figcaption h5 {
+        margin-bottom: 5px;
+        font-size: 15px;
+        color: #222;
+        font-weight: 300; }
+      .top10-list ul > li > a > figure > figcaption .details {
+        margin-bottom: 10px;
+        font-size: 12px;
+        color: #aaa;
+        font-weight: 300; }
+      .top10-list ul > li > a > figure > figcaption .price {
+        font-size: 13px;
+        color: #080d68;
+        font-weight: 900; }
+    .top10-list ul > li > a:hover > figure > figcaption h5, .top10-list ul > li > a:focus > figure > figcaption h5 {
+      text-decoration: underline; }
+@media (min-width: 768px) {
+  .top10-list ul > li > a {
+    padding-top: 35px;
+    padding-bottom: 35px; }
+    .top10-list ul > li > a > figure > p {
+      margin-bottom: 0; }
+    .top10-list ul > li > a > figure > figcaption {
+      text-align: left; }
+      .top10-list ul > li > a > figure > figcaption div {
+        padding-left: 20px; }
+      .top10-list ul > li > a > figure > figcaption h5 {
+        font-size: 16px; }
+      .top10-list ul > li > a > figure > figcaption .details, .top10-list ul > li > a > figure > figcaption .price {
+        font-size: 14px; } }
+@media (min-width: 1230px) {
+  .top10-list ul > li > a {
+    padding-top: 45px;
+    padding-bottom: 45px; } }
 
 .details .packing, .details .shopping-info, .details .qna, .details .review {
   margin-top: 40px;
@@ -2103,59 +2196,61 @@
   @media (min-width: 1230px) {
     #help-modal .modal-dialog {
       width: 770px; } }
-#help-modal .modal-content {
-  padding: 10px;
-  box-shadow: none;
-  border-radius: 0;
-  border: 0; }
-  @media (min-width: 768px) {
-    #help-modal .modal-content {
-      padding: 40px; } }
-#help-modal .modal-header {
-  padding-top: 30px;
-  padding-left: 0;
-  padding-right: 0;
-  border-bottom-color: #ccc; }
-  #help-modal .modal-header .close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 0;
-    width: 40px;
-    height: 40px;
-    background-color: #080d68;
-    opacity: 1;
-    filter: alpha(opacity=100);
-    text-shadow: none;
-    color: #fff; }
-    #help-modal .modal-header .close:before {
-      content: url(/assets/images/product/ico_close.png);
-      vertical-align: 2px; }
-  #help-modal .modal-header .modal-title {
-    padding-left: 15px;
-    height: 20px;
-    font-weight: 500;
-    color: #080d68;
-    font-size: 23px;
-    line-height: 19px;
-    border-left: 3px solid #080d68; }
-    #help-modal .modal-header .modal-title i {
-      font-style: normal;
-      color: #666;
-      font-size: 19px;
-      font-weight: 300; }
-  @media (min-width: 768px) {
-    #help-modal .modal-header {
-      padding-top: 0;
-      padding-bottom: 20px; }
-      #help-modal .modal-header .close {
-        width: 50px;
-        height: 50px; } }
-#help-modal .modal-body {
-  padding: 25px 0; }
-  @media (min-width: 768px) {
-    #help-modal .modal-body {
-      padding-bottom: 0; } }
+  #help-modal .modal-dialog .modal-content {
+    padding: 10px;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0; }
+    @media (min-width: 768px) {
+      #help-modal .modal-dialog .modal-content {
+        padding: 40px; } }
+  #help-modal .modal-dialog .modal-header {
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom-color: #ccc; }
+    #help-modal .modal-dialog .modal-header .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 0;
+      width: 40px;
+      height: 40px;
+      background-color: #080d68;
+      opacity: 1;
+      filter: alpha(opacity=100);
+      text-shadow: none;
+      color: #fff; }
+      #help-modal .modal-dialog .modal-header .close:before {
+        content: url(/assets/images/product/ico_close.png);
+        vertical-align: 2px; }
+    #help-modal .modal-dialog .modal-header .modal-title {
+      padding-left: 15px;
+      height: 20px;
+      font-weight: 500;
+      color: #080d68;
+      font-size: 23px;
+      line-height: 19px;
+      border-left: 3px solid #080d68; }
+      #help-modal .modal-dialog .modal-header .modal-title i {
+        font-style: normal;
+        color: #666;
+        font-size: 19px;
+        font-weight: 300; }
+    @media (min-width: 768px) {
+      #help-modal .modal-dialog .modal-header {
+        padding-top: 0;
+        padding-bottom: 20px; }
+        #help-modal .modal-dialog .modal-header .close {
+          width: 50px;
+          height: 50px; } }
+  #help-modal .modal-dialog .modal-body {
+    padding: 25px 0; }
+    @media (min-width: 768px) {
+      #help-modal .modal-dialog .modal-body {
+        padding-bottom: 0; } }
+  #help-modal .modal-dialog.cut, #help-modal .modal-dialog.polish, #help-modal .modal-dialog.symmetry, #help-modal .modal-dialog.fluorescence, #help-modal .modal-dialog.measurements, #help-modal .modal-dialog.culet, #help-modal .modal-dialog.girdle, #help-modal .modal-dialog.ratio, #help-modal .modal-dialog.grade, #help-modal .modal-dialog.fancy {
+    max-width: 430px; }
 #help-modal .summary p {
   font-size: 12px;
   line-height: 22px; }
@@ -2164,68 +2259,6 @@
 @media (min-width: 768px) {
   #help-modal .summary p {
     font-size: 13px; } }
-#help-modal .shape-list {
-  margin-top: 30px; }
-  #help-modal .shape-list h5 {
-    margin-bottom: 10px;
-    font-size: 14px;
-    color: #222; }
-  #help-modal .shape-list ul {
-    overflow: hidden; }
-    #help-modal .shape-list ul li {
-      float: left;
-      padding-top: 65px;
-      width: 25%;
-      height: 90px;
-      text-align: center;
-      font-size: 12px;
-      font-weight: 400;
-      background-repeat: no-repeat;
-      background-position: 50% 10px; }
-      #help-modal .shape-list ul li:nth-of-type(1) {
-        background-image: url(/assets/images/product/img_shape_line_1.gif); }
-      #help-modal .shape-list ul li:nth-of-type(2) {
-        background-image: url(/assets/images/product/img_shape_line_2.gif); }
-      #help-modal .shape-list ul li:nth-of-type(3) {
-        background-image: url(/assets/images/product/img_shape_line_3.gif); }
-      #help-modal .shape-list ul li:nth-of-type(4) {
-        background-image: url(/assets/images/product/img_shape_line_4.gif); }
-      #help-modal .shape-list ul li:nth-of-type(5) {
-        background-image: url(/assets/images/product/img_shape_line_5.gif); }
-      #help-modal .shape-list ul li:nth-of-type(6) {
-        background-image: url(/assets/images/product/img_shape_line_6.gif); }
-      #help-modal .shape-list ul li:nth-of-type(7) {
-        background-image: url(/assets/images/product/img_shape_line_7.gif); }
-      #help-modal .shape-list ul li:nth-of-type(8) {
-        background-image: url(/assets/images/product/img_shape_line_8.gif); }
-      #help-modal .shape-list ul li:nth-of-type(9) {
-        background-image: url(/assets/images/product/img_shape_line_9.gif); }
-      #help-modal .shape-list ul li:nth-of-type(10) {
-        background-image: url(/assets/images/product/img_shape_line_10.gif); }
-      #help-modal .shape-list ul li:last-child {
-        width: 50%;
-        font-weight: 600; }
-        #help-modal .shape-list ul li:last-child:after {
-          margin-left: 10px;
-          font-family: 'fontello';
-          content: '\E801';
-          font-size: 10px;
-          color: #080d68; }
-        #help-modal .shape-list ul li:last-child a {
-          color: #080d68; }
-  @media (min-width: 768px) {
-    #help-modal .shape-list {
-      margin-top: 45px; }
-      #help-modal .shape-list h5 {
-        margin-bottom: 15px;
-        font-size: 16px; }
-      #help-modal .shape-list ul li {
-        padding-top: 75px;
-        width: 12.5%;
-        height: 100px;
-        background-position: 50% 20px; }
-        #help-modal .shape-list ul li:last-child {
-          width: 25%; } }
 #help-modal .figure p img {
   margin: 0 auto; }
 #help-modal .slider {
@@ -2328,46 +2361,182 @@
         #help-modal .explain ul li > div + h5 {
           margin-top: 20px; } }
 @media (min-width: 768px) {
-  #help-modal .modal-body.carat .slider {
+  #help-modal .modal-dialog.carat .slider {
     margin-top: 50px; } }
-#help-modal .modal-body.color .figure {
+#help-modal .modal-dialog.color .figure {
   margin-top: 10px; }
-#help-modal .modal-body.color .slider {
+#help-modal .modal-dialog.color .slider {
   margin-top: 30px; }
-#help-modal .modal-body.color .slider-values ol li {
+#help-modal .modal-dialog.color .slider-values ol li {
   width: 9.09%; }
 @media (min-width: 768px) {
-  #help-modal .modal-body.color .figure {
+  #help-modal .modal-dialog.color .figure {
     margin-top: 35px; }
-  #help-modal .modal-body.color .slider {
+  #help-modal .modal-dialog.color .slider {
     margin-top: 55px; } }
-#help-modal .modal-body.clarity .figure {
+#help-modal .modal-dialog.clarity .figure {
   margin-top: 35px; }
-#help-modal .modal-body.clarity .slider {
+#help-modal .modal-dialog.clarity .slider {
   margin-top: 35px; }
-#help-modal .modal-body.clarity .slider-values ol {
+#help-modal .modal-dialog.clarity .slider-values ol {
   margin-left: -25px;
   margin-right: -25px; }
-  #help-modal .modal-body.clarity .slider-values ol li {
+  #help-modal .modal-dialog.clarity .slider-values ol li {
     width: 16.66%; }
 @media (min-width: 768px) {
-  #help-modal .modal-body.clarity .slider {
+  #help-modal .modal-dialog.clarity .slider {
     margin-top: 40px; }
-  #help-modal .modal-body.clarity .slider-values ol {
+  #help-modal .modal-dialog.clarity .slider-values ol {
     margin-left: -55px;
     margin-right: -55px; } }
-#help-modal .modal-body.metal .btn-list {
+#help-modal .modal-dialog.metal .btn-list {
   margin-top: 30px; }
-  #help-modal .modal-body.metal .btn-list li {
+  #help-modal .modal-dialog.metal .btn-list li {
     width: 50%; }
-#help-modal .modal-body.metal .explain {
+#help-modal .modal-dialog.metal .explain {
   margin-top: 10px; }
 @media (min-width: 768px) {
-  #help-modal .modal-body.metal .btn-list {
+  #help-modal .modal-dialog.metal .btn-list {
     margin-top: 40px; }
-    #help-modal .modal-body.metal .btn-list li {
+    #help-modal .modal-dialog.metal .btn-list li {
       width: 25%; }
-  #help-modal .modal-body.metal .explain {
+  #help-modal .modal-dialog.metal .explain {
     margin-top: 30px; } }
+#help-modal .modal-dialog.shape .shape-list {
+  margin-top: 30px; }
+  #help-modal .modal-dialog.shape .shape-list h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #222; }
+  #help-modal .modal-dialog.shape .shape-list ul {
+    overflow: hidden; }
+    #help-modal .modal-dialog.shape .shape-list ul li {
+      float: left;
+      padding-top: 65px;
+      width: 25%;
+      height: 90px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 400;
+      background-repeat: no-repeat;
+      background-position: 50% 10px; }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(1) {
+        background-image: url(/assets/images/product/img_shape_line_1.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(2) {
+        background-image: url(/assets/images/product/img_shape_line_2.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(3) {
+        background-image: url(/assets/images/product/img_shape_line_3.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(4) {
+        background-image: url(/assets/images/product/img_shape_line_4.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(5) {
+        background-image: url(/assets/images/product/img_shape_line_5.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(6) {
+        background-image: url(/assets/images/product/img_shape_line_6.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(7) {
+        background-image: url(/assets/images/product/img_shape_line_7.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(8) {
+        background-image: url(/assets/images/product/img_shape_line_8.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(9) {
+        background-image: url(/assets/images/product/img_shape_line_9.gif); }
+      #help-modal .modal-dialog.shape .shape-list ul li:nth-of-type(10) {
+        background-image: url(/assets/images/product/img_shape_line_10.gif); }
+  @media (min-width: 768px) {
+    #help-modal .modal-dialog.shape .shape-list {
+      margin-top: 45px; }
+      #help-modal .modal-dialog.shape .shape-list h5 {
+        margin-bottom: 15px;
+        font-size: 16px; }
+      #help-modal .modal-dialog.shape .shape-list ul li {
+        padding-top: 75px;
+        width: 12.5%;
+        height: 100px;
+        background-position: 50% 20px; } }
+#help-modal .modal-dialog.shape .side-stone {
+  margin-top: 30px; }
+  #help-modal .modal-dialog.shape .side-stone h5 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #222; }
+  #help-modal .modal-dialog.shape .side-stone ul {
+    overflow: hidden; }
+    #help-modal .modal-dialog.shape .side-stone ul li {
+      float: left;
+      padding-top: 70px;
+      width: 25%;
+      height: 90px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 400;
+      background-repeat: no-repeat;
+      background-position: 50% 10px;
+      background-size: auto 65%; }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(1) {
+        background-image: url(/assets/images/product/img_stone_line_1.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(2) {
+        background-image: url(/assets/images/product/img_stone_line_2.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(3) {
+        background-image: url(/assets/images/product/img_stone_line_3.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(4) {
+        background-image: url(/assets/images/product/img_stone_line_4.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(5) {
+        background-image: url(/assets/images/product/img_stone_line_5.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(6) {
+        background-image: url(/assets/images/product/img_stone_line_6.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(7) {
+        background-image: url(/assets/images/product/img_stone_line_7.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(8) {
+        background-image: url(/assets/images/product/img_stone_line_8.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(9) {
+        background-image: url(/assets/images/product/img_stone_line_9.jpg); }
+      #help-modal .modal-dialog.shape .side-stone ul li:nth-of-type(10) {
+        background-image: url(/assets/images/product/img_stone_line_10.jpg); }
+  @media (min-width: 768px) {
+    #help-modal .modal-dialog.shape .side-stone {
+      margin-top: 45px; }
+      #help-modal .modal-dialog.shape .side-stone h5 {
+        margin-bottom: 15px;
+        font-size: 16px; }
+      #help-modal .modal-dialog.shape .side-stone ul li {
+        margin-bottom: 20px;
+        padding-top: 85px;
+        width: 16.66666667%;
+        height: 100px;
+        background-position: 50% 10px;
+        background-size: auto; } }
+  @media (min-width: 1230px) {
+    #help-modal .modal-dialog.shape .side-stone ul li {
+      margin-bottom: 0;
+      width: 14.28571428%; } }
+#help-modal .modal-dialog.report .report-content {
+  font-size: 12px;
+  line-height: 22px; }
+  #help-modal .modal-dialog.report .report-content h5 {
+    font-size: 12px;
+    line-height: 22px;
+    color: #080d68; }
+  #help-modal .modal-dialog.report .report-content + .report-content {
+    margin-top: 25px; }
+  @media (min-width: 768px) {
+    #help-modal .modal-dialog.report .report-content {
+      font-size: 13px; }
+      #help-modal .modal-dialog.report .report-content h5 {
+        font-size: 13px; } }
+#help-modal .modal-dialog.culet .figure {
+  margin-top: 40px; }
+#help-modal .modal-dialog.girdle .figure {
+  margin-top: 40px; }
+#help-modal .modal-dialog.grade .grade-list {
+  margin-top: 20px; }
+  #help-modal .modal-dialog.grade .grade-list ul {
+    overflow: hidden; }
+    #help-modal .modal-dialog.grade .grade-list ul li {
+      display: inline;
+      white-space: normal; }
+      #help-modal .modal-dialog.grade .grade-list ul li + li:before {
+        margin-left: 5px;
+        margin-right: 5px;
+        content: '|';
+        font-size: 10px;
+        vertical-align: 2px; }
 
 /*# sourceMappingURL=product.css.map */

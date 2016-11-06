@@ -53,7 +53,7 @@
 
             <!-- 검색 영역 -->
             <div class="jewelry filter">
-                <form class="row" action="#">
+                <form class="row" action="#" style="height: 1000px;">
                     <fieldset class="price col-xs-12 col-lg-5">
                         <legend>PRICE <i>가격</i></legend>
                         <div class="slider"><div></div></div>

@@ -520,7 +520,7 @@ select.form-control {
       #gnb > .container > ul > li {
         position: relative;
         float: left;
-        width: 25%; }
+        width: 20%; }
         #gnb > .container > ul > li > a {
           display: block;
           width: 100%;
@@ -538,9 +538,9 @@ select.form-control {
           display: none;
           position: absolute;
           top: 55px;
-          padding: 25px 30px;
+          padding: 25px;
           width: 100%;
-          height: 425px; }
+          height: 450px; }
           #gnb > .container > ul > li > div > ul {
             width: 100%; }
             #gnb > .container > ul > li > div > ul > li > a {
@@ -550,7 +550,8 @@ select.form-control {
               #gnb > .container > ul > li > div > ul > li > a span {
                 font-size: 13px;
                 line-height: 28px;
-                font-weight: normal; }
+                font-weight: normal;
+                white-space: nowrap; }
               #gnb > .container > ul > li > div > ul > li > a .ko {
                 display: none; }
               #gnb > .container > ul > li > div > ul > li > a:hover .en, #gnb > .container > ul > li > div > ul > li > a:focus .en {
@@ -558,14 +559,13 @@ select.form-control {
               #gnb > .container > ul > li > div > ul > li > a:hover .ko, #gnb > .container > ul > li > div > ul > li > a:focus .ko {
                 display: inline-block;
                 text-decoration: underline; }
+            #gnb > .container > ul > li > div > ul.theme > li > a span {
+              font-size: 12px;
+              line-height: 26px; }
             #gnb > .container > ul > li > div > ul + ul {
-              margin-top: 20px;
-              padding-top: 25px;
+              margin-top: 15px;
+              padding-top: 15px;
               border-top: 1px solid #dfdfdf; }
-              #gnb > .container > ul > li > div > ul + ul > li > a span {
-                font-size: 12px;
-                line-height: 26px;
-                white-space: nowrap; }
             #gnb > .container > ul > li > div > ul li.flag > a {
               color: #eb2127; }
         #gnb > .container > ul > li + li > div {
@@ -578,7 +578,7 @@ select.form-control {
       padding-left: 15px;
       padding-right: 15px;
       width: 100%;
-      height: 425px; }
+      height: 450px; }
       #gnb > .container > .back > div {
         width: 100%;
         height: 100%;
@@ -690,12 +690,12 @@ select.form-control {
             color: #aaa; }
         #gnb-all .menu > ul > li > ul > li.active > a {
           color: #080d68; }
-        #gnb-all .menu > ul > li > ul + ul > li > a {
-          font-size: 12px; }
-        #gnb-all .menu > ul > li > ul + ul > li.flag > a {
+        #gnb-all .menu > ul > li > ul > li.flag > a {
           color: #eb2127; }
-          #gnb-all .menu > ul > li > ul + ul > li.flag > a:after {
+          #gnb-all .menu > ul > li > ul > li.flag > a:after {
             color: #aaa !important; }
+        #gnb-all .menu > ul > li > ul.theme > li > a {
+          font-size: 12px; }
       #gnb-all .menu > ul > li.has-child > a:after {
         font-family: 'fontello';
         content: '\E808E'; }

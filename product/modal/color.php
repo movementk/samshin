@@ -1,8 +1,10 @@
-<div class="modal-header">
+<div class="modal-dialog color" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="닫기"></button>
     <h4 class="modal-title">COLOR <i>색상</i></h4>
 </div>
-<div class="modal-body color">
+        <div class="modal-body">
     <div class="row">
         <div class="col-xs-12 col-sm-7">
             <div class="summary">
@@ -14,7 +16,7 @@
         </div>
         <div class="col-xs-12 col-sm-5">
             <div class="figure">
-                <p><img class="img-responsive" src="/assets/images/product/img_help_color_1.gif" alt=""></p>
+                <p><img class="img-responsive" src="/assets/images/product/img_help_color_1.jpg" alt=""></p>
             </div>
         </div>
     </div>
@@ -79,6 +81,8 @@
         </ul>
     </div>
 </div>
+    </div>
+</div>
 <script>
     (function($) {
         $( ".modal .slider > div:eq(0)" ).slider({
@@ -87,17 +91,21 @@
             max: 11,
             step: 1,
             slide: function(event, ui) {
-                $(".modal .figure img").attr('src', '/assets/images/product/img_help_color_'+(ui.value)+'.gif');
+                $(".modal .figure img").attr('src', '/assets/images/product/img_help_color_1.jpg');
                 $(".modal .slider-values ol li.active").removeClass('active');
                 $(".modal .slider-values ol li").eq(ui.value-1).addClass('active');
                 $(".modal .explain ul li.active").removeClass('active');
                 if (ui.value > 0 && ui.value <= 3) {
+                    $(".modal .figure img").attr('src', '/assets/images/product/img_help_color_2.jpg');
                     $(".modal .explain ul li").eq(0).addClass('active');
                 } else if (ui.value > 3 && ui.value <= 7) {
+                    $(".modal .figure img").attr('src', '/assets/images/product/img_help_color_3.jpg');
                     $(".modal .explain ul li").eq(1).addClass('active');
                 } else if (ui.value > 7 && ui.value <= 10) {
+                    $(".modal .figure img").attr('src', '/assets/images/product/img_help_color_4.jpg');
                     $(".modal .explain ul li").eq(2).addClass('active');
                 } else {
+                    $(".modal .figure img").attr('src', '/assets/images/product/img_help_color_5.jpg');
                     $(".modal .explain ul li").eq(3).addClass('active');
                 }
             }

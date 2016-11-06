@@ -1,5 +1,8 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/dochead_sub.php'); ?>
 <link href="/assets/css/product.css" rel="stylesheet">
+<link href="/assets/css/jquery-ui.min.css" rel="stylesheet">
+<link href="/assets/css/jquery-ui.structure.min.css" rel="stylesheet">
+<link href="/assets/css/jquery-ui.theme.min.css" rel="stylesheet">
 </head>
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
@@ -90,59 +93,103 @@
                                         <table class="table">
                                             <tbody>
                                                 <tr>
-                                                    <th>REPORT <i>색상</i> <a href="#"><i class="icon-question"></i></a></th>
+                                                    <th>REPORT <i>감정서</i>
+                                                        <a class="help-link" href="./modal/report.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>GIA</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>SHAPE <i>형태</i></th>
+                                                    <th>SHAPE <i>형태</i>
+                                                        <a class="help-link" href="./modal/shape.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>ROUND</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>WEIGHT <i>중량</i></th>
+                                                    <th>CARAT <i>중량</i>
+                                                        <a class="help-link" href="./modal/carat.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>0.31</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>COLOR <i>색상</i></th>
+                                                    <th>COLOR <i>색상</i>
+                                                        <a class="help-link" href="./modal/color.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>G</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>CLARITY <i>선명도</i></th>
+                                                    <th>CLARITY <i>선명도</i>
+                                                        <a class="help-link" href="./modal/clarity.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>SI1</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>CUT <i>컷팅</i></th>
+                                                    <th>CUT <i>컷팅</i>
+                                                        <a class="help-link" href="./modal/cut.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>Very Good</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>POLISH <i>연마</i></th>
+                                                    <th>POLISH <i>연마</i>
+                                                        <a class="help-link" href="./modal/polish.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>Exellent</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>SYMMETRY <i>대칭</i></th>
+                                                    <th>SYMMETRY <i>대칭</i>
+                                                        <a class="help-link" href="./modal/symmetry.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>Exellent</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>FLUORESCENCE <i>형광성</i></th>
+                                                    <th>FLUORESCENCE <i>형광성</i>
+                                                        <a class="help-link" href="./modal/fluorescence.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>Faint</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>RATIO <i>중량 비율</i></th>
+                                                    <th>RATIO <i>중량 비율</i>
+                                                        <a class="help-link" href="./modal/ratio.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>-</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>MEASUREMENTS <i>사이즈</i></th>
+                                                    <th>MEASUREMENTS <i>치수</i>
+                                                        <a class="help-link" href="./modal/measurements.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>14.07 x 14.14 x 8.35 mm</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>CULET <i>큐렛</i></th>
+                                                    <th>CULET <i>큐렛</i>
+                                                        <a class="help-link" href="./modal/culet.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>None</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>GIRDLE <i>거들</i></th>
+                                                    <th>GIRDLE <i>거들</i>
+                                                        <a class="help-link" href="./modal/girdle.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>Thin</td>
                                                 </tr>
                                                 <tr>
                                                     <th>TABLE <i>테이블</i></th>
+                                                    <td>56.0%</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>GRADE <i>팬시 다이아몬드 등급</i>
+                                                        <a class="help-link" href="./modal/grade.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
+                                                    <td>56.0%</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>FANCY <i>팬시 컬러 다이아몬드</i>
+                                                        <a class="help-link" href="./modal/fancy.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
+                                                    <td>56.0%</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>METAL <i>함량</i>
+                                                        <a class="help-link" href="./modal/metal.php" data-toggle="modal" data-target="#help-modal"></a>
+                                                    </th>
                                                     <td>56.0%</td>
                                                 </tr>
                                             </tbody>
@@ -470,8 +517,14 @@
         </div>
 
     </main>
+
+    <div id="help-modal" class="modal fade" tabindex="-1" role="dialog">
+    </div>
+
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/footer.php'); ?>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/docfoot.php'); ?>
+    <script src="/assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/jquery.ui.touch-punch.min.js"></script>
     <script src="/assets/js/jquery.bxslider.min.js"></script>
     <script>
         (function($) {
@@ -482,6 +535,7 @@
                 pagerCustom: '.summary .preview .pager',
                 controls: false
             });
+
             // 리뷰 클릭
             $(document).on('click', '.review-list .title a', function(e) {
                 var $commentRow = $(this).parents('tr').eq(0).find('+ .comment');
@@ -493,6 +547,13 @@
                 e.preventDefault();
             });
 
+        })(jQuery);
+    </script>
+    <script>
+        (function($) {
+            $('#help-modal').on('show.bs.modal', function (e) {
+                $(this).load($(e.relatedTarget).attr('href'));
+            });
         })(jQuery);
     </script>
 </body>

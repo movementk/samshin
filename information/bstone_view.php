@@ -20,11 +20,11 @@
             <div class="col-xs-12 col-lg-9">
                 <main id="content" tabindex="-1" class="information stone bstone">
                     <div class="page-header">
-                        <h2>BRIRTH STONES <small>탄생석</small></h2>
+                        <h2>BIRTH STONES <small>탄생석</small></h2>
                     </div>
                     <div class="tabs">
                         <ul>
-                            <li role="presentation"><span>1월 가넷</span></li>
+                            <li role="presentation"><a href="#">1월 가넷</a></li>
                             <li role="presentation"><a href="#">2월 자수정</a></li>
                             <li role="presentation"><a href="#">3월 아쿠아마린</a></li>
                             <li role="presentation"><a href="#">4월 다이아몬드</a></li>

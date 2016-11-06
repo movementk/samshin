@@ -20,7 +20,7 @@
             <div class="col-xs-12 col-lg-9">
                 <main id="content" tabindex="-1" class="information stone bstone">
                     <div class="page-header">
-                        <h2>BRIRTH STONES <small>탄생석</small></h2>
+                        <h2>BIRTH STONES <small>탄생석</small></h2>
                     </div>
                     <div class="bstone-list">
                         <ul class="row">
