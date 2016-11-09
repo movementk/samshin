@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text);
-.lato, #find-for section header h3 small, #find-for .dia ul li a, #fancy-dia header h3 small, #fancy-dia ul li a, #propose h4 small {
+.lato, #find-for section header h3 small, #find-for .dia ul li a, #fancy-dia header h3 small, #fancy-dia ul li a, #propose h4 small, #recommend .recommend-item h4 {
   font-family: 'Lato', sans-serif; }
 
 .jjmj, #make-yours header h2 {
@@ -760,6 +760,17 @@
       #propose .btn {
         width: 190px; } }
 
+#sponsored img {
+  width: 100%; }
+@media (min-width: 992px) {
+  #sponsored img {
+    width: auto;
+    height: 301px; } }
+@media (min-width: 1230px) {
+  #sponsored img {
+    width: 100%;
+    height: auto; } }
+
 #content > .shortcuts {
   border-top: 1px solid #dfdfdf; }
   #content > .shortcuts .container-fluid {
@@ -965,5 +976,51 @@
         margin-right: -15px; }
         #jewelry-shop ul li {
           padding: 0 15px; } }
+
+#recommend .outline {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  @media (min-width: 768px) {
+    #recommend .outline {
+      margin-top: 20px;
+      margin-bottom: 20px; } }
+  @media (min-width: 992px) {
+    #recommend .outline {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border: 1px solid #ccc; }
+      #recommend .outline > .row {
+        margin-left: -5px;
+        margin-right: -5px; }
+        #recommend .outline > .row > div {
+          padding-left: 5px;
+          padding-right: 5px; } }
+#recommend .recommend-item h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #efefef;
+  color: #080d68;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.35); }
+  #recommend .recommend-item h4 i {
+    color: #eb2127;
+    font-style: normal; }
+#recommend .recommend-item p {
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  #recommend .recommend-item p img {
+    margin: 0 auto; }
+@media (min-width: 768px) {
+  #recommend .recommend-item h4 {
+    font-size: 13px; }
+  #recommend .recommend-item p {
+    margin-bottom: 0; } }
+@media (min-width: 992px) {
+  #recommend .recommend-item h4 {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=main.css.map */

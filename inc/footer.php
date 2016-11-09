@@ -12,6 +12,7 @@
                                 <li><a href="#">비전 &amp; 미션</a></li>
                                 <li><a href="#">매장 예약 안내</a></li>
                                 <li><a href="#">오시는길</a></li>
+                                <li><a href="#">PR HISTORY</a></li>
                             </ul>
                         </li>
                         <li class="col-lg-3">

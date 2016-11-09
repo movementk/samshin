@@ -38,6 +38,17 @@
       background-image: url(/assets/images/product/img_visual_gia_lg.jpg);
       background-repeat: no-repeat;
       background-position: 50% 50%; } }
+.visual.top10-visual {
+  margin-bottom: 20px; }
+  .visual.top10-visual .img-responsive {
+    width: 100%;
+    margin: 0 auto; }
+  @media (min-width: 1230px) {
+    .visual.top10-visual {
+      height: 600px;
+      background-image: url(/assets/images/product/img_top10_event_lg.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%; } }
 
 .help-link {
   display: inline-block;

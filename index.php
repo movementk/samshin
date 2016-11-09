@@ -9,6 +9,38 @@
             <p class="visible-sm visible-md"><img src="/assets/images/main/img_visual_sm.jpg" alt=""></p>
             <p class="visible-lg"></p>
         </div>
+        <section id="recommend">
+            <div class="container">
+                <div class="outline">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="recommend-item">
+                                <a href="#">
+                                    <h4><i>TOP10</i> WOMAN'S WEDDING RING</h4>
+                                    <p><img class="img-responsive" src="/assets/images/main/img_recommend_1.jpg" alt=""></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="recommend-item">
+                                <a href="#">
+                                    <h4><i>TOP10</i> MAN'S WEDDING RING</h4>
+                                    <p><img class="img-responsive" src="/assets/images/main/img_recommend_2.jpg" alt=""></p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="recommend-item">
+                                <a href="#">
+                                    <h4><i>PROPOSE</i> RING JEWELRY</h4>
+                                    <p><img class="img-responsive" src="/assets/images/main/img_recommend_3.jpg" alt=""></p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="top10-ring">
             <header>
                 <div class="container">
@@ -102,16 +134,9 @@
         <div id="event-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-lg-7">
+                    <div class="col-xs-12 col-md-7">
                         <div id="events">
                             <ul>
-                                <li>
-                                    <a href="#">
-                                        <img class="visible-xs" src="/assets/images/main/img_artist_collection_1_xs.jpg" alt="">
-                                        <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_1_sm.jpg" alt="">
-                                        <img class="visible-lg" src="/assets/images/main/img_artist_collection_1_lg.jpg" alt="">
-                                    </a>
-                                </li>
                                 <li>
                                     <a href="#">
                                         <img class="visible-xs" src="/assets/images/main/img_artist_collection_2_xs.jpg" alt="">
@@ -121,21 +146,26 @@
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img class="visible-xs" src="/assets/images/main/img_artist_collection_3_xs.jpg" alt="">
-                                        <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_3_sm.jpg" alt="">
-                                        <img class="visible-lg" src="/assets/images/main/img_artist_collection_3_lg.jpg" alt="">
+                                        <img class="visible-xs" src="/assets/images/main/img_artist_collection_1_xs.jpg" alt="">
+                                        <img class="visible-sm visible-md" src="/assets/images/main/img_artist_collection_1_sm.jpg" alt="">
+                                        <img class="visible-lg" src="/assets/images/main/img_artist_collection_1_lg.jpg" alt="">
                                     </a>
                                 </li>
 
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-lg-5">
-                        <section id="propose">
-                            <h4><small>DIAOUTLET WITH</small><br>PROPOSE</h4>
-                            <p>소중한 순간을 더욱 빛내주는<br>다아이아울렛</p>
-                            <a class="btn" href="#">바로가기</a>
-                        </section>
+                    <div class="col-xs-12 col-md-5">
+                        <div id="sponsored">
+                            <a href="/company/pr_history.php">
+                                <img class="visible-xs"
+                                 src="/assets/images/main/img_sponsored_xs.jpg" alt="">
+                                <img class="visible-sm"
+                                 src="/assets/images/main/img_sponsored_sm.jpg" alt="">
+                                <img class="visible-md visible-lg"
+                                 src="/assets/images/main/img_sponsored_lg.jpg" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

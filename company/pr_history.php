@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-md-5 col-md-push-7">
                         <h4>
-                            <b>1997~1998</b><br>
+                            <b>1997~1998</b><br><br>
                             <i>미스코리아 왕관 제작 및 증정</i>
                         </h4>
                     </div>
@@ -44,8 +44,8 @@
                 <div class="row">
                     <div class="col-md-5">
                         <h4>
-                            <b>1997~1998</b><br>
-                            <i>미스코리아 왕관 제작 및 증정</i>
+                            <b>2011</b><br><br>
+                            <i>세계 최초 다이아몬드 면도기 <br>필립스 드림 쉐이버 제작</i>
                         </h4>
                     </div>
                     <div class="col-md-7">

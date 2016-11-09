@@ -5,11 +5,9 @@
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
         <!-- 타이틀 영역 -->
-        <div class="page-header">
-            <div class="container">
-                <h2 class="page-title"><i>TOP 10</i><br>WOMAN'S WEDDING RINGS</h2>
-                <p>다이아아울렛에서 2015년 하반기부터 2016년 상반기까지 가장 판매가 많이된 웨딩 반지로 추천해 드립니다.</p>
-            </div>
+        <div class="visual top10-visual">
+            <p class="visible-xs"><img class="img-responsive" src="/assets/images/product/img_top10_event_xs.jpg" alt=""></p>
+            <p class="visible-sm visible-md"><img class="img-responsive" src="/assets/images/product/img_top10_event_sm.jpg" alt=""></p>
         </div>
 
         <div class="container">

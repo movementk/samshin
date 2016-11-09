@@ -2931,7 +2931,7 @@ body {
         h4 {
             margin-top: 150px;
             text-align: center;
-            line-height: 40px;
+            line-height: 20px;
             b {
                 font-size: 40px;
                 color: #dadada;
@@ -2983,7 +2983,7 @@ body {
         }
         @media (max-width: $sm - 1px) {
             > .row + .row {
-                margin-top: 20px;
+                margin-top: 50px;
             }
             h4 {
                 margin-bottom: 10px;

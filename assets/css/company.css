@@ -2051,7 +2051,7 @@ body {
 #content.pr-history .history h4 {
   margin-top: 150px;
   text-align: center;
-  line-height: 40px; }
+  line-height: 20px; }
   #content.pr-history .history h4 b {
     font-size: 40px;
     color: #dadada; }
@@ -2088,7 +2088,7 @@ body {
     margin: 0 auto; } }
 @media (max-width: 767px) {
   #content.pr-history .history > .row + .row {
-    margin-top: 20px; }
+    margin-top: 50px; }
   #content.pr-history .history h4 {
     margin-bottom: 10px;
     line-height: 24px; }
