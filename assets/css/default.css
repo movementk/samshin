@@ -427,8 +427,7 @@ select.form-control {
       #header .util .member li.login a:before {
         margin-right: 5px;
         font-family: 'fontello';
-        content: '\E800';
-        }
+        content: '\E800'; }
     #header .util .search {
       position: relative;
       border-left: 1px solid #ededed; }
@@ -579,7 +578,8 @@ select.form-control {
       padding-left: 15px;
       padding-right: 15px;
       width: 100%;
-      height: 480px; }
+      height: 500px;
+      }
       #gnb > .container > .back > div {
         width: 100%;
         height: 100%;

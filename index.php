@@ -4,10 +4,23 @@
 <body>
     <?php require_once($_SERVER["DOCUMENT_ROOT"].'/inc/header.php'); ?>
     <main id="content" tabindex="-1">
-        <div class="visual">
-            <p class="visible-xs"><img src="/assets/images/main/img_visual_xs.jpg" alt=""></p>
-            <p class="visible-sm visible-md"><img src="/assets/images/main/img_visual_sm.jpg" alt=""></p>
-            <p class="visible-lg"></p>
+        <div id="visual">
+            <ul>
+                <li>
+                    <p>
+                        <img class="visible-xs" src="/assets/images/main/img_visual1_xs.jpg" alt="">
+                        <img class="visible-sm visible-md" src="/assets/images/main/img_visual1_sm.jpg" alt="">
+                        <img class="visible-lg" src="/assets/images/main/img_visual1_lg.jpg" alt="">
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <img class="visible-xs" src="/assets/images/main/img_visual2_xs.jpg" alt="">
+                        <img class="visible-sm visible-md" src="/assets/images/main/img_visual2_sm.jpg" alt="">
+                        <img class="visible-lg" src="/assets/images/main/img_visual2_lg.jpg" alt="">
+                    </p>
+                </li>
+            </ul>
         </div>
         <section id="recommend">
             <div class="container">
@@ -38,96 +51,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section id="top10-ring">
-            <header>
-                <div class="container">
-                    <h3><i>TOP10</i> WOMAN'S <br class="visible-xs">WEDDING RING</h3>
-                </div>
-            </header>
-            <div class="container">
-                <div class="top10-list">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/assets/images/main/dummy_dia_1.png" alt="">
-                                    <figcaption>
-                                        <h5>1부 다이아몬드 반지</h5>
-                                        <p class="price">259,000원</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/assets/images/main/dummy_neckalce_1.png" alt="">
-                                    <figcaption>
-                                        <h5>1부 다이아몬드 반지</h5>
-                                        <p class="price">259,000원</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/assets/images/main/dummy_dia_1.png" alt="">
-                                    <figcaption>
-                                        <h5>1부 다이아몬드 반지</h5>
-                                        <p class="price">259,000원</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/assets/images/main/dummy_neckalce_1.png" alt="">
-                                    <figcaption>
-                                        <h5>1부 다이아몬드 반지</h5>
-                                        <p class="price">259,000원</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/assets/images/main/dummy_dia_1.png" alt="">
-                                    <figcaption>
-                                        <h5>1부 다이아몬드 반지</h5>
-                                        <p class="price">259,000원</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/assets/images/main/dummy_neckalce_1.png" alt="">
-                                    <figcaption>
-                                        <h5>1부 다이아몬드 반지</h5>
-                                        <p class="price">259,000원</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <figure>
-                                    <img class="img-responsive" src="/assets/images/main/dummy_neckalce_1.png" alt="">
-                                    <figcaption>
-                                        <h5>1부 다이아몬드 반지</h5>
-                                        <p class="price">259,000원</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </section>
